@@ -1,0 +1,224 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "codigo": "05404",
+ "region": "05",
+ "nombre": "Petorca",
+ "nombre_region": "Valparaíso",
+ "sitio": null,
+ "transparencia": null,
+ "poblacion": 10206,
+ "tramo": "Entre 10 y 30 mil",
+ "serie": [
+  {
+   "anio": 2017,
+   "monto": 1006998409,
+   "monto_real": 1487168817,
+   "facturas": 1193,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2018,
+   "monto": 1705269749,
+   "monto_real": 2458288449,
+   "facturas": 2241,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2019,
+   "monto": 2003593154,
+   "monto_real": 2816217144,
+   "facturas": 3411,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2020,
+   "monto": 1918922977,
+   "monto_real": 2617730761,
+   "facturas": 2453,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2021,
+   "monto": 1747782389,
+   "monto_real": 2281729909,
+   "facturas": 2484,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2022,
+   "monto": 2296579434,
+   "monto_real": 2687763464,
+   "facturas": 2687,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2023,
+   "monto": 2722441157,
+   "monto_real": 2958386057,
+   "facturas": 2952,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2024,
+   "monto": 2576088229,
+   "monto_real": 2684498609,
+   "facturas": 2884,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2025,
+   "monto": 2813804693,
+   "monto_real": 2813804693,
+   "facturas": 2693,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2026,
+   "monto": 2233639314,
+   "monto_real": null,
+   "facturas": 1812,
+   "parcial": true,
+   "incompleto": false
+  }
+ ],
+ "monto_base": 2813804693,
+ "por_habitante": 275701,
+ "variacion_real": 4.8167685372191515,
+ "rubros_2025": [
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 724895619,
+   "facturas": 415
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 494837495,
+   "facturas": 1027
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 479560115,
+   "facturas": 366
+  },
+  {
+   "rubro": "Construccion",
+   "monto": 439052534,
+   "facturas": 47
+  },
+  {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 131472477,
+   "facturas": 24
+  },
+  {
+   "rubro": "Industria manufacturera",
+   "monto": 120693609,
+   "facturas": 377
+  },
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 111649275,
+   "facturas": 59
+  },
+  {
+   "rubro": "Agricultura; ganaderia; silvicultura y pesca",
+   "monto": 97852588,
+   "facturas": 15
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 65416994,
+   "facturas": 69
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 43291440,
+   "facturas": 32
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 27877396,
+   "facturas": 113
+  },
+  {
+   "rubro": "Actividades de atencion de la salud humana y de asistencia social",
+   "monto": 24394345,
+   "facturas": 27
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 17823379,
+   "facturas": 46
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 16346704,
+   "facturas": 12
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 8652000,
+   "facturas": 7
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 8210886,
+   "facturas": 55
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 1766400,
+   "facturas": 1
+  },
+  {
+   "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
+   "monto": 11437,
+   "facturas": 1
+  }
+ ],
+ "rubros_2026": [],
+ "mediana_tramo": 263424,
+ "vs_mediana": 1.0466054725461613
+}

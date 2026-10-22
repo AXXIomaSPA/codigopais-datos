@@ -1,0 +1,234 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "codigo": "12301",
+ "region": "12",
+ "nombre": "Porvenir",
+ "nombre_region": "Magallanes y de la Antártica Chilena",
+ "sitio": "http://www.muniporvenir.cl",
+ "transparencia": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU225",
+ "poblacion": 6809,
+ "tramo": "Menos de 10 mil habitantes",
+ "serie": [
+  {
+   "anio": 2017,
+   "monto": 414744180,
+   "monto_real": 612508030,
+   "facturas": 852,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2020,
+   "monto": 783597530,
+   "monto_real": 1068957631,
+   "facturas": 803,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2021,
+   "monto": 592197834,
+   "monto_real": 773114272,
+   "facturas": 581,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2022,
+   "monto": 1262103692,
+   "monto_real": 1477082021,
+   "facturas": 1102,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2023,
+   "monto": 16056874,
+   "monto_real": null,
+   "facturas": 36,
+   "parcial": false,
+   "incompleto": true
+  },
+  {
+   "anio": 2024,
+   "monto": 1066248564,
+   "monto_real": 1111119858,
+   "facturas": 663,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2025,
+   "monto": 194305960,
+   "monto_real": null,
+   "facturas": 110,
+   "parcial": false,
+   "incompleto": true
+  },
+  {
+   "anio": 2026,
+   "monto": 73747118,
+   "monto_real": null,
+   "facturas": 93,
+   "parcial": true,
+   "incompleto": false
+  }
+ ],
+ "monto_base": null,
+ "por_habitante": null,
+ "variacion_real": null,
+ "rubros_2025": [
+  {
+   "rubro": "Construccion",
+   "monto": 80199682,
+   "facturas": 1
+  },
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 78101525,
+   "facturas": 29
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 11514943,
+   "facturas": 30
+  },
+  {
+   "rubro": "Industria manufacturera",
+   "monto": 10220749,
+   "facturas": 4
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 6844054,
+   "facturas": 15
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 2606191,
+   "facturas": 3
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 1825200,
+   "facturas": 2
+  },
+  {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 900000,
+   "facturas": 1
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 854951,
+   "facturas": 19
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 441195,
+   "facturas": 1
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 297500,
+   "facturas": 1
+  },
+  {
+   "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
+   "monto": 263761,
+   "facturas": 1
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 236209,
+   "facturas": 3
+  }
+ ],
+ "rubros_2026": [
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 29444791,
+   "facturas": 22
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 21617390,
+   "facturas": 3
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 5500000,
+   "facturas": 3
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 4866022,
+   "facturas": 33
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 4430000,
+   "facturas": 6
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 2547699,
+   "facturas": 4
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 2427947,
+   "facturas": 16
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 1377052,
+   "facturas": 3
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 800000,
+   "facturas": 2
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 736217,
+   "facturas": 1
+  }
+ ],
+ "mediana_tramo": 507461,
+ "vs_mediana": null
+}

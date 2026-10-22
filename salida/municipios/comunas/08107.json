@@ -1,0 +1,219 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "codigo": "08107",
+ "region": "08",
+ "nombre": "Penco",
+ "nombre_region": "Biobío",
+ "sitio": null,
+ "transparencia": null,
+ "poblacion": 48971,
+ "tramo": "Entre 30 y 100 mil",
+ "serie": [
+  {
+   "anio": 2017,
+   "monto": 1709174769,
+   "monto_real": 2524166271,
+   "facturas": 2083,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2018,
+   "monto": 3404403388,
+   "monto_real": 4907731184,
+   "facturas": 3747,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2019,
+   "monto": 3625732188,
+   "monto_real": 5096268735,
+   "facturas": 3543,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2020,
+   "monto": 1682056018,
+   "monto_real": 2294604751,
+   "facturas": 1584,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2021,
+   "monto": 4505843198,
+   "monto_real": 5882378295,
+   "facturas": 2819,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2022,
+   "monto": 5508241000,
+   "monto_real": 6446478050,
+   "facturas": 3455,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2023,
+   "monto": 5907019207,
+   "monto_real": 6418960872,
+   "facturas": 3269,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2024,
+   "monto": 5605299792,
+   "monto_real": 5841189492,
+   "facturas": 2479,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2025,
+   "monto": 7142734173,
+   "monto_real": 7142734173,
+   "facturas": 2775,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2026,
+   "monto": 5056262905,
+   "monto_real": null,
+   "facturas": 1969,
+   "parcial": true,
+   "incompleto": false
+  }
+ ],
+ "monto_base": 7142734173,
+ "por_habitante": 145856,
+ "variacion_real": 22.282185559913103,
+ "rubros_2025": [
+  {
+   "rubro": "Construccion",
+   "monto": 2791332843,
+   "facturas": 85
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 1330462967,
+   "facturas": 1156
+  },
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 1034157304,
+   "facturas": 395
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 709994229,
+   "facturas": 527
+  },
+  {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 384581468,
+   "facturas": 28
+  },
+  {
+   "rubro": "Industria manufacturera",
+   "monto": 244414905,
+   "facturas": 103
+  },
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 162357898,
+   "facturas": 66
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 145631728,
+   "facturas": 90
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 114926855,
+   "facturas": 159
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 77541725,
+   "facturas": 70
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 70920408,
+   "facturas": 22
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 38923275,
+   "facturas": 27
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 16120850,
+   "facturas": 11
+  },
+  {
+   "rubro": "Actividades inmobiliarias",
+   "monto": 12911223,
+   "facturas": 10
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 5894877,
+   "facturas": 9
+  },
+  {
+   "rubro": "Agricultura; ganaderia; silvicultura y pesca",
+   "monto": 1961618,
+   "facturas": 15
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 600000,
+   "facturas": 2
+  }
+ ],
+ "rubros_2026": [],
+ "mediana_tramo": 202142,
+ "vs_mediana": 0.7215521761929733
+}

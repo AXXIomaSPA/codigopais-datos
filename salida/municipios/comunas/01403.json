@@ -1,0 +1,209 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "codigo": "01403",
+ "region": "01",
+ "nombre": "Colchane",
+ "nombre_region": "Tarapacá",
+ "sitio": null,
+ "transparencia": null,
+ "poblacion": 790,
+ "tramo": "Menos de 10 mil habitantes",
+ "serie": [
+  {
+   "anio": 2017,
+   "monto": 794317633,
+   "monto_real": 1173074758,
+   "facturas": 743,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2018,
+   "monto": 1687408687,
+   "monto_real": 2432540240,
+   "facturas": 1341,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2019,
+   "monto": 1648917604,
+   "monto_real": 2317691102,
+   "facturas": 1268,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2020,
+   "monto": 2410279887,
+   "monto_real": 3288023479,
+   "facturas": 1305,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2021,
+   "monto": 1616239791,
+   "monto_real": 2110001047,
+   "facturas": 1110,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2022,
+   "monto": 2526450080,
+   "monto_real": 2956788744,
+   "facturas": 1499,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2023,
+   "monto": 3345867660,
+   "monto_real": 3635842857,
+   "facturas": 1345,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2024,
+   "monto": 2926998303,
+   "monto_real": 3050176148,
+   "facturas": 1097,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2025,
+   "monto": 1265656606,
+   "monto_real": 1265656606,
+   "facturas": 836,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2026,
+   "monto": 1136072875,
+   "monto_real": null,
+   "facturas": 737,
+   "parcial": true,
+   "incompleto": false
+  }
+ ],
+ "monto_base": 1265656606,
+ "por_habitante": 1602097,
+ "variacion_real": -58.50545855439739,
+ "rubros_2025": [
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 512600286,
+   "facturas": 199
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 277590065,
+   "facturas": 326
+  },
+  {
+   "rubro": "Construccion",
+   "monto": 197312264,
+   "facturas": 15
+  },
+  {
+   "rubro": "Industria manufacturera",
+   "monto": 75307698,
+   "facturas": 43
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 64750349,
+   "facturas": 52
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 30274003,
+   "facturas": 31
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 29070360,
+   "facturas": 83
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 18794550,
+   "facturas": 12
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 16160000,
+   "facturas": 10
+  },
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 16091817,
+   "facturas": 21
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 11410269,
+   "facturas": 6
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 8199650,
+   "facturas": 6
+  },
+  {
+   "rubro": "Actividades de atencion de la salud humana y de asistencia social",
+   "monto": 6514240,
+   "facturas": 3
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 1046269,
+   "facturas": 25
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 534786,
+   "facturas": 4
+  }
+ ],
+ "rubros_2026": [],
+ "mediana_tramo": 507461,
+ "vs_mediana": 3.157083992661505
+}

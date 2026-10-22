@@ -1,0 +1,224 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "codigo": "06204",
+ "region": "06",
+ "nombre": "Marchigüe",
+ "nombre_region": "Libertador General Bernardo O'Higgins",
+ "sitio": null,
+ "transparencia": null,
+ "poblacion": 8715,
+ "tramo": "Menos de 10 mil habitantes",
+ "serie": [
+  {
+   "anio": 2017,
+   "monto": 474080822,
+   "monto_real": 700138361,
+   "facturas": 1357,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2018,
+   "monto": 1430620284,
+   "monto_real": 2062358358,
+   "facturas": 3093,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2019,
+   "monto": 1706986788,
+   "monto_real": 2399312179,
+   "facturas": 3146,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2020,
+   "monto": 1430549332,
+   "monto_real": 1951507714,
+   "facturas": 1895,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2021,
+   "monto": 2866577566,
+   "monto_real": 3742317012,
+   "facturas": 3169,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2022,
+   "monto": 3509356542,
+   "monto_real": 4107116940,
+   "facturas": 4029,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2023,
+   "monto": 3423396124,
+   "monto_real": 3720090455,
+   "facturas": 4261,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2024,
+   "monto": 4085744666,
+   "monto_real": 4257686421,
+   "facturas": 4139,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2025,
+   "monto": 3339206153,
+   "monto_real": 3339206153,
+   "facturas": 4314,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2026,
+   "monto": 3108020524,
+   "monto_real": null,
+   "facturas": 2889,
+   "parcial": true,
+   "incompleto": false
+  }
+ ],
+ "monto_base": 3339206153,
+ "por_habitante": 383156,
+ "variacion_real": -21.572285437226224,
+ "rubros_2025": [
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 1227782139,
+   "facturas": 1455
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 643234393,
+   "facturas": 1464
+  },
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 414585890,
+   "facturas": 95
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 319378474,
+   "facturas": 134
+  },
+  {
+   "rubro": "Construccion",
+   "monto": 204845209,
+   "facturas": 88
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 122937258,
+   "facturas": 137
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 121074355,
+   "facturas": 32
+  },
+  {
+   "rubro": "Industria manufacturera",
+   "monto": 99816469,
+   "facturas": 147
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 71839876,
+   "facturas": 563
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 37234413,
+   "facturas": 20
+  },
+  {
+   "rubro": "Actividades de atencion de la salud humana y de asistencia social",
+   "monto": 24363120,
+   "facturas": 19
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 17696067,
+   "facturas": 13
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 10371439,
+   "facturas": 89
+  },
+  {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 8423647,
+   "facturas": 19
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 7569980,
+   "facturas": 10
+  },
+  {
+   "rubro": "Agricultura; ganaderia; silvicultura y pesca",
+   "monto": 4610754,
+   "facturas": 16
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 3062670,
+   "facturas": 12
+  },
+  {
+   "rubro": "Actividades inmobiliarias",
+   "monto": 380000,
+   "facturas": 1
+  }
+ ],
+ "rubros_2026": [],
+ "mediana_tramo": 507461,
+ "vs_mediana": 0.7550452152973331
+}

@@ -1,0 +1,214 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "codigo": "05104",
+ "region": "05",
+ "nombre": "Juan Fernández",
+ "nombre_region": "Valparaíso",
+ "sitio": null,
+ "transparencia": null,
+ "poblacion": 904,
+ "tramo": "Menos de 10 mil habitantes",
+ "serie": [
+  {
+   "anio": 2017,
+   "monto": 339798548,
+   "monto_real": 501825822,
+   "facturas": 534,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2018,
+   "monto": 827748020,
+   "monto_real": 1193267750,
+   "facturas": 1229,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2019,
+   "monto": 1000864026,
+   "monto_real": 1406797794,
+   "facturas": 2121,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2020,
+   "monto": 1420239616,
+   "monto_real": 1937443543,
+   "facturas": 1420,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2021,
+   "monto": 895813854,
+   "monto_real": 1169484986,
+   "facturas": 1725,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2022,
+   "monto": 1248920870,
+   "monto_real": 1461653725,
+   "facturas": 1621,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2023,
+   "monto": 1211365223,
+   "monto_real": 1316350209,
+   "facturas": 1405,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2024,
+   "monto": 1345676139,
+   "monto_real": 1402306677,
+   "facturas": 1217,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2025,
+   "monto": 1695233457,
+   "monto_real": 1695233457,
+   "facturas": 1045,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2026,
+   "monto": 1284924329,
+   "monto_real": null,
+   "facturas": 768,
+   "parcial": true,
+   "incompleto": false
+  }
+ ],
+ "monto_base": 1695233457,
+ "por_habitante": 1875258,
+ "variacion_real": 20.888924326558023,
+ "rubros_2025": [
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 687759301,
+   "facturas": 563
+  },
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 388948746,
+   "facturas": 145
+  },
+  {
+   "rubro": "Agricultura; ganaderia; silvicultura y pesca",
+   "monto": 271853537,
+   "facturas": 10
+  },
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 109024513,
+   "facturas": 29
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 68912103,
+   "facturas": 28
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 66077032,
+   "facturas": 39
+  },
+  {
+   "rubro": "Industria manufacturera",
+   "monto": 40783135,
+   "facturas": 152
+  },
+  {
+   "rubro": "Construccion",
+   "monto": 34100281,
+   "facturas": 16
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 8388148,
+   "facturas": 7
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 6723798,
+   "facturas": 28
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 4992802,
+   "facturas": 6
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 4778802,
+   "facturas": 9
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 1120000,
+   "facturas": 3
+  },
+  {
+   "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
+   "monto": 726900,
+   "facturas": 4
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 630820,
+   "facturas": 2
+  },
+  {
+   "rubro": "Actividades de atencion de la salud humana y de asistencia social",
+   "monto": 413539,
+   "facturas": 4
+  }
+ ],
+ "rubros_2026": [],
+ "mediana_tramo": 507461,
+ "vs_mediana": 3.6953736346241386
+}

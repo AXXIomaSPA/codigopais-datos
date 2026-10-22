@@ -1,0 +1,94 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "controles": [
+  {
+   "control": "al menos 340 comunas con datos en 2025",
+   "ok": true,
+   "valor": 343
+  },
+  {
+   "control": "todas las comunas con datos tienen población censada",
+   "ok": true,
+   "valor": []
+  },
+  {
+   "control": "los rubros suman el total de cada comuna en 2025 (±0,5 %) en al menos 99 %",
+   "ok": true,
+   "valor": "343/343"
+  },
+  {
+   "control": "total 2025 entre 0,7 y 1,6 veces el de 2024",
+   "ok": true,
+   "valor": 1.047
+  },
+  {
+   "control": "ningún monto negativo en 2025",
+   "ok": true,
+   "valor": null
+  },
+  {
+   "control": "años incompletos en la fuente (se marcan, no se comparan): menos de 5 %",
+   "ok": true,
+   "valor": [
+    "Alto Hospicio 2023",
+    "Illapel 2019",
+    "Concón 2023",
+    "Los Andes 2018",
+    "Los Andes 2019",
+    "Hijuelas 2017",
+    "Olmué 2023",
+    "Chimbarongo 2023",
+    "Palmilla 2017",
+    "Curepto 2017",
+    "Curepto 2018",
+    "Curepto 2019",
+    "Curepto 2023",
+    "Pelarco 2025",
+    "Coronel 2019",
+    "Cabrero 2023",
+    "Loncoche 2019",
+    "Perquenco 2017",
+    "Collipulli 2023",
+    "Futaleufú 2017"
+   ]
+  },
+  {
+   "control": "deflactores del IPC disponibles",
+   "ok": true,
+   "valor": {}
+  }
+ ]
+}

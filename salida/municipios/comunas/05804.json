@@ -1,0 +1,224 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "codigo": "05804",
+ "region": "05",
+ "nombre": "Villa Alemana",
+ "nombre_region": "Valparaíso",
+ "sitio": null,
+ "transparencia": null,
+ "poblacion": 139571,
+ "tramo": "Entre 100 y 250 mil",
+ "serie": [
+  {
+   "anio": 2017,
+   "monto": 4197902479,
+   "monto_real": 6199602311,
+   "facturas": 5472,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2018,
+   "monto": 8154203067,
+   "monto_real": 11754963238,
+   "facturas": 10029,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2019,
+   "monto": 8836939250,
+   "monto_real": 12421054527,
+   "facturas": 10510,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2020,
+   "monto": 11840008597,
+   "monto_real": 16151745061,
+   "facturas": 11176,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2021,
+   "monto": 11275080814,
+   "monto_real": 14719618003,
+   "facturas": 11597,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2022,
+   "monto": 12457026429,
+   "monto_real": 14578873264,
+   "facturas": 11610,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2023,
+   "monto": 13911860049,
+   "monto_real": 15117554587,
+   "facturas": 10961,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2024,
+   "monto": 14693802274,
+   "monto_real": 15312166453,
+   "facturas": 10179,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2025,
+   "monto": 17020395695,
+   "monto_real": 17020395695,
+   "facturas": 11001,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2026,
+   "monto": 13537727588,
+   "monto_real": null,
+   "facturas": 7662,
+   "parcial": true,
+   "incompleto": false
+  }
+ ],
+ "monto_base": 17020395695,
+ "por_habitante": 121948,
+ "variacion_real": 11.15602581260502,
+ "rubros_2025": [
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 4372761382,
+   "facturas": 145
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 4348453861,
+   "facturas": 310
+  },
+  {
+   "rubro": "Construccion",
+   "monto": 2236701499,
+   "facturas": 141
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 1634586952,
+   "facturas": 8111
+  },
+  {
+   "rubro": "Industria manufacturera",
+   "monto": 972664583,
+   "facturas": 160
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 930688307,
+   "facturas": 888
+  },
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 861623386,
+   "facturas": 562
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 735847786,
+   "facturas": 289
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 235343366,
+   "facturas": 87
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 185731159,
+   "facturas": 71
+  },
+  {
+   "rubro": "Actividades de atencion de la salud humana y de asistencia social",
+   "monto": 126292005,
+   "facturas": 26
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 120746511,
+   "facturas": 113
+  },
+  {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 100566099,
+   "facturas": 18
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 63449191,
+   "facturas": 36
+  },
+  {
+   "rubro": "Agricultura; ganaderia; silvicultura y pesca",
+   "monto": 45839514,
+   "facturas": 4
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 36896956,
+   "facturas": 22
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 12144738,
+   "facturas": 17
+  },
+  {
+   "rubro": "Actividades inmobiliarias",
+   "monto": 58400,
+   "facturas": 1
+  }
+ ],
+ "rubros_2026": [],
+ "mediana_tramo": 142278,
+ "vs_mediana": 0.8571107268867991
+}

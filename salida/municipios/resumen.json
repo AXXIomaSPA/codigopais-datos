@@ -1,0 +1,192 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "totales": [
+  {
+   "anio": 2017,
+   "monto": 1110329684946,
+   "monto_real": 1639771889718,
+   "parcial": false
+  },
+  {
+   "anio": 2018,
+   "monto": 2197064385687,
+   "monto_real": 3167251400667,
+   "parcial": false
+  },
+  {
+   "anio": 2019,
+   "monto": 2215478018094,
+   "monto_real": 3114038977599,
+   "parcial": false
+  },
+  {
+   "anio": 2020,
+   "monto": 1986579703532,
+   "monto_real": 2710025812235,
+   "parcial": false
+  },
+  {
+   "anio": 2021,
+   "monto": 2368971657925,
+   "monto_real": 3092692499421,
+   "parcial": false
+  },
+  {
+   "anio": 2022,
+   "monto": 2782034909664,
+   "monto_real": 3255908189277,
+   "parcial": false
+  },
+  {
+   "anio": 2023,
+   "monto": 3068947394482,
+   "monto_real": 3334922835337,
+   "parcial": false
+  },
+  {
+   "anio": 2024,
+   "monto": 3258449185817,
+   "monto_real": 3395575589053,
+   "parcial": false
+  },
+  {
+   "anio": 2025,
+   "monto": 3412282162318,
+   "monto_real": 3412282162318,
+   "parcial": false
+  },
+  {
+   "anio": 2026,
+   "monto": 2463902164580,
+   "monto_real": null,
+   "parcial": true
+  }
+ ],
+ "rubros": [
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 670059453567
+  },
+  {
+   "rubro": "Construccion",
+   "monto": 552591005353
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 452377959427
+  },
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 449023218797
+  },
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 374795831856
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 208868789715
+  },
+  {
+   "rubro": "Industria manufacturera",
+   "monto": 140457547913
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 128108142344
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 117969831643
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 65056569799
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 57329796836
+  },
+  {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 51042115071
+  },
+  {
+   "rubro": "Actividades de atencion de la salud humana y de asistencia social",
+   "monto": 48531493859
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 20238597845
+  },
+  {
+   "rubro": "Actividades inmobiliarias",
+   "monto": 19441343629
+  },
+  {
+   "rubro": "Agricultura; ganaderia; silvicultura y pesca",
+   "monto": 17669499033
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 15778956344
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 13376849246
+  },
+  {
+   "rubro": "Explotacion de minas y canteras",
+   "monto": 4999996168
+  },
+  {
+   "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
+   "monto": 4533439504
+  },
+  {
+   "rubro": "Actividades de organizaciones y organos extraterritoriales",
+   "monto": 21706250
+  },
+  {
+   "rubro": "Valor por defecto",
+   "monto": 9777144
+  },
+  {
+   "rubro": "Actividades de los hogares como empleadores; actividades no diferenciadas de los hogares",
+   "monto": 240975
+  }
+ ]
+}

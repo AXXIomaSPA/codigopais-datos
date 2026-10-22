@@ -1,0 +1,234 @@
+{
+ "generado": "2026-10-22T17:32:32Z",
+ "anio_base": 2025,
+ "anio_actual": 2026,
+ "unidad": "pesos chilenos",
+ "definicion": "Compras con factura: documentos tributarios electrónicos emitidos al RUT de la municipalidad y aceptados (SII). No es el gasto total del municipio: no incluye sueldos, transferencias ni compras de corporaciones municipales con RUT propio.",
+ "fuentes": {
+  "monitor": "https://presupuestoabierto.gob.cl/municipalities",
+  "organismo": "Presupuesto Abierto · Monitor de Gasto Municipal (Gobierno de Chile)",
+  "poblacion": "Población censada, Censo 2024 (INE)",
+  "ipc": "INE, api-calculadora.ine.cl (promedio anual)",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#municipios"
+ },
+ "tramos": [
+  {
+   "nombre": "Menos de 10 mil habitantes",
+   "mediana_por_habitante": 507461
+  },
+  {
+   "nombre": "Entre 10 y 30 mil",
+   "mediana_por_habitante": 263424
+  },
+  {
+   "nombre": "Entre 30 y 100 mil",
+   "mediana_por_habitante": 202142
+  },
+  {
+   "nombre": "Entre 100 y 250 mil",
+   "mediana_por_habitante": 142278
+  },
+  {
+   "nombre": "Más de 250 mil",
+   "mediana_por_habitante": 142825
+  }
+ ],
+ "codigo": "08108",
+ "region": "08",
+ "nombre": "San Pedro de la Paz",
+ "nombre_region": "Biobío",
+ "sitio": null,
+ "transparencia": null,
+ "poblacion": 150992,
+ "tramo": "Entre 100 y 250 mil",
+ "serie": [
+  {
+   "anio": 2017,
+   "monto": 7548938865,
+   "monto_real": 11148524547,
+   "facturas": 3128,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2018,
+   "monto": 10396385740,
+   "monto_real": 14987256410,
+   "facturas": 6429,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2019,
+   "monto": 10989176933,
+   "monto_real": 15446203944,
+   "facturas": 6397,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2020,
+   "monto": 10744991235,
+   "monto_real": 14657958876,
+   "facturas": 5092,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2021,
+   "monto": 10053960792,
+   "monto_real": 13125445814,
+   "facturas": 4477,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2022,
+   "monto": 10081446572,
+   "monto_real": 11798652971,
+   "facturas": 4234,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2023,
+   "monto": 13603010043,
+   "monto_real": 14781937580,
+   "facturas": 5389,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2024,
+   "monto": 14002293914,
+   "monto_real": 14591557116,
+   "facturas": 4128,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2025,
+   "monto": 16299927073,
+   "monto_real": 16299927073,
+   "facturas": 4800,
+   "parcial": false,
+   "incompleto": false
+  },
+  {
+   "anio": 2026,
+   "monto": 11411839096,
+   "monto_real": null,
+   "facturas": 3750,
+   "parcial": true,
+   "incompleto": false
+  }
+ ],
+ "monto_base": 16299927073,
+ "por_habitante": 107952,
+ "variacion_real": 11.707934548585586,
+ "rubros_2025": [
+  {
+   "rubro": "Construccion",
+   "monto": 6402384090,
+   "facturas": 97
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 5486845863,
+   "facturas": 2932
+  },
+  {
+   "rubro": "Sin rubro informado",
+   "monto": 1234122855,
+   "facturas": 269
+  },
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 814169605,
+   "facturas": 44
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 594408362,
+   "facturas": 539
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 373269549,
+   "facturas": 49
+  },
+  {
+   "rubro": "Industria manufacturera",
+   "monto": 332065384,
+   "facturas": 64
+  },
+  {
+   "rubro": "Informacion y comunicaciones",
+   "monto": 238534569,
+   "facturas": 117
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 237035895,
+   "facturas": 38
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 190125745,
+   "facturas": 512
+  },
+  {
+   "rubro": "Actividades inmobiliarias",
+   "monto": 118777245,
+   "facturas": 11
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 115780605,
+   "facturas": 39
+  },
+  {
+   "rubro": "Otras actividades de servicios",
+   "monto": 51546000,
+   "facturas": 26
+  },
+  {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 39630991,
+   "facturas": 16
+  },
+  {
+   "rubro": "Agricultura; ganaderia; silvicultura y pesca",
+   "monto": 17172889,
+   "facturas": 5
+  },
+  {
+   "rubro": "Actividades de atencion de la salud humana y de asistencia social",
+   "monto": 17041753,
+   "facturas": 17
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 14597322,
+   "facturas": 9
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 13775000,
+   "facturas": 13
+  },
+  {
+   "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
+   "monto": 8598351,
+   "facturas": 2
+  },
+  {
+   "rubro": "Explotacion de minas y canteras",
+   "monto": 45000,
+   "facturas": 1
+  }
+ ],
+ "rubros_2026": [],
+ "mediana_tramo": 142278,
+ "vs_mediana": 0.7587399316830431
+}
