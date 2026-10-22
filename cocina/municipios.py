@@ -157,17 +157,25 @@ def main() -> int:
     for c, d in comunas.items():
         d["poblacion"] = pob.get(c)
         d["tramo"] = tramo(d["poblacion"]) if d["poblacion"] else None
+        # Año incompleto en la fuente: monto <= 0 (notas de crédito mayores que las facturas) o menos de un cuarto
+        # de las facturas de un año normal de esa comuna (en 2017-2019 hay comunas con 1 sola factura en el año).
+        completos = [v["facturas"] for a, v in d["anios"].items() if a != actual]
+        normal = statistics.median(completos) if completos else 0
+        def incompleto(a):
+            v = d["anios"].get(a)
+            return (not v) or v["monto"] <= 0 or (a != actual and v["facturas"] < 0.25 * normal)
         serie = []
         for a in periodos:
             v = d["anios"].get(a)
             if not v:
                 continue
-            real = int(round(v["monto"] * defl[a])) if a in defl and defl[a] else None
+            inc = incompleto(a)
+            real = int(round(v["monto"] * defl[a])) if (a in defl and defl[a] and not inc) else None
             serie.append({"anio": a, "monto": v["monto"], "monto_real": real, "facturas": v["facturas"],
-                          "parcial": a == actual})
+                          "parcial": a == actual, "incompleto": inc})
         d["serie"] = serie
-        ub = d["anios"].get(base, {}).get("monto")
-        ua = d["anios"].get(base - 1, {}).get("monto")
+        ub = None if incompleto(base) else d["anios"][base]["monto"]
+        ua = None if incompleto(base - 1) else d["anios"][base - 1]["monto"]
         d["monto_base"] = ub
         d["por_habitante"] = round(ub / d["poblacion"]) if (ub and d["poblacion"]) else None
         d["variacion_real"] = ((ub / (ua * defl[base - 1])) - 1) * 100 if (ub and ua and defl.get(base - 1)) else None
@@ -200,7 +208,12 @@ def main() -> int:
         (f"total {base} entre 0,7 y 1,6 veces el de {base - 1}",
          bool(tot.get(base - 1)) and 0.7 <= tot[base] / tot[base - 1] <= 1.6,
          round(tot[base] / tot[base - 1], 3) if tot.get(base - 1) else None),
-        ("ningún monto anual negativo", all(v["monto"] >= 0 for d in comunas.values() for v in d["anios"].values()), None),
+        (f"ningún monto negativo en {base}", all(v["monto"] >= 0 for d in comunas.values()
+                                                  for a, v in d["anios"].items() if a == base), None),
+        ("años incompletos en la fuente (se marcan, no se comparan): menos de 5 %",
+         sum(s_["incompleto"] for d in comunas.values() for s_ in d["serie"] if not s_["parcial"])
+         < 0.05 * sum(1 for d in comunas.values() for s_ in d["serie"] if not s_["parcial"]),
+         [f"{d['nombre']} {s_['anio']}" for d in comunas.values() for s_ in d["serie"] if s_["incompleto"]][:20]),
         ("deflactores del IPC disponibles", all(v for v in defl.values()), {a: v for a, v in defl.items() if not v}),
     ]
     for c in controles:
