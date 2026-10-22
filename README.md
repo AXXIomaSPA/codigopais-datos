@@ -57,7 +57,8 @@ Antes de publicar, la cocina verifica que:
 - **Pesos de hoy:** cada año se lleva a pesos del último año completo con el IPC promedio del año (INE).
 - **Comparación justa:** cada comuna se compara con la **mediana** de las comunas de su tramo de población (menos de 10 mil, 10–30 mil, 30–100 mil, 100–250 mil y más de 250 mil), no con el promedio nacional.
 - **Rubros:** actividad económica de los proveedores, según el SII.
-- **Controles:** al menos 340 comunas con datos; todas con población; los rubros suman el total de cada comuna (±0,5 %); el total anual es plausible frente al año anterior; no hay montos negativos; los deflactores del IPC están disponibles.
+- **Años incompletos en la fuente:** un año con monto ≤ 0 (más notas de crédito que facturas) o con menos de un cuarto de las facturas de un año normal de esa comuna se marca `"incompleto": true`, no se ajusta por IPC y no se usa para comparar. Ejemplos: Guaitecas 2018 (monto negativo), Arica e Illapel 2019 (1 factura).
+- **Controles:** al menos 340 comunas con datos en el año base; todas con población; los rubros suman el total de cada comuna (±0,5 %); el total anual es plausible frente al año anterior; no hay montos negativos en el año base; menos del 5 % de los años son incompletos; los deflactores del IPC están disponibles.
 
 ## Licencia
 
