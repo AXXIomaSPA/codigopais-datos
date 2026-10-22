@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,282 +18,147 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "21",
- "nombre": "MINISTERIO DE DESARROLLO SOCIAL Y FAMILIA",
+ "nombre": "Ministerio de Desarrollo Social y Familia",
  "programas": [
   {
    "capitulo": "11",
    "nombre_capitulo": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
-   "programa": "1",
-   "nombre_programa": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
-   "vigente": 1574815106000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
-   "programa": "5",
-   "nombre_programa": "INGRESO ÉTICO FAMILIAR Y SISTEMA CHILE SOLIDARIO",
-   "vigente": 605718923000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "6",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL DE DESARROLLO INDÍGENA",
-   "programa": "1",
-   "nombre_programa": "CORPORACIÓN NACIONAL DE DESARROLLO INDÍGENA",
-   "vigente": 478219327000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
-   "programa": "8",
-   "nombre_programa": "SISTEMA NACIONAL DE CUIDADOS",
-   "vigente": 461277069000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "10",
-   "nombre_capitulo": "SUBSECRETARÍA DE LA NIÑEZ",
-   "programa": "2",
-   "nombre_programa": "SISTEMA DE PROTECCIÓN INTEGRAL A LA INFANCIA",
-   "vigente": 320157306000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
-   "vigente": 204880529000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "8",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL ADULTO MAYOR",
-   "programa": "1",
-   "nombre_programa": "SERVICIO NACIONAL DEL ADULTO MAYOR",
-   "vigente": 188740948000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
-   "programa": "4",
-   "nombre_programa": "PROGRAMAS DE ACOMPAÑAMIENTO FAMILIAR Y COMUNITARIO",
-   "vigente": 136740619000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "7",
-   "nombre_capitulo": "SERVICIO NACIONAL DE LA DISCAPACIDAD",
-   "programa": "1",
-   "nombre_programa": "SERVICIO NACIONAL DE LA DISCAPACIDAD",
-   "vigente": 116588400000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
-   "programa": "3",
-   "nombre_programa": "PROGRAMAS DE GENERACIÓN DE INGRESOS AUTÓNOMOS",
-   "vigente": 103343513000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "11",
-   "nombre_capitulo": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
-   "programa": "2",
-   "nombre_programa": "PROGRAMAS DE CUIDADO ALTERNATIVO DE ADMINISTRACION DIRECTA",
-   "vigente": 95179836000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "9",
-   "nombre_capitulo": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
-   "vigente": 54062655000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
-   "programa": "1",
-   "nombre_programa": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
-   "vigente": 27380131000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE LA JUVENTUD",
-   "programa": "1",
-   "nombre_programa": "INSTITUTO NACIONAL DE LA JUVENTUD",
-   "vigente": 6688551000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "10",
-   "nombre_capitulo": "SUBSECRETARÍA DE LA NIÑEZ",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE LA NIÑEZ",
-   "vigente": 3467269000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "9",
-   "nombre_capitulo": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
-   "programa": "60",
-   "nombre_programa": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL - FET - INCENDIOS",
-   "vigente": 1144800000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "9",
-   "nombre_capitulo": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
-   "programa": "2",
-   "nombre_programa": "PLAN DE RECONSTRUCCIÓN INCENDIOS",
-   "vigente": 362635000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
    "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
-   "vigente": 0,
-   "ejecutado": 66551392000
+   "nombre_programa": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
+   "vigente": 562617106000,
+   "ejecutado": 343374822000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
    "programa": "05",
    "nombre_programa": "INGRESO ÉTICO FAMILIAR Y SISTEMA CHILE SOLIDARIO",
-   "vigente": 0,
-   "ejecutado": 138623515000
+   "vigente": 181536829000,
+   "ejecutado": 108071077000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
    "programa": "08",
    "nombre_programa": "SISTEMA NACIONAL DE CUIDADOS",
-   "vigente": 0,
-   "ejecutado": 75536633000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
-   "programa": "01",
-   "nombre_programa": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
-   "vigente": 0,
-   "ejecutado": 16741048000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
-   "programa": "03",
-   "nombre_programa": "PROGRAMAS DE GENERACIÓN DE INGRESOS AUTÓNOMOS",
-   "vigente": 0,
-   "ejecutado": 11607791000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
-   "programa": "04",
-   "nombre_programa": "PROGRAMAS DE ACOMPAÑAMIENTO FAMILIAR Y COMUNITARIO",
-   "vigente": 0,
-   "ejecutado": 29137321000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE LA JUVENTUD",
-   "programa": "01",
-   "nombre_programa": "INSTITUTO NACIONAL DE LA JUVENTUD",
-   "vigente": 0,
-   "ejecutado": 4379191000
+   "vigente": 150582117000,
+   "ejecutado": 70771269000
   },
   {
    "capitulo": "06",
    "nombre_capitulo": "CORPORACIÓN NACIONAL DE DESARROLLO INDÍGENA",
    "programa": "01",
    "nombre_programa": "CORPORACIÓN NACIONAL DE DESARROLLO INDÍGENA",
-   "vigente": 0,
-   "ejecutado": 85100222000
-  },
-  {
-   "capitulo": "07",
-   "nombre_capitulo": "SERVICIO NACIONAL DE LA DISCAPACIDAD",
-   "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DE LA DISCAPACIDAD",
-   "vigente": 0,
-   "ejecutado": 35599413000
-  },
-  {
-   "capitulo": "08",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL ADULTO MAYOR",
-   "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DEL ADULTO MAYOR",
-   "vigente": 0,
-   "ejecutado": 45004772000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
-   "vigente": 0,
-   "ejecutado": 17674594000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
-   "programa": "02",
-   "nombre_programa": "PLAN DE RECONSTRUCCIÓN INCENDIOS",
-   "vigente": 0,
-   "ejecutado": 51673000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
-   "programa": "60",
-   "nombre_programa": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL - FET - INCENDIOS",
-   "vigente": 0,
-   "ejecutado": 381600000
-  },
-  {
-   "capitulo": "10",
-   "nombre_capitulo": "SUBSECRETARÍA DE LA NIÑEZ",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE LA NIÑEZ",
-   "vigente": 0,
-   "ejecutado": 2215904000
+   "vigente": 140848510000,
+   "ejecutado": 38048539000
   },
   {
    "capitulo": "10",
    "nombre_capitulo": "SUBSECRETARÍA DE LA NIÑEZ",
    "programa": "02",
    "nombre_programa": "SISTEMA DE PROTECCIÓN INTEGRAL A LA INFANCIA",
-   "vigente": 0,
-   "ejecutado": 76831529000
+   "vigente": 104303328000,
+   "ejecutado": 73207863000
   },
   {
-   "capitulo": "11",
-   "nombre_capitulo": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
    "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
-   "vigente": 0,
-   "ejecutado": 344752572000
+   "nombre_programa": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
+   "vigente": 86355105000,
+   "ejecutado": 53921255000
   },
   {
    "capitulo": "11",
    "nombre_capitulo": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
    "programa": "02",
    "nombre_programa": "PROGRAMAS DE CUIDADO ALTERNATIVO DE ADMINISTRACION DIRECTA",
-   "vigente": 0,
-   "ejecutado": 53230202000
+   "vigente": 75314113000,
+   "ejecutado": 50175143000
+  },
+  {
+   "capitulo": "08",
+   "nombre_capitulo": "SERVICIO NACIONAL DEL ADULTO MAYOR",
+   "programa": "01",
+   "nombre_programa": "SERVICIO NACIONAL DEL ADULTO MAYOR",
+   "vigente": 65325218000,
+   "ejecutado": 37117760000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
+   "programa": "04",
+   "nombre_programa": "PROGRAMAS DE ACOMPAÑAMIENTO FAMILIAR Y COMUNITARIO",
+   "vigente": 50111251000,
+   "ejecutado": 28928494000
+  },
+  {
+   "capitulo": "07",
+   "nombre_capitulo": "SERVICIO NACIONAL DE LA DISCAPACIDAD",
+   "programa": "01",
+   "nombre_programa": "SERVICIO NACIONAL DE LA DISCAPACIDAD",
+   "vigente": 42136989000,
+   "ejecutado": 32248728000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
+   "programa": "03",
+   "nombre_programa": "PROGRAMAS DE GENERACIÓN DE INGRESOS AUTÓNOMOS",
+   "vigente": 35654197000,
+   "ejecutado": 11356196000
+  },
+  {
+   "capitulo": "09",
+   "nombre_capitulo": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
+   "vigente": 28563274000,
+   "ejecutado": 16590171000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
+   "programa": "01",
+   "nombre_programa": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
+   "vigente": 24461176000,
+   "ejecutado": 16386566000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "INSTITUTO NACIONAL DE LA JUVENTUD",
+   "programa": "01",
+   "nombre_programa": "INSTITUTO NACIONAL DE LA JUVENTUD",
+   "vigente": 5545575000,
+   "ejecutado": 4309120000
+  },
+  {
+   "capitulo": "10",
+   "nombre_capitulo": "SUBSECRETARÍA DE LA NIÑEZ",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE LA NIÑEZ",
+   "vigente": 3407482000,
+   "ejecutado": 2210050000
+  },
+  {
+   "capitulo": "09",
+   "nombre_capitulo": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
+   "programa": "60",
+   "nombre_programa": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL - FET - INCENDIOS",
+   "vigente": 381600000,
+   "ejecutado": 381600000
+  },
+  {
+   "capitulo": "09",
+   "nombre_capitulo": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
+   "programa": "02",
+   "nombre_programa": "PLAN DE RECONSTRUCCIÓN INCENDIOS",
+   "vigente": 355857000,
+   "ejecutado": 48285000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,106 +18,59 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "30",
- "nombre": "MINISTERIO DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
+ "nombre": "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación",
  "programas": [
   {
-   "capitulo": "2",
+   "capitulo": "02",
    "nombre_capitulo": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
-   "programa": "1",
-   "nombre_programa": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
-   "vigente": 1396702024000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
-   "programa": "2",
-   "nombre_programa": "FONDO DE INNOVACIÓN, CIENCIA Y TECNOLOGÍA",
-   "vigente": 596383679000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
-   "programa": "3",
-   "nombre_programa": "CAPACIDADES TECNOLÓGICAS",
-   "vigente": 165809137000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
-   "programa": "2",
-   "nombre_programa": "INICIATIVA CIENTÍFICA MILENIO",
-   "vigente": 66931826000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
-   "vigente": 51810510000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
-   "programa": "3",
-   "nombre_programa": "SECRETARÍA EJECUTIVA CONSEJO NACIONAL DE CTCI",
-   "vigente": 858362000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
    "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
-   "vigente": 0,
-   "ejecutado": 15401992000
+   "nombre_programa": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
+   "vigente": 463903845000,
+   "ejecutado": 277686665000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
    "programa": "02",
    "nombre_programa": "FONDO DE INNOVACIÓN, CIENCIA Y TECNOLOGÍA",
-   "vigente": 0,
-   "ejecutado": 53356222000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
-   "programa": "03",
-   "nombre_programa": "SECRETARÍA EJECUTIVA CONSEJO NACIONAL DE CTCI",
-   "vigente": 0,
-   "ejecutado": 374623000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
-   "programa": "01",
-   "nombre_programa": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
-   "vigente": 0,
-   "ejecutado": 304554141000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
-   "programa": "02",
-   "nombre_programa": "INICIATIVA CIENTÍFICA MILENIO",
-   "vigente": 0,
-   "ejecutado": 11574207000
+   "vigente": 198931308000,
+   "ejecutado": 53350934000
   },
   {
    "capitulo": "02",
    "nombre_capitulo": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
    "programa": "03",
    "nombre_programa": "CAPACIDADES TECNOLÓGICAS",
-   "vigente": 0,
-   "ejecutado": 21322803000
+   "vigente": 52383275000,
+   "ejecutado": 15393775000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
+   "vigente": 23494699000,
+   "ejecutado": 14921788000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "AGENCIA NACIONAL DE INVESTIGACIÓN Y DESARROLLO",
+   "programa": "02",
+   "nombre_programa": "INICIATIVA CIENTÍFICA MILENIO",
+   "vigente": 22336119000,
+   "ejecutado": 10705070000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE CIENCIA, TECNOLOGÍA, CONOCIMIENTO E INNOVACIÓN",
+   "programa": "03",
+   "nombre_programa": "SECRETARÍA EJECUTIVA CONSEJO NACIONAL DE CTCI",
+   "vigente": 666050000,
+   "ejecutado": 298118000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,122 +18,67 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "24",
- "nombre": "MINISTERIO DE ENERGÍA",
+ "nombre": "Ministerio de Energía",
  "programas": [
   {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE ENERGÍA",
-   "vigente": 248444698000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
-   "programa": "5",
-   "nombre_programa": "PLAN DE ACCIÓN DE EFICIENCIA ENERGÉTICA",
-   "vigente": 22755435000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "COMISIÓN CHILENA DE ENERGÍA NUCLEAR",
-   "programa": "1",
-   "nombre_programa": "COMISIÓN CHILENA DE ENERGÍA NUCLEAR",
-   "vigente": 21445197000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "SUPERINTENDENCIA DE ELECTRICIDAD Y COMBUSTIBLES",
-   "programa": "1",
-   "nombre_programa": "SUPERINTENDENCIA DE ELECTRICIDAD Y COMBUSTIBLES",
-   "vigente": 19875185000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
-   "programa": "6",
-   "nombre_programa": "TRANSICIÓN ENERGÉTICA JUSTA",
-   "vigente": 11747376000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "COMISIÓN NACIONAL DE ENERGÍA",
-   "programa": "1",
-   "nombre_programa": "COMISIÓN NACIONAL DE ENERGÍA",
-   "vigente": 9692646000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
-   "programa": "3",
-   "nombre_programa": "APOYO AL DESARROLLO DE ENERGÍAS RENOVABLES NO CONVENCIONALES",
-   "vigente": 2949054000,
-   "ejecutado": 0
-  },
-  {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE ENERGÍA",
-   "vigente": 0,
-   "ejecutado": 48530241000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
-   "programa": "03",
-   "nombre_programa": "APOYO AL DESARROLLO DE ENERGÍAS RENOVABLES NO CONVENCIONALES",
-   "vigente": 0,
-   "ejecutado": 1158496000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
-   "programa": "05",
-   "nombre_programa": "PLAN DE ACCIÓN DE EFICIENCIA ENERGÉTICA",
-   "vigente": 0,
-   "ejecutado": 7028803000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
-   "programa": "06",
-   "nombre_programa": "TRANSICIÓN ENERGÉTICA JUSTA",
-   "vigente": 0,
-   "ejecutado": 2802907000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "COMISIÓN NACIONAL DE ENERGÍA",
-   "programa": "01",
-   "nombre_programa": "COMISIÓN NACIONAL DE ENERGÍA",
-   "vigente": 0,
-   "ejecutado": 5184372000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "COMISIÓN CHILENA DE ENERGÍA NUCLEAR",
-   "programa": "01",
-   "nombre_programa": "COMISIÓN CHILENA DE ENERGÍA NUCLEAR",
-   "vigente": 0,
-   "ejecutado": 10325778000
+   "vigente": 89292551000,
+   "ejecutado": 40238396000
   },
   {
    "capitulo": "04",
    "nombre_capitulo": "SUPERINTENDENCIA DE ELECTRICIDAD Y COMBUSTIBLES",
    "programa": "01",
    "nombre_programa": "SUPERINTENDENCIA DE ELECTRICIDAD Y COMBUSTIBLES",
-   "vigente": 0,
-   "ejecutado": 13583899000
+   "vigente": 19013475000,
+   "ejecutado": 13381809000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "COMISIÓN CHILENA DE ENERGÍA NUCLEAR",
+   "programa": "01",
+   "nombre_programa": "COMISIÓN CHILENA DE ENERGÍA NUCLEAR",
+   "vigente": 16409051000,
+   "ejecutado": 9665604000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "COMISIÓN NACIONAL DE ENERGÍA",
+   "programa": "01",
+   "nombre_programa": "COMISIÓN NACIONAL DE ENERGÍA",
+   "vigente": 8606878000,
+   "ejecutado": 4887046000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
+   "programa": "05",
+   "nombre_programa": "PLAN DE ACCIÓN DE EFICIENCIA ENERGÉTICA",
+   "vigente": 8476459000,
+   "ejecutado": 6760766000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
+   "programa": "06",
+   "nombre_programa": "TRANSICIÓN ENERGÉTICA JUSTA",
+   "vigente": 6154680000,
+   "ejecutado": 2601881000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE ENERGÍA",
+   "programa": "03",
+   "nombre_programa": "APOYO AL DESARROLLO DE ENERGÍAS RENOVABLES NO CONVENCIONALES",
+   "vigente": 1626896000,
+   "ejecutado": 1140256000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,809 +18,858 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "09",
- "nombre": "MINISTERIO DE EDUCACIÓN",
+ "nombre": "Ministerio de Educación",
  "programas": [
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE EDUCACIÓN",
-   "vigente": 0,
-   "ejecutado": 142572834000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN",
-   "programa": "03",
-   "nombre_programa": "MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN",
-   "vigente": 0,
-   "ejecutado": 17812042000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN",
-   "programa": "04",
-   "nombre_programa": "DESARROLLO PROFESIONAL DOCENTE Y DIRECTIVO",
-   "vigente": 0,
-   "ejecutado": 15020426000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN",
-   "programa": "11",
-   "nombre_programa": "RECURSOS EDUCATIVOS",
-   "vigente": 0,
-   "ejecutado": 30410801000
-  },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN",
    "programa": "20",
    "nombre_programa": "SUBVENCIONES A LOS ESTABLECIMIENTOS EDUCACIONALES",
-   "vigente": 0,
-   "ejecutado": 6157325389000
+   "vigente": 9028620031000,
+   "ejecutado": 6128841145000
   },
   {
-   "capitulo": "02",
-   "nombre_capitulo": "SUPERINTENDENCIA DE EDUCACIÓN",
-   "programa": "01",
-   "nombre_programa": "SUPERINTENDENCIA DE EDUCACIÓN",
-   "vigente": 0,
-   "ejecutado": 28994023000
+   "capitulo": "90",
+   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN SUPERIOR",
+   "programa": "03",
+   "nombre_programa": "EDUCACIÓN SUPERIOR",
+   "vigente": 3133746858000,
+   "ejecutado": 1862786760000
   },
   {
-   "capitulo": "03",
-   "nombre_capitulo": "AGENCIA DE CALIDAD DE LA EDUCACIÓN",
-   "programa": "01",
-   "nombre_programa": "AGENCIA DE CALIDAD DE LA EDUCACIÓN",
-   "vigente": 0,
-   "ejecutado": 32638329000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN PARVULARIA",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE EDUCACIÓN PARVULARIA",
-   "vigente": 0,
-   "ejecutado": 337752387000
+   "capitulo": "95",
+   "nombre_capitulo": "TRANSFERENCIAS A SERVICIOS LOCALES DE EDUCACIÓN PÚBLICA",
+   "programa": "20",
+   "nombre_programa": "TRANSFERENCIAS DE SUBVENCIONES",
+   "vigente": 2036188537000,
+   "ejecutado": 1359062968000
   },
   {
    "capitulo": "09",
    "nombre_capitulo": "JUNTA NACIONAL DE AUXILIO ESCOLAR Y BECAS",
    "programa": "01",
    "nombre_programa": "JUNTA NACIONAL DE AUXILIO ESCOLAR Y BECAS",
-   "vigente": 0,
-   "ejecutado": 956805707000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "JUNTA NACIONAL DE AUXILIO ESCOLAR Y BECAS",
-   "programa": "02",
-   "nombre_programa": "SALUD ESCOLAR",
-   "vigente": 0,
-   "ejecutado": 28411774000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "JUNTA NACIONAL DE AUXILIO ESCOLAR Y BECAS",
-   "programa": "03",
-   "nombre_programa": "BECAS Y ASISTENCIALIDAD ESTUDIANTIL",
-   "vigente": 0,
-   "ejecutado": 356295794000
+   "vigente": 1189071862000,
+   "ejecutado": 761674551000
   },
   {
    "capitulo": "11",
    "nombre_capitulo": "JUNTA NACIONAL DE JARDINES INFANTILES",
    "programa": "01",
    "nombre_programa": "JUNTA NACIONAL DE JARDINES INFANTILES",
-   "vigente": 0,
-   "ejecutado": 478857053000
+   "vigente": 659790175000,
+   "ejecutado": 463536697000
   },
   {
-   "capitulo": "11",
-   "nombre_capitulo": "JUNTA NACIONAL DE JARDINES INFANTILES",
-   "programa": "02",
-   "nombre_programa": "PROGRAMAS ALTERNATIVOS DE ENSEÑANZA PRE-ESCOLAR",
-   "vigente": 0,
-   "ejecutado": 18053802000
-  },
-  {
-   "capitulo": "11",
-   "nombre_capitulo": "JUNTA NACIONAL DE JARDINES INFANTILES",
-   "programa": "04",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS JUNTA NACIONAL DE JARDINES INFANTILES",
-   "vigente": 0,
-   "ejecutado": 75105459000
-  },
-  {
-   "capitulo": "13",
-   "nombre_capitulo": "CONSEJO DE RECTORES",
-   "programa": "01",
-   "nombre_programa": "CONSEJO DE RECTORES",
-   "vigente": 0,
-   "ejecutado": 337635000
-  },
-  {
-   "capitulo": "15",
-   "nombre_capitulo": "CONSEJO NACIONAL DE EDUCACIÓN",
-   "programa": "01",
-   "nombre_programa": "CONSEJO NACIONAL DE EDUCACIÓN",
-   "vigente": 0,
-   "ejecutado": 1428726000
-  },
-  {
-   "capitulo": "17",
-   "nombre_capitulo": "DIRECCIÓN DE EDUCACIÓN PÚBLICA",
-   "programa": "01",
-   "nombre_programa": "DIRECCIÓN DE EDUCACIÓN PÚBLICA",
-   "vigente": 0,
-   "ejecutado": 6799926000
+   "capitulo": "09",
+   "nombre_capitulo": "JUNTA NACIONAL DE AUXILIO ESCOLAR Y BECAS",
+   "programa": "03",
+   "nombre_programa": "BECAS Y ASISTENCIALIDAD ESTUDIANTIL",
+   "vigente": 496245469000,
+   "ejecutado": 320888957000
   },
   {
    "capitulo": "17",
    "nombre_capitulo": "DIRECCIÓN DE EDUCACIÓN PÚBLICA",
    "programa": "02",
    "nombre_programa": "FORTALECIMIENTO DE LA EDUCACIÓN ESCOLAR PÚBLICA",
-   "vigente": 0,
-   "ejecutado": 307123610000
+   "vigente": 450058602000,
+   "ejecutado": 291263076000
   },
   {
-   "capitulo": "18",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN BARRANCAS",
+   "capitulo": "04",
+   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN PARVULARIA",
    "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS BARRANCAS",
-   "vigente": 0,
-   "ejecutado": 2709199000
+   "nombre_programa": "SUBSECRETARÍA DE EDUCACIÓN PARVULARIA",
+   "vigente": 422489853000,
+   "ejecutado": 312435739000
   },
   {
-   "capitulo": "18",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN BARRANCAS",
+   "capitulo": "90",
+   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN SUPERIOR",
    "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO BARRANCAS",
-   "vigente": 0,
-   "ejecutado": 50819752000
+   "nombre_programa": "FORTALECIMIENTO DE LA EDUCACIÓN SUPERIOR PÚBLICA",
+   "vigente": 375493020000,
+   "ejecutado": 208971111000
   },
   {
-   "capitulo": "19",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUERTO CORDILLERA",
+   "capitulo": "95",
+   "nombre_capitulo": "TRANSFERENCIAS A SERVICIOS LOCALES DE EDUCACIÓN PÚBLICA",
+   "programa": "17",
+   "nombre_programa": "TRANSFERENCIAS DE DIRECCIÓN DE EDUCACIÓN PÚBLICA",
+   "vigente": 307003966000,
+   "ejecutado": 259338023000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN",
    "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS PUERTO CORDILLERA",
-   "vigente": 0,
-   "ejecutado": 1984575000
+   "nombre_programa": "SUBSECRETARÍA DE EDUCACIÓN",
+   "vigente": 206466575000,
+   "ejecutado": 136525423000
   },
   {
-   "capitulo": "19",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUERTO CORDILLERA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO PUERTO CORDILLERA",
-   "vigente": 0,
-   "ejecutado": 38511882000
-  },
-  {
-   "capitulo": "21",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN HUASCO",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS HUASCO",
-   "vigente": 0,
-   "ejecutado": 2080478000
-  },
-  {
-   "capitulo": "21",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN HUASCO",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO HUASCO",
-   "vigente": 0,
-   "ejecutado": 38194219000
-  },
-  {
-   "capitulo": "22",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COSTA ARAUCANÍA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS COSTA ARAUCANÍA",
-   "vigente": 0,
-   "ejecutado": 2334643000
-  },
-  {
-   "capitulo": "22",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COSTA ARAUCANÍA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO COSTA ARAUCANÍA",
-   "vigente": 0,
-   "ejecutado": 34144073000
-  },
-  {
-   "capitulo": "23",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CHINCHORRO",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS CHINCHORRO",
-   "vigente": 0,
-   "ejecutado": 2584522000
-  },
-  {
-   "capitulo": "23",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CHINCHORRO",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO CHINCHORRO",
-   "vigente": 0,
-   "ejecutado": 60487356000
-  },
-  {
-   "capitulo": "24",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN GABRIELA MISTRAL",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS GABRIELA MISTRAL",
-   "vigente": 0,
-   "ejecutado": 2266766000
-  },
-  {
-   "capitulo": "24",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN GABRIELA MISTRAL",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO GABRIELA MISTRAL",
-   "vigente": 0,
-   "ejecutado": 40753556000
-  },
-  {
-   "capitulo": "25",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANDALIÉN SUR",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS ANDALIÉN SUR",
-   "vigente": 0,
-   "ejecutado": 2646788000
-  },
-  {
-   "capitulo": "25",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANDALIÉN SUR",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO ANDALIÉN SUR",
-   "vigente": 0,
-   "ejecutado": 57203249000
-  },
-  {
-   "capitulo": "26",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ATACAMA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS ATACAMA",
-   "vigente": 0,
-   "ejecutado": 2726440000
-  },
-  {
-   "capitulo": "26",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ATACAMA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO ATACAMA",
-   "vigente": 0,
-   "ejecutado": 76415203000
-  },
-  {
-   "capitulo": "27",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALPARAÍSO",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS VALPARAÍSO",
-   "vigente": 0,
-   "ejecutado": 2371459000
-  },
-  {
-   "capitulo": "27",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALPARAÍSO",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO VALPARAÍSO",
-   "vigente": 0,
-   "ejecutado": 52775025000
-  },
-  {
-   "capitulo": "28",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COLCHAGUA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS COLCHAGUA",
-   "vigente": 0,
-   "ejecutado": 2372558000
-  },
-  {
-   "capitulo": "28",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COLCHAGUA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO COLCHAGUA",
-   "vigente": 0,
-   "ejecutado": 36220730000
-  },
-  {
-   "capitulo": "29",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LLANQUIHUE",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LLANQUIHUE",
-   "vigente": 0,
-   "ejecutado": 2413268000
-  },
-  {
-   "capitulo": "29",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LLANQUIHUE",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO LLANQUIHUE",
-   "vigente": 0,
-   "ejecutado": 35057662000
-  },
-  {
-   "capitulo": "30",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN IQUIQUE",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS IQUIQUE",
-   "vigente": 0,
-   "ejecutado": 2532661000
-  },
-  {
-   "capitulo": "30",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN IQUIQUE",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO IQUIQUE",
-   "vigente": 0,
-   "ejecutado": 54381615000
-  },
-  {
-   "capitulo": "31",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LICANCABUR",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LICANCABUR",
-   "vigente": 0,
-   "ejecutado": 2995910000
-  },
-  {
-   "capitulo": "31",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LICANCABUR",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO LICANCABUR",
-   "vigente": 0,
-   "ejecutado": 67283118000
-  },
-  {
-   "capitulo": "32",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAULE COSTA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS MAULE COSTA",
-   "vigente": 0,
-   "ejecutado": 2704450000
-  },
-  {
-   "capitulo": "32",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAULE COSTA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO MAULE COSTA",
-   "vigente": 0,
-   "ejecutado": 45015537000
-  },
-  {
-   "capitulo": "33",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUNILLA CORDILLERA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS PUNILLA CORDILLERA",
-   "vigente": 0,
-   "ejecutado": 2599206000
-  },
-  {
-   "capitulo": "33",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUNILLA CORDILLERA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO PUNILLA CORDILLERA",
-   "vigente": 0,
-   "ejecutado": 44533879000
-  },
-  {
-   "capitulo": "34",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN AYSÉN",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS AYSÉN",
-   "vigente": 0,
-   "ejecutado": 3129114000
-  },
-  {
-   "capitulo": "34",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN AYSÉN",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO AYSÉN",
-   "vigente": 0,
-   "ejecutado": 51292810000
-  },
-  {
-   "capitulo": "35",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAGALLANES",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS MAGALLANES",
-   "vigente": 0,
-   "ejecutado": 2598054000
-  },
-  {
-   "capitulo": "35",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAGALLANES",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO MAGALLANES",
-   "vigente": 0,
-   "ejecutado": 62648980000
-  },
-  {
-   "capitulo": "36",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN TAMARUGAL",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS TAMARUGAL",
-   "vigente": 0,
-   "ejecutado": 1808862000
-  },
-  {
-   "capitulo": "36",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN TAMARUGAL",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO TAMARUGAL",
-   "vigente": 0,
-   "ejecutado": 20184675000
-  },
-  {
-   "capitulo": "37",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ELQUI",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS ELQUI",
-   "vigente": 0,
-   "ejecutado": 2252257000
-  },
-  {
-   "capitulo": "37",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ELQUI",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO ELQUI",
-   "vigente": 0,
-   "ejecutado": 57131955000
-  },
-  {
-   "capitulo": "38",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COSTA CENTRAL",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS COSTA CENTRAL",
-   "vigente": 0,
-   "ejecutado": 2527684000
-  },
-  {
-   "capitulo": "38",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COSTA CENTRAL",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO COSTA CENTRAL",
-   "vigente": 0,
-   "ejecutado": 59063989000
-  },
-  {
-   "capitulo": "39",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MARGA MARGA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS MARGA MARGA",
-   "vigente": 0,
-   "ejecutado": 2650698000
-  },
-  {
-   "capitulo": "39",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MARGA MARGA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO MARGA MARGA",
-   "vigente": 0,
-   "ejecutado": 44186747000
-  },
-  {
-   "capitulo": "40",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS LIBERTADORES",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS LIBERTADORES",
-   "vigente": 0,
-   "ejecutado": 2610830000
-  },
-  {
-   "capitulo": "40",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS LIBERTADORES",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO LOS LIBERTADORES",
-   "vigente": 0,
-   "ejecutado": 37896548000
-  },
-  {
-   "capitulo": "41",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTA ROSA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS SANTA ROSA",
-   "vigente": 0,
-   "ejecutado": 3018876000
-  },
-  {
-   "capitulo": "41",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTA ROSA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO SANTA ROSA",
-   "vigente": 0,
-   "ejecutado": 52062053000
-  },
-  {
-   "capitulo": "42",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTA CORINA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS SANTA CORINA",
-   "vigente": 0,
-   "ejecutado": 2967363000
-  },
-  {
-   "capitulo": "42",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTA CORINA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO SANTA CORINA",
-   "vigente": 0,
-   "ejecutado": 73664085000
-  },
-  {
-   "capitulo": "43",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN DEL PINO",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS DEL PINO",
-   "vigente": 0,
-   "ejecutado": 2832008000
+   "capitulo": "95",
+   "nombre_capitulo": "TRANSFERENCIAS A SERVICIOS LOCALES DE EDUCACIÓN PÚBLICA",
+   "programa": "11",
+   "nombre_programa": "TRANSFERENCIAS DE JUNJI",
+   "vigente": 130661073000,
+   "ejecutado": 90849429000
   },
   {
    "capitulo": "43",
    "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN DEL PINO",
    "programa": "02",
    "nombre_programa": "SERVICIO EDUCATIVO DEL PINO",
-   "vigente": 0,
-   "ejecutado": 90503688000
-  },
-  {
-   "capitulo": "44",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANDALIÉN COSTA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS ANDALIÉN COSTA",
-   "vigente": 0,
-   "ejecutado": 2681431000
-  },
-  {
-   "capitulo": "44",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANDALIÉN COSTA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO ANDALIÉN COSTA",
-   "vigente": 0,
-   "ejecutado": 62804209000
-  },
-  {
-   "capitulo": "45",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALDIVIA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS VALDIVIA",
-   "vigente": 0,
-   "ejecutado": 2986437000
-  },
-  {
-   "capitulo": "45",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALDIVIA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO VALDIVIA",
-   "vigente": 0,
-   "ejecutado": 82248292000
-  },
-  {
-   "capitulo": "46",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANTOFAGASTA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS ANTOFAGASTA",
-   "vigente": 0,
-   "ejecutado": 1926276000
-  },
-  {
-   "capitulo": "47",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ACONCAGUA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS ACONCAGUA",
-   "vigente": 0,
-   "ejecutado": 2206855000
-  },
-  {
-   "capitulo": "47",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ACONCAGUA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO ACONCAGUA",
-   "vigente": 0,
-   "ejecutado": 39711326000
-  },
-  {
-   "capitulo": "48",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS ANDES",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS ANDES",
-   "vigente": 0,
-   "ejecutado": 2049132000
-  },
-  {
-   "capitulo": "48",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS ANDES",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO LOS ANDES",
-   "vigente": 0,
-   "ejecutado": 22912918000
-  },
-  {
-   "capitulo": "49",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PETORCA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS PETORCA",
-   "vigente": 0,
-   "ejecutado": 2155413000
-  },
-  {
-   "capitulo": "49",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PETORCA",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO PETORCA",
-   "vigente": 0,
-   "ejecutado": 23928329000
-  },
-  {
-   "capitulo": "50",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS PARQUES",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS PARQUES",
-   "vigente": 0,
-   "ejecutado": 2306978000
-  },
-  {
-   "capitulo": "50",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS PARQUES",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO LOS PARQUES",
-   "vigente": 0,
-   "ejecutado": 35641265000
-  },
-  {
-   "capitulo": "51",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTIAGO CENTRO",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS SANTIAGO CENTRO",
-   "vigente": 0,
-   "ejecutado": 2642804000
-  },
-  {
-   "capitulo": "51",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTIAGO CENTRO",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO SANTIAGO CENTRO",
-   "vigente": 0,
-   "ejecutado": 53980232000
-  },
-  {
-   "capitulo": "52",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS ÁLAMOS",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS ÁLAMOS",
-   "vigente": 0,
-   "ejecutado": 3034623000
+   "vigente": 116376409000,
+   "ejecutado": 85854047000
   },
   {
    "capitulo": "52",
    "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS ÁLAMOS",
    "programa": "02",
    "nombre_programa": "SERVICIO EDUCATIVO LOS ÁLAMOS",
-   "vigente": 0,
+   "vigente": 114119473000,
    "ejecutado": 77919952000
-  },
-  {
-   "capitulo": "53",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALLE CACHAPOAL",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS VALLE CACHAPOAL",
-   "vigente": 0,
-   "ejecutado": 1361990000
-  },
-  {
-   "capitulo": "54",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUELCHE",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS PUELCHE",
-   "vigente": 0,
-   "ejecutado": 2418536000
-  },
-  {
-   "capitulo": "54",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUELCHE",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO PUELCHE",
-   "vigente": 0,
-   "ejecutado": 30687525000
-  },
-  {
-   "capitulo": "55",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALLE DIGUILLÍN",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS VALLE DIGUILLÍN",
-   "vigente": 0,
-   "ejecutado": 3266402000
-  },
-  {
-   "capitulo": "55",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALLE DIGUILLÍN",
-   "programa": "02",
-   "nombre_programa": "SERVICIO EDUCATIVO VALLE DIGUILLÍN",
-   "vigente": 0,
-   "ejecutado": 54388999000
-  },
-  {
-   "capitulo": "56",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CHILOÉ",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS CHILOÉ",
-   "vigente": 0,
-   "ejecutado": 3717508000
   },
   {
    "capitulo": "56",
    "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CHILOÉ",
    "programa": "02",
    "nombre_programa": "SERVICIO EDUCATIVO CHILOÉ",
-   "vigente": 0,
-   "ejecutado": 79799312000
+   "vigente": 105083825000,
+   "ejecutado": 75839497000
   },
   {
-   "capitulo": "57",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LITORAL",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LITORAL",
-   "vigente": 0,
-   "ejecutado": 433299000
+   "capitulo": "45",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALDIVIA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO VALDIVIA",
+   "vigente": 104653791000,
+   "ejecutado": 77257273000
   },
   {
-   "capitulo": "58",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN HANGA ROA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS HANGA ROA",
-   "vigente": 0,
-   "ejecutado": 176227000
+   "capitulo": "26",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ATACAMA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO ATACAMA",
+   "vigente": 102283422000,
+   "ejecutado": 71883175000
   },
   {
-   "capitulo": "59",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LA QUEBRADA",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LA QUEBRADA",
-   "vigente": 0,
-   "ejecutado": 726962000
+   "capitulo": "11",
+   "nombre_capitulo": "JUNTA NACIONAL DE JARDINES INFANTILES",
+   "programa": "04",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS JUNTA NACIONAL DE JARDINES INFANTILES",
+   "vigente": 101881621000,
+   "ejecutado": 71818012000
   },
   {
-   "capitulo": "60",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN TALAGANTE",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS TALAGANTE",
-   "vigente": 0,
-   "ejecutado": 784540000
+   "capitulo": "42",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTA CORINA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO SANTA CORINA",
+   "vigente": 96914899000,
+   "ejecutado": 65453978000
   },
   {
-   "capitulo": "63",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS CEREZOS",
-   "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS CEREZOS",
-   "vigente": 0,
-   "ejecutado": 926529000
+   "capitulo": "31",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LICANCABUR",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO LICANCABUR",
+   "vigente": 95531746000,
+   "ejecutado": 64886181000
   },
   {
-   "capitulo": "65",
-   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS COPIHUES",
+   "capitulo": "55",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALLE DIGUILLÍN",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO VALLE DIGUILLÍN",
+   "vigente": 92207034000,
+   "ejecutado": 54388999000
+  },
+  {
+   "capitulo": "35",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAGALLANES",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO MAGALLANES",
+   "vigente": 87986296000,
+   "ejecutado": 58921122000
+  },
+  {
+   "capitulo": "44",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANDALIÉN COSTA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO ANDALIÉN COSTA",
+   "vigente": 85280962000,
+   "ejecutado": 59586334000
+  },
+  {
+   "capitulo": "23",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CHINCHORRO",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO CHINCHORRO",
+   "vigente": 81270392000,
+   "ejecutado": 56882241000
+  },
+  {
+   "capitulo": "51",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTIAGO CENTRO",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO SANTIAGO CENTRO",
+   "vigente": 81208836000,
+   "ejecutado": 53980232000
+  },
+  {
+   "capitulo": "38",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COSTA CENTRAL",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO COSTA CENTRAL",
+   "vigente": 79347639000,
+   "ejecutado": 56981011000
+  },
+  {
+   "capitulo": "37",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ELQUI",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO ELQUI",
+   "vigente": 77006218000,
+   "ejecutado": 55227153000
+  },
+  {
+   "capitulo": "18",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN BARRANCAS",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO BARRANCAS",
+   "vigente": 71051032000,
+   "ejecutado": 49396763000
+  },
+  {
+   "capitulo": "25",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANDALIÉN SUR",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO ANDALIÉN SUR",
+   "vigente": 69898967000,
+   "ejecutado": 51872373000
+  },
+  {
+   "capitulo": "27",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALPARAÍSO",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO VALPARAÍSO",
+   "vigente": 69495309000,
+   "ejecutado": 50240169000
+  },
+  {
+   "capitulo": "30",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN IQUIQUE",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO IQUIQUE",
+   "vigente": 69104741000,
+   "ejecutado": 51247590000
+  },
+  {
+   "capitulo": "41",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTA ROSA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO SANTA ROSA",
+   "vigente": 68286888000,
+   "ejecutado": 50472063000
+  },
+  {
+   "capitulo": "39",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MARGA MARGA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO MARGA MARGA",
+   "vigente": 68007966000,
+   "ejecutado": 44186747000
+  },
+  {
+   "capitulo": "34",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN AYSÉN",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO AYSÉN",
+   "vigente": 63786531000,
+   "ejecutado": 47527745000
+  },
+  {
+   "capitulo": "32",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAULE COSTA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO MAULE COSTA",
+   "vigente": 62142788000,
+   "ejecutado": 43286504000
+  },
+  {
+   "capitulo": "47",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ACONCAGUA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO ACONCAGUA",
+   "vigente": 61138322000,
+   "ejecutado": 39711326000
+  },
+  {
+   "capitulo": "33",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUNILLA CORDILLERA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO PUNILLA CORDILLERA",
+   "vigente": 58048970000,
+   "ejecutado": 41249611000
+  },
+  {
+   "capitulo": "19",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUERTO CORDILLERA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO PUERTO CORDILLERA",
+   "vigente": 54279194000,
+   "ejecutado": 37381842000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN",
+   "programa": "11",
+   "nombre_programa": "RECURSOS EDUCATIVOS",
+   "vigente": 53602772000,
+   "ejecutado": 19332657000
+  },
+  {
+   "capitulo": "50",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS PARQUES",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO LOS PARQUES",
+   "vigente": 52882521000,
+   "ejecutado": 35641265000
+  },
+  {
+   "capitulo": "40",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS LIBERTADORES",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO LOS LIBERTADORES",
+   "vigente": 51379494000,
+   "ejecutado": 36774378000
+  },
+  {
+   "capitulo": "21",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN HUASCO",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO HUASCO",
+   "vigente": 49738357000,
+   "ejecutado": 34918826000
+  },
+  {
+   "capitulo": "24",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN GABRIELA MISTRAL",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO GABRIELA MISTRAL",
+   "vigente": 49584575000,
+   "ejecutado": 35599785000
+  },
+  {
+   "capitulo": "29",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LLANQUIHUE",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO LLANQUIHUE",
+   "vigente": 48375064000,
+   "ejecutado": 31756982000
+  },
+  {
+   "capitulo": "54",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUELCHE",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO PUELCHE",
+   "vigente": 47636812000,
+   "ejecutado": 30687525000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "AGENCIA DE CALIDAD DE LA EDUCACIÓN",
    "programa": "01",
-   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS COPIHUES",
-   "vigente": 0,
-   "ejecutado": 813527000
+   "nombre_programa": "AGENCIA DE CALIDAD DE LA EDUCACIÓN",
+   "vigente": 47252210000,
+   "ejecutado": 21284570000
+  },
+  {
+   "capitulo": "22",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COSTA ARAUCANÍA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO COSTA ARAUCANÍA",
+   "vigente": 45369592000,
+   "ejecutado": 30753425000
+  },
+  {
+   "capitulo": "28",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COLCHAGUA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO COLCHAGUA",
+   "vigente": 45213768000,
+   "ejecutado": 33456854000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "SUPERINTENDENCIA DE EDUCACIÓN",
+   "programa": "01",
+   "nombre_programa": "SUPERINTENDENCIA DE EDUCACIÓN",
+   "vigente": 42123197000,
+   "ejecutado": 27377706000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN",
+   "programa": "03",
+   "nombre_programa": "MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN",
+   "vigente": 41993121000,
+   "ejecutado": 13276616000
+  },
+  {
+   "capitulo": "09",
+   "nombre_capitulo": "JUNTA NACIONAL DE AUXILIO ESCOLAR Y BECAS",
+   "programa": "02",
+   "nombre_programa": "SALUD ESCOLAR",
+   "vigente": 40167071000,
+   "ejecutado": 27552090000
+  },
+  {
+   "capitulo": "49",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PETORCA",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO PETORCA",
+   "vigente": 40020637000,
+   "ejecutado": 23928329000
+  },
+  {
+   "capitulo": "48",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS ANDES",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO LOS ANDES",
+   "vigente": 35101503000,
+   "ejecutado": 22912918000
+  },
+  {
+   "capitulo": "36",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN TAMARUGAL",
+   "programa": "02",
+   "nombre_programa": "SERVICIO EDUCATIVO TAMARUGAL",
+   "vigente": 31600670000,
+   "ejecutado": 20184675000
+  },
+  {
+   "capitulo": "90",
+   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN SUPERIOR",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE EDUCACIÓN SUPERIOR",
+   "vigente": 30298746000,
+   "ejecutado": 27349847000
+  },
+  {
+   "capitulo": "11",
+   "nombre_capitulo": "JUNTA NACIONAL DE JARDINES INFANTILES",
+   "programa": "02",
+   "nombre_programa": "PROGRAMAS ALTERNATIVOS DE ENSEÑANZA PRE-ESCOLAR",
+   "vigente": 24896180000,
+   "ejecutado": 17191872000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN",
+   "programa": "04",
+   "nombre_programa": "DESARROLLO PROFESIONAL DOCENTE Y DIRECTIVO",
+   "vigente": 24468612000,
+   "ejecutado": 11837421000
+  },
+  {
+   "capitulo": "17",
+   "nombre_capitulo": "DIRECCIÓN DE EDUCACIÓN PÚBLICA",
+   "programa": "01",
+   "nombre_programa": "DIRECCIÓN DE EDUCACIÓN PÚBLICA",
+   "vigente": 11715474000,
+   "ejecutado": 6367550000
+  },
+  {
+   "capitulo": "56",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CHILOÉ",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS CHILOÉ",
+   "vigente": 5121783000,
+   "ejecutado": 3528968000
+  },
+  {
+   "capitulo": "55",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALLE DIGUILLÍN",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS VALLE DIGUILLÍN",
+   "vigente": 5064355000,
+   "ejecutado": 3048811000
+  },
+  {
+   "capitulo": "52",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS ÁLAMOS",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS ÁLAMOS",
+   "vigente": 4817080000,
+   "ejecutado": 2857547000
+  },
+  {
+   "capitulo": "46",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANTOFAGASTA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS ANTOFAGASTA",
+   "vigente": 4764530000,
+   "ejecutado": 1889968000
+  },
+  {
+   "capitulo": "43",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN DEL PINO",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS DEL PINO",
+   "vigente": 4613769000,
+   "ejecutado": 2720243000
+  },
+  {
+   "capitulo": "44",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANDALIÉN COSTA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS ANDALIÉN COSTA",
+   "vigente": 4526041000,
+   "ejecutado": 2596253000
+  },
+  {
+   "capitulo": "45",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALDIVIA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS VALDIVIA",
+   "vigente": 4376867000,
+   "ejecutado": 2820710000
+  },
+  {
+   "capitulo": "34",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN AYSÉN",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS AYSÉN",
+   "vigente": 4346688000,
+   "ejecutado": 2685674000
+  },
+  {
+   "capitulo": "91",
+   "nombre_capitulo": "SUPERINTENDENCIA DE EDUCACIÓN SUPERIOR",
+   "programa": "01",
+   "nombre_programa": "SUPERINTENDENCIA DE EDUCACIÓN SUPERIOR",
+   "vigente": 4341076000,
+   "ejecutado": 2891928000
+  },
+  {
+   "capitulo": "51",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTIAGO CENTRO",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS SANTIAGO CENTRO",
+   "vigente": 4328082000,
+   "ejecutado": 2499031000
+  },
+  {
+   "capitulo": "31",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LICANCABUR",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LICANCABUR",
+   "vigente": 4322555000,
+   "ejecutado": 2995910000
+  },
+  {
+   "capitulo": "32",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAULE COSTA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS MAULE COSTA",
+   "vigente": 4241225000,
+   "ejecutado": 2353745000
+  },
+  {
+   "capitulo": "53",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALLE CACHAPOAL",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS VALLE CACHAPOAL",
+   "vigente": 4233058000,
+   "ejecutado": 1317837000
+  },
+  {
+   "capitulo": "35",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAGALLANES",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS MAGALLANES",
+   "vigente": 4231835000,
+   "ejecutado": 2420826000
+  },
+  {
+   "capitulo": "18",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN BARRANCAS",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS BARRANCAS",
+   "vigente": 4163035000,
+   "ejecutado": 2573984000
+  },
+  {
+   "capitulo": "39",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MARGA MARGA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS MARGA MARGA",
+   "vigente": 4156845000,
+   "ejecutado": 2627236000
+  },
+  {
+   "capitulo": "54",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUELCHE",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS PUELCHE",
+   "vigente": 4130770000,
+   "ejecutado": 2236797000
+  },
+  {
+   "capitulo": "38",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COSTA CENTRAL",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS COSTA CENTRAL",
+   "vigente": 4049631000,
+   "ejecutado": 2451043000
+  },
+  {
+   "capitulo": "42",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTA CORINA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS SANTA CORINA",
+   "vigente": 4035433000,
+   "ejecutado": 2652335000
+  },
+  {
+   "capitulo": "41",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN SANTA ROSA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS SANTA ROSA",
+   "vigente": 4029745000,
+   "ejecutado": 2876740000
+  },
+  {
+   "capitulo": "37",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ELQUI",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS ELQUI",
+   "vigente": 4009023000,
+   "ejecutado": 2178535000
+  },
+  {
+   "capitulo": "47",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ACONCAGUA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS ACONCAGUA",
+   "vigente": 4007101000,
+   "ejecutado": 2011347000
+  },
+  {
+   "capitulo": "23",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CHINCHORRO",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS CHINCHORRO",
+   "vigente": 3917277000,
+   "ejecutado": 2423641000
+  },
+  {
+   "capitulo": "50",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS PARQUES",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS PARQUES",
+   "vigente": 3892769000,
+   "ejecutado": 2144658000
+  },
+  {
+   "capitulo": "30",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN IQUIQUE",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS IQUIQUE",
+   "vigente": 3757797000,
+   "ejecutado": 2399251000
+  },
+  {
+   "capitulo": "95",
+   "nombre_capitulo": "TRANSFERENCIAS A SERVICIOS LOCALES DE EDUCACIÓN PÚBLICA",
+   "programa": "01",
+   "nombre_programa": "TRANSFERENCIAS DE SUBSECRETARÍA DE EDUCACIÓN",
+   "vigente": 3734855000,
+   "ejecutado": 324959000
+  },
+  {
+   "capitulo": "49",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PETORCA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS PETORCA",
+   "vigente": 3731223000,
+   "ejecutado": 1976693000
+  },
+  {
+   "capitulo": "26",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ATACAMA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS ATACAMA",
+   "vigente": 3707941000,
+   "ejecutado": 2595535000
+  },
+  {
+   "capitulo": "40",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS LIBERTADORES",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS LIBERTADORES",
+   "vigente": 3587745000,
+   "ejecutado": 2385694000
+  },
+  {
+   "capitulo": "25",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ANDALIÉN SUR",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS ANDALIÉN SUR",
+   "vigente": 3580643000,
+   "ejecutado": 2469524000
+  },
+  {
+   "capitulo": "33",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUNILLA CORDILLERA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS PUNILLA CORDILLERA",
+   "vigente": 3564544000,
+   "ejecutado": 2494834000
+  },
+  {
+   "capitulo": "22",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COSTA ARAUCANÍA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS COSTA ARAUCANÍA",
+   "vigente": 3497007000,
+   "ejecutado": 2172212000
+  },
+  {
+   "capitulo": "29",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LLANQUIHUE",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LLANQUIHUE",
+   "vigente": 3291866000,
+   "ejecutado": 2252885000
+  },
+  {
+   "capitulo": "28",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COLCHAGUA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS COLCHAGUA",
+   "vigente": 3273227000,
+   "ejecutado": 2155436000
+  },
+  {
+   "capitulo": "27",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN VALPARAÍSO",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS VALPARAÍSO",
+   "vigente": 3260414000,
+   "ejecutado": 2234318000
+  },
+  {
+   "capitulo": "48",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS ANDES",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS ANDES",
+   "vigente": 3161007000,
+   "ejecutado": 1773165000
+  },
+  {
+   "capitulo": "24",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN GABRIELA MISTRAL",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS GABRIELA MISTRAL",
+   "vigente": 3159081000,
+   "ejecutado": 2032596000
+  },
+  {
+   "capitulo": "36",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN TAMARUGAL",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS TAMARUGAL",
+   "vigente": 3080555000,
+   "ejecutado": 1773617000
+  },
+  {
+   "capitulo": "19",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN PUERTO CORDILLERA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS PUERTO CORDILLERA",
+   "vigente": 3053546000,
+   "ejecutado": 1914601000
+  },
+  {
+   "capitulo": "21",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN HUASCO",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS HUASCO",
+   "vigente": 3008343000,
+   "ejecutado": 1958025000
+  },
+  {
+   "capitulo": "15",
+   "nombre_capitulo": "CONSEJO NACIONAL DE EDUCACIÓN",
+   "programa": "01",
+   "nombre_programa": "CONSEJO NACIONAL DE EDUCACIÓN",
+   "vigente": 2222233000,
+   "ejecutado": 1340961000
   },
   {
    "capitulo": "66",
    "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN RELONCAVÍ",
    "programa": "01",
    "nombre_programa": "GASTOS ADMINISTRATIVOS RELONCAVÍ",
-   "vigente": 0,
+   "vigente": 2161499000,
    "ejecutado": 794893000
+  },
+  {
+   "capitulo": "63",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS CEREZOS",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS CEREZOS",
+   "vigente": 2140982000,
+   "ejecutado": 926529000
+  },
+  {
+   "capitulo": "59",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LA QUEBRADA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LA QUEBRADA",
+   "vigente": 2089088000,
+   "ejecutado": 726962000
+  },
+  {
+   "capitulo": "65",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS COPIHUES",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LOS COPIHUES",
+   "vigente": 2007418000,
+   "ejecutado": 813527000
+  },
+  {
+   "capitulo": "57",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LITORAL",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LITORAL",
+   "vigente": 1901803000,
+   "ejecutado": 433299000
+  },
+  {
+   "capitulo": "60",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN TALAGANTE",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS TALAGANTE",
+   "vigente": 1886862000,
+   "ejecutado": 784540000
   },
   {
    "capitulo": "69",
    "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CHACABUCO",
    "programa": "01",
    "nombre_programa": "GASTOS ADMINISTRATIVOS CHACABUCO",
-   "vigente": 0,
+   "vigente": 1392613000,
    "ejecutado": 75327000
   },
   {
@@ -828,72 +877,112 @@
    "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LOS VIÑEDOS",
    "programa": "01",
    "nombre_programa": "GASTOS ADMINISTRATIVOS LOS VIÑEDOS",
-   "vigente": 0,
+   "vigente": 1351907000,
    "ejecutado": 84171000
   },
   {
-   "capitulo": "90",
-   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN SUPERIOR",
+   "capitulo": "58",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN HANGA ROA",
    "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE EDUCACIÓN SUPERIOR",
-   "vigente": 0,
-   "ejecutado": 27517720000
+   "nombre_programa": "GASTOS ADMINISTRATIVOS HANGA ROA",
+   "vigente": 954078000,
+   "ejecutado": 176227000
   },
   {
-   "capitulo": "90",
-   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN SUPERIOR",
-   "programa": "02",
-   "nombre_programa": "FORTALECIMIENTO DE LA EDUCACIÓN SUPERIOR PÚBLICA",
-   "vigente": 0,
-   "ejecutado": 227166887000
-  },
-  {
-   "capitulo": "90",
-   "nombre_capitulo": "SUBSECRETARÍA DE EDUCACIÓN SUPERIOR",
-   "programa": "03",
-   "nombre_programa": "EDUCACIÓN SUPERIOR",
-   "vigente": 0,
-   "ejecutado": 2431966109000
-  },
-  {
-   "capitulo": "91",
-   "nombre_capitulo": "SUPERINTENDENCIA DE EDUCACIÓN SUPERIOR",
+   "capitulo": "64",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAULE VALLE",
    "programa": "01",
-   "nombre_programa": "SUPERINTENDENCIA DE EDUCACIÓN SUPERIOR",
-   "vigente": 0,
-   "ejecutado": 3035129000
+   "nombre_programa": "GASTOS ADMINISTRATIVOS MAULE VALLE",
+   "vigente": 726825000,
+   "ejecutado": 0
   },
   {
-   "capitulo": "95",
-   "nombre_capitulo": "TRANSFERENCIAS A SERVICIOS LOCALES DE EDUCACIÓN PÚBLICA",
+   "capitulo": "62",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN COSTA COLCHAGUA",
    "programa": "01",
-   "nombre_programa": "TRANSFERENCIAS DE SUBSECRETARÍA DE EDUCACIÓN",
-   "vigente": 0,
-   "ejecutado": 324959000
+   "nombre_programa": "GASTOS ADMINISTRATIVOS COSTA COLCHAGUA",
+   "vigente": 696042000,
+   "ejecutado": 0
   },
   {
-   "capitulo": "95",
-   "nombre_capitulo": "TRANSFERENCIAS A SERVICIOS LOCALES DE EDUCACIÓN PÚBLICA",
-   "programa": "11",
-   "nombre_programa": "TRANSFERENCIAS DE JUNJI",
-   "vigente": 0,
-   "ejecutado": 90849429000
+   "capitulo": "13",
+   "nombre_capitulo": "CONSEJO DE RECTORES",
+   "programa": "01",
+   "nombre_programa": "CONSEJO DE RECTORES",
+   "vigente": 517435000,
+   "ejecutado": 317172000
   },
   {
-   "capitulo": "95",
-   "nombre_capitulo": "TRANSFERENCIAS A SERVICIOS LOCALES DE EDUCACIÓN PÚBLICA",
-   "programa": "17",
-   "nombre_programa": "TRANSFERENCIAS DE DIRECCIÓN DE EDUCACIÓN PÚBLICA",
-   "vigente": 0,
-   "ejecutado": 259338023000
+   "capitulo": "76",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CAUTÍN NORTE",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS CAUTÍN NORTE",
+   "vigente": 440339000,
+   "ejecutado": 0
   },
   {
-   "capitulo": "95",
-   "nombre_capitulo": "TRANSFERENCIAS A SERVICIOS LOCALES DE EDUCACIÓN PÚBLICA",
-   "programa": "20",
-   "nombre_programa": "TRANSFERENCIAS DE SUBVENCIONES",
-   "vigente": 0,
-   "ejecutado": 1359062968000
+   "capitulo": "77",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CAUTÍN SUR",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS CAUTÍN SUR",
+   "vigente": 411422000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "68",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN LIMARÍ",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS LIMARÍ",
+   "vigente": 411256000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "75",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN ARAUCO NORTE",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS ARAUCO NORTE",
+   "vigente": 410431000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "73",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CACHAPOAL NORTE",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS CACHAPOAL NORTE",
+   "vigente": 402150000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "72",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAPOCHO",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS MAPOCHO",
+   "vigente": 401844000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "74",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CACHAPOAL COSTA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS CACHAPOAL COSTA",
+   "vigente": 396972000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "67",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN CHOAPA",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS CHOAPA",
+   "vigente": 396824000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "71",
+   "nombre_capitulo": "SERVICIO LOCAL DE EDUCACIÓN MAIPO SUR",
+   "programa": "01",
+   "nombre_programa": "GASTOS ADMINISTRATIVOS MAIPO SUR",
+   "vigente": 386965000,
+   "ejecutado": 0
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

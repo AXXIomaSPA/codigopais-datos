@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,298 +18,155 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "11",
- "nombre": "MINISTERIO DE DEFENSA NACIONAL",
+ "nombre": "Ministerio de Defensa Nacional",
  "programas": [
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "EJÉRCITO DE CHILE",
-   "programa": "1",
-   "nombre_programa": "EJÉRCITO DE CHILE",
-   "vigente": 764458326000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "21",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL",
-   "programa": "1",
-   "nombre_programa": "DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL",
-   "vigente": 532797313000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "ARMADA DE CHILE",
-   "programa": "1",
-   "nombre_programa": "ARMADA DE CHILE",
-   "vigente": 515864449000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "9",
-   "nombre_capitulo": "FUERZA AÉREA DE CHILE",
-   "programa": "1",
-   "nombre_programa": "FUERZA AÉREA DE CHILE",
-   "vigente": 311733521000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "7",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DEL TERRITORIO MARÍTIMO",
-   "programa": "1",
-   "nombre_programa": "DIRECCIÓN GENERAL DEL TERRITORIO MARÍTIMO",
-   "vigente": 194861970000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "ORGANISMOS DE SALUD DEL EJÉRCITO",
-   "programa": "1",
-   "nombre_programa": "ORGANISMOS DE SALUD DEL EJÉRCITO",
-   "vigente": 99713706000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "8",
-   "nombre_capitulo": "DIRECCIÓN DE SANIDAD",
-   "programa": "1",
-   "nombre_programa": "DIRECCIÓN DE SANIDAD",
-   "vigente": 85698537000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "11",
-   "nombre_capitulo": "ORGANISMOS DE SALUD DE LA FACH",
-   "programa": "1",
-   "nombre_programa": "ORGANISMOS DE SALUD DE LA FACH",
-   "vigente": 49726455000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "25",
-   "nombre_capitulo": "ESTADO MAYOR CONJUNTO",
-   "programa": "1",
-   "nombre_programa": "ESTADO MAYOR CONJUNTO",
-   "vigente": 27652885000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "18",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE MOVILIZACIÓN NACIONAL",
-   "programa": "1",
-   "nombre_programa": "DIRECCIÓN GENERAL DE MOVILIZACIÓN NACIONAL",
-   "vigente": 20385649000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "23",
-   "nombre_capitulo": "SUBSECRETARÍA PARA LAS FUERZAS ARMADAS",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA PARA LAS FUERZAS ARMADAS",
-   "vigente": 19213212000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "20",
-   "nombre_capitulo": "SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA DE CHILE",
-   "programa": "1",
-   "nombre_programa": "SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA DE CHILE",
-   "vigente": 9849972000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "ORGANISMOS DE INDUSTRIA MILITAR",
-   "programa": "1",
-   "nombre_programa": "ORGANISMOS DE INDUSTRIA MILITAR",
-   "vigente": 7099684000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "19",
-   "nombre_capitulo": "INSTITUTO GEOGRÁFICO MILITAR",
-   "programa": "1",
-   "nombre_programa": "INSTITUTO GEOGRÁFICO MILITAR",
-   "vigente": 5803966000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "24",
-   "nombre_capitulo": "SUBSECRETARÍA DE DEFENSA",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE DEFENSA",
-   "vigente": 5755250000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "9",
-   "nombre_capitulo": "FUERZA AÉREA DE CHILE",
-   "programa": "2",
-   "nombre_programa": "PROGRAMA FIDAE",
-   "vigente": 3508507000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "22",
-   "nombre_capitulo": "SERVICIO AEROFOTOGRAMÉTRICO DE LA FACH",
-   "programa": "1",
-   "nombre_programa": "SERVICIO AEROFOTOGRAMÉTRICO DE LA FACH",
-   "vigente": 3342644000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "24",
-   "nombre_capitulo": "SUBSECRETARÍA DE DEFENSA",
-   "programa": "2",
-   "nombre_programa": "ACADEMIA NACIONAL DE ESTUDIOS POLÍTICOS Y ESTRATÉGICOS",
-   "vigente": 1338947000,
-   "ejecutado": 0
-  },
   {
    "capitulo": "01",
    "nombre_capitulo": "EJÉRCITO DE CHILE",
    "programa": "01",
    "nombre_programa": "EJÉRCITO DE CHILE",
-   "vigente": 0,
-   "ejecutado": 521027351000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "ORGANISMOS DE SALUD DEL EJÉRCITO",
-   "programa": "01",
-   "nombre_programa": "ORGANISMOS DE SALUD DEL EJÉRCITO",
-   "vigente": 0,
-   "ejecutado": 62466097000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "ORGANISMOS DE INDUSTRIA MILITAR",
-   "programa": "01",
-   "nombre_programa": "ORGANISMOS DE INDUSTRIA MILITAR",
-   "vigente": 0,
-   "ejecutado": 3706268000
+   "vigente": 728998723000,
+   "ejecutado": 509455356000
   },
   {
    "capitulo": "05",
    "nombre_capitulo": "ARMADA DE CHILE",
    "programa": "01",
    "nombre_programa": "ARMADA DE CHILE",
-   "vigente": 0,
-   "ejecutado": 339147629000
-  },
-  {
-   "capitulo": "07",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DEL TERRITORIO MARÍTIMO",
-   "programa": "01",
-   "nombre_programa": "DIRECCIÓN GENERAL DEL TERRITORIO MARÍTIMO",
-   "vigente": 0,
-   "ejecutado": 95526098000
-  },
-  {
-   "capitulo": "08",
-   "nombre_capitulo": "DIRECCIÓN DE SANIDAD",
-   "programa": "01",
-   "nombre_programa": "DIRECCIÓN DE SANIDAD",
-   "vigente": 0,
-   "ejecutado": 55723081000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "FUERZA AÉREA DE CHILE",
-   "programa": "01",
-   "nombre_programa": "FUERZA AÉREA DE CHILE",
-   "vigente": 0,
-   "ejecutado": 190887062000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "FUERZA AÉREA DE CHILE",
-   "programa": "02",
-   "nombre_programa": "PROGRAMA FIDAE",
-   "vigente": 0,
-   "ejecutado": 2992788000
-  },
-  {
-   "capitulo": "11",
-   "nombre_capitulo": "ORGANISMOS DE SALUD DE LA FACH",
-   "programa": "01",
-   "nombre_programa": "ORGANISMOS DE SALUD DE LA FACH",
-   "vigente": 0,
-   "ejecutado": 30457337000
-  },
-  {
-   "capitulo": "18",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE MOVILIZACIÓN NACIONAL",
-   "programa": "01",
-   "nombre_programa": "DIRECCIÓN GENERAL DE MOVILIZACIÓN NACIONAL",
-   "vigente": 0,
-   "ejecutado": 6446294000
-  },
-  {
-   "capitulo": "19",
-   "nombre_capitulo": "INSTITUTO GEOGRÁFICO MILITAR",
-   "programa": "01",
-   "nombre_programa": "INSTITUTO GEOGRÁFICO MILITAR",
-   "vigente": 0,
-   "ejecutado": 3547641000
-  },
-  {
-   "capitulo": "20",
-   "nombre_capitulo": "SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA DE CHILE",
-   "programa": "01",
-   "nombre_programa": "SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA DE CHILE",
-   "vigente": 0,
-   "ejecutado": 4950282000
+   "vigente": 495823496000,
+   "ejecutado": 335299285000
   },
   {
    "capitulo": "21",
    "nombre_capitulo": "DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL",
    "programa": "01",
    "nombre_programa": "DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL",
-   "vigente": 0,
-   "ejecutado": 212998403000
+   "vigente": 338420115000,
+   "ejecutado": 204874694000
   },
   {
-   "capitulo": "22",
-   "nombre_capitulo": "SERVICIO AEROFOTOGRAMÉTRICO DE LA FACH",
+   "capitulo": "09",
+   "nombre_capitulo": "FUERZA AÉREA DE CHILE",
    "programa": "01",
-   "nombre_programa": "SERVICIO AEROFOTOGRAMÉTRICO DE LA FACH",
-   "vigente": 0,
-   "ejecutado": 1365605000
+   "nombre_programa": "FUERZA AÉREA DE CHILE",
+   "vigente": 288938537000,
+   "ejecutado": 187865737000
+  },
+  {
+   "capitulo": "07",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DEL TERRITORIO MARÍTIMO",
+   "programa": "01",
+   "nombre_programa": "DIRECCIÓN GENERAL DEL TERRITORIO MARÍTIMO",
+   "vigente": 126219132000,
+   "ejecutado": 95200216000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "ORGANISMOS DE SALUD DEL EJÉRCITO",
+   "programa": "01",
+   "nombre_programa": "ORGANISMOS DE SALUD DEL EJÉRCITO",
+   "vigente": 93573923000,
+   "ejecutado": 59726384000
+  },
+  {
+   "capitulo": "08",
+   "nombre_capitulo": "DIRECCIÓN DE SANIDAD",
+   "programa": "01",
+   "nombre_programa": "DIRECCIÓN DE SANIDAD",
+   "vigente": 80504989000,
+   "ejecutado": 53587239000
+  },
+  {
+   "capitulo": "11",
+   "nombre_capitulo": "ORGANISMOS DE SALUD DE LA FACH",
+   "programa": "01",
+   "nombre_programa": "ORGANISMOS DE SALUD DE LA FACH",
+   "vigente": 43088091000,
+   "ejecutado": 27221793000
   },
   {
    "capitulo": "23",
    "nombre_capitulo": "SUBSECRETARÍA PARA LAS FUERZAS ARMADAS",
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA PARA LAS FUERZAS ARMADAS",
-   "vigente": 0,
-   "ejecutado": 10896663000
-  },
-  {
-   "capitulo": "24",
-   "nombre_capitulo": "SUBSECRETARÍA DE DEFENSA",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE DEFENSA",
-   "vigente": 0,
-   "ejecutado": 3164001000
-  },
-  {
-   "capitulo": "24",
-   "nombre_capitulo": "SUBSECRETARÍA DE DEFENSA",
-   "programa": "02",
-   "nombre_programa": "ACADEMIA NACIONAL DE ESTUDIOS POLÍTICOS Y ESTRATÉGICOS",
-   "vigente": 0,
-   "ejecutado": 745452000
+   "vigente": 16250487000,
+   "ejecutado": 10771143000
   },
   {
    "capitulo": "25",
    "nombre_capitulo": "ESTADO MAYOR CONJUNTO",
    "programa": "01",
    "nombre_programa": "ESTADO MAYOR CONJUNTO",
-   "vigente": 0,
-   "ejecutado": 7289981000
+   "vigente": 10734766000,
+   "ejecutado": 7038593000
+  },
+  {
+   "capitulo": "18",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE MOVILIZACIÓN NACIONAL",
+   "programa": "01",
+   "nombre_programa": "DIRECCIÓN GENERAL DE MOVILIZACIÓN NACIONAL",
+   "vigente": 9892020000,
+   "ejecutado": 6073982000
+  },
+  {
+   "capitulo": "20",
+   "nombre_capitulo": "SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA DE CHILE",
+   "programa": "01",
+   "nombre_programa": "SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA DE CHILE",
+   "vigente": 8760136000,
+   "ejecutado": 4950282000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "ORGANISMOS DE INDUSTRIA MILITAR",
+   "programa": "01",
+   "nombre_programa": "ORGANISMOS DE INDUSTRIA MILITAR",
+   "vigente": 6510524000,
+   "ejecutado": 3698377000
+  },
+  {
+   "capitulo": "19",
+   "nombre_capitulo": "INSTITUTO GEOGRÁFICO MILITAR",
+   "programa": "01",
+   "nombre_programa": "INSTITUTO GEOGRÁFICO MILITAR",
+   "vigente": 5440346000,
+   "ejecutado": 3529705000
+  },
+  {
+   "capitulo": "24",
+   "nombre_capitulo": "SUBSECRETARÍA DE DEFENSA",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE DEFENSA",
+   "vigente": 5055789000,
+   "ejecutado": 3096518000
+  },
+  {
+   "capitulo": "09",
+   "nombre_capitulo": "FUERZA AÉREA DE CHILE",
+   "programa": "02",
+   "nombre_programa": "PROGRAMA FIDAE",
+   "vigente": 2692610000,
+   "ejecutado": 2597935000
+  },
+  {
+   "capitulo": "22",
+   "nombre_capitulo": "SERVICIO AEROFOTOGRAMÉTRICO DE LA FACH",
+   "programa": "01",
+   "nombre_programa": "SERVICIO AEROFOTOGRAMÉTRICO DE LA FACH",
+   "vigente": 2453373000,
+   "ejecutado": 987461000
+  },
+  {
+   "capitulo": "24",
+   "nombre_capitulo": "SUBSECRETARÍA DE DEFENSA",
+   "programa": "02",
+   "nombre_programa": "ACADEMIA NACIONAL DE ESTUDIOS POLÍTICOS Y ESTRATÉGICOS",
+   "vigente": 1247439000,
+   "ejecutado": 711525000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

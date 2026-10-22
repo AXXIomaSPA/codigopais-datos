@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,186 +18,99 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "19",
- "nombre": "MINISTERIO DE TRANSPORTES Y TELECOMUNICACIONES",
+ "nombre": "Ministerio de Transportes y Telecomunicaciones",
  "programas": [
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "6",
-   "nombre_programa": "SUBSIDIO NACIONAL AL TRANSPORTE PÚBLICO",
-   "vigente": 4813630000000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "3",
-   "nombre_programa": "RED MOVILIDAD",
-   "vigente": 122309847000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "SUBSECRETARÍA DE TELECOMUNICACIONES",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE TELECOMUNICACIONES",
-   "vigente": 84990510000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "4",
-   "nombre_programa": "UNIDAD OPERATIVA DE CONTROL DE TRÁNSITO",
-   "vigente": 35279218000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "1",
-   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "vigente": 25409862000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "8",
-   "nombre_programa": "PROGRAMA DE VIALIDAD Y TRANSPORTE URBANO: SECTRA",
-   "vigente": 18039683000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "5",
-   "nombre_programa": "FISCALIZACIÓN Y CENTRO AUTOMATIZADO DE INFRACCIONES",
-   "vigente": 17887043000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "10",
-   "nombre_programa": "DIVISIÓN DE TRANSPORTE PÚBLICO REGIONAL",
-   "vigente": 12319247000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "9",
-   "nombre_programa": "SEGURIDAD Y CENTRO DE CONTROL VEHICULAR",
-   "vigente": 5615218000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "7",
-   "nombre_programa": "PROGRAMA DE DESARROLLO LOGÍSTICO",
-   "vigente": 4068710000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "JUNTA DE AERONÁUTICA CIVIL",
-   "programa": "1",
-   "nombre_programa": "JUNTA DE AERONÁUTICA CIVIL",
-   "vigente": 1605706000,
-   "ejecutado": 0
-  },
   {
    "capitulo": "01",
    "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "01",
-   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "vigente": 0,
-   "ejecutado": 14413888000
+   "programa": "06",
+   "nombre_programa": "SUBSIDIO NACIONAL AL TRANSPORTE PÚBLICO",
+   "vigente": 1561119687000,
+   "ejecutado": 1049242134000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
    "programa": "03",
    "nombre_programa": "RED MOVILIDAD",
-   "vigente": 0,
-   "ejecutado": 39292486000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "04",
-   "nombre_programa": "UNIDAD OPERATIVA DE CONTROL DE TRÁNSITO",
-   "vigente": 0,
-   "ejecutado": 8181982000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "05",
-   "nombre_programa": "FISCALIZACIÓN Y CENTRO AUTOMATIZADO DE INFRACCIONES",
-   "vigente": 0,
-   "ejecutado": 9027208000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "06",
-   "nombre_programa": "SUBSIDIO NACIONAL AL TRANSPORTE PÚBLICO",
-   "vigente": 0,
-   "ejecutado": 1115925089000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "07",
-   "nombre_programa": "PROGRAMA DE DESARROLLO LOGÍSTICO",
-   "vigente": 0,
-   "ejecutado": 1233397000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "08",
-   "nombre_programa": "PROGRAMA DE VIALIDAD Y TRANSPORTE URBANO: SECTRA",
-   "vigente": 0,
-   "ejecutado": 6620206000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "09",
-   "nombre_programa": "SEGURIDAD Y CENTRO DE CONTROL VEHICULAR",
-   "vigente": 0,
-   "ejecutado": 2217847000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
-   "programa": "10",
-   "nombre_programa": "DIVISIÓN DE TRANSPORTE PÚBLICO REGIONAL",
-   "vigente": 0,
-   "ejecutado": 7060986000
+   "vigente": 51826827000,
+   "ejecutado": 24034240000
   },
   {
    "capitulo": "02",
    "nombre_capitulo": "SUBSECRETARÍA DE TELECOMUNICACIONES",
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE TELECOMUNICACIONES",
-   "vigente": 0,
-   "ejecutado": 20417255000
+   "vigente": 37668931000,
+   "ejecutado": 20087407000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
+   "programa": "01",
+   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
+   "vigente": 22975137000,
+   "ejecutado": 14078406000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
+   "programa": "04",
+   "nombre_programa": "UNIDAD OPERATIVA DE CONTROL DE TRÁNSITO",
+   "vigente": 18243565000,
+   "ejecutado": 6401818000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
+   "programa": "05",
+   "nombre_programa": "FISCALIZACIÓN Y CENTRO AUTOMATIZADO DE INFRACCIONES",
+   "vigente": 15164745000,
+   "ejecutado": 8288932000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
+   "programa": "10",
+   "nombre_programa": "DIVISIÓN DE TRANSPORTE PÚBLICO REGIONAL",
+   "vigente": 11121926000,
+   "ejecutado": 6924351000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
+   "programa": "08",
+   "nombre_programa": "PROGRAMA DE VIALIDAD Y TRANSPORTE URBANO: SECTRA",
+   "vigente": 9293060000,
+   "ejecutado": 4720158000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
+   "programa": "09",
+   "nombre_programa": "SEGURIDAD Y CENTRO DE CONTROL VEHICULAR",
+   "vigente": 4438146000,
+   "ejecutado": 2201720000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL DE TRANSPORTES",
+   "programa": "07",
+   "nombre_programa": "PROGRAMA DE DESARROLLO LOGÍSTICO",
+   "vigente": 3138399000,
+   "ejecutado": 1231503000
   },
   {
    "capitulo": "03",
    "nombre_capitulo": "JUNTA DE AERONÁUTICA CIVIL",
    "programa": "01",
    "nombre_programa": "JUNTA DE AERONÁUTICA CIVIL",
-   "vigente": 0,
-   "ejecutado": 925366000
+   "vigente": 1448275000,
+   "ejecutado": 891799000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

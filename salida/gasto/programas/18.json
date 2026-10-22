@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,233 +18,186 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "18",
- "nombre": "MINISTERIO DE VIVIENDA Y URBANISMO",
+ "nombre": "Ministerio de Vivienda y Urbanismo",
  "programas": [
   {
    "capitulo": "33",
    "nombre_capitulo": "SERVIU REGIÓN METROPOLITANA DE SANTIAGO",
-   "programa": "1",
+   "programa": "01",
    "nombre_programa": "SERVIU REGIÓN METROPOLITANA DE SANTIAGO",
-   "vigente": 4097947881000,
-   "ejecutado": 0
+   "vigente": 888035204000,
+   "ejecutado": 558010441000
   },
   {
    "capitulo": "28",
    "nombre_capitulo": "SERVIU REGIÓN DEL BIOBÍO",
-   "programa": "1",
+   "programa": "01",
    "nombre_programa": "SERVIU REGIÓN DEL BIOBÍO",
-   "vigente": 1736598129000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "27",
-   "nombre_capitulo": "SERVIU REGIÓN DEL MAULE",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DEL MAULE",
-   "vigente": 1374020196000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "29",
-   "nombre_capitulo": "SERVIU REGIÓN DE LA ARAUCANÍA",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE LA ARAUCANÍA",
-   "vigente": 1341670923000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "25",
-   "nombre_capitulo": "SERVIU REGIÓN DE VALPARAÍSO",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE VALPARAÍSO",
-   "vigente": 1304729079000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "30",
-   "nombre_capitulo": "SERVIU REGIÓN DE LOS LAGOS",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE LOS LAGOS",
-   "vigente": 1273864113000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
-   "vigente": 940355706000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "24",
-   "nombre_capitulo": "SERVIU REGIÓN DE COQUIMBO",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE COQUIMBO",
-   "vigente": 887885308000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "36",
-   "nombre_capitulo": "SERVIU REGIÓN DE ÑUBLE",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE ÑUBLE",
-   "vigente": 800555441000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "22",
-   "nombre_capitulo": "SERVIU REGIÓN DE ANTOFAGASTA",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE ANTOFAGASTA",
-   "vigente": 786132061000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "26",
-   "nombre_capitulo": "SERVIU REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
-   "vigente": 762422155000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "35",
-   "nombre_capitulo": "SERVIU REGIÓN DE ARICA Y PARINACOTA",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE ARICA Y PARINACOTA",
-   "vigente": 601089419000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "32",
-   "nombre_capitulo": "SERVIU REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA",
-   "vigente": 513060055000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "23",
-   "nombre_capitulo": "SERVIU REGIÓN DE ATACAMA",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE ATACAMA",
-   "vigente": 509882083000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "21",
-   "nombre_capitulo": "SERVIU REGIÓN DE TARAPACÁ",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE TARAPACÁ",
-   "vigente": 485975757000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "34",
-   "nombre_capitulo": "SERVIU REGIÓN DE LOS RÍOS",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE LOS RÍOS",
-   "vigente": 347725423000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "31",
-   "nombre_capitulo": "SERVIU REGIÓN DE AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
-   "programa": "1",
-   "nombre_programa": "SERVIU REGIÓN DE AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
-   "vigente": 339984783000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "25",
-   "nombre_capitulo": "SERVIU REGIÓN DE VALPARAÍSO",
-   "programa": "60",
-   "nombre_programa": "SERVIU REGIÓN DE VALPARAÍSO - FET - INCENDIOS",
-   "vigente": 229241410000,
-   "ejecutado": 28559638000
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
-   "programa": "4",
-   "nombre_programa": "RECUPERACIÓN DE BARRIOS",
-   "vigente": 158405435000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "PARQUE METROPOLITANO",
-   "programa": "1",
-   "nombre_programa": "PARQUE METROPOLITANO",
-   "vigente": 83652687000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
-   "programa": "2",
-   "nombre_programa": "ASENTAMIENTOS PRECARIOS",
-   "vigente": 78237505000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
-   "programa": "60",
-   "nombre_programa": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO - FET - INCENDIOS",
-   "vigente": 1698000000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
-   "programa": "6",
-   "nombre_programa": "PLAN DE EMERGENCIA HABITACIONAL",
-   "vigente": 1648056000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
-   "programa": "7",
-   "nombre_programa": "PLAN DE RECONSTRUCCIÓN INCENDIOS",
-   "vigente": 745687000,
-   "ejecutado": 0
+   "vigente": 434379763000,
+   "ejecutado": 246361003000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
-   "vigente": 0,
-   "ejecutado": 268240332000
+   "vigente": 370706322000,
+   "ejecutado": 263119770000
   },
   {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
-   "programa": "02",
-   "nombre_programa": "ASENTAMIENTOS PRECARIOS",
-   "vigente": 0,
-   "ejecutado": 1112173000
+   "capitulo": "29",
+   "nombre_capitulo": "SERVIU REGIÓN DE LA ARAUCANÍA",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE LA ARAUCANÍA",
+   "vigente": 309001093000,
+   "ejecutado": 199265180000
+  },
+  {
+   "capitulo": "25",
+   "nombre_capitulo": "SERVIU REGIÓN DE VALPARAÍSO",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE VALPARAÍSO",
+   "vigente": 292011008000,
+   "ejecutado": 130724589000
+  },
+  {
+   "capitulo": "30",
+   "nombre_capitulo": "SERVIU REGIÓN DE LOS LAGOS",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE LOS LAGOS",
+   "vigente": 277331530000,
+   "ejecutado": 174869253000
+  },
+  {
+   "capitulo": "27",
+   "nombre_capitulo": "SERVIU REGIÓN DEL MAULE",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DEL MAULE",
+   "vigente": 272043168000,
+   "ejecutado": 201897821000
+  },
+  {
+   "capitulo": "26",
+   "nombre_capitulo": "SERVIU REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
+   "vigente": 217572846000,
+   "ejecutado": 114263202000
+  },
+  {
+   "capitulo": "36",
+   "nombre_capitulo": "SERVIU REGIÓN DE ÑUBLE",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE ÑUBLE",
+   "vigente": 209109765000,
+   "ejecutado": 128163717000
+  },
+  {
+   "capitulo": "24",
+   "nombre_capitulo": "SERVIU REGIÓN DE COQUIMBO",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE COQUIMBO",
+   "vigente": 165176572000,
+   "ejecutado": 117445327000
+  },
+  {
+   "capitulo": "22",
+   "nombre_capitulo": "SERVIU REGIÓN DE ANTOFAGASTA",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE ANTOFAGASTA",
+   "vigente": 151670196000,
+   "ejecutado": 60290612000
+  },
+  {
+   "capitulo": "21",
+   "nombre_capitulo": "SERVIU REGIÓN DE TARAPACÁ",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE TARAPACÁ",
+   "vigente": 141484153000,
+   "ejecutado": 56550783000
+  },
+  {
+   "capitulo": "35",
+   "nombre_capitulo": "SERVIU REGIÓN DE ARICA Y PARINACOTA",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE ARICA Y PARINACOTA",
+   "vigente": 116691633000,
+   "ejecutado": 73679874000
+  },
+  {
+   "capitulo": "34",
+   "nombre_capitulo": "SERVIU REGIÓN DE LOS RÍOS",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE LOS RÍOS",
+   "vigente": 108754952000,
+   "ejecutado": 41516233000
+  },
+  {
+   "capitulo": "32",
+   "nombre_capitulo": "SERVIU REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA",
+   "vigente": 107339992000,
+   "ejecutado": 41509766000
+  },
+  {
+   "capitulo": "23",
+   "nombre_capitulo": "SERVIU REGIÓN DE ATACAMA",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE ATACAMA",
+   "vigente": 103624711000,
+   "ejecutado": 59246138000
+  },
+  {
+   "capitulo": "25",
+   "nombre_capitulo": "SERVIU REGIÓN DE VALPARAÍSO",
+   "programa": "60",
+   "nombre_programa": "SERVIU REGIÓN DE VALPARAÍSO - FET - INCENDIOS",
+   "vigente": 83392560000,
+   "ejecutado": 28491499000
+  },
+  {
+   "capitulo": "31",
+   "nombre_capitulo": "SERVIU REGIÓN DE AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
+   "programa": "01",
+   "nombre_programa": "SERVIU REGIÓN DE AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
+   "vigente": 61815078000,
+   "ejecutado": 47187795000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
    "programa": "04",
    "nombre_programa": "RECUPERACIÓN DE BARRIOS",
-   "vigente": 0,
-   "ejecutado": 9752078000
+   "vigente": 53386970000,
+   "ejecutado": 7022723000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "PARQUE METROPOLITANO",
+   "programa": "01",
+   "nombre_programa": "PARQUE METROPOLITANO",
+   "vigente": 45690284000,
+   "ejecutado": 24190573000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
+   "programa": "02",
+   "nombre_programa": "ASENTAMIENTOS PRECARIOS",
+   "vigente": 26284513000,
+   "ejecutado": 1058253000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
    "programa": "06",
    "nombre_programa": "PLAN DE EMERGENCIA HABITACIONAL",
-   "vigente": 0,
+   "vigente": 1585894000,
    "ejecutado": 774582000
   },
   {
@@ -252,7 +205,7 @@
    "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
    "programa": "07",
    "nombre_programa": "PLAN DE RECONSTRUCCIÓN INCENDIOS",
-   "vigente": 0,
+   "vigente": 684123000,
    "ejecutado": 342912000
   },
   {
@@ -260,144 +213,8 @@
    "nombre_capitulo": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO",
    "programa": "60",
    "nombre_programa": "SUBSECRETARÍA DE VIVIENDA Y URBANISMO - FET - INCENDIOS",
-   "vigente": 0,
+   "vigente": 566000000,
    "ejecutado": 35717000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "PARQUE METROPOLITANO",
-   "programa": "01",
-   "nombre_programa": "PARQUE METROPOLITANO",
-   "vigente": 0,
-   "ejecutado": 26853406000
-  },
-  {
-   "capitulo": "21",
-   "nombre_capitulo": "SERVIU REGIÓN DE TARAPACÁ",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE TARAPACÁ",
-   "vigente": 0,
-   "ejecutado": 69088507000
-  },
-  {
-   "capitulo": "22",
-   "nombre_capitulo": "SERVIU REGIÓN DE ANTOFAGASTA",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE ANTOFAGASTA",
-   "vigente": 0,
-   "ejecutado": 130920346000
-  },
-  {
-   "capitulo": "23",
-   "nombre_capitulo": "SERVIU REGIÓN DE ATACAMA",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE ATACAMA",
-   "vigente": 0,
-   "ejecutado": 73338730000
-  },
-  {
-   "capitulo": "24",
-   "nombre_capitulo": "SERVIU REGIÓN DE COQUIMBO",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE COQUIMBO",
-   "vigente": 0,
-   "ejecutado": 199027902000
-  },
-  {
-   "capitulo": "25",
-   "nombre_capitulo": "SERVIU REGIÓN DE VALPARAÍSO",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE VALPARAÍSO",
-   "vigente": 0,
-   "ejecutado": 253427329000
-  },
-  {
-   "capitulo": "26",
-   "nombre_capitulo": "SERVIU REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
-   "vigente": 0,
-   "ejecutado": 147407569000
-  },
-  {
-   "capitulo": "27",
-   "nombre_capitulo": "SERVIU REGIÓN DEL MAULE",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DEL MAULE",
-   "vigente": 0,
-   "ejecutado": 322012515000
-  },
-  {
-   "capitulo": "28",
-   "nombre_capitulo": "SERVIU REGIÓN DEL BIOBÍO",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DEL BIOBÍO",
-   "vigente": 0,
-   "ejecutado": 331626671000
-  },
-  {
-   "capitulo": "29",
-   "nombre_capitulo": "SERVIU REGIÓN DE LA ARAUCANÍA",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE LA ARAUCANÍA",
-   "vigente": 0,
-   "ejecutado": 293181456000
-  },
-  {
-   "capitulo": "30",
-   "nombre_capitulo": "SERVIU REGIÓN DE LOS LAGOS",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE LOS LAGOS",
-   "vigente": 0,
-   "ejecutado": 305854159000
-  },
-  {
-   "capitulo": "31",
-   "nombre_capitulo": "SERVIU REGIÓN DE AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
-   "vigente": 0,
-   "ejecutado": 73503233000
-  },
-  {
-   "capitulo": "32",
-   "nombre_capitulo": "SERVIU REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA",
-   "vigente": 0,
-   "ejecutado": 56477399000
-  },
-  {
-   "capitulo": "33",
-   "nombre_capitulo": "SERVIU REGIÓN METROPOLITANA DE SANTIAGO",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN METROPOLITANA DE SANTIAGO",
-   "vigente": 0,
-   "ejecutado": 1070417083000
-  },
-  {
-   "capitulo": "34",
-   "nombre_capitulo": "SERVIU REGIÓN DE LOS RÍOS",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE LOS RÍOS",
-   "vigente": 0,
-   "ejecutado": 47892014000
-  },
-  {
-   "capitulo": "35",
-   "nombre_capitulo": "SERVIU REGIÓN DE ARICA Y PARINACOTA",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE ARICA Y PARINACOTA",
-   "vigente": 0,
-   "ejecutado": 109746524000
-  },
-  {
-   "capitulo": "36",
-   "nombre_capitulo": "SERVIU REGIÓN DE ÑUBLE",
-   "programa": "01",
-   "nombre_programa": "SERVIU REGIÓN DE ÑUBLE",
-   "vigente": 0,
-   "ejecutado": 169248285000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

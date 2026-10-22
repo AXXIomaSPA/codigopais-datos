@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,258 +18,139 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "15",
- "nombre": "MINISTERIO DEL TRABAJO Y PREVISIÓN SOCIAL",
+ "nombre": "Ministerio del Trabajo y Previsión Social",
  "programas": [
   {
-   "capitulo": "9",
+   "capitulo": "09",
    "nombre_capitulo": "INSTITUTO DE PREVISIÓN SOCIAL",
-   "programa": "1",
+   "programa": "01",
    "nombre_programa": "INSTITUTO DE PREVISIÓN SOCIAL",
-   "vigente": 36465558821000,
-   "ejecutado": 0
+   "vigente": 12236535369000,
+   "ejecutado": 8186114562000
   },
   {
    "capitulo": "13",
    "nombre_capitulo": "CAJA DE PREVISIÓN DE LA DEFENSA NACIONAL",
-   "programa": "1",
+   "programa": "01",
    "nombre_programa": "CAJA DE PREVISIÓN DE LA DEFENSA NACIONAL",
-   "vigente": 5826161430000,
-   "ejecutado": 0
+   "vigente": 1950232082000,
+   "ejecutado": 1287352553000
   },
   {
    "capitulo": "14",
    "nombre_capitulo": "DIRECCIÓN DE PREVISIÓN DE CARABINEROS DE CHILE",
-   "programa": "1",
+   "programa": "01",
    "nombre_programa": "DIRECCIÓN DE PREVISIÓN DE CARABINEROS DE CHILE",
-   "vigente": 4809049490000,
-   "ejecutado": 0
+   "vigente": 1526487275000,
+   "ejecutado": 993323375000
   },
   {
    "capitulo": "10",
    "nombre_capitulo": "INSTITUTO DE SEGURIDAD LABORAL",
-   "programa": "1",
-   "nombre_programa": "INSTITUTO DE SEGURIDAD LABORAL",
-   "vigente": 774771468000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DEL TRABAJO",
-   "programa": "3",
-   "nombre_programa": "PROEMPLEO",
-   "vigente": 366397280000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO",
-   "programa": "4",
-   "nombre_programa": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO - EMPLEO",
-   "vigente": 305592381000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO",
-   "programa": "1",
-   "nombre_programa": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO",
-   "vigente": 138990850000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN DEL TRABAJO",
-   "programa": "1",
-   "nombre_programa": "DIRECCIÓN DEL TRABAJO",
-   "vigente": 115120446000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE CRÉDITO PRENDARIO",
-   "programa": "1",
-   "nombre_programa": "DIRECCIÓN GENERAL DE CRÉDITO PRENDARIO",
-   "vigente": 103901482000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "13",
-   "nombre_capitulo": "CAJA DE PREVISIÓN DE LA DEFENSA NACIONAL",
-   "programa": "2",
-   "nombre_programa": "FONDO DE MEDICINA CURATIVA",
-   "vigente": 49366785000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "7",
-   "nombre_capitulo": "SUPERINTENDENCIA DE PENSIONES",
-   "programa": "1",
-   "nombre_programa": "SUPERINTENDENCIA DE PENSIONES",
-   "vigente": 41997454000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DEL TRABAJO",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DEL TRABAJO",
-   "vigente": 26815587000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "6",
-   "nombre_capitulo": "SUPERINTENDENCIA DE SEGURIDAD SOCIAL",
-   "programa": "1",
-   "nombre_programa": "SUPERINTENDENCIA DE SEGURIDAD SOCIAL",
-   "vigente": 23015851000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "11",
-   "nombre_capitulo": "CHILE VALORA",
-   "programa": "1",
-   "nombre_programa": "CHILE VALORA",
-   "vigente": 20642764000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "SUBSECRETARÍA DE PREVISIÓN SOCIAL",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE PREVISIÓN SOCIAL",
-   "vigente": 9512807000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "9",
-   "nombre_capitulo": "INSTITUTO DE PREVISIÓN SOCIAL",
-   "programa": "2",
-   "nombre_programa": "ADMINISTRACIÓN DE CUENTAS Y SOPORTE",
-   "vigente": 40000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DEL TRABAJO",
    "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DEL TRABAJO",
-   "vigente": 0,
-   "ejecutado": 10474472000
+   "nombre_programa": "INSTITUTO DE SEGURIDAD LABORAL",
+   "vigente": 196424700000,
+   "ejecutado": 118903613000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DEL TRABAJO",
    "programa": "03",
    "nombre_programa": "PROEMPLEO",
-   "vigente": 0,
-   "ejecutado": 81608280000
+   "vigente": 122299225000,
+   "ejecutado": 81536891000
   },
   {
    "capitulo": "02",
    "nombre_capitulo": "DIRECCIÓN DEL TRABAJO",
    "programa": "01",
    "nombre_programa": "DIRECCIÓN DEL TRABAJO",
-   "vigente": 0,
-   "ejecutado": 70190548000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "SUBSECRETARÍA DE PREVISIÓN SOCIAL",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE PREVISIÓN SOCIAL",
-   "vigente": 0,
-   "ejecutado": 4690166000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE CRÉDITO PRENDARIO",
-   "programa": "01",
-   "nombre_programa": "DIRECCIÓN GENERAL DE CRÉDITO PRENDARIO",
-   "vigente": 0,
-   "ejecutado": 41759517000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO",
-   "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO",
-   "vigente": 0,
-   "ejecutado": 57350803000
+   "vigente": 109947005000,
+   "ejecutado": 69899729000
   },
   {
    "capitulo": "05",
    "nombre_capitulo": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO",
    "programa": "04",
    "nombre_programa": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO - EMPLEO",
-   "vigente": 0,
-   "ejecutado": 61992397000
+   "vigente": 101864127000,
+   "ejecutado": 57997236000
   },
   {
-   "capitulo": "06",
-   "nombre_capitulo": "SUPERINTENDENCIA DE SEGURIDAD SOCIAL",
+   "capitulo": "05",
+   "nombre_capitulo": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO",
    "programa": "01",
-   "nombre_programa": "SUPERINTENDENCIA DE SEGURIDAD SOCIAL",
-   "vigente": 0,
-   "ejecutado": 14622389000
+   "nombre_programa": "SERVICIO NACIONAL DE CAPACITACIÓN Y EMPLEO",
+   "vigente": 73417529000,
+   "ejecutado": 52966692000
   },
   {
    "capitulo": "07",
    "nombre_capitulo": "SUPERINTENDENCIA DE PENSIONES",
    "programa": "01",
    "nombre_programa": "SUPERINTENDENCIA DE PENSIONES",
-   "vigente": 0,
-   "ejecutado": 19004327000
+   "vigente": 26883805000,
+   "ejecutado": 17388046000
   },
   {
-   "capitulo": "09",
-   "nombre_capitulo": "INSTITUTO DE PREVISIÓN SOCIAL",
+   "capitulo": "06",
+   "nombre_capitulo": "SUPERINTENDENCIA DE SEGURIDAD SOCIAL",
    "programa": "01",
-   "nombre_programa": "INSTITUTO DE PREVISIÓN SOCIAL",
-   "vigente": 0,
-   "ejecutado": 8193665655000
+   "nombre_programa": "SUPERINTENDENCIA DE SEGURIDAD SOCIAL",
+   "vigente": 21546192000,
+   "ejecutado": 14011656000
   },
   {
-   "capitulo": "10",
-   "nombre_capitulo": "INSTITUTO DE SEGURIDAD LABORAL",
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DEL TRABAJO",
    "programa": "01",
-   "nombre_programa": "INSTITUTO DE SEGURIDAD LABORAL",
-   "vigente": 0,
-   "ejecutado": 126626418000
+   "nombre_programa": "SUBSECRETARÍA DEL TRABAJO",
+   "vigente": 15899546000,
+   "ejecutado": 9141819000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE CRÉDITO PRENDARIO",
+   "programa": "01",
+   "nombre_programa": "DIRECCIÓN GENERAL DE CRÉDITO PRENDARIO",
+   "vigente": 14568256000,
+   "ejecutado": 9635990000
   },
   {
    "capitulo": "11",
    "nombre_capitulo": "CHILE VALORA",
    "programa": "01",
    "nombre_programa": "CHILE VALORA",
-   "vigente": 0,
-   "ejecutado": 3908142000
-  },
-  {
-   "capitulo": "13",
-   "nombre_capitulo": "CAJA DE PREVISIÓN DE LA DEFENSA NACIONAL",
-   "programa": "01",
-   "nombre_programa": "CAJA DE PREVISIÓN DE LA DEFENSA NACIONAL",
-   "vigente": 0,
-   "ejecutado": 1295095168000
+   "vigente": 9778002000,
+   "ejecutado": 3827912000
   },
   {
    "capitulo": "13",
    "nombre_capitulo": "CAJA DE PREVISIÓN DE LA DEFENSA NACIONAL",
    "programa": "02",
    "nombre_programa": "FONDO DE MEDICINA CURATIVA",
-   "vigente": 0,
-   "ejecutado": 11032959000
+   "vigente": 7863377000,
+   "ejecutado": 5425364000
   },
   {
-   "capitulo": "14",
-   "nombre_capitulo": "DIRECCIÓN DE PREVISIÓN DE CARABINEROS DE CHILE",
+   "capitulo": "03",
+   "nombre_capitulo": "SUBSECRETARÍA DE PREVISIÓN SOCIAL",
    "programa": "01",
-   "nombre_programa": "DIRECCIÓN DE PREVISIÓN DE CARABINEROS DE CHILE",
-   "vigente": 0,
-   "ejecutado": 1069422306000
+   "nombre_programa": "SUBSECRETARÍA DE PREVISIÓN SOCIAL",
+   "vigente": 6894837000,
+   "ejecutado": 3697982000
+  },
+  {
+   "capitulo": "09",
+   "nombre_capitulo": "INSTITUTO DE PREVISIÓN SOCIAL",
+   "programa": "02",
+   "nombre_programa": "ADMINISTRACIÓN DE CUENTAS Y SOPORTE",
+   "vigente": 30000,
+   "ejecutado": 0
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

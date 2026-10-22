@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,58 +18,59 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "06",
- "nombre": "MINISTERIO DE RELACIONES EXTERIORES",
+ "nombre": "Ministerio de Relaciones Exteriores",
  "programas": [
   {
    "capitulo": "01",
    "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL Y SERVICIO EXTERIOR",
    "programa": "01",
    "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL Y SERVICIO EXTERIOR",
-   "vigente": 0,
-   "ejecutado": 31117949000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "DIRECCIÓN DE FRONTERAS Y LÍMITES DEL ESTADO",
-   "programa": "01",
-   "nombre_programa": "DIRECCIÓN DE FRONTERAS Y LÍMITES DEL ESTADO",
-   "vigente": 0,
-   "ejecutado": 3309193000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "INSTITUTO ANTÁRTICO CHILENO",
-   "programa": "01",
-   "nombre_programa": "INSTITUTO ANTÁRTICO CHILENO",
-   "vigente": 0,
-   "ejecutado": 6275994000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "AGENCIA CHILENA DE COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO",
-   "programa": "01",
-   "nombre_programa": "AGENCIA CHILENA DE COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO",
-   "vigente": 0,
-   "ejecutado": 5939999000
-  },
-  {
-   "capitulo": "06",
-   "nombre_capitulo": "SUBSECRETARÍA DE RELACIONES ECONÓMICAS INTERNACIONALES",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE RELACIONES ECONÓMICAS INTERNACIONALES",
-   "vigente": 0,
-   "ejecutado": 7887071000
+   "vigente": 44500998000,
+   "ejecutado": 29842619000
   },
   {
    "capitulo": "07",
    "nombre_capitulo": "DIRECCIÓN GENERAL DE PROMOCIÓN DE EXPORTACIONES",
    "programa": "01",
    "nombre_programa": "DIRECCIÓN GENERAL DE PROMOCIÓN DE EXPORTACIONES",
-   "vigente": 0,
-   "ejecutado": 18822870000
+   "vigente": 27003712000,
+   "ejecutado": 18738976000
+  },
+  {
+   "capitulo": "06",
+   "nombre_capitulo": "SUBSECRETARÍA DE RELACIONES ECONÓMICAS INTERNACIONALES",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE RELACIONES ECONÓMICAS INTERNACIONALES",
+   "vigente": 11820926000,
+   "ejecutado": 7484944000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "AGENCIA CHILENA DE COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO",
+   "programa": "01",
+   "nombre_programa": "AGENCIA CHILENA DE COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO",
+   "vigente": 8446098000,
+   "ejecutado": 5861466000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "INSTITUTO ANTÁRTICO CHILENO",
+   "programa": "01",
+   "nombre_programa": "INSTITUTO ANTÁRTICO CHILENO",
+   "vigente": 7833269000,
+   "ejecutado": 5388303000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "DIRECCIÓN DE FRONTERAS Y LÍMITES DEL ESTADO",
+   "programa": "01",
+   "nombre_programa": "DIRECCIÓN DE FRONTERAS Y LÍMITES DEL ESTADO",
+   "vigente": 6087891000,
+   "ejecutado": 3255425000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,225 +18,26 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "31",
- "nombre": "FINANCIAMIENTO GOBIERNOS REGIONALES",
+ "nombre": "Financiamiento Gobiernos Regionales",
  "programas": [
   {
-   "capitulo": "1",
+   "capitulo": "01",
    "nombre_capitulo": "GOBIERNOS REGIONALES",
    "programa": "16",
    "nombre_programa": "GOBIERNO REGIONAL REGIÓN METROPOLITANA DE SANTIAGO",
-   "vigente": 609182256000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "12",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE LA ARAUCANÍA",
-   "vigente": 576367469000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "13",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE LOS LAGOS",
-   "vigente": 444994554000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "15",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA",
-   "vigente": 386776632000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "11",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DEL BIOBÍO",
-   "vigente": 367269925000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "10",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DEL MAULE",
-   "vigente": 363668910000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "5",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ANTOFAGASTA",
-   "vigente": 356796492000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "8",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE VALPARAÍSO",
-   "vigente": 322261752000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "7",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE COQUIMBO",
-   "vigente": 316061791000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "19",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ÑUBLE",
-   "vigente": 290115005000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "14",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
-   "vigente": 283726059000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "9",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
-   "vigente": 282101467000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "6",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ATACAMA",
-   "vigente": 279031651000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "4",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE TARAPACÁ",
-   "vigente": 261955737000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "17",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE LOS RÍOS",
-   "vigente": 257668424000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "18",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ARICA Y PARINACOTA",
-   "vigente": 217594668000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "3",
-   "nombre_programa": "ASOCIATIVIDAD Y PLANES ESPECIALES",
-   "vigente": 18822552000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "03",
-   "nombre_programa": "ASOCIATIVIDAD Y PLANES ESPECIALES",
-   "vigente": 0,
-   "ejecutado": 188524000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "04",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE TARAPACÁ",
-   "vigente": 0,
-   "ejecutado": 29049544000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "05",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ANTOFAGASTA",
-   "vigente": 0,
-   "ejecutado": 4739615000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "06",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ATACAMA",
-   "vigente": 0,
-   "ejecutado": 48739169000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "07",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE COQUIMBO",
-   "vigente": 0,
-   "ejecutado": 61179939000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "08",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE VALPARAÍSO",
-   "vigente": 0,
-   "ejecutado": 63677653000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "09",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
-   "vigente": 0,
-   "ejecutado": 52949574000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "10",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DEL MAULE",
-   "vigente": 0,
-   "ejecutado": 79210761000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "11",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DEL BIOBÍO",
-   "vigente": 0,
-   "ejecutado": 80671677000
+   "vigente": 203060752000,
+   "ejecutado": 143992562000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "GOBIERNOS REGIONALES",
    "programa": "12",
    "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE LA ARAUCANÍA",
-   "vigente": 0,
+   "vigente": 185460077000,
    "ejecutado": 95757826000
   },
   {
@@ -244,56 +45,120 @@
    "nombre_capitulo": "GOBIERNOS REGIONALES",
    "programa": "13",
    "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE LOS LAGOS",
-   "vigente": 0,
+   "vigente": 138990170000,
    "ejecutado": 100922206000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "14",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
-   "vigente": 0,
-   "ejecutado": 62378411000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "GOBIERNOS REGIONALES",
    "programa": "15",
    "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE MAGALLANES Y DE LA ANTÁRTICA CHILENA",
-   "vigente": 0,
+   "vigente": 128925544000,
    "ejecutado": 62763577000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "16",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN METROPOLITANA DE SANTIAGO",
-   "vigente": 0,
-   "ejecutado": 143992562000
+   "programa": "10",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DEL MAULE",
+   "vigente": 120962276000,
+   "ejecutado": 79210761000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "17",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE LOS RÍOS",
-   "vigente": 0,
-   "ejecutado": 46311393000
+   "programa": "11",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DEL BIOBÍO",
+   "vigente": 120033121000,
+   "ejecutado": 80671677000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "GOBIERNOS REGIONALES",
-   "programa": "18",
-   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ARICA Y PARINACOTA",
-   "vigente": 0,
-   "ejecutado": 42187785000
+   "programa": "05",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ANTOFAGASTA",
+   "vigente": 118932164000,
+   "ejecutado": 4739615000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "GOBIERNOS REGIONALES",
+   "programa": "08",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE VALPARAÍSO",
+   "vigente": 107420584000,
+   "ejecutado": 63677653000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "GOBIERNOS REGIONALES",
+   "programa": "07",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE COQUIMBO",
+   "vigente": 99411061000,
+   "ejecutado": 61179939000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "GOBIERNOS REGIONALES",
    "programa": "19",
    "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ÑUBLE",
-   "vigente": 0,
+   "vigente": 95426453000,
    "ejecutado": 60249216000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "GOBIERNOS REGIONALES",
+   "programa": "14",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE AYSÉN DEL GENERAL CARLOS IBÁÑEZ DEL CAMPO",
+   "vigente": 94575353000,
+   "ejecutado": 62378411000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "GOBIERNOS REGIONALES",
+   "programa": "06",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ATACAMA",
+   "vigente": 92928463000,
+   "ejecutado": 48739169000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "GOBIERNOS REGIONALES",
+   "programa": "09",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DEL LIBERTADOR GENERAL BERNARDO O'HIGGINS",
+   "vigente": 92666983000,
+   "ejecutado": 52949574000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "GOBIERNOS REGIONALES",
+   "programa": "17",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE LOS RÍOS",
+   "vigente": 80272914000,
+   "ejecutado": 46311393000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "GOBIERNOS REGIONALES",
+   "programa": "04",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE TARAPACÁ",
+   "vigente": 78669719000,
+   "ejecutado": 29049544000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "GOBIERNOS REGIONALES",
+   "programa": "18",
+   "nombre_programa": "GOBIERNO REGIONAL REGIÓN DE ARICA Y PARINACOTA",
+   "vigente": 69288482000,
+   "ejecutado": 42187785000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "GOBIERNOS REGIONALES",
+   "programa": "03",
+   "nombre_programa": "ASOCIATIVIDAD Y PLANES ESPECIALES",
+   "vigente": 6274184000,
+   "ejecutado": 188524000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,42 +18,43 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "03",
- "nombre": "PODER JUDICIAL",
+ "nombre": "Poder Judicial",
  "programas": [
   {
    "capitulo": "01",
    "nombre_capitulo": "PODER JUDICIAL",
    "programa": "01",
    "nombre_programa": "PODER JUDICIAL",
-   "vigente": 0,
-   "ejecutado": 421173883000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "PODER JUDICIAL",
-   "programa": "02",
-   "nombre_programa": "UNIDADES DE APOYO A TRIBUNALES",
-   "vigente": 0,
-   "ejecutado": 27192682000
+   "vigente": 535312436000,
+   "ejecutado": 391798942000
   },
   {
    "capitulo": "03",
    "nombre_capitulo": "CORPORACIÓN ADMINISTRATIVA DEL PODER JUDICIAL",
    "programa": "01",
    "nombre_programa": "CORPORACIÓN ADMINISTRATIVA DEL PODER JUDICIAL",
-   "vigente": 0,
-   "ejecutado": 116881206000
+   "vigente": 186435464000,
+   "ejecutado": 103389953000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "PODER JUDICIAL",
+   "programa": "02",
+   "nombre_programa": "UNIDADES DE APOYO A TRIBUNALES",
+   "vigente": 36805546000,
+   "ejecutado": 25665957000
   },
   {
    "capitulo": "04",
    "nombre_capitulo": "ACADEMIA JUDICIAL",
    "programa": "01",
    "nombre_programa": "ACADEMIA JUDICIAL",
-   "vigente": 0,
-   "ejecutado": 3468187000
+   "vigente": 4908008000,
+   "ejecutado": 3185224000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

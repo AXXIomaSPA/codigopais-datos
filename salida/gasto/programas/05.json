@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,130 +18,131 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "05",
- "nombre": "MINISTERIO DEL INTERIOR",
+ "nombre": "Ministerio del Interior",
  "programas": [
   {
-   "capitulo": "02",
-   "nombre_capitulo": "SERVICIO DE GOBIERNO INTERIOR",
+   "capitulo": "10",
+   "nombre_capitulo": "SUBSECRETARÍA DEL INTERIOR",
    "programa": "01",
-   "nombre_programa": "SERVICIO DE GOBIERNO INTERIOR",
-   "vigente": 0,
-   "ejecutado": 36259030000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "SERVICIO DE GOBIERNO INTERIOR",
-   "programa": "03",
-   "nombre_programa": "ADMINISTRACIÓN DE COMPLEJOS FRONTERIZOS",
-   "vigente": 0,
-   "ejecutado": 22474457000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SERVICIO NACIONAL DE PREVENCIÓN Y RESPUESTA ANTE DESASTRES",
-   "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DE PREVENCIÓN Y RESPUESTA ANTE DESASTRES",
-   "vigente": 0,
-   "ejecutado": 23815074000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "SUBSECRETARÍA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
-   "vigente": 0,
-   "ejecutado": 54227580000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "SUBSECRETARÍA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
-   "programa": "02",
-   "nombre_programa": "FORTALECIMIENTO DE LA GESTIÓN SUBNACIONAL",
-   "vigente": 0,
-   "ejecutado": 2340898000
+   "nombre_programa": "SUBSECRETARÍA DEL INTERIOR",
+   "vigente": 344433192000,
+   "ejecutado": 274126654000
   },
   {
    "capitulo": "05",
    "nombre_capitulo": "SUBSECRETARÍA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
    "programa": "03",
    "nombre_programa": "PROGRAMAS DE DESARROLLO LOCAL",
-   "vigente": 0,
-   "ejecutado": 191284668000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "SUBSECRETARÍA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
-   "programa": "05",
-   "nombre_programa": "TRANSFERENCIAS A GOBIERNOS REGIONALES",
-   "vigente": 0,
-   "ejecutado": 27397914000
-  },
-  {
-   "capitulo": "07",
-   "nombre_capitulo": "AGENCIA NACIONAL DE INTELIGENCIA",
-   "programa": "01",
-   "nombre_programa": "AGENCIA NACIONAL DE INTELIGENCIA",
-   "vigente": 0,
-   "ejecutado": 6777259000
+   "vigente": 255032618000,
+   "ejecutado": 119445089000
   },
   {
    "capitulo": "09",
    "nombre_capitulo": "SERVICIO NACIONAL PARA PREVENCIÓN Y REHABILITACIÓN CONSUMO DE DROGAS Y ALCOHOL",
    "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL PARA PREVENCIÓN Y REHABILITACIÓN CONSUMO DE DROGAS Y ALCOHOL",
-   "vigente": 0,
-   "ejecutado": 71512133000
-  },
-  {
-   "capitulo": "10",
-   "nombre_capitulo": "SUBSECRETARÍA DEL INTERIOR",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DEL INTERIOR",
-   "vigente": 0,
-   "ejecutado": 274800571000
-  },
-  {
-   "capitulo": "10",
-   "nombre_capitulo": "SUBSECRETARÍA DEL INTERIOR",
-   "programa": "02",
-   "nombre_programa": "RED DE CONECTIVIDAD SEGURA DEL ESTADO",
-   "vigente": 0,
-   "ejecutado": 2761494000
-  },
-  {
-   "capitulo": "10",
-   "nombre_capitulo": "SUBSECRETARÍA DEL INTERIOR",
-   "programa": "03",
-   "nombre_programa": "FONDO SOCIAL",
-   "vigente": 0,
-   "ejecutado": 574482000
+   "vigente": 93882255000,
+   "ejecutado": 59141775000
   },
   {
    "capitulo": "10",
    "nombre_capitulo": "SUBSECRETARÍA DEL INTERIOR",
    "programa": "04",
    "nombre_programa": "BOMBEROS DE CHILE",
-   "vigente": 0,
-   "ejecutado": 40895942000
+   "vigente": 59651069000,
+   "ejecutado": 35323802000
   },
   {
-   "capitulo": "10",
-   "nombre_capitulo": "SUBSECRETARÍA DEL INTERIOR",
-   "programa": "07",
-   "nombre_programa": "PROGRAMA DE ASUNTOS INDÍGENAS",
-   "vigente": 0,
-   "ejecutado": 869094000
+   "capitulo": "02",
+   "nombre_capitulo": "SERVICIO DE GOBIERNO INTERIOR",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE GOBIERNO INTERIOR",
+   "vigente": 52681398000,
+   "ejecutado": 34058114000
   },
   {
    "capitulo": "35",
    "nombre_capitulo": "SERVICIO NACIONAL DE MIGRACIONES",
    "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL DE MIGRACIONES",
-   "vigente": 0,
-   "ejecutado": 30886801000
+   "vigente": 40459041000,
+   "ejecutado": 29698328000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "SERVICIO DE GOBIERNO INTERIOR",
+   "programa": "03",
+   "nombre_programa": "ADMINISTRACIÓN DE COMPLEJOS FRONTERIZOS",
+   "vigente": 31939410000,
+   "ejecutado": 17423761000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "SERVICIO NACIONAL DE PREVENCIÓN Y RESPUESTA ANTE DESASTRES",
+   "programa": "01",
+   "nombre_programa": "SERVICIO NACIONAL DE PREVENCIÓN Y RESPUESTA ANTE DESASTRES",
+   "vigente": 29686276000,
+   "ejecutado": 19270288000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "SUBSECRETARÍA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
+   "vigente": 25978223000,
+   "ejecutado": 16817599000
+  },
+  {
+   "capitulo": "07",
+   "nombre_capitulo": "AGENCIA NACIONAL DE INTELIGENCIA",
+   "programa": "01",
+   "nombre_programa": "AGENCIA NACIONAL DE INTELIGENCIA",
+   "vigente": 10510409000,
+   "ejecutado": 6777259000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "SUBSECRETARÍA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
+   "programa": "05",
+   "nombre_programa": "TRANSFERENCIAS A GOBIERNOS REGIONALES",
+   "vigente": 8974011000,
+   "ejecutado": 14963836000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "SUBSECRETARÍA DE DESARROLLO REGIONAL Y ADMINISTRATIVO",
+   "programa": "02",
+   "nombre_programa": "FORTALECIMIENTO DE LA GESTIÓN SUBNACIONAL",
+   "vigente": 5761902000,
+   "ejecutado": 1120525000
+  },
+  {
+   "capitulo": "10",
+   "nombre_capitulo": "SUBSECRETARÍA DEL INTERIOR",
+   "programa": "02",
+   "nombre_programa": "RED DE CONECTIVIDAD SEGURA DEL ESTADO",
+   "vigente": 4765371000,
+   "ejecutado": 2068340000
+  },
+  {
+   "capitulo": "10",
+   "nombre_capitulo": "SUBSECRETARÍA DEL INTERIOR",
+   "programa": "07",
+   "nombre_programa": "PROGRAMA DE ASUNTOS INDÍGENAS",
+   "vigente": 2647801000,
+   "ejecutado": 869094000
+  },
+  {
+   "capitulo": "10",
+   "nombre_capitulo": "SUBSECRETARÍA DEL INTERIOR",
+   "programa": "03",
+   "nombre_programa": "FONDO SOCIAL",
+   "vigente": 2528084000,
+   "ejecutado": 574482000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

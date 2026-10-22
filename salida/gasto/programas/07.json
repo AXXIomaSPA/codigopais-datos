@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,194 +18,195 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "07",
- "nombre": "MINISTERIO DE ECONOMÍA, FOMENTO Y TURISMO",
+ "nombre": "Ministerio de Economía, Fomento y Turismo",
  "programas": [
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
-   "vigente": 0,
-   "ejecutado": 29156995000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
-   "programa": "07",
-   "nombre_programa": "FONDO DE INNOVACIÓN PARA LA COMPETITIVIDAD - EMPRENDIMIENTO",
-   "vigente": 0,
-   "ejecutado": 12897594000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
-   "programa": "13",
-   "nombre_programa": "DESARROLLO PRODUCTIVO SOSTENIBLE",
-   "vigente": 0,
-   "ejecutado": 4901533000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
-   "programa": "14",
-   "nombre_programa": "OFICINA DE AUTORIZACIONES SECTORIALES E INVERSIÓN DE LA LEY N°21.770",
-   "vigente": 0,
-   "ejecutado": 1162721000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL CONSUMIDOR",
-   "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DEL CONSUMIDOR",
-   "vigente": 0,
-   "ejecutado": 13503071000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "SUBSECRETARÍA DE PESCA Y ACUICULTURA",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE PESCA Y ACUICULTURA",
-   "vigente": 0,
-   "ejecutado": 26483783000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SERVICIO NACIONAL DE PESCA Y ACUICULTURA",
-   "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DE PESCA Y ACUICULTURA",
-   "vigente": 0,
-   "ejecutado": 31734116000
-  },
   {
    "capitulo": "06",
    "nombre_capitulo": "CORPORACIÓN DE FOMENTO DE LA PRODUCCIÓN",
    "programa": "01",
    "nombre_programa": "CORPORACIÓN DE FOMENTO DE LA PRODUCCIÓN",
-   "vigente": 0,
-   "ejecutado": 449121486000
-  },
-  {
-   "capitulo": "06",
-   "nombre_capitulo": "CORPORACIÓN DE FOMENTO DE LA PRODUCCIÓN",
-   "programa": "06",
-   "nombre_programa": "INVERSIÓN Y FINANCIAMIENTO",
-   "vigente": 0,
-   "ejecutado": 82458457000
-  },
-  {
-   "capitulo": "06",
-   "nombre_capitulo": "CORPORACIÓN DE FOMENTO DE LA PRODUCCIÓN",
-   "programa": "07",
-   "nombre_programa": "DESARROLLO PRODUCTIVO SOSTENIBLE",
-   "vigente": 0,
-   "ejecutado": 12463498000
-  },
-  {
-   "capitulo": "07",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE ESTADÍSTICAS",
-   "programa": "01",
-   "nombre_programa": "INSTITUTO NACIONAL DE ESTADÍSTICAS",
-   "vigente": 0,
-   "ejecutado": 37683181000
-  },
-  {
-   "capitulo": "07",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE ESTADÍSTICAS",
-   "programa": "02",
-   "nombre_programa": "PROGRAMA CENSOS",
-   "vigente": 0,
-   "ejecutado": 954010000
-  },
-  {
-   "capitulo": "07",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE ESTADÍSTICAS",
-   "programa": "03",
-   "nombre_programa": "ENCUESTAS EXTERNAS",
-   "vigente": 0,
-   "ejecutado": 3637180000
-  },
-  {
-   "capitulo": "08",
-   "nombre_capitulo": "FISCALÍA NACIONAL ECONÓMICA",
-   "programa": "01",
-   "nombre_programa": "FISCALÍA NACIONAL ECONÓMICA",
-   "vigente": 0,
-   "ejecutado": 5936956000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "SERVICIO NACIONAL DE TURISMO",
-   "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DE TURISMO",
-   "vigente": 0,
-   "ejecutado": 13703034000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "SERVICIO NACIONAL DE TURISMO",
-   "programa": "03",
-   "nombre_programa": "PROGRAMA DE ATRACCIÓN TURÍSTICA",
-   "vigente": 0,
-   "ejecutado": 4891838000
+   "vigente": 714753193000,
+   "ejecutado": 179296518000
   },
   {
    "capitulo": "16",
    "nombre_capitulo": "SERVICIO DE COOPERACIÓN TÉCNICA",
    "programa": "01",
    "nombre_programa": "SERVICIO DE COOPERACIÓN TÉCNICA",
-   "vigente": 0,
-   "ejecutado": 39604186000
+   "vigente": 69426396000,
+   "ejecutado": 36796825000
+  },
+  {
+   "capitulo": "07",
+   "nombre_capitulo": "INSTITUTO NACIONAL DE ESTADÍSTICAS",
+   "programa": "01",
+   "nombre_programa": "INSTITUTO NACIONAL DE ESTADÍSTICAS",
+   "vigente": 62794320000,
+   "ejecutado": 35977626000
+  },
+  {
+   "capitulo": "06",
+   "nombre_capitulo": "CORPORACIÓN DE FOMENTO DE LA PRODUCCIÓN",
+   "programa": "06",
+   "nombre_programa": "INVERSIÓN Y FINANCIAMIENTO",
+   "vigente": 56133384000,
+   "ejecutado": 25610815000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "SERVICIO NACIONAL DE PESCA Y ACUICULTURA",
+   "programa": "01",
+   "nombre_programa": "SERVICIO NACIONAL DE PESCA Y ACUICULTURA",
+   "vigente": 50459460000,
+   "ejecutado": 30209853000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
+   "vigente": 40757200000,
+   "ejecutado": 27539011000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
+   "programa": "07",
+   "nombre_programa": "FONDO DE INNOVACIÓN PARA LA COMPETITIVIDAD - EMPRENDIMIENTO",
+   "vigente": 40183507000,
+   "ejecutado": 12854469000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SUBSECRETARÍA DE PESCA Y ACUICULTURA",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE PESCA Y ACUICULTURA",
+   "vigente": 38380926000,
+   "ejecutado": 26008111000
+  },
+  {
+   "capitulo": "06",
+   "nombre_capitulo": "CORPORACIÓN DE FOMENTO DE LA PRODUCCIÓN",
+   "programa": "07",
+   "nombre_programa": "DESARROLLO PRODUCTIVO SOSTENIBLE",
+   "vigente": 37586612000,
+   "ejecutado": 12463498000
   },
   {
    "capitulo": "19",
    "nombre_capitulo": "COMITÉ INNOVA CHILE",
    "programa": "01",
    "nombre_programa": "COMITÉ INNOVA CHILE",
-   "vigente": 0,
+   "vigente": 36586501000,
    "ejecutado": 19740368000
   },
   {
-   "capitulo": "21",
-   "nombre_capitulo": "AGENCIA DE PROMOCIÓN DE LA INVERSIÓN EXTRANJERA",
-   "programa": "01",
-   "nombre_programa": "AGENCIA DE PROMOCIÓN DE LA INVERSIÓN EXTRANJERA",
-   "vigente": 0,
-   "ejecutado": 3852785000
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
+   "programa": "13",
+   "nombre_programa": "DESARROLLO PRODUCTIVO SOSTENIBLE",
+   "vigente": 32262754000,
+   "ejecutado": 4857905000
   },
   {
-   "capitulo": "23",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE PROPIEDAD INDUSTRIAL",
+   "capitulo": "09",
+   "nombre_capitulo": "SERVICIO NACIONAL DE TURISMO",
    "programa": "01",
-   "nombre_programa": "INSTITUTO NACIONAL DE PROPIEDAD INDUSTRIAL",
-   "vigente": 0,
-   "ejecutado": 6152628000
+   "nombre_programa": "SERVICIO NACIONAL DE TURISMO",
+   "vigente": 24543968000,
+   "ejecutado": 13211818000
   },
   {
-   "capitulo": "24",
-   "nombre_capitulo": "SUBSECRETARÍA DE TURISMO",
+   "capitulo": "02",
+   "nombre_capitulo": "SERVICIO NACIONAL DEL CONSUMIDOR",
    "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE TURISMO",
-   "vigente": 0,
-   "ejecutado": 1709742000
-  },
-  {
-   "capitulo": "25",
-   "nombre_capitulo": "SUPERINTENDENCIA DE INSOLVENCIA Y REEMPRENDIMIENTO",
-   "programa": "01",
-   "nombre_programa": "SUPERINTENDENCIA DE INSOLVENCIA Y REEMPRENDIMIENTO",
-   "vigente": 0,
-   "ejecutado": 6758075000
+   "nombre_programa": "SERVICIO NACIONAL DEL CONSUMIDOR",
+   "vigente": 19739195000,
+   "ejecutado": 13071912000
   },
   {
    "capitulo": "26",
    "nombre_capitulo": "INSTITUTO NACIONAL DESARROLLO SUSTENTABLE PESCA ARTESANAL Y ACUICULTURA",
    "programa": "01",
    "nombre_programa": "INSTITUTO NACIONAL DESARROLLO SUSTENTABLE PESCA ARTESANAL Y ACUICULTURA",
-   "vigente": 0,
-   "ejecutado": 5771134000
+   "vigente": 16144309000,
+   "ejecutado": 5217393000
+  },
+  {
+   "capitulo": "25",
+   "nombre_capitulo": "SUPERINTENDENCIA DE INSOLVENCIA Y REEMPRENDIMIENTO",
+   "programa": "01",
+   "nombre_programa": "SUPERINTENDENCIA DE INSOLVENCIA Y REEMPRENDIMIENTO",
+   "vigente": 9605581000,
+   "ejecutado": 6555046000
+  },
+  {
+   "capitulo": "08",
+   "nombre_capitulo": "FISCALÍA NACIONAL ECONÓMICA",
+   "programa": "01",
+   "nombre_programa": "FISCALÍA NACIONAL ECONÓMICA",
+   "vigente": 8976285000,
+   "ejecutado": 5790372000
+  },
+  {
+   "capitulo": "23",
+   "nombre_capitulo": "INSTITUTO NACIONAL DE PROPIEDAD INDUSTRIAL",
+   "programa": "01",
+   "nombre_programa": "INSTITUTO NACIONAL DE PROPIEDAD INDUSTRIAL",
+   "vigente": 8806123000,
+   "ejecutado": 6073612000
+  },
+  {
+   "capitulo": "09",
+   "nombre_capitulo": "SERVICIO NACIONAL DE TURISMO",
+   "programa": "03",
+   "nombre_programa": "PROGRAMA DE ATRACCIÓN TURÍSTICA",
+   "vigente": 7625835000,
+   "ejecutado": 2683548000
+  },
+  {
+   "capitulo": "07",
+   "nombre_capitulo": "INSTITUTO NACIONAL DE ESTADÍSTICAS",
+   "programa": "03",
+   "nombre_programa": "ENCUESTAS EXTERNAS",
+   "vigente": 7030836000,
+   "ejecutado": 3637180000
+  },
+  {
+   "capitulo": "21",
+   "nombre_capitulo": "AGENCIA DE PROMOCIÓN DE LA INVERSIÓN EXTRANJERA",
+   "programa": "01",
+   "nombre_programa": "AGENCIA DE PROMOCIÓN DE LA INVERSIÓN EXTRANJERA",
+   "vigente": 5909547000,
+   "ejecutado": 3558836000
+  },
+  {
+   "capitulo": "24",
+   "nombre_capitulo": "SUBSECRETARÍA DE TURISMO",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE TURISMO",
+   "vigente": 2751379000,
+   "ejecutado": 1666927000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
+   "programa": "14",
+   "nombre_programa": "OFICINA DE AUTORIZACIONES SECTORIALES E INVERSIÓN DE LA LEY N°21.770",
+   "vigente": 2183879000,
+   "ejecutado": 1162721000
+  },
+  {
+   "capitulo": "07",
+   "nombre_capitulo": "INSTITUTO NACIONAL DE ESTADÍSTICAS",
+   "programa": "02",
+   "nombre_programa": "PROGRAMA CENSOS",
+   "vigente": 1176818000,
+   "ejecutado": 727992000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,170 +18,91 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "10",
- "nombre": "MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS",
+ "nombre": "Ministerio de Justicia y Derechos Humanos",
  "programas": [
   {
-   "capitulo": "4",
+   "capitulo": "04",
    "nombre_capitulo": "GENDARMERÍA DE CHILE",
-   "programa": "1",
-   "nombre_programa": "GENDARMERÍA DE CHILE",
-   "vigente": 691191513000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
-   "programa": "1",
-   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
-   "vigente": 446859847000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "SERVICIO DE REGISTRO CIVIL E IDENTIFICACIÓN",
-   "programa": "1",
-   "nombre_programa": "SERVICIO DE REGISTRO CIVIL E IDENTIFICACIÓN",
-   "vigente": 255149384000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "10",
-   "nombre_capitulo": "SERVICIO NACIONAL DE REINSERCIÓN SOCIAL JUVENIL",
-   "programa": "1",
-   "nombre_programa": "SERVICIO NACIONAL DE REINSERCIÓN SOCIAL JUVENIL",
-   "vigente": 202166909000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "9",
-   "nombre_capitulo": "DEFENSORÍA PENAL PÚBLICA",
-   "programa": "1",
-   "nombre_programa": "DEFENSORÍA PENAL PÚBLICA",
-   "vigente": 136858295000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
-   "programa": "2",
-   "nombre_programa": "PROGRAMA DE CONCESIONES MINISTERIO DE JUSTICIA",
-   "vigente": 129550141000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "10",
-   "nombre_capitulo": "SERVICIO NACIONAL DE REINSERCIÓN SOCIAL JUVENIL",
-   "programa": "2",
-   "nombre_programa": "CENTROS DE REINSERCIÓN SOCIAL JUVENIL DE ADMINISTRACIÓN DIRECTA",
-   "vigente": 97674958000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "GENDARMERÍA DE CHILE",
-   "programa": "2",
-   "nombre_programa": "PROGRAMAS DE REHABILITACIÓN Y REINSERCIÓN SOCIAL",
-   "vigente": 84798260000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "SERVICIO MÉDICO LEGAL",
-   "programa": "1",
-   "nombre_programa": "SERVICIO MÉDICO LEGAL",
-   "vigente": 74111525000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "6",
-   "nombre_capitulo": "SUBSECRETARÍA DE DERECHOS HUMANOS",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE DERECHOS HUMANOS",
-   "vigente": 17852779000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
    "programa": "01",
-   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
-   "vigente": 0,
-   "ejecutado": 102568649000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
-   "programa": "02",
-   "nombre_programa": "PROGRAMA DE CONCESIONES MINISTERIO DE JUSTICIA",
-   "vigente": 0,
-   "ejecutado": 112429159000
+   "nombre_programa": "GENDARMERÍA DE CHILE",
+   "vigente": 635343936000,
+   "ejecutado": 439567300000
   },
   {
    "capitulo": "02",
    "nombre_capitulo": "SERVICIO DE REGISTRO CIVIL E IDENTIFICACIÓN",
    "programa": "01",
    "nombre_programa": "SERVICIO DE REGISTRO CIVIL E IDENTIFICACIÓN",
-   "vigente": 0,
-   "ejecutado": 165298462000
+   "vigente": 194064229000,
+   "ejecutado": 136254790000
   },
   {
-   "capitulo": "03",
-   "nombre_capitulo": "SERVICIO MÉDICO LEGAL",
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
    "programa": "01",
-   "nombre_programa": "SERVICIO MÉDICO LEGAL",
-   "vigente": 0,
-   "ejecutado": 44725736000
+   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "vigente": 164874365000,
+   "ejecutado": 98880676000
   },
   {
-   "capitulo": "04",
-   "nombre_capitulo": "GENDARMERÍA DE CHILE",
-   "programa": "01",
-   "nombre_programa": "GENDARMERÍA DE CHILE",
-   "vigente": 0,
-   "ejecutado": 454255581000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "GENDARMERÍA DE CHILE",
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
    "programa": "02",
-   "nombre_programa": "PROGRAMAS DE REHABILITACIÓN Y REINSERCIÓN SOCIAL",
-   "vigente": 0,
-   "ejecutado": 38984328000
-  },
-  {
-   "capitulo": "06",
-   "nombre_capitulo": "SUBSECRETARÍA DE DERECHOS HUMANOS",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE DERECHOS HUMANOS",
-   "vigente": 0,
-   "ejecutado": 4052486000
-  },
-  {
-   "capitulo": "09",
-   "nombre_capitulo": "DEFENSORÍA PENAL PÚBLICA",
-   "programa": "01",
-   "nombre_programa": "DEFENSORÍA PENAL PÚBLICA",
-   "vigente": 0,
-   "ejecutado": 52373887000
-  },
-  {
-   "capitulo": "10",
-   "nombre_capitulo": "SERVICIO NACIONAL DE REINSERCIÓN SOCIAL JUVENIL",
-   "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DE REINSERCIÓN SOCIAL JUVENIL",
-   "vigente": 0,
-   "ejecutado": 57340444000
+   "nombre_programa": "PROGRAMA DE CONCESIONES MINISTERIO DE JUSTICIA",
+   "vigente": 129534955000,
+   "ejecutado": 112421566000
   },
   {
    "capitulo": "10",
    "nombre_capitulo": "SERVICIO NACIONAL DE REINSERCIÓN SOCIAL JUVENIL",
    "programa": "02",
    "nombre_programa": "CENTROS DE REINSERCIÓN SOCIAL JUVENIL DE ADMINISTRACIÓN DIRECTA",
-   "vigente": 0,
-   "ejecutado": 54884061000
+   "vigente": 89815366000,
+   "ejecutado": 51924110000
+  },
+  {
+   "capitulo": "10",
+   "nombre_capitulo": "SERVICIO NACIONAL DE REINSERCIÓN SOCIAL JUVENIL",
+   "programa": "01",
+   "nombre_programa": "SERVICIO NACIONAL DE REINSERCIÓN SOCIAL JUVENIL",
+   "vigente": 86719738000,
+   "ejecutado": 51668679000
+  },
+  {
+   "capitulo": "09",
+   "nombre_capitulo": "DEFENSORÍA PENAL PÚBLICA",
+   "programa": "01",
+   "nombre_programa": "DEFENSORÍA PENAL PÚBLICA",
+   "vigente": 76168488000,
+   "ejecutado": 51730509000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SERVICIO MÉDICO LEGAL",
+   "programa": "01",
+   "nombre_programa": "SERVICIO MÉDICO LEGAL",
+   "vigente": 66920129000,
+   "ejecutado": 41161864000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "GENDARMERÍA DE CHILE",
+   "programa": "02",
+   "nombre_programa": "PROGRAMAS DE REHABILITACIÓN Y REINSERCIÓN SOCIAL",
+   "vigente": 58994478000,
+   "ejecutado": 36507765000
+  },
+  {
+   "capitulo": "06",
+   "nombre_capitulo": "SUBSECRETARÍA DE DERECHOS HUMANOS",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE DERECHOS HUMANOS",
+   "vigente": 8568265000,
+   "ejecutado": 3591665000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

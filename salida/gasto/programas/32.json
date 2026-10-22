@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,138 +18,75 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "32",
- "nombre": "MINISTERIO DE SEGURIDAD PÚBLICA",
+ "nombre": "Ministerio de Seguridad Pública",
  "programas": [
   {
-   "capitulo": "3",
-   "nombre_capitulo": "CARABINEROS DE CHILE",
-   "programa": "1",
-   "nombre_programa": "CARABINEROS DE CHILE",
-   "vigente": 1699025232000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "POLICÍA DE INVESTIGACIONES",
-   "programa": "1",
-   "nombre_programa": "POLICÍA DE INVESTIGACIONES",
-   "vigente": 595215339000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE SEGURIDAD PÚBLICA",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE SEGURIDAD PÚBLICA",
-   "vigente": 300220157000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "SUBSECRETARÍA DE PREVENCIÓN DEL DELITO",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE PREVENCIÓN DEL DELITO",
-   "vigente": 234070553000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "CARABINEROS DE CHILE",
-   "programa": "2",
-   "nombre_programa": "FORMACIÓN Y PERFECCIONAMIENTO POLICIAL",
-   "vigente": 131048293000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "HOSPITAL DE CARABINEROS",
-   "programa": "1",
-   "nombre_programa": "HOSPITAL DE CARABINEROS",
-   "vigente": 53017847000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "6",
-   "nombre_capitulo": "AGENCIA NACIONAL DE CIBERSEGURIDAD",
-   "programa": "1",
-   "nombre_programa": "AGENCIA NACIONAL DE CIBERSEGURIDAD",
-   "vigente": 5029559000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "SUBSECRETARÍA DE PREVENCIÓN DEL DELITO",
-   "programa": "2",
-   "nombre_programa": "CENTROS REGIONALES DE ATENCIÓN Y ORIENTACIÓN DE VÍCTIMAS",
-   "vigente": 2131682000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE SEGURIDAD PÚBLICA",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE SEGURIDAD PÚBLICA",
-   "vigente": 0,
-   "ejecutado": 28119853000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "SUBSECRETARÍA DE PREVENCIÓN DEL DELITO",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE PREVENCIÓN DEL DELITO",
-   "vigente": 0,
-   "ejecutado": 52738929000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "SUBSECRETARÍA DE PREVENCIÓN DEL DELITO",
-   "programa": "02",
-   "nombre_programa": "CENTROS REGIONALES DE ATENCIÓN Y ORIENTACIÓN DE VÍCTIMAS",
-   "vigente": 0,
-   "ejecutado": 1161845000
-  },
-  {
    "capitulo": "03",
    "nombre_capitulo": "CARABINEROS DE CHILE",
    "programa": "01",
    "nombre_programa": "CARABINEROS DE CHILE",
-   "vigente": 0,
-   "ejecutado": 970124272000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "CARABINEROS DE CHILE",
-   "programa": "02",
-   "nombre_programa": "FORMACIÓN Y PERFECCIONAMIENTO POLICIAL",
-   "vigente": 0,
-   "ejecutado": 83022964000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "HOSPITAL DE CARABINEROS",
-   "programa": "01",
-   "nombre_programa": "HOSPITAL DE CARABINEROS",
-   "vigente": 0,
-   "ejecutado": 35978299000
+   "vigente": 1549142392000,
+   "ejecutado": 956484472000
   },
   {
    "capitulo": "05",
    "nombre_capitulo": "POLICÍA DE INVESTIGACIONES",
    "programa": "01",
    "nombre_programa": "POLICÍA DE INVESTIGACIONES",
-   "vigente": 0,
-   "ejecutado": 375206211000
+   "vigente": 556869074000,
+   "ejecutado": 359509910000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "CARABINEROS DE CHILE",
+   "programa": "02",
+   "nombre_programa": "FORMACIÓN Y PERFECCIONAMIENTO POLICIAL",
+   "vigente": 128637877000,
+   "ejecutado": 81792524000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE SEGURIDAD PÚBLICA",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE SEGURIDAD PÚBLICA",
+   "vigente": 110497920000,
+   "ejecutado": 26953489000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "SUBSECRETARÍA DE PREVENCIÓN DEL DELITO",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE PREVENCIÓN DEL DELITO",
+   "vigente": 87760687000,
+   "ejecutado": 42160167000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "HOSPITAL DE CARABINEROS",
+   "programa": "01",
+   "nombre_programa": "HOSPITAL DE CARABINEROS",
+   "vigente": 52790222000,
+   "ejecutado": 35265464000
   },
   {
    "capitulo": "06",
    "nombre_capitulo": "AGENCIA NACIONAL DE CIBERSEGURIDAD",
    "programa": "01",
    "nombre_programa": "AGENCIA NACIONAL DE CIBERSEGURIDAD",
-   "vigente": 0,
-   "ejecutado": 2587034000
+   "vigente": 4802407000,
+   "ejecutado": 2532016000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "SUBSECRETARÍA DE PREVENCIÓN DEL DELITO",
+   "programa": "02",
+   "nombre_programa": "CENTROS REGIONALES DE ATENCIÓN Y ORIENTACIÓN DE VÍCTIMAS",
+   "vigente": 2114270000,
+   "ejecutado": 1017504000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

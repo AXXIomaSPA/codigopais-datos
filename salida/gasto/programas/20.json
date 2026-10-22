@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,42 +18,27 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "20",
- "nombre": "MINISTERIO SECRETARÍA GENERAL DE GOBIERNO",
+ "nombre": "Ministerio Secretaría General de Gobierno",
  "programas": [
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA GENERAL DE GOBIERNO",
-   "programa": "1",
-   "nombre_programa": "SECRETARÍA GENERAL DE GOBIERNO",
-   "vigente": 39907671000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "CONSEJO NACIONAL DE TELEVISIÓN",
-   "programa": "1",
-   "nombre_programa": "CONSEJO NACIONAL DE TELEVISIÓN",
-   "vigente": 27373131000,
-   "ejecutado": 0
-  },
   {
    "capitulo": "01",
    "nombre_capitulo": "SECRETARÍA GENERAL DE GOBIERNO",
    "programa": "01",
    "nombre_programa": "SECRETARÍA GENERAL DE GOBIERNO",
-   "vigente": 0,
-   "ejecutado": 16293776000
+   "vigente": 26207879000,
+   "ejecutado": 15876590000
   },
   {
    "capitulo": "02",
    "nombre_capitulo": "CONSEJO NACIONAL DE TELEVISIÓN",
    "programa": "01",
    "nombre_programa": "CONSEJO NACIONAL DE TELEVISIÓN",
-   "vigente": 0,
-   "ejecutado": 6898975000
+   "vigente": 12595495000,
+   "ejecutado": 6260913000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

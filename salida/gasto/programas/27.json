@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,74 +18,43 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "27",
- "nombre": "MINISTERIO DE LA MUJER Y LA EQUIDAD DE GÉNERO",
+ "nombre": "Ministerio de la Mujer y la Equidad de Género",
  "programas": [
   {
-   "capitulo": "2",
-   "nombre_capitulo": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "programa": "3",
-   "nombre_programa": "PREVENCIÓN Y ATENCIÓN DE VIOLENCIA CONTRA LAS MUJERES",
-   "vigente": 86304188000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "programa": "1",
-   "nombre_programa": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "vigente": 61683416000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "programa": "2",
-   "nombre_programa": "MUJER Y TRABAJO",
-   "vigente": 44231716000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "vigente": 12596394000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "vigente": 0,
-   "ejecutado": 6660333000
-  },
-  {
    "capitulo": "02",
    "nombre_capitulo": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GÉNERO",
    "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "vigente": 0,
-   "ejecutado": 27291212000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GÉNERO",
-   "programa": "02",
-   "nombre_programa": "MUJER Y TRABAJO",
-   "vigente": 0,
-   "ejecutado": 13917320000
+   "vigente": 33984206000,
+   "ejecutado": 26244201000
   },
   {
    "capitulo": "02",
    "nombre_capitulo": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GÉNERO",
    "programa": "03",
    "nombre_programa": "PREVENCIÓN Y ATENCIÓN DE VIOLENCIA CONTRA LAS MUJERES",
-   "vigente": 0,
-   "ejecutado": 24752309000
+   "vigente": 28790644000,
+   "ejecutado": 24684061000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "SERVICIO NACIONAL DE LA MUJER Y LA EQUIDAD DE GÉNERO",
+   "programa": "02",
+   "nombre_programa": "MUJER Y TRABAJO",
+   "vigente": 14794270000,
+   "ejecutado": 13902428000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE LA MUJER Y LA EQUIDAD DE GÉNERO",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE LA MUJER Y LA EQUIDAD DE GÉNERO",
+   "vigente": 11051387000,
+   "ejecutado": 6177944000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

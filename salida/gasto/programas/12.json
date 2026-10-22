@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,426 +18,219 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "12",
- "nombre": "MINISTERIO DE OBRAS PÚBLICAS",
+ "nombre": "Ministerio de Obras Públicas",
  "programas": [
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "4",
-   "nombre_programa": "DIRECCIÓN DE VIALIDAD",
-   "vigente": 4138451595000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE CONCESIONES DE OBRAS PÚBLICAS",
-   "programa": "1",
-   "nombre_programa": "DIRECCIÓN GENERAL DE CONCESIONES DE OBRAS PÚBLICAS",
-   "vigente": 2816987313000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "14",
-   "nombre_programa": "INFRAESTRUCTURA PARA EL BUEN VIVIR",
-   "vigente": 1010915192000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "12",
-   "nombre_programa": "SUBDIRECCIÓN DE SERVICIOS SANITARIOS RURALES",
-   "vigente": 636777142000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "3",
-   "nombre_programa": "DIRECCIÓN DE OBRAS HIDRÁULICAS",
-   "vigente": 483568658000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "34",
-   "nombre_programa": "CONSERVACIONES POR ADMINISTRACIÓN DIRECTA - DIRECCIÓN DE VIALIDAD",
-   "vigente": 334768789000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "7",
-   "nombre_programa": "DIRECCIÓN DE AEROPUERTOS",
-   "vigente": 297916490000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "6",
-   "nombre_programa": "DIRECCIÓN DE OBRAS PORTUARIAS",
-   "vigente": 251346961000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "2",
-   "nombre_programa": "DIRECCIÓN DE ARQUITECTURA",
-   "vigente": 84005807000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
-   "programa": "1",
-   "nombre_programa": "DIRECCIÓN GENERAL DE AGUAS",
-   "vigente": 57129290000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "22",
-   "nombre_programa": "MANDATOS MINISTERIO DE LAS CULTURAS, LAS ARTES Y EL PATRIMONIO",
-   "vigente": 50504700000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
-   "programa": "1",
-   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
-   "vigente": 40167671000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "9",
-   "nombre_programa": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "vigente": 39770907000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "26",
-   "nombre_programa": "CONSTRUCCIÓN, REPARACIÓN Y MANTENCIÓN DE TRANSBORDADORES",
-   "vigente": 24890857000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "24",
-   "nombre_programa": "ADMINISTRACIÓN DE INFRAESTRUCTURAS - DIRECCIÓN DE VIALIDAD",
-   "vigente": 20868077000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "7",
-   "nombre_capitulo": "SUPERINTENDENCIA DE SERVICIOS SANITARIOS",
-   "programa": "1",
-   "nombre_programa": "SUPERINTENDENCIA DE SERVICIOS SANITARIOS",
-   "vigente": 20323961000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "23",
-   "nombre_programa": "ADMINISTRACIÓN DE INFRAESTRUCTURAS - DIRECCIÓN DE OBRAS HIDRÁULICAS",
-   "vigente": 13275554000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "13",
-   "nombre_programa": "DIRECCIÓN DE CONTABILIDAD Y FINANZAS",
-   "vigente": 12543112000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "11",
-   "nombre_programa": "DIRECCIÓN DE PLANEAMIENTO",
-   "vigente": 11238858000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
-   "programa": "3",
-   "nombre_programa": "GESTIÓN HÍDRICA Y ORGANIZACIONES",
-   "vigente": 9943150000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
-   "programa": "4",
-   "nombre_programa": "PROGRAMA TRAMITACIÓN DE EXPEDIENTES",
-   "vigente": 6223909000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
-   "programa": "2",
-   "nombre_programa": "ADMINISTRACIÓN DE INFRAESTRUCTURAS - DIRECCIÓN GENERAL DE AGUAS",
-   "vigente": 5718976000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "37",
-   "nombre_programa": "CONSERVACIONES POR ADMINISTRACIÓN DIRECTA - DIRECCIÓN DE AEROPUERTOS",
-   "vigente": 5629268000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "10",
-   "nombre_programa": "FISCALÍA MINISTERIO DE OBRAS PÚBLICAS",
-   "vigente": 4802707000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE HIDRÁULICA",
-   "programa": "1",
-   "nombre_programa": "INSTITUTO NACIONAL DE HIDRÁULICA",
-   "vigente": 4045489000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "64",
-   "nombre_programa": "DIRECCIÓN DE VIALIDAD - FET - INCENDIOS",
-   "vigente": 2000000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
-   "programa": "01",
-   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
-   "vigente": 0,
-   "ejecutado": 20190064000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "02",
-   "nombre_programa": "DIRECCIÓN DE ARQUITECTURA",
-   "vigente": 0,
-   "ejecutado": 33261186000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "03",
-   "nombre_programa": "DIRECCIÓN DE OBRAS HIDRÁULICAS",
-   "vigente": 0,
-   "ejecutado": 125920892000
-  },
   {
    "capitulo": "02",
    "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
    "programa": "04",
    "nombre_programa": "DIRECCIÓN DE VIALIDAD",
-   "vigente": 0,
-   "ejecutado": 1314977135000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "06",
-   "nombre_programa": "DIRECCIÓN DE OBRAS PORTUARIAS",
-   "vigente": 0,
-   "ejecutado": 88843105000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "07",
-   "nombre_programa": "DIRECCIÓN DE AEROPUERTOS",
-   "vigente": 0,
-   "ejecutado": 86242886000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "09",
-   "nombre_programa": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "vigente": 0,
-   "ejecutado": 6305464000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "10",
-   "nombre_programa": "FISCALÍA MINISTERIO DE OBRAS PÚBLICAS",
-   "vigente": 0,
-   "ejecutado": 3216327000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "11",
-   "nombre_programa": "DIRECCIÓN DE PLANEAMIENTO",
-   "vigente": 0,
-   "ejecutado": 5833148000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "12",
-   "nombre_programa": "SUBDIRECCIÓN DE SERVICIOS SANITARIOS RURALES",
-   "vigente": 0,
-   "ejecutado": 176018965000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "13",
-   "nombre_programa": "DIRECCIÓN DE CONTABILIDAD Y FINANZAS",
-   "vigente": 0,
-   "ejecutado": 8171365000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "14",
-   "nombre_programa": "INFRAESTRUCTURA PARA EL BUEN VIVIR",
-   "vigente": 0,
-   "ejecutado": 131478782000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "22",
-   "nombre_programa": "MANDATOS MINISTERIO DE LAS CULTURAS, LAS ARTES Y EL PATRIMONIO",
-   "vigente": 0,
-   "ejecutado": 6094793000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "23",
-   "nombre_programa": "ADMINISTRACIÓN DE INFRAESTRUCTURAS - DIRECCIÓN DE OBRAS HIDRÁULICAS",
-   "vigente": 0,
-   "ejecutado": 8001231000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "24",
-   "nombre_programa": "ADMINISTRACIÓN DE INFRAESTRUCTURAS - DIRECCIÓN DE VIALIDAD",
-   "vigente": 0,
-   "ejecutado": 9061367000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "26",
-   "nombre_programa": "CONSTRUCCIÓN, REPARACIÓN Y MANTENCIÓN DE TRANSBORDADORES",
-   "vigente": 0,
-   "ejecutado": 5746615000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "34",
-   "nombre_programa": "CONSERVACIONES POR ADMINISTRACIÓN DIRECTA - DIRECCIÓN DE VIALIDAD",
-   "vigente": 0,
-   "ejecutado": 109297725000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "37",
-   "nombre_programa": "CONSERVACIONES POR ADMINISTRACIÓN DIRECTA - DIRECCIÓN DE AEROPUERTOS",
-   "vigente": 0,
-   "ejecutado": 1783936000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
-   "programa": "64",
-   "nombre_programa": "DIRECCIÓN DE VIALIDAD - FET - INCENDIOS",
-   "vigente": 0,
-   "ejecutado": 97000
+   "vigente": 1898603946000,
+   "ejecutado": 1093432711000
   },
   {
    "capitulo": "03",
    "nombre_capitulo": "DIRECCIÓN GENERAL DE CONCESIONES DE OBRAS PÚBLICAS",
    "programa": "01",
    "nombre_programa": "DIRECCIÓN GENERAL DE CONCESIONES DE OBRAS PÚBLICAS",
-   "vigente": 0,
-   "ejecutado": 662402213000
+   "vigente": 1000379361000,
+   "ejecutado": 528126428000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "14",
+   "nombre_programa": "INFRAESTRUCTURA PARA EL BUEN VIVIR",
+   "vigente": 337150898000,
+   "ejecutado": 131422004000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "12",
+   "nombre_programa": "SUBDIRECCIÓN DE SERVICIOS SANITARIOS RURALES",
+   "vigente": 300540191000,
+   "ejecutado": 152302918000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "03",
+   "nombre_programa": "DIRECCIÓN DE OBRAS HIDRÁULICAS",
+   "vigente": 232430918000,
+   "ejecutado": 102652703000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "34",
+   "nombre_programa": "CONSERVACIONES POR ADMINISTRACIÓN DIRECTA - DIRECCIÓN DE VIALIDAD",
+   "vigente": 204071762000,
+   "ejecutado": 101209552000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "07",
+   "nombre_programa": "DIRECCIÓN DE AEROPUERTOS",
+   "vigente": 133844008000,
+   "ejecutado": 66586136000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "06",
+   "nombre_programa": "DIRECCIÓN DE OBRAS PORTUARIAS",
+   "vigente": 123522140000,
+   "ejecutado": 81919580000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "02",
+   "nombre_programa": "DIRECCIÓN DE ARQUITECTURA",
+   "vigente": 46222542000,
+   "ejecutado": 29655581000
   },
   {
    "capitulo": "04",
    "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
    "programa": "01",
    "nombre_programa": "DIRECCIÓN GENERAL DE AGUAS",
-   "vigente": 0,
-   "ejecutado": 18492165000
+   "vigente": 35390308000,
+   "ejecutado": 15910316000
   },
   {
-   "capitulo": "04",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
-   "programa": "02",
-   "nombre_programa": "ADMINISTRACIÓN DE INFRAESTRUCTURAS - DIRECCIÓN GENERAL DE AGUAS",
-   "vigente": 0,
-   "ejecutado": 1731506000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
-   "programa": "03",
-   "nombre_programa": "GESTIÓN HÍDRICA Y ORGANIZACIONES",
-   "vigente": 0,
-   "ejecutado": 2603091000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
-   "programa": "04",
-   "nombre_programa": "PROGRAMA TRAMITACIÓN DE EXPEDIENTES",
-   "vigente": 0,
-   "ejecutado": 3918153000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE HIDRÁULICA",
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
    "programa": "01",
-   "nombre_programa": "INSTITUTO NACIONAL DE HIDRÁULICA",
-   "vigente": 0,
-   "ejecutado": 1632599000
+   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "vigente": 33599180000,
+   "ejecutado": 19245037000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "22",
+   "nombre_programa": "MANDATOS MINISTERIO DE LAS CULTURAS, LAS ARTES Y EL PATRIMONIO",
+   "vigente": 23252200000,
+   "ejecutado": 6094793000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "09",
+   "nombre_programa": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "vigente": 19056207000,
+   "ejecutado": 6286378000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "26",
+   "nombre_programa": "CONSTRUCCIÓN, REPARACIÓN Y MANTENCIÓN DE TRANSBORDADORES",
+   "vigente": 17275534000,
+   "ejecutado": 5456544000
   },
   {
    "capitulo": "07",
    "nombre_capitulo": "SUPERINTENDENCIA DE SERVICIOS SANITARIOS",
    "programa": "01",
    "nombre_programa": "SUPERINTENDENCIA DE SERVICIOS SANITARIOS",
-   "vigente": 0,
-   "ejecutado": 12383641000
+   "vigente": 17249820000,
+   "ejecutado": 11199142000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "24",
+   "nombre_programa": "ADMINISTRACIÓN DE INFRAESTRUCTURAS - DIRECCIÓN DE VIALIDAD",
+   "vigente": 15877835000,
+   "ejecutado": 8292670000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "13",
+   "nombre_programa": "DIRECCIÓN DE CONTABILIDAD Y FINANZAS",
+   "vigente": 11806482000,
+   "ejecutado": 8056374000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "23",
+   "nombre_programa": "ADMINISTRACIÓN DE INFRAESTRUCTURAS - DIRECCIÓN DE OBRAS HIDRÁULICAS",
+   "vigente": 10954062000,
+   "ejecutado": 6840485000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "11",
+   "nombre_programa": "DIRECCIÓN DE PLANEAMIENTO",
+   "vigente": 8374551000,
+   "ejecutado": 5181987000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
+   "programa": "04",
+   "nombre_programa": "PROGRAMA TRAMITACIÓN DE EXPEDIENTES",
+   "vigente": 6038309000,
+   "ejecutado": 3918153000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
+   "programa": "03",
+   "nombre_programa": "GESTIÓN HÍDRICA Y ORGANIZACIONES",
+   "vigente": 5578882000,
+   "ejecutado": 2081025000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "10",
+   "nombre_programa": "FISCALÍA MINISTERIO DE OBRAS PÚBLICAS",
+   "vigente": 4603165000,
+   "ejecutado": 3214807000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE AGUAS",
+   "programa": "02",
+   "nombre_programa": "ADMINISTRACIÓN DE INFRAESTRUCTURAS - DIRECCIÓN GENERAL DE AGUAS",
+   "vigente": 3358194000,
+   "ejecutado": 1431934000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "37",
+   "nombre_programa": "CONSERVACIONES POR ADMINISTRACIÓN DIRECTA - DIRECCIÓN DE AEROPUERTOS",
+   "vigente": 3307160000,
+   "ejecutado": 1642962000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "INSTITUTO NACIONAL DE HIDRÁULICA",
+   "programa": "01",
+   "nombre_programa": "INSTITUTO NACIONAL DE HIDRÁULICA",
+   "vigente": 3169676000,
+   "ejecutado": 1500501000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "DIRECCIÓN GENERAL DE OBRAS PÚBLICAS",
+   "programa": "64",
+   "nombre_programa": "DIRECCIÓN DE VIALIDAD - FET - INCENDIOS",
+   "vigente": 1000000,
+   "ejecutado": 97000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

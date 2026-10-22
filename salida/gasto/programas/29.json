@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,186 +18,99 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "29",
- "nombre": "MINISTERIO DE LAS CULTURAS, LAS ARTES Y EL PATRIMONIO",
+ "nombre": "Ministerio de las Culturas, las Artes y El Patrimonio",
  "programas": [
   {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-   "programa": "2",
-   "nombre_programa": "FONDOS CULTURALES Y ARTÍSTICOS",
-   "vigente": 251833307000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
+   "capitulo": "03",
    "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "1",
+   "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "vigente": 228928715000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-   "vigente": 221970651000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-   "programa": "4",
-   "nombre_programa": "FOMENTO A LAS ORGANIZACIONES Y AL DESARROLLO CULTURAL",
-   "vigente": 116025977000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-   "programa": "3",
-   "nombre_programa": "INSTITUCIONES COLABORADORAS EN EL ACCESO AL ARTE Y LA CULTURA",
-   "vigente": 111718835000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "2",
-   "nombre_programa": "RED DE BIBLIOTECAS PÚBLICAS",
-   "vigente": 55087088000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "5",
-   "nombre_programa": "FOMENTO DEL ACCESO AL PATRIMONIO Y APOYO A ORGANIZACIONES PATRIMONIALES",
-   "vigente": 51183574000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-   "programa": "5",
-   "nombre_programa": "FORMACIÓN ARTÍSTICA TEMPRANA",
-   "vigente": 44299233000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "4",
-   "nombre_programa": "MUSEOS NACIONALES Y REGIONALES",
-   "vigente": 26886890000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "3",
-   "nombre_programa": "CONSEJO DE MONUMENTOS NACIONALES",
-   "vigente": 10964400000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "SUBSECRETARÍA DEL PATRIMONIO CULTURAL",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DEL PATRIMONIO CULTURAL",
-   "vigente": 3808892000,
-   "ejecutado": 0
+   "vigente": 109886544000,
+   "ejecutado": 55374132000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-   "vigente": 0,
-   "ejecutado": 67436663000
+   "vigente": 103621715000,
+   "ejecutado": 65441253000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
    "programa": "02",
    "nombre_programa": "FONDOS CULTURALES Y ARTÍSTICOS",
-   "vigente": 0,
-   "ejecutado": 68019184000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
-   "programa": "03",
-   "nombre_programa": "INSTITUCIONES COLABORADORAS EN EL ACCESO AL ARTE Y LA CULTURA",
-   "vigente": 0,
-   "ejecutado": 34900413000
+   "vigente": 83801879000,
+   "ejecutado": 62129084000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
    "programa": "04",
    "nombre_programa": "FOMENTO A LAS ORGANIZACIONES Y AL DESARROLLO CULTURAL",
-   "vigente": 0,
-   "ejecutado": 28821186000
+   "vigente": 37739655000,
+   "ejecutado": 23455614000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
+   "programa": "03",
+   "nombre_programa": "INSTITUCIONES COLABORADORAS EN EL ACCESO AL ARTE Y LA CULTURA",
+   "vigente": 37339612000,
+   "ejecutado": 34900413000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+   "programa": "02",
+   "nombre_programa": "RED DE BIBLIOTECAS PÚBLICAS",
+   "vigente": 32088187000,
+   "ejecutado": 18221583000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+   "programa": "04",
+   "nombre_programa": "MUSEOS NACIONALES Y REGIONALES",
+   "vigente": 20921060000,
+   "ejecutado": 11967816000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+   "programa": "05",
+   "nombre_programa": "FOMENTO DEL ACCESO AL PATRIMONIO Y APOYO A ORGANIZACIONES PATRIMONIALES",
+   "vigente": 16830978000,
+   "ejecutado": 10053534000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
    "programa": "05",
    "nombre_programa": "FORMACIÓN ARTÍSTICA TEMPRANA",
-   "vigente": 0,
-   "ejecutado": 10708450000
+   "vigente": 14478789000,
+   "ejecutado": 9898350000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+   "programa": "03",
+   "nombre_programa": "CONSEJO DE MONUMENTOS NACIONALES",
+   "vigente": 10515436000,
+   "ejecutado": 6351149000
   },
   {
    "capitulo": "02",
    "nombre_capitulo": "SUBSECRETARÍA DEL PATRIMONIO CULTURAL",
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DEL PATRIMONIO CULTURAL",
-   "vigente": 0,
-   "ejecutado": 2127117000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "01",
-   "nombre_programa": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "vigente": 0,
-   "ejecutado": 59962569000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "02",
-   "nombre_programa": "RED DE BIBLIOTECAS PÚBLICAS",
-   "vigente": 0,
-   "ejecutado": 23441395000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "03",
-   "nombre_programa": "CONSEJO DE MONUMENTOS NACIONALES",
-   "vigente": 0,
-   "ejecutado": 6575617000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "04",
-   "nombre_programa": "MUSEOS NACIONALES Y REGIONALES",
-   "vigente": 0,
-   "ejecutado": 12917908000
-  },
-  {
-   "capitulo": "03",
-   "nombre_capitulo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-   "programa": "05",
-   "nombre_programa": "FOMENTO DEL ACCESO AL PATRIMONIO Y APOYO A ORGANIZACIONES PATRIMONIALES",
-   "vigente": 0,
-   "ejecutado": 10398855000
+   "vigente": 3231008000,
+   "ejecutado": 1897315000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

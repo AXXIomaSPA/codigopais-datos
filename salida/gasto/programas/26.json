@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,122 +18,67 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "26",
- "nombre": "MINISTERIO DEL DEPORTE",
+ "nombre": "Ministerio del Deporte",
  "programas": [
   {
-   "capitulo": "2",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
-   "programa": "1",
-   "nombre_programa": "INSTITUTO NACIONAL DE DEPORTES",
-   "vigente": 270376477000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
-   "programa": "6",
-   "nombre_programa": "MEGA EVENTOS DEPORTIVOS",
-   "vigente": 44223233000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
-   "programa": "3",
-   "nombre_programa": "GESTIÓN DE RECINTOS DEPORTIVOS",
-   "vigente": 32291943000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
-   "programa": "2",
-   "nombre_programa": "FONDO NACIONAL PARA EL FOMENTO DEL DEPORTE",
-   "vigente": 11272891000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DEL DEPORTE",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DEL DEPORTE",
-   "vigente": 11199102000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
-   "programa": "5",
-   "nombre_programa": "CRECER EN MOVIMIENTO",
-   "vigente": 9796544000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
-   "programa": "4",
-   "nombre_programa": "DEPORTE Y PARTICIPACIÓN SOCIAL",
-   "vigente": 8787168000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DEL DEPORTE",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DEL DEPORTE",
-   "vigente": 0,
-   "ejecutado": 5682911000
-  },
-  {
    "capitulo": "02",
    "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
    "programa": "01",
    "nombre_programa": "INSTITUTO NACIONAL DE DEPORTES",
-   "vigente": 0,
-   "ejecutado": 69770499000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
-   "programa": "02",
-   "nombre_programa": "FONDO NACIONAL PARA EL FOMENTO DEL DEPORTE",
-   "vigente": 0,
-   "ejecutado": 3281874000
+   "vigente": 112910185000,
+   "ejecutado": 63774138000
   },
   {
    "capitulo": "02",
    "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
    "programa": "03",
    "nombre_programa": "GESTIÓN DE RECINTOS DEPORTIVOS",
-   "vigente": 0,
-   "ejecutado": 19526501000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
-   "programa": "04",
-   "nombre_programa": "DEPORTE Y PARTICIPACIÓN SOCIAL",
-   "vigente": 0,
-   "ejecutado": 5620670000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
-   "programa": "05",
-   "nombre_programa": "CRECER EN MOVIMIENTO",
-   "vigente": 0,
-   "ejecutado": 5834252000
+   "vigente": 28006953000,
+   "ejecutado": 17865809000
   },
   {
    "capitulo": "02",
    "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
    "programa": "06",
    "nombre_programa": "MEGA EVENTOS DEPORTIVOS",
-   "vigente": 0,
-   "ejecutado": 6854310000
+   "vigente": 14107073000,
+   "ejecutado": 4136539000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
+   "programa": "05",
+   "nombre_programa": "CRECER EN MOVIMIENTO",
+   "vigente": 9504850000,
+   "ejecutado": 5736423000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DEL DEPORTE",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DEL DEPORTE",
+   "vigente": 9008932000,
+   "ejecutado": 5547789000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
+   "programa": "04",
+   "nombre_programa": "DEPORTE Y PARTICIPACIÓN SOCIAL",
+   "vigente": 8221533000,
+   "ejecutado": 5450882000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "INSTITUTO NACIONAL DE DEPORTES",
+   "programa": "02",
+   "nombre_programa": "FONDO NACIONAL PARA EL FOMENTO DEL DEPORTE",
+   "vigente": 3809055000,
+   "ejecutado": 3215356000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

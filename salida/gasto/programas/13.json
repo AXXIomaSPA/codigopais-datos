@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,330 +18,163 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "partida": "13",
- "nombre": "MINISTERIO DE AGRICULTURA",
+ "nombre": "Ministerio de Agricultura",
  "programas": [
-  {
-   "capitulo": "3",
-   "nombre_capitulo": "INSTITUTO DE DESARROLLO AGROPECUARIO",
-   "programa": "1",
-   "nombre_programa": "INSTITUTO DE DESARROLLO AGROPECUARIO",
-   "vigente": 1051954601000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "6",
-   "nombre_capitulo": "COMISIÓN NACIONAL DE RIEGO",
-   "programa": "1",
-   "nombre_programa": "COMISIÓN NACIONAL DE RIEGO",
-   "vigente": 341288983000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "3",
-   "nombre_programa": "PROGRAMA DE MANEJO DEL FUEGO",
-   "vigente": 189431331000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE AGRICULTURA",
-   "programa": "2",
-   "nombre_programa": "INVESTIGACIÓN E INNOVACIÓN TECNOLÓGICA SILVOAGROPECUARIA",
-   "vigente": 125369684000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "1",
-   "nombre_programa": "SERVICIO AGRÍCOLA Y GANADERO",
-   "vigente": 76016251000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE AGRICULTURA",
-   "programa": "1",
-   "nombre_programa": "SUBSECRETARÍA DE AGRICULTURA",
-   "vigente": 71210700000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "4",
-   "nombre_programa": "INSPECCIONES EXPORTACIONES SILVOAGROPECUARIAS",
-   "vigente": 54816825000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "5",
-   "nombre_programa": "GESTIÓN FORESTAL",
-   "vigente": 46452231000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "6",
-   "nombre_programa": "VIGILANCIA Y CONTROL SILVOAGRÍCOLA",
-   "vigente": 41630813000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "7",
-   "nombre_programa": "PROGRAMA DE CONTROLES FRONTERIZOS",
-   "vigente": 36296872000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "1",
-   "nombre_programa": "CORPORACIÓN NACIONAL FORESTAL",
-   "vigente": 32300378000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "4",
-   "nombre_programa": "ÁREAS SILVESTRES PROTEGIDAS",
-   "vigente": 26234964000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "5",
-   "nombre_programa": "PROGRAMA DESARROLLO GANADERO",
-   "vigente": 19453017000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "7",
-   "nombre_programa": "PROGRAMAS DE EMPLEOS",
-   "vigente": 19175402000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "1",
-   "nombre_capitulo": "SUBSECRETARÍA DE AGRICULTURA",
-   "programa": "4",
-   "nombre_programa": "INNOVACIÓN Y FORTALECIMIENTO INSTITUCIONAL PARA LA SEGURIDAD ALIMENTARIA",
-   "vigente": 18096863000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "8",
-   "nombre_programa": "PROGRAMA GESTIÓN Y CONSERVACIÓN DE RECURSOS NATURALES RENOVABLES",
-   "vigente": 12902294000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "2",
-   "nombre_capitulo": "OFICINA DE ESTUDIOS Y POLÍTICAS AGRARIAS",
-   "programa": "1",
-   "nombre_programa": "OFICINA DE ESTUDIOS Y POLÍTICAS AGRARIAS",
-   "vigente": 12696777000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "4",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "9",
-   "nombre_programa": "LABORATORIOS",
-   "vigente": 12439649000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "6",
-   "nombre_programa": "PROGRAMA  DE ARBORIZACIÓN URBANA",
-   "vigente": 3388152000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "53",
-   "nombre_programa": "PLAN DE RECONSTRUCCIÓN INCENDIOS",
-   "vigente": 97430000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "5",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "60",
-   "nombre_programa": "CORPORACIÓN NACIONAL FORESTAL - FET - INCENDIOS",
-   "vigente": 37824000,
-   "ejecutado": 0
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE AGRICULTURA",
-   "programa": "01",
-   "nombre_programa": "SUBSECRETARÍA DE AGRICULTURA",
-   "vigente": 0,
-   "ejecutado": 17084299000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE AGRICULTURA",
-   "programa": "02",
-   "nombre_programa": "INVESTIGACIÓN E INNOVACIÓN TECNOLÓGICA SILVOAGROPECUARIA",
-   "vigente": 0,
-   "ejecutado": 27068807000
-  },
-  {
-   "capitulo": "01",
-   "nombre_capitulo": "SUBSECRETARÍA DE AGRICULTURA",
-   "programa": "04",
-   "nombre_programa": "INNOVACIÓN Y FORTALECIMIENTO INSTITUCIONAL PARA LA SEGURIDAD ALIMENTARIA",
-   "vigente": 0,
-   "ejecutado": 2677370000
-  },
-  {
-   "capitulo": "02",
-   "nombre_capitulo": "OFICINA DE ESTUDIOS Y POLÍTICAS AGRARIAS",
-   "programa": "01",
-   "nombre_programa": "OFICINA DE ESTUDIOS Y POLÍTICAS AGRARIAS",
-   "vigente": 0,
-   "ejecutado": 5358424000
-  },
   {
    "capitulo": "03",
    "nombre_capitulo": "INSTITUTO DE DESARROLLO AGROPECUARIO",
    "programa": "01",
    "nombre_programa": "INSTITUTO DE DESARROLLO AGROPECUARIO",
-   "vigente": 0,
-   "ejecutado": 273491927000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "01",
-   "nombre_programa": "SERVICIO AGRÍCOLA Y GANADERO",
-   "vigente": 0,
-   "ejecutado": 52898287000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "04",
-   "nombre_programa": "INSPECCIONES EXPORTACIONES SILVOAGROPECUARIAS",
-   "vigente": 0,
-   "ejecutado": 21950710000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "05",
-   "nombre_programa": "PROGRAMA DESARROLLO GANADERO",
-   "vigente": 0,
-   "ejecutado": 11916984000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "06",
-   "nombre_programa": "VIGILANCIA Y CONTROL SILVOAGRÍCOLA",
-   "vigente": 0,
-   "ejecutado": 28007948000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "07",
-   "nombre_programa": "PROGRAMA DE CONTROLES FRONTERIZOS",
-   "vigente": 0,
-   "ejecutado": 17710381000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "08",
-   "nombre_programa": "PROGRAMA GESTIÓN Y CONSERVACIÓN DE RECURSOS NATURALES RENOVABLES",
-   "vigente": 0,
-   "ejecutado": 5585602000
-  },
-  {
-   "capitulo": "04",
-   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
-   "programa": "09",
-   "nombre_programa": "LABORATORIOS",
-   "vigente": 0,
-   "ejecutado": 5936608000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "01",
-   "nombre_programa": "CORPORACIÓN NACIONAL FORESTAL",
-   "vigente": 0,
-   "ejecutado": 18457149000
+   "vigente": 265758194000,
+   "ejecutado": 177799561000
   },
   {
    "capitulo": "05",
    "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
    "programa": "03",
    "nombre_programa": "PROGRAMA DE MANEJO DEL FUEGO",
-   "vigente": 0,
-   "ejecutado": 125654554000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "04",
-   "nombre_programa": "ÁREAS SILVESTRES PROTEGIDAS",
-   "vigente": 0,
-   "ejecutado": 14495373000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "05",
-   "nombre_programa": "GESTIÓN FORESTAL",
-   "vigente": 0,
-   "ejecutado": 21155929000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "06",
-   "nombre_programa": "PROGRAMA  DE ARBORIZACIÓN URBANA",
-   "vigente": 0,
-   "ejecutado": 1712656000
-  },
-  {
-   "capitulo": "05",
-   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
-   "programa": "07",
-   "nombre_programa": "PROGRAMAS DE EMPLEOS",
-   "vigente": 0,
-   "ejecutado": 8098141000
+   "vigente": 152472503000,
+   "ejecutado": 107272195000
   },
   {
    "capitulo": "06",
    "nombre_capitulo": "COMISIÓN NACIONAL DE RIEGO",
    "programa": "01",
    "nombre_programa": "COMISIÓN NACIONAL DE RIEGO",
-   "vigente": 0,
-   "ejecutado": 78148825000
+   "vigente": 121115022000,
+   "ejecutado": 76846066000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
+   "programa": "01",
+   "nombre_programa": "SERVICIO AGRÍCOLA Y GANADERO",
+   "vigente": 50125023000,
+   "ejecutado": 47773683000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE AGRICULTURA",
+   "programa": "02",
+   "nombre_programa": "INVESTIGACIÓN E INNOVACIÓN TECNOLÓGICA SILVOAGROPECUARIA",
+   "vigente": 41352236000,
+   "ejecutado": 26417191000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
+   "programa": "04",
+   "nombre_programa": "INSPECCIONES EXPORTACIONES SILVOAGROPECUARIAS",
+   "vigente": 41283875000,
+   "ejecutado": 20758856000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
+   "programa": "06",
+   "nombre_programa": "VIGILANCIA Y CONTROL SILVOAGRÍCOLA",
+   "vigente": 40275731000,
+   "ejecutado": 27351536000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
+   "programa": "05",
+   "nombre_programa": "GESTIÓN FORESTAL",
+   "vigente": 32579402000,
+   "ejecutado": 17520807000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
+   "programa": "07",
+   "nombre_programa": "PROGRAMA DE CONTROLES FRONTERIZOS",
+   "vigente": 30724866000,
+   "ejecutado": 16975058000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE AGRICULTURA",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE AGRICULTURA",
+   "vigente": 30414804000,
+   "ejecutado": 16817507000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
+   "programa": "01",
+   "nombre_programa": "CORPORACIÓN NACIONAL FORESTAL",
+   "vigente": 27623336000,
+   "ejecutado": 16987049000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
+   "programa": "04",
+   "nombre_programa": "ÁREAS SILVESTRES PROTEGIDAS",
+   "vigente": 23038518000,
+   "ejecutado": 13359011000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
+   "programa": "05",
+   "nombre_programa": "PROGRAMA DESARROLLO GANADERO",
+   "vigente": 18589667000,
+   "ejecutado": 11615678000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
+   "programa": "07",
+   "nombre_programa": "PROGRAMAS DE EMPLEOS",
+   "vigente": 17078511000,
+   "ejecutado": 8098141000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
+   "programa": "09",
+   "nombre_programa": "LABORATORIOS",
+   "vigente": 9835438000,
+   "ejecutado": 5626215000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "SERVICIO AGRÍCOLA Y GANADERO",
+   "programa": "08",
+   "nombre_programa": "PROGRAMA GESTIÓN Y CONSERVACIÓN DE RECURSOS NATURALES RENOVABLES",
+   "vigente": 9704658000,
+   "ejecutado": 5429322000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "OFICINA DE ESTUDIOS Y POLÍTICAS AGRARIAS",
+   "programa": "01",
+   "nombre_programa": "OFICINA DE ESTUDIOS Y POLÍTICAS AGRARIAS",
+   "vigente": 8387428000,
+   "ejecutado": 5209746000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SUBSECRETARÍA DE AGRICULTURA",
+   "programa": "04",
+   "nombre_programa": "INNOVACIÓN Y FORTALECIMIENTO INSTITUCIONAL PARA LA SEGURIDAD ALIMENTARIA",
+   "vigente": 5029073000,
+   "ejecutado": 450084000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "CORPORACIÓN NACIONAL FORESTAL",
+   "programa": "06",
+   "nombre_programa": "PROGRAMA  DE ARBORIZACIÓN URBANA",
+   "vigente": 2874184000,
+   "ejecutado": 1457902000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

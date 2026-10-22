@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-22T15:55:24Z",
+ "generado": "2026-10-22T16:01:20Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -18,28 +18,34 @@
    "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
    "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
   },
-  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
+  "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
  },
  "controles": [
   {
-   "control": "total vigente plausible (entre $50 y $300 billones)",
+   "control": "gasto vigente plausible (entre $50 y $300 billones)",
    "ok": true,
-   "valor": 96463567289000
+   "valor": 84135286582000
   },
   {
-   "control": "ejecución entre 0 % y 110 % del vigente",
+   "control": "gasto ejecutado entre 0 % y 105 % del vigente",
    "ok": true,
-   "valor": 72.89888081613469
+   "valor": 64.03
   },
   {
    "control": "ministerios suman entre 1,00 y 1,08 veces el total consolidado",
    "ok": true,
-   "valor": 1.0355
+   "valor": 1.0407
   },
   {
    "control": "serie mensual: acumulado del último mes = total ejecutado",
    "ok": true,
-   "valor": 70320860949000
+   "valor": 53873317900000
+  },
+  {
+   "control": "ningún ministerio supera el 120 % de ejecución",
+   "ok": true,
+   "valor": []
   },
   {
    "control": "hay al menos 20 ministerios",
@@ -49,7 +55,17 @@
   {
    "control": "hay al menos 300 programas",
    "ok": true,
-   "valor": 934
+   "valor": 473
+  },
+  {
+   "control": "al menos 90 % de los programas con presupuesto tiene ejecución (códigos coinciden)",
+   "ok": true,
+   "valor": 0.968
+  },
+  {
+   "control": "programas de cada ministerio suman entre 0,98 y 3,5 veces su total (Salud ronda 2,5 por FONASA)",
+   "ok": true,
+   "valor": []
   }
  ]
 }
