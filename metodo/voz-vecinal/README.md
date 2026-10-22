@@ -1,6 +1,6 @@
 # Voz vecinal · método público
 
-Versión 1.0 · 22-10-2026
+Versión 1.1 · 22-10-2026
 
 **Voz vecinal** es la sección de Código País donde las personas aportan, de forma voluntaria, lo que viven en su comuna: opiniones, experiencias, reclamos, propuestas y fotos. Esos aportes se ponen frente al gasto público.
 
@@ -48,6 +48,17 @@ Un aporte puede ser de uno o varios tipos: opinión, experiencia, reclamo, parti
 - **Preguntas del tema:** cada tema agrega una o dos propias. Por ejemplo, en salud: cuánto esperaste por la atención y si conseguiste lo que necesitabas.
 
 Casi todo se responde con opciones cerradas, para que los aportes se puedan **comparar entre comunas y en el tiempo**. El relato libre es opcional.
+
+## La voz: cómo le hablamos a la gente
+
+Levantamos datos, pero la persona tiene que sentir que está en un lugar donde la escuchan, no llenando un formulario.
+
+- **Primero el para qué:** antes de preguntar, explicamos que lo que cuente se suma a lo que viven otros vecinos y se pone al lado del gasto real del municipio, con cifras de fuentes oficiales.
+- **Segunda persona y lenguaje de barrio:** "¿Cuánto tuviste que esperar?" en vez de "Tiempo de espera"; "¿Qué nota le pondrías? Del 1 al 7" en vez de una escala técnica.
+- **Respuestas que no culpan:** "Todavía no", "No sabía dónde avisar", "Sentí que no serviría", "Prefiero no decir".
+- **Todo es opcional menos lo mínimo:** se responde solo lo que se quiere, y se dice así.
+- **Explicar cada cuidado:** si tachamos datos o no publicamos algo, decimos por qué ("para cuidarte", "para cuidar este espacio").
+- **Agradecer y cerrar el ciclo:** al terminar, contamos qué pasará con su aporte y cómo seguirlo.
 
 ## La tabla de equivalencias
 

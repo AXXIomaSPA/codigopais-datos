@@ -1,5 +1,5 @@
 {
- "version": "1.0 · 22-10-2026",
+ "version": "1.1 · 22-10-2026",
  "reglas_generales": [
   "Orden de aplicación para cada ítem de compra: 1) unidad compradora, 2) palabras en el nombre, 3) categoría del producto, 4) funcionamiento general. En cada paso se recorren los temas en el orden de la lista y gana el primero que calza; así ningún peso se cuenta dos veces.",
   "La regla por unidad compradora (salud, educación) tiene prioridad sobre la categoría del producto: un camión aljibe comprado por el Departamento de Salud cuenta como salud.",

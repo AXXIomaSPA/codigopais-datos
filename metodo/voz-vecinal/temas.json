@@ -1,5 +1,5 @@
 {
- "version": "1.0 · 22-10-2026",
+ "version": "1.1 · 22-10-2026",
  "responsables": {
   "municipio": "Municipalidad",
   "servicio_salud": "Servicio de Salud (hospitales, Ministerio de Salud)",
@@ -16,32 +16,32 @@
  "tipos_de_aporte": [
   {
    "id": "opinion",
-   "nombre": "Opinión",
-   "para": "Valorar un servicio o una decisión",
+   "nombre": "Mi opinión",
+   "para": "Decirnos qué te parece un servicio o una decisión",
    "icono": "estrella"
   },
   {
    "id": "experiencia",
-   "nombre": "Experiencia",
-   "para": "Contar lo que te pasó",
+   "nombre": "Algo que viví",
+   "para": "Contarnos lo que te pasó",
    "icono": "conversacion"
   },
   {
    "id": "reclamo",
-   "nombre": "Reclamo",
-   "para": "Un problema concreto que debería resolverse",
+   "nombre": "Un problema",
+   "para": "Avisarnos de algo que debería solucionarse",
    "icono": "alerta"
   },
   {
    "id": "participacion",
-   "nombre": "Participación",
-   "para": "Proponer una idea o sumarte a una iniciativa",
+   "nombre": "Una idea",
+   "para": "Proponer algo o sumarte a una iniciativa del barrio",
    "icono": "manos"
   },
   {
    "id": "fotos",
    "nombre": "Fotos",
-   "para": "Mostrar la evidencia",
+   "para": "Mostrarnos cómo se ve",
    "icono": "camara"
   }
  ],

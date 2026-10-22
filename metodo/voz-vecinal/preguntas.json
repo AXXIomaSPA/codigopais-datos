@@ -1,37 +1,39 @@
 {
- "version": "1.0 · 22-10-2026",
+ "version": "1.1 · 22-10-2026",
  "comunes_por_tipo": {
   "opinion": [
    {
     "id": "valoracion",
-    "pregunta": "¿Cómo lo evalúas?",
+    "pregunta": "¿Qué nota le pondrías? Del 1 al 7, como en el colegio",
     "tipo": "escala",
     "opciones": [
-     "Muy mal",
-     "Mal",
-     "Regular",
-     "Bien",
-     "Muy bien"
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
     ]
    },
    {
     "id": "motivo",
-    "pregunta": "¿Qué pesa más en tu evaluación?",
+    "pregunta": "¿Qué es lo que más te importó?",
     "tipo": "una",
     "opciones": [
      "La calidad",
-     "El tiempo de espera",
-     "El trato",
-     "No llega a todos",
+     "Lo que hay que esperar",
+     "Cómo te trataron",
+     "Que no llega a todos",
      "Lo que cuesta",
-     "La información que dan"
+     "La información que te dieron"
     ]
    }
   ],
   "experiencia": [
    {
     "id": "cuando",
-    "pregunta": "¿Cuándo pasó?",
+    "pregunta": "¿Cuándo te pasó?",
     "tipo": "una",
     "opciones": [
      "Esta semana",
@@ -42,7 +44,7 @@
    },
    {
     "id": "alcance",
-    "pregunta": "¿A quién afecta?",
+    "pregunta": "¿A quiénes les afecta?",
     "tipo": "una",
     "opciones": [
      "A mí",
@@ -56,7 +58,7 @@
   "reclamo": [
    {
     "id": "desde",
-    "pregunta": "¿Desde cuándo pasa?",
+    "pregunta": "¿Hace cuánto tiempo pasa?",
     "tipo": "una",
     "opciones": [
      "Menos de 1 mes",
@@ -67,7 +69,7 @@
    },
    {
     "id": "alcance",
-    "pregunta": "¿A quién afecta?",
+    "pregunta": "¿A quiénes les afecta?",
     "tipo": "una",
     "opciones": [
      "A mí",
@@ -79,18 +81,18 @@
    },
    {
     "id": "reportado",
-    "pregunta": "¿Lo reportaste?",
+    "pregunta": "¿Alcanzaste a avisarle a alguien?",
     "tipo": "una",
     "opciones": [
      "Sí, al municipio",
      "Sí, a otra institución",
-     "No",
-     "No sé dónde hacerlo"
+     "Todavía no",
+     "No sabía dónde avisar"
     ]
    },
    {
     "id": "respuesta",
-    "pregunta": "¿Te respondieron?",
+    "pregunta": "¿Y te respondieron?",
     "tipo": "una",
     "si": {
      "reportado": [
@@ -99,28 +101,28 @@
      ]
     },
     "opciones": [
-     "Sí, y se resolvió",
-     "Sí, pero no se resolvió",
-     "No me respondieron",
-     "Todavía espero"
+     "Sí, y se solucionó",
+     "Sí, pero sigue igual",
+     "No me han respondido",
+     "Estoy esperando"
     ]
    }
   ],
   "participacion": [
    {
     "id": "propuesta",
-    "pregunta": "¿Qué tipo de propuesta es?",
+    "pregunta": "¿Cómo es tu idea?",
     "tipo": "una",
     "opciones": [
      "Mejorar algo que ya existe",
-     "Algo nuevo",
-     "Una actividad comunitaria",
-     "Sumarme a una iniciativa"
+     "Algo nuevo para el barrio",
+     "Una actividad entre vecinos",
+     "Sumarme a algo que ya existe"
     ]
    },
    {
     "id": "beneficia",
-    "pregunta": "¿A quién beneficia?",
+    "pregunta": "¿A quiénes ayudaría?",
     "tipo": "varias",
     "opciones": [
      "Niños y jóvenes",
@@ -133,25 +135,25 @@
    },
    {
     "id": "sumarse",
-    "pregunta": "¿Te sumarías a impulsarla?",
+    "pregunta": "¿Te gustaría ayudar a que se haga?",
     "tipo": "una",
     "opciones": [
-     "Sí",
+     "Sí, cuenten conmigo",
      "Tal vez",
-     "No"
+     "Por ahora no"
     ]
    }
   ],
   "fotos": [
    {
     "id": "muestra",
-    "pregunta": "¿Qué muestra la foto?",
+    "pregunta": "¿Qué nos muestra tu foto?",
     "tipo": "una",
     "opciones": [
      "El problema",
      "El lugar",
      "Un documento",
-     "Una mejora que ya se hizo"
+     "Algo que ya mejoró"
     ]
    },
    {
@@ -171,7 +173,7 @@
   "salud": [
    {
     "id": "espera",
-    "pregunta": "¿Cuánto esperaste por la atención?",
+    "pregunta": "¿Cuánto tuviste que esperar?",
     "tipo": "una",
     "opciones": [
      "El mismo día",
@@ -179,24 +181,24 @@
      "De 1 a 4 semanas",
      "De 1 a 3 meses",
      "Más de 3 meses",
-     "No lo conseguí"
+     "Todavía no me atienden"
     ]
    },
    {
     "id": "obtuvo",
-    "pregunta": "¿Conseguiste lo que necesitabas?",
+    "pregunta": "¿Pudiste resolver lo que necesitabas?",
     "tipo": "una",
     "opciones": [
      "Sí",
      "En parte",
-     "No"
+     "Todavía no"
     ]
    }
   ],
   "educacion": [
    {
     "id": "nivel",
-    "pregunta": "¿Qué nivel?",
+    "pregunta": "¿De qué nivel nos hablas?",
     "tipo": "una",
     "opciones": [
      "Sala cuna o jardín",
@@ -207,7 +209,7 @@
    },
    {
     "id": "problema",
-    "pregunta": "¿Cuál es el problema principal?",
+    "pregunta": "¿Qué es lo que más te preocupa?",
     "tipo": "una",
     "opciones": [
      "Faltan profesores o clases",
@@ -222,7 +224,7 @@
   "basura": [
    {
     "id": "frecuencia",
-    "pregunta": "¿Cada cuánto pasa el camión?",
+    "pregunta": "¿Cada cuánto pasa el camión por tu calle?",
     "tipo": "una",
     "opciones": [
      "Más de 2 veces por semana",
@@ -236,11 +238,11 @@
   "calles": [
    {
     "id": "riesgo",
-    "pregunta": "¿Hay riesgo de accidente?",
+    "pregunta": "¿Crees que alguien podría accidentarse?",
     "tipo": "una",
     "opciones": [
-     "Sí, alto",
-     "Algo",
+     "Sí, es peligroso",
+     "Un poco",
      "No"
     ]
    }
@@ -248,21 +250,21 @@
   "areas_verdes": [
    {
     "id": "estado",
-    "pregunta": "¿En qué estado está?",
+    "pregunta": "¿Cómo la ves hoy?",
     "tipo": "una",
     "opciones": [
-     "Bueno",
-     "Regular",
-     "Malo",
-     "Abandonado",
-     "No existe"
+     "Bien cuidada",
+     "Más o menos",
+     "Descuidada",
+     "Abandonada",
+     "No hay"
     ]
    }
   ],
   "alumbrado": [
    {
     "id": "luminarias",
-    "pregunta": "¿Cuántas luminarias?",
+    "pregunta": "¿Cuántas luces faltan?",
     "tipo": "una",
     "opciones": [
      "Una",
@@ -274,7 +276,7 @@
   "seguridad": [
    {
     "id": "horario",
-    "pregunta": "¿Cuándo se siente más inseguro?",
+    "pregunta": "¿En qué momento te sientes menos seguro?",
     "tipo": "una",
     "opciones": [
      "De día",
@@ -285,32 +287,32 @@
    },
    {
     "id": "denuncia",
-    "pregunta": "¿Hiciste una denuncia?",
+    "pregunta": "¿Pudiste hacer una denuncia?",
     "tipo": "una",
     "opciones": [
      "Sí",
      "No",
-     "No sirve de nada"
+     "Sentí que no serviría"
     ]
    }
   ],
   "agua": [
    {
     "id": "acceso",
-    "pregunta": "¿Cómo es tu acceso al agua?",
+    "pregunta": "¿Cómo te llega el agua?",
     "tipo": "una",
     "opciones": [
      "Normal",
-     "Con cortes frecuentes",
+     "Con cortes seguidos",
      "Solo por camión aljibe",
-     "Sin agua"
+     "No me llega"
     ]
    }
   ],
   "transporte": [
    {
     "id": "espera_micro",
-    "pregunta": "¿Cuánto esperas normalmente?",
+    "pregunta": "¿Cuánto esperas normalmente la micro?",
     "tipo": "una",
     "opciones": [
      "Menos de 10 minutos",
@@ -323,13 +325,13 @@
   "vivienda": [
    {
     "id": "situacion",
-    "pregunta": "¿Cuál es tu situación?",
+    "pregunta": "¿Cómo vives hoy?",
     "tipo": "una",
     "opciones": [
-     "Propietario",
-     "Arrendatario",
-     "Allegado",
-     "En campamento",
+     "En casa propia",
+     "Arrendando",
+     "De allegado",
+     "En un campamento",
      "Prefiero no decir"
     ]
    }
@@ -337,21 +339,21 @@
   "apoyo_social": [
    {
     "id": "atencion_social",
-    "pregunta": "¿Cómo fue la atención del municipio?",
+    "pregunta": "¿Cómo te atendieron en el municipio?",
     "tipo": "una",
     "opciones": [
-     "Buena",
-     "Regular",
-     "Mala",
+     "Bien",
+     "Más o menos",
+     "Mal",
      "No me atendieron",
-     "No he ido"
+     "Todavía no he ido"
     ]
    }
   ],
   "cultura_deporte": [
    {
     "id": "uso",
-    "pregunta": "¿Lo usas o lo usarías?",
+    "pregunta": "¿Lo usas o te gustaría usarlo?",
     "tipo": "una",
     "opciones": [
      "Lo uso",
@@ -363,20 +365,20 @@
   "animales": [
    {
     "id": "cantidad",
-    "pregunta": "¿Cuántos animales hay en el sector?",
+    "pregunta": "¿Cuántos animales ves en tu sector?",
     "tipo": "una",
     "opciones": [
      "Pocos",
      "Varios",
      "Muchos",
-     "Jaurías"
+     "Andan en jaurías"
     ]
    }
   ],
   "municipio": [
    {
     "id": "canal",
-    "pregunta": "¿Por dónde lo hiciste?",
+    "pregunta": "¿Cómo hiciste el trámite?",
     "tipo": "una",
     "opciones": [
      "En persona",

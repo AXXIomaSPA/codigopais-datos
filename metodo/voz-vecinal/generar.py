@@ -12,7 +12,7 @@ import json
 import os
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-VERSION = "1.0 · 22-10-2026"
+VERSION = "1.1 · 22-10-2026"
 
 # ---------------------------------------------------------------- responsables
 # Quién decide y paga cada cosa. Solo se compara con el gasto municipal lo que es responsabilidad del municipio.
@@ -32,46 +32,46 @@ RESPONSABLES = {
 
 # ---------------------------------------------------------------- tipos de aporte y preguntas comunes
 TIPOS = [
-    {"id": "opinion", "nombre": "Opinión", "para": "Valorar un servicio o una decisión", "icono": "estrella"},
-    {"id": "experiencia", "nombre": "Experiencia", "para": "Contar lo que te pasó", "icono": "conversacion"},
-    {"id": "reclamo", "nombre": "Reclamo", "para": "Un problema concreto que debería resolverse", "icono": "alerta"},
-    {"id": "participacion", "nombre": "Participación", "para": "Proponer una idea o sumarte a una iniciativa", "icono": "manos"},
-    {"id": "fotos", "nombre": "Fotos", "para": "Mostrar la evidencia", "icono": "camara"},
+    {"id": "opinion", "nombre": "Mi opinión", "para": "Decirnos qué te parece un servicio o una decisión", "icono": "estrella"},
+    {"id": "experiencia", "nombre": "Algo que viví", "para": "Contarnos lo que te pasó", "icono": "conversacion"},
+    {"id": "reclamo", "nombre": "Un problema", "para": "Avisarnos de algo que debería solucionarse", "icono": "alerta"},
+    {"id": "participacion", "nombre": "Una idea", "para": "Proponer algo o sumarte a una iniciativa del barrio", "icono": "manos"},
+    {"id": "fotos", "nombre": "Fotos", "para": "Mostrarnos cómo se ve", "icono": "camara"},
 ]
 
 ALCANCE = ["A mí", "A mi familia", "A mi cuadra o edificio", "A mi barrio", "A toda la comuna"]
 
 COMUNES = {
     "opinion": [
-        {"id": "valoracion", "pregunta": "¿Cómo lo evalúas?", "tipo": "escala",
-         "opciones": ["Muy mal", "Mal", "Regular", "Bien", "Muy bien"]},
-        {"id": "motivo", "pregunta": "¿Qué pesa más en tu evaluación?", "tipo": "una",
-         "opciones": ["La calidad", "El tiempo de espera", "El trato", "No llega a todos", "Lo que cuesta", "La información que dan"]},
+        {"id": "valoracion", "pregunta": "¿Qué nota le pondrías? Del 1 al 7, como en el colegio", "tipo": "escala",
+         "opciones": ["1", "2", "3", "4", "5", "6", "7"]},
+        {"id": "motivo", "pregunta": "¿Qué es lo que más te importó?", "tipo": "una",
+         "opciones": ["La calidad", "Lo que hay que esperar", "Cómo te trataron", "Que no llega a todos", "Lo que cuesta", "La información que te dieron"]},
     ],
     "experiencia": [
-        {"id": "cuando", "pregunta": "¿Cuándo pasó?", "tipo": "una",
+        {"id": "cuando", "pregunta": "¿Cuándo te pasó?", "tipo": "una",
          "opciones": ["Esta semana", "Este mes", "En los últimos 6 meses", "Hace más de 6 meses"]},
-        {"id": "alcance", "pregunta": "¿A quién afecta?", "tipo": "una", "opciones": ALCANCE},
+        {"id": "alcance", "pregunta": "¿A quiénes les afecta?", "tipo": "una", "opciones": ALCANCE},
     ],
     "reclamo": [
-        {"id": "desde", "pregunta": "¿Desde cuándo pasa?", "tipo": "una",
+        {"id": "desde", "pregunta": "¿Hace cuánto tiempo pasa?", "tipo": "una",
          "opciones": ["Menos de 1 mes", "De 1 a 6 meses", "De 6 a 12 meses", "Más de 1 año"]},
-        {"id": "alcance", "pregunta": "¿A quién afecta?", "tipo": "una", "opciones": ALCANCE},
-        {"id": "reportado", "pregunta": "¿Lo reportaste?", "tipo": "una",
-         "opciones": ["Sí, al municipio", "Sí, a otra institución", "No", "No sé dónde hacerlo"]},
-        {"id": "respuesta", "pregunta": "¿Te respondieron?", "tipo": "una", "si": {"reportado": ["Sí, al municipio", "Sí, a otra institución"]},
-         "opciones": ["Sí, y se resolvió", "Sí, pero no se resolvió", "No me respondieron", "Todavía espero"]},
+        {"id": "alcance", "pregunta": "¿A quiénes les afecta?", "tipo": "una", "opciones": ALCANCE},
+        {"id": "reportado", "pregunta": "¿Alcanzaste a avisarle a alguien?", "tipo": "una",
+         "opciones": ["Sí, al municipio", "Sí, a otra institución", "Todavía no", "No sabía dónde avisar"]},
+        {"id": "respuesta", "pregunta": "¿Y te respondieron?", "tipo": "una", "si": {"reportado": ["Sí, al municipio", "Sí, a otra institución"]},
+         "opciones": ["Sí, y se solucionó", "Sí, pero sigue igual", "No me han respondido", "Estoy esperando"]},
     ],
     "participacion": [
-        {"id": "propuesta", "pregunta": "¿Qué tipo de propuesta es?", "tipo": "una",
-         "opciones": ["Mejorar algo que ya existe", "Algo nuevo", "Una actividad comunitaria", "Sumarme a una iniciativa"]},
-        {"id": "beneficia", "pregunta": "¿A quién beneficia?", "tipo": "varias",
+        {"id": "propuesta", "pregunta": "¿Cómo es tu idea?", "tipo": "una",
+         "opciones": ["Mejorar algo que ya existe", "Algo nuevo para el barrio", "Una actividad entre vecinos", "Sumarme a algo que ya existe"]},
+        {"id": "beneficia", "pregunta": "¿A quiénes ayudaría?", "tipo": "varias",
          "opciones": ["Niños y jóvenes", "Personas mayores", "Personas con discapacidad", "Familias", "Todo el barrio", "Toda la comuna"]},
-        {"id": "sumarse", "pregunta": "¿Te sumarías a impulsarla?", "tipo": "una", "opciones": ["Sí", "Tal vez", "No"]},
+        {"id": "sumarse", "pregunta": "¿Te gustaría ayudar a que se haga?", "tipo": "una", "opciones": ["Sí, cuenten conmigo", "Tal vez", "Por ahora no"]},
     ],
     "fotos": [
-        {"id": "muestra", "pregunta": "¿Qué muestra la foto?", "tipo": "una",
-         "opciones": ["El problema", "El lugar", "Un documento", "Una mejora que ya se hizo"]},
+        {"id": "muestra", "pregunta": "¿Qué nos muestra tu foto?", "tipo": "una",
+         "opciones": ["El problema", "El lugar", "Un documento", "Algo que ya mejoró"]},
         {"id": "cuando_foto", "pregunta": "¿Cuándo la tomaste?", "tipo": "una",
          "opciones": ["Hoy", "Esta semana", "Este mes", "Antes"]},
     ],
@@ -79,7 +79,7 @@ COMUNES = {
 
 # ---------------------------------------------------------------- temas
 # Cada subtema dice quién es responsable. Las preguntas propias se suman a las comunes del tipo elegido.
-ESPERA = ["El mismo día", "Menos de 1 semana", "De 1 a 4 semanas", "De 1 a 3 meses", "Más de 3 meses", "No lo conseguí"]
+ESPERA = ["El mismo día", "Menos de 1 semana", "De 1 a 4 semanas", "De 1 a 3 meses", "Más de 3 meses", "Todavía no me atienden"]
 
 TEMAS = [
     {"id": "salud", "nombre": "Salud", "icono": "corazon", "describe": "Consultorios, urgencias, horas, remedios y postas",
@@ -92,8 +92,8 @@ TEMAS = [
          {"id": "especialista", "nombre": "Especialista o lista de espera", "responsable": "servicio_salud"},
      ],
      "preguntas": [
-         {"id": "espera", "pregunta": "¿Cuánto esperaste por la atención?", "tipo": "una", "opciones": ESPERA},
-         {"id": "obtuvo", "pregunta": "¿Conseguiste lo que necesitabas?", "tipo": "una", "opciones": ["Sí", "En parte", "No"]},
+         {"id": "espera", "pregunta": "¿Cuánto tuviste que esperar?", "tipo": "una", "opciones": ESPERA},
+         {"id": "obtuvo", "pregunta": "¿Pudiste resolver lo que necesitabas?", "tipo": "una", "opciones": ["Sí", "En parte", "Todavía no"]},
      ]},
     {"id": "educacion", "nombre": "Educación", "icono": "libro", "describe": "Escuelas, liceos, jardines y transporte escolar",
      "subtemas": [
@@ -104,8 +104,8 @@ TEMAS = [
          {"id": "infraestructura", "nombre": "Estado del edificio", "responsable": "compartido"},
      ],
      "preguntas": [
-         {"id": "nivel", "pregunta": "¿Qué nivel?", "tipo": "una", "opciones": ["Sala cuna o jardín", "Básica", "Media", "Adultos"]},
-         {"id": "problema", "pregunta": "¿Cuál es el problema principal?", "tipo": "una",
+         {"id": "nivel", "pregunta": "¿De qué nivel nos hablas?", "tipo": "una", "opciones": ["Sala cuna o jardín", "Básica", "Media", "Adultos"]},
+         {"id": "problema", "pregunta": "¿Qué es lo que más te preocupa?", "tipo": "una",
           "opciones": ["Faltan profesores o clases", "Infraestructura", "Convivencia o seguridad", "Transporte", "Alimentación", "Otro"]},
      ]},
     {"id": "basura", "nombre": "Basura y reciclaje", "icono": "basurero", "describe": "Retiro de basura, microbasurales y reciclaje",
@@ -116,7 +116,7 @@ TEMAS = [
          {"id": "reciclaje", "nombre": "Reciclaje", "responsable": "municipio"},
      ],
      "preguntas": [
-         {"id": "frecuencia", "pregunta": "¿Cada cuánto pasa el camión?", "tipo": "una",
+         {"id": "frecuencia", "pregunta": "¿Cada cuánto pasa el camión por tu calle?", "tipo": "una",
           "opciones": ["Más de 2 veces por semana", "1 o 2 veces por semana", "Menos de 1 vez por semana", "No pasa", "No sé"]},
      ]},
     {"id": "calles", "nombre": "Calles y veredas", "icono": "camino", "describe": "Baches, veredas, pavimentos y señalización",
@@ -129,7 +129,7 @@ TEMAS = [
          {"id": "carretera", "nombre": "Carretera o ruta", "responsable": "mop"},
      ],
      "preguntas": [
-         {"id": "riesgo", "pregunta": "¿Hay riesgo de accidente?", "tipo": "una", "opciones": ["Sí, alto", "Algo", "No"]},
+         {"id": "riesgo", "pregunta": "¿Crees que alguien podría accidentarse?", "tipo": "una", "opciones": ["Sí, es peligroso", "Un poco", "No"]},
      ]},
     {"id": "areas_verdes", "nombre": "Plazas y áreas verdes", "icono": "arbol", "describe": "Plazas, parques, árboles y juegos",
      "subtemas": [
@@ -139,7 +139,7 @@ TEMAS = [
          {"id": "faltan", "nombre": "Faltan áreas verdes", "responsable": "compartido"},
      ],
      "preguntas": [
-         {"id": "estado", "pregunta": "¿En qué estado está?", "tipo": "una", "opciones": ["Bueno", "Regular", "Malo", "Abandonado", "No existe"]},
+         {"id": "estado", "pregunta": "¿Cómo la ves hoy?", "tipo": "una", "opciones": ["Bien cuidada", "Más o menos", "Descuidada", "Abandonada", "No hay"]},
      ]},
     {"id": "alumbrado", "nombre": "Alumbrado", "icono": "ampolleta", "describe": "Luminarias apagadas o calles oscuras",
      "subtemas": [
@@ -148,7 +148,7 @@ TEMAS = [
          {"id": "cortes", "nombre": "Cortes de luz en las casas", "responsable": "electrica"},
      ],
      "preguntas": [
-         {"id": "luminarias", "pregunta": "¿Cuántas luminarias?", "tipo": "una", "opciones": ["Una", "Varias en la cuadra", "Todo el sector"]},
+         {"id": "luminarias", "pregunta": "¿Cuántas luces faltan?", "tipo": "una", "opciones": ["Una", "Varias en la cuadra", "Todo el sector"]},
      ]},
     {"id": "seguridad", "nombre": "Seguridad", "icono": "escudo", "describe": "Prevención, patrullaje, cámaras y espacios inseguros",
      "subtemas": [
@@ -158,8 +158,8 @@ TEMAS = [
          {"id": "convivencia", "nombre": "Ruidos y convivencia vecinal", "responsable": "municipio"},
      ],
      "preguntas": [
-         {"id": "horario", "pregunta": "¿Cuándo se siente más inseguro?", "tipo": "una", "opciones": ["De día", "Al atardecer", "De noche", "Siempre"]},
-         {"id": "denuncia", "pregunta": "¿Hiciste una denuncia?", "tipo": "una", "opciones": ["Sí", "No", "No sirve de nada"]},
+         {"id": "horario", "pregunta": "¿En qué momento te sientes menos seguro?", "tipo": "una", "opciones": ["De día", "Al atardecer", "De noche", "Siempre"]},
+         {"id": "denuncia", "pregunta": "¿Pudiste hacer una denuncia?", "tipo": "una", "opciones": ["Sí", "No", "Sentí que no serviría"]},
      ]},
     {"id": "agua", "nombre": "Agua", "icono": "gota", "describe": "Agua potable, alcantarillado, camiones aljibe y lluvias",
      "subtemas": [
@@ -169,8 +169,8 @@ TEMAS = [
          {"id": "aguas_lluvia", "nombre": "Inundaciones y aguas lluvia", "responsable": "compartido"},
      ],
      "preguntas": [
-         {"id": "acceso", "pregunta": "¿Cómo es tu acceso al agua?", "tipo": "una",
-          "opciones": ["Normal", "Con cortes frecuentes", "Solo por camión aljibe", "Sin agua"]},
+         {"id": "acceso", "pregunta": "¿Cómo te llega el agua?", "tipo": "una",
+          "opciones": ["Normal", "Con cortes seguidos", "Solo por camión aljibe", "No me llega"]},
      ]},
     {"id": "transporte", "nombre": "Transporte", "icono": "bus", "describe": "Micros, paraderos, ciclovías y conectividad",
      "subtemas": [
@@ -180,7 +180,7 @@ TEMAS = [
          {"id": "ciclovias", "nombre": "Ciclovías", "responsable": "compartido"},
      ],
      "preguntas": [
-         {"id": "espera_micro", "pregunta": "¿Cuánto esperas normalmente?", "tipo": "una",
+         {"id": "espera_micro", "pregunta": "¿Cuánto esperas normalmente la micro?", "tipo": "una",
           "opciones": ["Menos de 10 minutos", "De 10 a 30 minutos", "Más de 30 minutos", "No hay transporte"]},
      ]},
     {"id": "vivienda", "nombre": "Vivienda y barrio", "icono": "casa", "describe": "Campamentos, subsidios, condominios sociales",
@@ -191,8 +191,8 @@ TEMAS = [
          {"id": "emergencia", "nombre": "Vivienda dañada por emergencia", "responsable": "compartido"},
      ],
      "preguntas": [
-         {"id": "situacion", "pregunta": "¿Cuál es tu situación?", "tipo": "una",
-          "opciones": ["Propietario", "Arrendatario", "Allegado", "En campamento", "Prefiero no decir"]},
+         {"id": "situacion", "pregunta": "¿Cómo vives hoy?", "tipo": "una",
+          "opciones": ["En casa propia", "Arrendando", "De allegado", "En un campamento", "Prefiero no decir"]},
      ]},
     {"id": "apoyo_social", "nombre": "Apoyo social", "icono": "mano", "describe": "Personas mayores, discapacidad, cuidados y ayudas",
      "subtemas": [
@@ -202,8 +202,8 @@ TEMAS = [
          {"id": "ayudas", "nombre": "Ayudas sociales y Registro Social de Hogares", "responsable": "municipio"},
      ],
      "preguntas": [
-         {"id": "atencion_social", "pregunta": "¿Cómo fue la atención del municipio?", "tipo": "una",
-          "opciones": ["Buena", "Regular", "Mala", "No me atendieron", "No he ido"]},
+         {"id": "atencion_social", "pregunta": "¿Cómo te atendieron en el municipio?", "tipo": "una",
+          "opciones": ["Bien", "Más o menos", "Mal", "No me atendieron", "Todavía no he ido"]},
      ]},
     {"id": "cultura_deporte", "nombre": "Cultura y deporte", "icono": "balon", "describe": "Canchas, talleres, bibliotecas y eventos",
      "subtemas": [
@@ -213,7 +213,7 @@ TEMAS = [
          {"id": "eventos", "nombre": "Eventos y fiestas", "responsable": "municipio"},
      ],
      "preguntas": [
-         {"id": "uso", "pregunta": "¿Lo usas o lo usarías?", "tipo": "una", "opciones": ["Lo uso", "Lo usaría si mejora", "No lo usaría"]},
+         {"id": "uso", "pregunta": "¿Lo usas o te gustaría usarlo?", "tipo": "una", "opciones": ["Lo uso", "Lo usaría si mejora", "No lo usaría"]},
      ]},
     {"id": "animales", "nombre": "Animales", "icono": "huella", "describe": "Perros callejeros, esterilización y tenencia responsable",
      "subtemas": [
@@ -222,7 +222,7 @@ TEMAS = [
          {"id": "plagas", "nombre": "Plagas (ratones, palomas)", "responsable": "municipio"},
      ],
      "preguntas": [
-         {"id": "cantidad", "pregunta": "¿Cuántos animales hay en el sector?", "tipo": "una", "opciones": ["Pocos", "Varios", "Muchos", "Jaurías"]},
+         {"id": "cantidad", "pregunta": "¿Cuántos animales ves en tu sector?", "tipo": "una", "opciones": ["Pocos", "Varios", "Muchos", "Andan en jaurías"]},
      ]},
     {"id": "municipio", "nombre": "Atención municipal", "icono": "edificio", "describe": "Trámites, atención, transparencia y participación",
      "subtemas": [
@@ -232,7 +232,7 @@ TEMAS = [
          {"id": "participacion_vecinal", "nombre": "Participación y juntas de vecinos", "responsable": "municipio"},
      ],
      "preguntas": [
-         {"id": "canal", "pregunta": "¿Por dónde lo hiciste?", "tipo": "una", "opciones": ["En persona", "Por teléfono", "Por internet", "No pude hacerlo"]},
+         {"id": "canal", "pregunta": "¿Cómo hiciste el trámite?", "tipo": "una", "opciones": ["En persona", "Por teléfono", "Por internet", "No pude hacerlo"]},
      ]},
     {"id": "otro", "nombre": "Otro tema", "icono": "mas", "describe": "Algo que no está en la lista",
      "subtemas": [{"id": "otro", "nombre": "Otro", "responsable": "compartido"}],
