@@ -21,6 +21,7 @@ Solo biblioteca estándar. Requiere datos/poblacion_comunas_censo2024.csv (lo ge
 from __future__ import annotations
 
 import csv
+from concurrent.futures import ThreadPoolExecutor
 import json
 import os
 import statistics
@@ -41,7 +42,7 @@ TRAMOS = [(0, 10000, "Menos de 10 mil habitantes"), (10000, 30000, "Entre 10 y 3
           (250000, 10 ** 9, "Más de 250 mil")]
 
 
-def http_json(url: str, intentos: int = 3, timeout: int = 180):
+def http_json(url: str, intentos: int = 3, timeout: int = 300):
     ultimo = None
     for i in range(intentos):
         try:
@@ -120,24 +121,36 @@ def main() -> int:
             d["anios"][a] = {"monto": int(round(float(f["sum"]))), "facturas": int(f["count"])}
         print(f"  {a}: {len(filas)} comunas")
 
-    # 2) Rubros (último año completo y año en curso)
+    # 2) Rubros (último año completo y año en curso). Se pide región por región: la consulta de todo el país
+    #    puede tardar más de 3 minutos cuando el servidor no la tiene en caché; por región tarda 20-30 s.
     rubros = {base: {}, actual: {}}
+    regiones = sorted({d["region"] for d in comunas.values()})
     for a in (base, actual):
-        for f in consulta(**{"group-by": ["region", "comuna", "rubro_economico"], "where": {"periodo": a}}):
+        filas = []
+        for r in regiones:
+            filas += consulta(**{"group-by": ["region", "comuna", "rubro_economico"], "where": {"periodo": a, "region": r}})
+        print(f"  rubros {a}: {len(filas)} filas")
+        for f in filas:
             c = str(f["comuna"]).zfill(5)
             rubros[a].setdefault(c, []).append({"rubro": capitalizar(f["rubro_economico"]),
                                                 "monto": int(round(float(f["sum"]))), "facturas": int(f["count"])})
 
     # 3) Sitio web y portal de transparencia de cada municipio
-    for c, d in comunas.items():
+    def info_municipio(d):
         try:
-            info = http_json(f"{API}municipalities-page-info/{d['region']}/{c}", intentos=2, timeout=30)
+            info = http_json(f"{API}municipalities-page-info/{d['region']}/{d['codigo']}", intentos=2, timeout=30)
             d["sitio"], d["transparencia"] = info.get("url"), info.get("url_transparencia")
         except Exception:  # noqa: BLE001
             d["sitio"] = d["transparencia"] = None
 
+    with ThreadPoolExecutor(max_workers=8) as ex:  # 345 consultas cortas: en paralelo
+        list(ex.map(info_municipio, comunas.values()))
+    print(f"  sitios web: {sum(1 for d in comunas.values() if d.get('sitio'))} de {len(comunas)}")
+
     # 4) Deflactores a pesos del año base
-    defl = {a: deflactor(a, base) for a in periodos if a <= base}
+    anios_defl = [a for a in periodos if a <= base]
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        defl = dict(zip(anios_defl, ex.map(lambda a: deflactor(a, base), anios_defl)))
     print("Deflactores:", {a: (round(v, 4) if v else None) for a, v in defl.items()})
 
     # 5) Indicadores por comuna
