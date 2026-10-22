@@ -27,6 +27,7 @@ Próximamente: gasto municipal (Presupuesto Abierto), compras públicas (ChileCo
 - Por **ministerio** se usa el archivo de partida, ya consolidado dentro de cada ministerio. Para el Tesoro Público se excluyen los subtítulos 27 y 28 (aporte fiscal).
 - Cada ministerio incluye lo que transfiere a otros organismos. Por eso la suma de ministerios supera en torno a 3 % el total del país.
 - El detalle por **programa** es bruto: incluye transferencias entre servicios del mismo ministerio.
+- El archivo de la ley por programa trae subtotales por subtítulo y además el desglose por ítem. Se usa solo el nivel más agregado, para no sumar dos veces. Sus códigos vienen sin cero inicial ("2" en vez de "02") y se normalizan.
 - Las comparaciones con el año anterior usan el mismo mes y se expresan en pesos de hoy, con la variación oficial del IPC en 12 meses.
 
 ## Controles de calidad
@@ -37,7 +38,9 @@ Antes de publicar, la cocina verifica que:
 - la ejecución no supere el presupuesto;
 - la suma de ministerios esté entre 1,00 y 1,08 veces el total consolidado;
 - la serie mensual cuadre;
-- haya al menos 20 ministerios y 300 programas.
+- haya al menos 20 ministerios y 300 programas;
+- al menos el 90 % de los programas con presupuesto tenga ejecución (los códigos de ley y ejecución coinciden);
+- los programas de cada ministerio sumen entre 0,98 y 3,5 veces su total. Salud ronda 2,5, porque FONASA transfiere a los Servicios de Salud.
 
 **Si un control falla, no se publica nada** y se mantiene el último dato bueno. El resultado de cada control queda en `salida/gasto/control.json`.
 

@@ -168,6 +168,53 @@ def gasto_ministerio(f):
     return pesos_gasto(f) and not (f["Partida"] == "50" and f["Subtítulo"] in ("27", "28"))
 
 
+def cod(x: str) -> str:
+    """'2' → '02'. Los archivos de ley y de ejecución escriben los códigos distinto."""
+    x = (x or "").strip()
+    return x.zfill(2) if x.isdigit() else x
+
+
+def campo(f: dict, *nombres: str) -> str:
+    for n in nombres:
+        if n in f:
+            return f[n]
+    return ""
+
+
+def programas(lg: list[dict], c_lgv: str, eg: list[dict], c_egp: str) -> dict:
+    """
+    Ley y ejecución por programa (montos brutos), en pesos.
+    - Ley: el archivo trae subtotales (fila del subtítulo con 'Item' vacío) y además el desglose por ítem
+      y asignación. Se usa el nivel más agregado disponible de cada subtítulo, para no sumar dos veces.
+    - Ejecución: el archivo viene solo al nivel de detalle (no trae subtotales).
+    """
+    prog: dict = {}
+
+    def ficha(f):
+        key = (cod(f["Partida"]), cod(f["Capítulo"]), cod(f["Programa"]))
+        return key, prog.setdefault(key, {"capitulo": key[1], "nombre_capitulo": f["Nombre Capítulo"],
+                                          "programa": key[2], "nombre_programa": f["Nombre Programa"],
+                                          "vigente": 0, "ejecutado": 0})
+
+    grupos: dict = {}
+    for f in lg:
+        if f["Moneda"] != "PESOS" or not es_gasto(cod(f["Subtítulo"])):
+            continue
+        k = (cod(f["Partida"]), cod(f["Capítulo"]), cod(f["Programa"]), cod(f["Subtítulo"]))
+        nivel = 0 if not campo(f, "Item", "Ítem") else (1 if not campo(f, "Asignación") else 2)
+        grupos.setdefault(k, {}).setdefault(nivel, []).append(f)
+    for k, niveles in grupos.items():
+        filas = niveles[min(niveles)]
+        _, d = ficha(filas[0])
+        d["vigente"] += sum(miles_a_pesos(f[c_lgv]) for f in filas)
+    for f in eg:
+        if f["Moneda"] != "PESOS" or not es_gasto(cod(f["Subtítulo"])):
+            continue
+        _, d = ficha(f)
+        d["ejecutado"] += miles_a_pesos(f[c_egp])
+    return prog
+
+
 def main() -> int:
     ahora = datetime.now(timezone.utc)
     idx = indexar(catalogo())
@@ -253,18 +300,17 @@ def main() -> int:
     ministerios.sort(key=lambda x: -x["vigente"])
 
     # --- programas por partida (bruto)
-    c_egp, c_lgv = col(eg[0], "Ejecución a"), col(lg[0], "Monto Ley Vigente")
-    prog = {}
-    for f, c, k in [(f, c_lgv, "vigente") for f in lg] + [(f, c_egp, "ejecutado") for f in eg]:
-        if not pesos_gasto(f):
-            continue
-        key = (f["Partida"], f["Capítulo"], f["Programa"])
-        d = prog.setdefault(key, {"capitulo": f["Capítulo"], "nombre_capitulo": f["Nombre Capítulo"],
-                                  "programa": f["Programa"], "nombre_programa": f["Nombre Programa"],
-                                  "vigente": 0, "ejecutado": 0})
-        d[k] += miles_a_pesos(f[c])
+    prog = programas(lg, col(lg[0], "Monto Ley Vigente"), eg, col(eg[0], "Ejecución a"))
 
     # ---------------------------------------------------------------- controles
+    con_ley = [p for p in prog.values() if p["vigente"] > 0]
+    coinciden = sum(1 for p in con_ley if p["ejecutado"] != 0) / len(con_ley) if con_ley else 0
+    fuera_rango = []
+    for m in ministerios:
+        bruto = sum(p["vigente"] for k, p in prog.items() if k[0] == cod(m["codigo"]))
+        tope = m["vigente"] + (sumar(lp, c_lpv, lambda f, c=m["codigo"]: pesos_gasto(f) and f["Partida"] == c and f["Subtítulo"] in ("27", "28")) if m["codigo"] == "50" else 0)
+        if tope and not (0.98 <= bruto / tope <= 3.5):
+            fuera_rango.append(f'{m["codigo"]}:{bruto / tope:.2f}')
     suma_min = sum(m["vigente"] for m in ministerios)
     razon = suma_min / tot_vig if tot_vig else 0
     controles = [
@@ -274,6 +320,9 @@ def main() -> int:
         ("serie mensual: acumulado del último mes = total ejecutado", mensual[-1]["acumulado"] == tot_eje, mensual[-1]["acumulado"]),
         ("hay al menos 20 ministerios", len(ministerios) >= 20, len(ministerios)),
         ("hay al menos 300 programas", len(prog) >= 300, len(prog)),
+        ("al menos 90 % de los programas con presupuesto tiene ejecución (códigos coinciden)",
+         coinciden >= 0.90, round(coinciden, 3)),
+        ("programas de cada ministerio suman entre 0,98 y 3,5 veces su total (Salud ronda 2,5 por FONASA)", not fuera_rango, fuera_rango[:5]),
     ]
     falla = [c for c in controles if not c[1]]
     for c in controles:
