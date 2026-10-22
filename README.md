@@ -22,13 +22,16 @@ Próximamente: gasto municipal (Presupuesto Abierto), compras públicas (ChileCo
 ## Reglas de cálculo
 
 - Los archivos de origen vienen en **miles de pesos**; aquí se publican en **pesos**.
-- **Gasto** = subtítulos 21 a 34 de la clasificación presupuestaria. Incluye servicio de la deuda y operaciones financieras. El 35, saldo final de caja, no es gasto.
+- **Gasto** = personal (21), bienes y servicios (22), prestaciones de seguridad social (23), transferencias corrientes (24), íntegros (25), otros gastos corrientes (26), activos no financieros (29), iniciativas de inversión (31), transferencias de capital (33) e **intereses de la deuda** (34, ítems 03 a 06).
+- **No es gasto**, y se informa aparte como *operaciones financieras*: adquisición de activos financieros (30), préstamos (32), amortización de la deuda (34.01 y 34.02) y deuda flotante (34.07, pago de obligaciones de años anteriores). Mezclarlas con el gasto infla la cifra. Por ejemplo, en 2026 el Tesoro invirtió $5 billones en activos financieros con un presupuesto de $0,3 billones.
+- El aporte fiscal (27 y 28) es un traspaso del Tesoro a los ministerios y no se suma. El 35, saldo final de caja, tampoco es gasto.
 - El **total del país** se toma del archivo nacional consolidado. Nunca se suman las partidas: el Tesoro Público traspasa el "aporte fiscal" a los ministerios y se contaría dos veces.
 - Por **ministerio** se usa el archivo de partida, ya consolidado dentro de cada ministerio. Para el Tesoro Público se excluyen los subtítulos 27 y 28 (aporte fiscal).
 - Cada ministerio incluye lo que transfiere a otros organismos. Por eso la suma de ministerios supera en torno a 3 % el total del país.
 - El detalle por **programa** es bruto: incluye transferencias entre servicios del mismo ministerio.
 - El archivo de la ley por programa trae subtotales por subtítulo y además el desglose por ítem. Se usa solo el nivel más agregado, para no sumar dos veces. Sus códigos vienen sin cero inicial ("2" en vez de "02") y se normalizan.
 - Las comparaciones con el año anterior usan el mismo mes y se expresan en pesos de hoy, con la variación oficial del IPC en 12 meses.
+- Si la variación real de un ministerio supera ±40 %, se marca como *no comparable* (`comparable: false`) y requiere revisión editorial antes de mostrarse: suele deberse a servicios nuevos, traspasados o fusionados. Por ejemplo, el Ministerio de Seguridad Pública se creó en 2025.
 
 ## Controles de calidad
 
@@ -38,6 +41,7 @@ Antes de publicar, la cocina verifica que:
 - la ejecución no supere el presupuesto;
 - la suma de ministerios esté entre 1,00 y 1,08 veces el total consolidado;
 - la serie mensual cuadre;
+- ningún ministerio supere el 120 % de ejecución;
 - haya al menos 20 ministerios y 300 programas;
 - al menos el 90 % de los programas con presupuesto tenga ejecución (los códigos de ley y ejecución coinciden);
 - los programas de cada ministerio sumen entre 0,98 y 3,5 veces su total. Salud ronda 2,5, porque FONASA transfiere a los Servicios de Salud.
