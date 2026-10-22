@@ -1,0 +1,140 @@
+{
+ "anio": 2026,
+ "mes": 8,
+ "mes_nombre": "agosto",
+ "publicado_fuente": "2026-10-01",
+ "generado": "2026-10-22T15:55:24Z",
+ "unidad": "pesos chilenos",
+ "fuentes": {
+  "organismo": "Dirección de Presupuestos (DIPRES)",
+  "licencia": "CC0 1.0 (dominio público)",
+  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2026-del-gobierno-central-total",
+  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-agosto-de-2026-del-gobierno-central-total",
+  "archivos": {
+   "ejecucion_nacional": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/b7662d63-2c81-4323-b05d-16077765a193/download/ejecucion-presupuestaria_nivel-nacional_a-agosto-2026.csv",
+   "ley_nacional": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/a3d29740-322b-47dd-94fc-e0b8e1e75884/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-agosto-2026.csv",
+   "ejecucion_partida": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/9959db14-74e7-4b4c-8a5c-d4b94b0fb8fa/download/ejecucion-presupuestaria_nivel-partida_a-agosto-2026.csv",
+   "ley_partida": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/b387ffbe-df50-46a6-8269-b700a81f68eb/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-agosto-2026.csv",
+   "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
+   "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
+  },
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+ },
+ "partida": "17",
+ "nombre": "MINISTERIO DE MINERÍA",
+ "programas": [
+  {
+   "capitulo": "3",
+   "nombre_capitulo": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "programa": "1",
+   "nombre_programa": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "vigente": 26827457000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "1",
+   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "vigente": 10485487000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "3",
+   "nombre_capitulo": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "programa": "4",
+   "nombre_programa": "PROGRAMA DE SEGURIDAD MINERA",
+   "vigente": 7428386000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "2",
+   "nombre_capitulo": "COMISIÓN CHILENA DEL COBRE",
+   "programa": "1",
+   "nombre_programa": "COMISIÓN CHILENA DEL COBRE",
+   "vigente": 7009012000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "2",
+   "nombre_programa": "FOMENTO DE LA PEQUEÑA Y MEDIANA MINERÍA",
+   "vigente": 6630610000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "3",
+   "nombre_capitulo": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "programa": "3",
+   "nombre_programa": "PLAN NACIONAL DE GEOLOGÍA",
+   "vigente": 4679659000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "3",
+   "nombre_capitulo": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "programa": "2",
+   "nombre_programa": "RED NACIONAL DE VIGILANCIA VOLCÁNICA",
+   "vigente": 4134049000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "01",
+   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "vigente": 0,
+   "ejecutado": 5912347000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "02",
+   "nombre_programa": "FOMENTO DE LA PEQUEÑA Y MEDIANA MINERÍA",
+   "vigente": 0,
+   "ejecutado": 517980000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "COMISIÓN CHILENA DEL COBRE",
+   "programa": "01",
+   "nombre_programa": "COMISIÓN CHILENA DEL COBRE",
+   "vigente": 0,
+   "ejecutado": 4155835000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "programa": "01",
+   "nombre_programa": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "vigente": 0,
+   "ejecutado": 14699091000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "programa": "02",
+   "nombre_programa": "RED NACIONAL DE VIGILANCIA VOLCÁNICA",
+   "vigente": 0,
+   "ejecutado": 2634242000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "programa": "03",
+   "nombre_programa": "PLAN NACIONAL DE GEOLOGÍA",
+   "vigente": 0,
+   "ejecutado": 3029103000
+  },
+  {
+   "capitulo": "03",
+   "nombre_capitulo": "SERVICIO NACIONAL DE GEOLOGÍA Y MINERÍA",
+   "programa": "04",
+   "nombre_programa": "PROGRAMA DE SEGURIDAD MINERA",
+   "vigente": 0,
+   "ejecutado": 4396342000
+  }
+ ],
+ "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."
+}

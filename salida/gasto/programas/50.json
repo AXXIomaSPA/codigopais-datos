@@ -1,0 +1,156 @@
+{
+ "anio": 2026,
+ "mes": 8,
+ "mes_nombre": "agosto",
+ "publicado_fuente": "2026-10-01",
+ "generado": "2026-10-22T15:55:24Z",
+ "unidad": "pesos chilenos",
+ "fuentes": {
+  "organismo": "Dirección de Presupuestos (DIPRES)",
+  "licencia": "CC0 1.0 (dominio público)",
+  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2026-del-gobierno-central-total",
+  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-agosto-de-2026-del-gobierno-central-total",
+  "archivos": {
+   "ejecucion_nacional": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/b7662d63-2c81-4323-b05d-16077765a193/download/ejecucion-presupuestaria_nivel-nacional_a-agosto-2026.csv",
+   "ley_nacional": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/a3d29740-322b-47dd-94fc-e0b8e1e75884/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-agosto-2026.csv",
+   "ejecucion_partida": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/9959db14-74e7-4b4c-8a5c-d4b94b0fb8fa/download/ejecucion-presupuestaria_nivel-partida_a-agosto-2026.csv",
+   "ley_partida": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/b387ffbe-df50-46a6-8269-b700a81f68eb/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-agosto-2026.csv",
+   "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
+   "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
+  },
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+ },
+ "partida": "50",
+ "nombre": "TESORO PÚBLICO",
+ "programas": [
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "FISCO",
+   "programa": "5",
+   "nombre_programa": "APORTE FISCAL LIBRE",
+   "vigente": 212277496833000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "FISCO",
+   "programa": "4",
+   "nombre_programa": "SERVICIO DE LA DEUDA PÚBLICA",
+   "vigente": 17146939060000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "FISCO",
+   "programa": "3",
+   "nombre_programa": "OPERACIONES COMPLEMENTARIAS",
+   "vigente": 16241314090000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "FISCO",
+   "programa": "2",
+   "nombre_programa": "SUBSIDIOS",
+   "vigente": 6221025726000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "FISCO",
+   "programa": "11",
+   "nombre_programa": "EMPRESAS Y SOCIEDADES DEL ESTADO",
+   "vigente": 1670841210000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "FISCO",
+   "programa": "9",
+   "nombre_programa": "FONDO DE APOYO AL TRANSPORTE PÚBLICO Y LA CONECTIVIDAD REGIONAL",
+   "vigente": 1443203815000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "FISCO",
+   "programa": "10",
+   "nombre_programa": "FONDO PARA DIAGNÓSTICOS Y TRATAMIENTOS DE ALTO COSTO",
+   "vigente": 584403584000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "FISCO",
+   "programa": "12",
+   "nombre_programa": "FONDO DE CONTINGENCIA ESTRATÉGICO",
+   "vigente": 80000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "FISCO",
+   "programa": "14",
+   "nombre_programa": "FONDO PLURIANUAL PARA LAS CAPACIDADES ESTRATÉGICAS DE LA DEFENSA",
+   "vigente": 80000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "FISCO",
+   "programa": "02",
+   "nombre_programa": "SUBSIDIOS",
+   "vigente": 0,
+   "ejecutado": 1625077967000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "FISCO",
+   "programa": "03",
+   "nombre_programa": "OPERACIONES COMPLEMENTARIAS",
+   "vigente": 0,
+   "ejecutado": 6520954195000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "FISCO",
+   "programa": "04",
+   "nombre_programa": "SERVICIO DE LA DEUDA PÚBLICA",
+   "vigente": 0,
+   "ejecutado": 8610326621000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "FISCO",
+   "programa": "05",
+   "nombre_programa": "APORTE FISCAL LIBRE",
+   "vigente": 0,
+   "ejecutado": 46068106398000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "FISCO",
+   "programa": "09",
+   "nombre_programa": "FONDO DE APOYO AL TRANSPORTE PÚBLICO Y LA CONECTIVIDAD REGIONAL",
+   "vigente": 0,
+   "ejecutado": 714845935000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "FISCO",
+   "programa": "10",
+   "nombre_programa": "FONDO PARA DIAGNÓSTICOS Y TRATAMIENTOS DE ALTO COSTO",
+   "vigente": 0,
+   "ejecutado": 190508555000
+  },
+  {
+   "capitulo": "01",
+   "nombre_capitulo": "FISCO",
+   "programa": "11",
+   "nombre_programa": "EMPRESAS Y SOCIEDADES DEL ESTADO",
+   "vigente": 0,
+   "ejecutado": 401187399000
+  }
+ ],
+ "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."
+}

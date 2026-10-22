@@ -1,0 +1,204 @@
+{
+ "anio": 2026,
+ "mes": 8,
+ "mes_nombre": "agosto",
+ "publicado_fuente": "2026-10-01",
+ "generado": "2026-10-22T15:55:24Z",
+ "unidad": "pesos chilenos",
+ "fuentes": {
+  "organismo": "Dirección de Presupuestos (DIPRES)",
+  "licencia": "CC0 1.0 (dominio público)",
+  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2026-del-gobierno-central-total",
+  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-agosto-de-2026-del-gobierno-central-total",
+  "archivos": {
+   "ejecucion_nacional": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/b7662d63-2c81-4323-b05d-16077765a193/download/ejecucion-presupuestaria_nivel-nacional_a-agosto-2026.csv",
+   "ley_nacional": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/a3d29740-322b-47dd-94fc-e0b8e1e75884/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-agosto-2026.csv",
+   "ejecucion_partida": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/9959db14-74e7-4b4c-8a5c-d4b94b0fb8fa/download/ejecucion-presupuestaria_nivel-partida_a-agosto-2026.csv",
+   "ley_partida": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/b387ffbe-df50-46a6-8269-b700a81f68eb/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-agosto-2026.csv",
+   "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
+   "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
+  },
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+ },
+ "partida": "8",
+ "nombre": "",
+ "programas": [
+  {
+   "capitulo": "3",
+   "nombre_capitulo": "SERVICIO DE IMPUESTOS INTERNOS",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE IMPUESTOS INTERNOS",
+   "vigente": 303857742000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "31",
+   "nombre_capitulo": "COMISIÓN PARA EL MERCADO FINANCIERO",
+   "programa": "1",
+   "nombre_programa": "COMISIÓN PARA EL MERCADO FINANCIERO",
+   "vigente": 192058911000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "4",
+   "nombre_capitulo": "SERVICIO NACIONAL DE ADUANAS",
+   "programa": "1",
+   "nombre_programa": "SERVICIO NACIONAL DE ADUANAS",
+   "vigente": 145204340000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "5",
+   "nombre_capitulo": "SERVICIO DE TESORERÍAS",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE TESORERÍAS",
+   "vigente": 86966672000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "6",
+   "nombre_programa": "UNIDAD ADMINISTRADORA DE TRIBUNALES TRIBUTARIOS Y ADUANEROS, Y TRIBUNAL DE CONTRATACIÓN PÚBLICA",
+   "vigente": 37719510000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "30",
+   "nombre_capitulo": "CONSEJO DE DEFENSA DEL ESTADO",
+   "programa": "1",
+   "nombre_programa": "CONSEJO DE DEFENSA DEL ESTADO",
+   "vigente": 31302527000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "2",
+   "nombre_capitulo": "DIRECCIÓN DE PRESUPUESTOS",
+   "programa": "1",
+   "nombre_programa": "DIRECCIÓN DE PRESUPUESTOS",
+   "vigente": 22241630000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "1",
+   "nombre_programa": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "vigente": 18764454000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "7",
+   "nombre_capitulo": "DIRECCIÓN DE COMPRAS Y CONTRATACIÓN PÚBLICA",
+   "programa": "1",
+   "nombre_programa": "DIRECCIÓN DE COMPRAS Y CONTRATACIÓN PÚBLICA",
+   "vigente": 17044827000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "8",
+   "nombre_programa": "SECRETARÍA DE MODERNIZACIÓN DEL ESTADO",
+   "vigente": 16731613000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "15",
+   "nombre_capitulo": "DIRECCIÓN NACIONAL DEL SERVICIO CIVIL",
+   "programa": "1",
+   "nombre_programa": "DIRECCIÓN NACIONAL DEL SERVICIO CIVIL",
+   "vigente": 16092831000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "12",
+   "nombre_programa": "SECRETARÍA DE GOBIERNO DIGITAL",
+   "vigente": 14591231000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "9",
+   "nombre_programa": "PROGRAMA EXPORTACIÓN DE SERVICIOS",
+   "vigente": 8850202000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "16",
+   "nombre_capitulo": "UNIDAD DE ANÁLISIS FINANCIERO",
+   "programa": "1",
+   "nombre_programa": "UNIDAD DE ANÁLISIS FINANCIERO",
+   "vigente": 6294712000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "2",
+   "nombre_capitulo": "DIRECCIÓN DE PRESUPUESTOS",
+   "programa": "2",
+   "nombre_programa": "SISTEMA DE GESTIÓN FINANCIERA DEL ESTADO",
+   "vigente": 5720670000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "17",
+   "nombre_capitulo": "SUPERINTENDENCIA DE CASINOS DE JUEGO",
+   "programa": "1",
+   "nombre_programa": "SUPERINTENDENCIA DE CASINOS DE JUEGO",
+   "vigente": 5650820000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "33",
+   "nombre_capitulo": "DEFENSORÍA DEL CONTRIBUYENTE",
+   "programa": "1",
+   "nombre_programa": "DEFENSORÍA DEL CONTRIBUYENTE",
+   "vigente": 5454733000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "7",
+   "nombre_capitulo": "DIRECCIÓN DE COMPRAS Y CONTRATACIÓN PÚBLICA",
+   "programa": "2",
+   "nombre_programa": "PROGRAMA DE MEJORA DE LA CALIDAD DEL GASTO EN LAS COMPRAS PÚBLICAS",
+   "vigente": 5392910000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "4",
+   "nombre_capitulo": "SERVICIO NACIONAL DE ADUANAS",
+   "programa": "2",
+   "nombre_programa": "AVANZADAS ADUANERAS",
+   "vigente": 5290825000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "7",
+   "nombre_programa": "SISTEMA INTEGRADO DE COMERCIO EXTERIOR",
+   "vigente": 3454018000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "1",
+   "nombre_capitulo": "SECRETARÍA Y ADMINISTRACIÓN GENERAL",
+   "programa": "11",
+   "nombre_programa": "LABORATORIO DE GOBIERNO",
+   "vigente": 1588583000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "5",
+   "nombre_capitulo": "SERVICIO DE TESORERÍAS",
+   "programa": "6",
+   "nombre_programa": "COBRANZA PREJUDICIAL - LEY N°21.735",
+   "vigente": 382390000,
+   "ejecutado": 0
+  }
+ ],
+ "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."
+}

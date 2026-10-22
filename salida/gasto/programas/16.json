@@ -1,0 +1,692 @@
+{
+ "anio": 2026,
+ "mes": 8,
+ "mes_nombre": "agosto",
+ "publicado_fuente": "2026-10-01",
+ "generado": "2026-10-22T15:55:24Z",
+ "unidad": "pesos chilenos",
+ "fuentes": {
+  "organismo": "Dirección de Presupuestos (DIPRES)",
+  "licencia": "CC0 1.0 (dominio público)",
+  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2026-del-gobierno-central-total",
+  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-agosto-de-2026-del-gobierno-central-total",
+  "archivos": {
+   "ejecucion_nacional": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/b7662d63-2c81-4323-b05d-16077765a193/download/ejecucion-presupuestaria_nivel-nacional_a-agosto-2026.csv",
+   "ley_nacional": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/a3d29740-322b-47dd-94fc-e0b8e1e75884/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-agosto-2026.csv",
+   "ejecucion_partida": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/9959db14-74e7-4b4c-8a5c-d4b94b0fb8fa/download/ejecucion-presupuestaria_nivel-partida_a-agosto-2026.csv",
+   "ley_partida": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/b387ffbe-df50-46a6-8269-b700a81f68eb/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-agosto-2026.csv",
+   "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
+   "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
+  },
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+ },
+ "partida": "16",
+ "nombre": "MINISTERIO DE SALUD",
+ "programas": [
+  {
+   "capitulo": "2",
+   "nombre_capitulo": "FONDO NACIONAL DE SALUD",
+   "programa": "1",
+   "nombre_programa": "FONDO NACIONAL DE SALUD",
+   "vigente": 47660349323000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "2",
+   "nombre_capitulo": "FONDO NACIONAL DE SALUD",
+   "programa": "5",
+   "nombre_programa": "FINANCIAMIENTO HOSPITALES POR GRUPO RELACIONADO DE DIAGNÓSTICO",
+   "vigente": 19833836097000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "2",
+   "nombre_capitulo": "FONDO NACIONAL DE SALUD",
+   "programa": "2",
+   "nombre_programa": "PROGRAMA DE ATENCIÓN PRIMARIA",
+   "vigente": 10828096401000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "2",
+   "nombre_capitulo": "FONDO NACIONAL DE SALUD",
+   "programa": "4",
+   "nombre_programa": "PROGRAMA DE PRESTACIONES INSTITUCIONALES",
+   "vigente": 9546542916000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "9",
+   "nombre_capitulo": "SUBSECRETARÍA DE SALUD PÚBLICA",
+   "programa": "1",
+   "nombre_programa": "SUBSECRETARÍA DE SALUD PÚBLICA",
+   "vigente": 2498027191000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "10",
+   "nombre_capitulo": "SUBSECRETARÍA DE REDES ASISTENCIALES",
+   "programa": "2",
+   "nombre_programa": "INVERSIÓN SECTORIAL DE SALUD",
+   "vigente": 1799132747000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "47",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO SUR-ORIENTE",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO SUR-ORIENTE",
+   "vigente": 1688787564000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "46",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO OCCIDENTE",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO OCCIDENTE",
+   "vigente": 1470413206000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "29",
+   "nombre_capitulo": "SERVICIO DE SALUD MAULE",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD MAULE",
+   "vigente": 1380543148000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "10",
+   "nombre_capitulo": "SUBSECRETARÍA DE REDES ASISTENCIALES",
+   "programa": "1",
+   "nombre_programa": "SUBSECRETARÍA DE REDES ASISTENCIALES",
+   "vigente": 1316498838000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "44",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO SUR",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO SUR",
+   "vigente": 1263881064000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "26",
+   "nombre_capitulo": "SERVICIO DE SALUD VIÑA DEL MAR - QUILLOTA",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD VIÑA DEL MAR - QUILLOTA",
+   "vigente": 1240583058000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "36",
+   "nombre_capitulo": "SERVICIO DE SALUD ARAUCANÍA SUR",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD ARAUCANÍA SUR",
+   "vigente": 1222577784000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "42",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO ORIENTE",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO ORIENTE",
+   "vigente": 1106905539000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "24",
+   "nombre_capitulo": "SERVICIO DE SALUD COQUIMBO",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD COQUIMBO",
+   "vigente": 1021015956000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "28",
+   "nombre_capitulo": "SERVICIO DE SALUD O'HIGGINS",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD O'HIGGINS",
+   "vigente": 974614295000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "45",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO NORTE",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO NORTE",
+   "vigente": 945232520000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "43",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO CENTRAL",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO CENTRAL",
+   "vigente": 866047477000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "31",
+   "nombre_capitulo": "SERVICIO DE SALUD CONCEPCIÓN",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD CONCEPCIÓN",
+   "vigente": 838832585000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "30",
+   "nombre_capitulo": "SERVICIO DE SALUD ÑUBLE",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD ÑUBLE",
+   "vigente": 744583419000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "25",
+   "nombre_capitulo": "SERVICIO DE SALUD VALPARAÍSO - SAN ANTONIO",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD VALPARAÍSO - SAN ANTONIO",
+   "vigente": 672935662000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "22",
+   "nombre_capitulo": "SERVICIO DE SALUD ANTOFAGASTA",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD ANTOFAGASTA",
+   "vigente": 660405883000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "39",
+   "nombre_capitulo": "SERVICIO DE SALUD DEL RELONCAVÍ",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD DEL RELONCAVÍ",
+   "vigente": 654696253000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "32",
+   "nombre_capitulo": "SERVICIO DE SALUD TALCAHUANO",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD TALCAHUANO",
+   "vigente": 622380277000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "37",
+   "nombre_capitulo": "SERVICIO DE SALUD LOS RÍOS",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD LOS RÍOS",
+   "vigente": 574049738000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "33",
+   "nombre_capitulo": "SERVICIO DE SALUD BIOBÍO",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD BIOBÍO",
+   "vigente": 539178918000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "21",
+   "nombre_capitulo": "SERVICIO DE SALUD TARAPACÁ",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD TARAPACÁ",
+   "vigente": 536854839000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "53",
+   "nombre_capitulo": "SERVICIO DE SALUD CHILOÉ",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD CHILOÉ",
+   "vigente": 408338809000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "23",
+   "nombre_capitulo": "SERVICIO DE SALUD ATACAMA",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD ATACAMA",
+   "vigente": 395913237000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "38",
+   "nombre_capitulo": "SERVICIO DE SALUD OSORNO",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD OSORNO",
+   "vigente": 384308728000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "35",
+   "nombre_capitulo": "SERVICIO DE SALUD ARAUCANÍA NORTE",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD ARAUCANÍA NORTE",
+   "vigente": 375580738000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "27",
+   "nombre_capitulo": "SERVICIO DE SALUD ACONCAGUA",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD ACONCAGUA",
+   "vigente": 316125211000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "41",
+   "nombre_capitulo": "SERVICIO DE SALUD MAGALLANES",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD MAGALLANES",
+   "vigente": 312193696000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "20",
+   "nombre_capitulo": "SERVICIO DE SALUD ARICA Y PARINACOTA",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD ARICA Y PARINACOTA",
+   "vigente": 287817021000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "34",
+   "nombre_capitulo": "SERVICIO DE SALUD ARAUCO",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD ARAUCO",
+   "vigente": 268788620000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "40",
+   "nombre_capitulo": "SERVICIO DE SALUD AYSÉN",
+   "programa": "1",
+   "nombre_programa": "SERVICIO DE SALUD AYSÉN",
+   "vigente": 249904040000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "49",
+   "nombre_capitulo": "PROGRAMA CONTINGENCIAS OPERACIONALES",
+   "programa": "1",
+   "nombre_programa": "PROGRAMA CONTINGENCIAS OPERACIONALES",
+   "vigente": 165375231000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "4",
+   "nombre_capitulo": "INSTITUTO DE SALUD PÚBLICA DE CHILE",
+   "programa": "1",
+   "nombre_programa": "INSTITUTO DE SALUD PÚBLICA DE CHILE",
+   "vigente": 65568756000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "11",
+   "nombre_capitulo": "SUPERINTENDENCIA DE SALUD",
+   "programa": "1",
+   "nombre_programa": "SUPERINTENDENCIA DE SALUD",
+   "vigente": 22308550000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "52",
+   "nombre_capitulo": "CENTRO DE REFERENCIA DE SALUD DE PEÑALOLÉN CORDILLERA ORIENTE",
+   "programa": "1",
+   "nombre_programa": "CENTRO DE REFERENCIA DE SALUD DE PEÑALOLÉN CORDILLERA ORIENTE",
+   "vigente": 18855631000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "5",
+   "nombre_capitulo": "CENTRAL DE ABASTECIMIENTO DEL SISTEMA NACIONAL DE SERVICIOS DE SALUD",
+   "programa": "1",
+   "nombre_programa": "CENTRAL DE ABASTECIMIENTO DEL SISTEMA NACIONAL DE SERVICIOS DE SALUD",
+   "vigente": 17890912000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "51",
+   "nombre_capitulo": "CENTRO DE REFERENCIA DE SALUD DE MAIPÚ",
+   "programa": "1",
+   "nombre_programa": "CENTRO DE REFERENCIA DE SALUD DE MAIPÚ",
+   "vigente": 15502474000,
+   "ejecutado": 0
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "FONDO NACIONAL DE SALUD",
+   "programa": "01",
+   "nombre_programa": "FONDO NACIONAL DE SALUD",
+   "vigente": 0,
+   "ejecutado": 11715714950000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "FONDO NACIONAL DE SALUD",
+   "programa": "02",
+   "nombre_programa": "PROGRAMA DE ATENCIÓN PRIMARIA",
+   "vigente": 0,
+   "ejecutado": 2451190529000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "FONDO NACIONAL DE SALUD",
+   "programa": "04",
+   "nombre_programa": "PROGRAMA DE PRESTACIONES INSTITUCIONALES",
+   "vigente": 0,
+   "ejecutado": 2013245486000
+  },
+  {
+   "capitulo": "02",
+   "nombre_capitulo": "FONDO NACIONAL DE SALUD",
+   "programa": "05",
+   "nombre_programa": "FINANCIAMIENTO HOSPITALES POR GRUPO RELACIONADO DE DIAGNÓSTICO",
+   "vigente": 0,
+   "ejecutado": 5184288272000
+  },
+  {
+   "capitulo": "04",
+   "nombre_capitulo": "INSTITUTO DE SALUD PÚBLICA DE CHILE",
+   "programa": "01",
+   "nombre_programa": "INSTITUTO DE SALUD PÚBLICA DE CHILE",
+   "vigente": 0,
+   "ejecutado": 40761314000
+  },
+  {
+   "capitulo": "05",
+   "nombre_capitulo": "CENTRAL DE ABASTECIMIENTO DEL SISTEMA NACIONAL DE SERVICIOS DE SALUD",
+   "programa": "01",
+   "nombre_programa": "CENTRAL DE ABASTECIMIENTO DEL SISTEMA NACIONAL DE SERVICIOS DE SALUD",
+   "vigente": 0,
+   "ejecutado": 13184141000
+  },
+  {
+   "capitulo": "09",
+   "nombre_capitulo": "SUBSECRETARÍA DE SALUD PÚBLICA",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE SALUD PÚBLICA",
+   "vigente": 0,
+   "ejecutado": 700457935000
+  },
+  {
+   "capitulo": "10",
+   "nombre_capitulo": "SUBSECRETARÍA DE REDES ASISTENCIALES",
+   "programa": "01",
+   "nombre_programa": "SUBSECRETARÍA DE REDES ASISTENCIALES",
+   "vigente": 0,
+   "ejecutado": 244394899000
+  },
+  {
+   "capitulo": "10",
+   "nombre_capitulo": "SUBSECRETARÍA DE REDES ASISTENCIALES",
+   "programa": "02",
+   "nombre_programa": "INVERSIÓN SECTORIAL DE SALUD",
+   "vigente": 0,
+   "ejecutado": 355893254000
+  },
+  {
+   "capitulo": "11",
+   "nombre_capitulo": "SUPERINTENDENCIA DE SALUD",
+   "programa": "01",
+   "nombre_programa": "SUPERINTENDENCIA DE SALUD",
+   "vigente": 0,
+   "ejecutado": 14523836000
+  },
+  {
+   "capitulo": "20",
+   "nombre_capitulo": "SERVICIO DE SALUD ARICA Y PARINACOTA",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD ARICA Y PARINACOTA",
+   "vigente": 0,
+   "ejecutado": 125546737000
+  },
+  {
+   "capitulo": "21",
+   "nombre_capitulo": "SERVICIO DE SALUD TARAPACÁ",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD TARAPACÁ",
+   "vigente": 0,
+   "ejecutado": 228498870000
+  },
+  {
+   "capitulo": "22",
+   "nombre_capitulo": "SERVICIO DE SALUD ANTOFAGASTA",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD ANTOFAGASTA",
+   "vigente": 0,
+   "ejecutado": 311734397000
+  },
+  {
+   "capitulo": "23",
+   "nombre_capitulo": "SERVICIO DE SALUD ATACAMA",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD ATACAMA",
+   "vigente": 0,
+   "ejecutado": 173560112000
+  },
+  {
+   "capitulo": "24",
+   "nombre_capitulo": "SERVICIO DE SALUD COQUIMBO",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD COQUIMBO",
+   "vigente": 0,
+   "ejecutado": 479257747000
+  },
+  {
+   "capitulo": "25",
+   "nombre_capitulo": "SERVICIO DE SALUD VALPARAÍSO - SAN ANTONIO",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD VALPARAÍSO - SAN ANTONIO",
+   "vigente": 0,
+   "ejecutado": 311683016000
+  },
+  {
+   "capitulo": "26",
+   "nombre_capitulo": "SERVICIO DE SALUD VIÑA DEL MAR - QUILLOTA",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD VIÑA DEL MAR - QUILLOTA",
+   "vigente": 0,
+   "ejecutado": 545990329000
+  },
+  {
+   "capitulo": "27",
+   "nombre_capitulo": "SERVICIO DE SALUD ACONCAGUA",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD ACONCAGUA",
+   "vigente": 0,
+   "ejecutado": 154539689000
+  },
+  {
+   "capitulo": "28",
+   "nombre_capitulo": "SERVICIO DE SALUD O'HIGGINS",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD O'HIGGINS",
+   "vigente": 0,
+   "ejecutado": 421209934000
+  },
+  {
+   "capitulo": "29",
+   "nombre_capitulo": "SERVICIO DE SALUD MAULE",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD MAULE",
+   "vigente": 0,
+   "ejecutado": 579391497000
+  },
+  {
+   "capitulo": "30",
+   "nombre_capitulo": "SERVICIO DE SALUD ÑUBLE",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD ÑUBLE",
+   "vigente": 0,
+   "ejecutado": 327466281000
+  },
+  {
+   "capitulo": "31",
+   "nombre_capitulo": "SERVICIO DE SALUD CONCEPCIÓN",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD CONCEPCIÓN",
+   "vigente": 0,
+   "ejecutado": 461725944000
+  },
+  {
+   "capitulo": "32",
+   "nombre_capitulo": "SERVICIO DE SALUD TALCAHUANO",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD TALCAHUANO",
+   "vigente": 0,
+   "ejecutado": 286955271000
+  },
+  {
+   "capitulo": "33",
+   "nombre_capitulo": "SERVICIO DE SALUD BIOBÍO",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD BIOBÍO",
+   "vigente": 0,
+   "ejecutado": 265369316000
+  },
+  {
+   "capitulo": "34",
+   "nombre_capitulo": "SERVICIO DE SALUD ARAUCO",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD ARAUCO",
+   "vigente": 0,
+   "ejecutado": 139825314000
+  },
+  {
+   "capitulo": "35",
+   "nombre_capitulo": "SERVICIO DE SALUD ARAUCANÍA NORTE",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD ARAUCANÍA NORTE",
+   "vigente": 0,
+   "ejecutado": 174150166000
+  },
+  {
+   "capitulo": "36",
+   "nombre_capitulo": "SERVICIO DE SALUD ARAUCANÍA SUR",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD ARAUCANÍA SUR",
+   "vigente": 0,
+   "ejecutado": 586213224000
+  },
+  {
+   "capitulo": "37",
+   "nombre_capitulo": "SERVICIO DE SALUD LOS RÍOS",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD LOS RÍOS",
+   "vigente": 0,
+   "ejecutado": 270910129000
+  },
+  {
+   "capitulo": "38",
+   "nombre_capitulo": "SERVICIO DE SALUD OSORNO",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD OSORNO",
+   "vigente": 0,
+   "ejecutado": 184767413000
+  },
+  {
+   "capitulo": "39",
+   "nombre_capitulo": "SERVICIO DE SALUD DEL RELONCAVÍ",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD DEL RELONCAVÍ",
+   "vigente": 0,
+   "ejecutado": 321425907000
+  },
+  {
+   "capitulo": "40",
+   "nombre_capitulo": "SERVICIO DE SALUD AYSÉN",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD AYSÉN",
+   "vigente": 0,
+   "ejecutado": 160250023000
+  },
+  {
+   "capitulo": "41",
+   "nombre_capitulo": "SERVICIO DE SALUD MAGALLANES",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD MAGALLANES",
+   "vigente": 0,
+   "ejecutado": 163913317000
+  },
+  {
+   "capitulo": "42",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO ORIENTE",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO ORIENTE",
+   "vigente": 0,
+   "ejecutado": 558194770000
+  },
+  {
+   "capitulo": "43",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO CENTRAL",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO CENTRAL",
+   "vigente": 0,
+   "ejecutado": 516342366000
+  },
+  {
+   "capitulo": "44",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO SUR",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO SUR",
+   "vigente": 0,
+   "ejecutado": 524245867000
+  },
+  {
+   "capitulo": "45",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO NORTE",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO NORTE",
+   "vigente": 0,
+   "ejecutado": 411289503000
+  },
+  {
+   "capitulo": "46",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO OCCIDENTE",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO OCCIDENTE",
+   "vigente": 0,
+   "ejecutado": 642398392000
+  },
+  {
+   "capitulo": "47",
+   "nombre_capitulo": "SERVICIO DE SALUD METROPOLITANO SUR-ORIENTE",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD METROPOLITANO SUR-ORIENTE",
+   "vigente": 0,
+   "ejecutado": 774542337000
+  },
+  {
+   "capitulo": "51",
+   "nombre_capitulo": "CENTRO DE REFERENCIA DE SALUD DE MAIPÚ",
+   "programa": "01",
+   "nombre_programa": "CENTRO DE REFERENCIA DE SALUD DE MAIPÚ",
+   "vigente": 0,
+   "ejecutado": 11267714000
+  },
+  {
+   "capitulo": "52",
+   "nombre_capitulo": "CENTRO DE REFERENCIA DE SALUD DE PEÑALOLÉN CORDILLERA ORIENTE",
+   "programa": "01",
+   "nombre_programa": "CENTRO DE REFERENCIA DE SALUD DE PEÑALOLÉN CORDILLERA ORIENTE",
+   "vigente": 0,
+   "ejecutado": 13687291000
+  },
+  {
+   "capitulo": "53",
+   "nombre_capitulo": "SERVICIO DE SALUD CHILOÉ",
+   "programa": "01",
+   "nombre_programa": "SERVICIO DE SALUD CHILOÉ",
+   "vigente": 0,
+   "ejecutado": 166716802000
+  }
+ ],
+ "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."
+}

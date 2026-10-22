@@ -1,0 +1,162 @@
+{
+ "anio": 2026,
+ "mes": 8,
+ "mes_nombre": "agosto",
+ "publicado_fuente": "2026-10-01",
+ "generado": "2026-10-22T15:55:24Z",
+ "unidad": "pesos chilenos",
+ "fuentes": {
+  "organismo": "Dirección de Presupuestos (DIPRES)",
+  "licencia": "CC0 1.0 (dominio público)",
+  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2026-del-gobierno-central-total",
+  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-agosto-de-2026-del-gobierno-central-total",
+  "archivos": {
+   "ejecucion_nacional": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/b7662d63-2c81-4323-b05d-16077765a193/download/ejecucion-presupuestaria_nivel-nacional_a-agosto-2026.csv",
+   "ley_nacional": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/a3d29740-322b-47dd-94fc-e0b8e1e75884/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-agosto-2026.csv",
+   "ejecucion_partida": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/9959db14-74e7-4b4c-8a5c-d4b94b0fb8fa/download/ejecucion-presupuestaria_nivel-partida_a-agosto-2026.csv",
+   "ley_partida": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/b387ffbe-df50-46a6-8269-b700a81f68eb/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-agosto-2026.csv",
+   "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
+   "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
+  },
+  "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl"
+ },
+ "totales": {
+  "ley_inicial": 94794995245000,
+  "vigente": 96463567289000,
+  "ejecutado": 70320860949000,
+  "porcentaje": 72.89888081613469
+ },
+ "por_tipo": [
+  {
+   "subtitulo": "21",
+   "nombre": "Gastos en personal",
+   "vigente": 17114816245000,
+   "ejecutado": 12052766980000
+  },
+  {
+   "subtitulo": "22",
+   "nombre": "Bienes y servicios de consumo",
+   "vigente": 7063816084000,
+   "ejecutado": 4819406354000
+  },
+  {
+   "subtitulo": "23",
+   "nombre": "Prestaciones de seguridad social",
+   "vigente": 16113369080000,
+   "ejecutado": 10973910524000
+  },
+  {
+   "subtitulo": "24",
+   "nombre": "Transferencias corrientes",
+   "vigente": 28697523614000,
+   "ejecutado": 17701197079000
+  },
+  {
+   "subtitulo": "25",
+   "nombre": "Integros al fisco",
+   "vigente": 32112810000,
+   "ejecutado": 16845385000
+  },
+  {
+   "subtitulo": "26",
+   "nombre": "Otros gastos corrientes",
+   "vigente": 34525678000,
+   "ejecutado": 162664350000
+  },
+  {
+   "subtitulo": "29",
+   "nombre": "Adquisición de activos no financieros",
+   "vigente": 330502302000,
+   "ejecutado": 83974451000
+  },
+  {
+   "subtitulo": "30",
+   "nombre": "Adquisición de activos financieros",
+   "vigente": 1534837127000,
+   "ejecutado": 5377384663000
+  },
+  {
+   "subtitulo": "31",
+   "nombre": "Iniciativas de inversión",
+   "vigente": 4425043128000,
+   "ejecutado": 2168770585000
+  },
+  {
+   "subtitulo": "32",
+   "nombre": "Préstamos",
+   "vigente": 2460633165000,
+   "ejecutado": 1496794434000
+  },
+  {
+   "subtitulo": "33",
+   "nombre": "Transferencias de capital",
+   "vigente": 7339897307000,
+   "ejecutado": 4044638758000
+  },
+  {
+   "subtitulo": "34",
+   "nombre": "Servicio de la deuda",
+   "vigente": 11316490749000,
+   "ejecutado": 11422507386000
+  }
+ ],
+ "mensual": [
+  {
+   "mes": 1,
+   "nombre": "enero",
+   "ejecutado_mes": 10048268115000,
+   "acumulado": 10048268115000
+  },
+  {
+   "mes": 2,
+   "nombre": "febrero",
+   "ejecutado_mes": 8604590941000,
+   "acumulado": 18652859056000
+  },
+  {
+   "mes": 3,
+   "nombre": "marzo",
+   "ejecutado_mes": 7801004947000,
+   "acumulado": 26453864003000
+  },
+  {
+   "mes": 4,
+   "nombre": "abril",
+   "ejecutado_mes": 9009644695000,
+   "acumulado": 35463508698000
+  },
+  {
+   "mes": 5,
+   "nombre": "mayo",
+   "ejecutado_mes": 7446120814000,
+   "acumulado": 42909629512000
+  },
+  {
+   "mes": 6,
+   "nombre": "junio",
+   "ejecutado_mes": 9880988092000,
+   "acumulado": 52790617604000
+  },
+  {
+   "mes": 7,
+   "nombre": "julio",
+   "ejecutado_mes": 8235422872000,
+   "acumulado": 61026040476000
+  },
+  {
+   "mes": 8,
+   "nombre": "agosto",
+   "ejecutado_mes": 9294820473000,
+   "acumulado": 70320860949000
+  }
+ ],
+ "comparacion": {
+  "anio_anterior": 2025,
+  "ejecutado_anterior": 65226113796000,
+  "variacion_nominal": 7.810900966650003,
+  "ipc_12_meses": 4.1,
+  "variacion_real": 3.5647463656580447,
+  "fuente_anterior": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2025-del-gobierno-central-total"
+ },
+ "definicion": "Gasto del Gobierno Central consolidado: subtítulos 21 a 34 (incluye servicio de la deuda y operaciones financieras), en pesos."
+}
