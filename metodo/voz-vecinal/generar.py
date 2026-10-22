@@ -12,7 +12,7 @@ import json
 import os
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-VERSION = "1.1 · 22-10-2026"
+VERSION = "1.2 · 22-10-2026"
 
 # ---------------------------------------------------------------- responsables
 # Quién decide y paga cada cosa. Solo se compara con el gasto municipal lo que es responsabilidad del municipio.
@@ -239,6 +239,119 @@ TEMAS = [
      "preguntas": []},
 ]
 
+# ---------------------------------------------------------------- preguntas por subtema (versión 1.2)
+# Una por subtema, solo si aporta algo que la del tema no cubre. "reemplaza": la pregunta del tema que deja de hacerse.
+def _q(id, pregunta, opciones, tipo="una", reemplaza=None):
+    d = {"id": "sub_" + id, "pregunta": pregunta, "tipo": tipo, "opciones": opciones}
+    if reemplaza:
+        d["reemplaza"] = reemplaza
+    return d
+
+POR_SUBTEMA = {
+    "salud": {
+        "cesfam": _q("cesfam", "¿Qué necesitabas?", ["Una hora con médico", "Un control o examen", "Remedios", "Atención dental", "Otra cosa"]),
+        "urgencia_primaria": _q("urgencia", "¿A qué hora fuiste?", ["En la mañana", "En la tarde", "En la noche", "De madrugada"]),
+        "farmacia": _q("farmacia", "¿Encontraste el remedio que necesitabas?", ["Sí", "Solo algunos", "No había", "No sabía que existía la farmacia municipal"]),
+        "posta_rural": _q("posta", "¿Cada cuánto viene el médico o la ronda?", ["Todas las semanas", "Cada dos semanas", "Una vez al mes o menos", "No sé"]),
+        "hospital": _q("hospital", "¿Qué estás esperando?", ["Una consulta con especialista", "Una cirugía", "Un examen", "Prefiero no decir"]),
+        "especialista": _q("lista_espera", "¿Hace cuánto estás en lista de espera?", ["Menos de 6 meses", "De 6 a 12 meses", "De 1 a 2 años", "Más de 2 años"], reemplaza="espera"),
+    },
+    "educacion": {
+        "jardin": _q("cupo", "¿Conseguiste cupo?", ["Sí", "Estoy en lista de espera", "No", "Todavía no he postulado"]),
+        "transporte_escolar": _q("viaje", "¿Cuánto demora el viaje?", ["Menos de 30 minutos", "De 30 a 60 minutos", "Más de 1 hora", "No hay transporte"]),
+        "infraestructura": _q("arreglo", "¿Qué necesita arreglo?", ["Baños", "Techos o goteras", "Calefacción", "Patios", "Accesos para personas con discapacidad", "Otro"], tipo="varias"),
+    },
+    "basura": {
+        "microbasural": _q("tamano", "¿Qué tan grande es?", ["Unas pocas bolsas", "Un montón", "Ocupa media calle o más"]),
+        "voluminosos": _q("voluminosos", "¿Sabías que el municipio retira voluminosos?", ["Sí, y lo pedí", "Sí, pero no lo pedí", "No sabía"]),
+        "reciclaje": _q("reciclaje", "¿Tienes un punto de reciclaje cerca?", ["A menos de 5 cuadras", "Más lejos", "No hay", "No sé"]),
+    },
+    "calles": {
+        "baches": _q("dano", "¿Qué tan grande es el daño?", ["Un bache", "Varios en la cuadra", "Toda la calle"]),
+        "veredas": _q("paso", "¿Se puede pasar con coche o silla de ruedas?", ["Sí", "Con dificultad", "No"]),
+        "sin_pavimento": _q("casas", "¿Cuántas casas hay en esa calle?", ["Menos de 10", "De 10 a 50", "Más de 50"]),
+        "senalizacion": _q("falta_senal", "¿Qué falta?", ["Un semáforo", "Un paso de cebra", "Una señal", "Un lomo de toro", "Otra cosa"]),
+        "accesibilidad": _q("dificil", "¿Para quiénes es difícil pasar?", ["Personas en silla de ruedas", "Personas mayores", "Coches de guagua", "Personas ciegas", "Para todos"], tipo="varias"),
+    },
+    "areas_verdes": {
+        "mantencion": _q("falta_mant", "¿Qué es lo que más falta?", ["Riego", "Corte de pasto", "Limpieza", "Luz", "Bancas o basureros"]),
+        "arbolado": _q("arbol", "¿Qué pasa con el árbol?", ["Necesita poda", "Está seco o podría caerse", "Rompe la vereda", "Faltan árboles"]),
+        "faltan": _q("plaza_cerca", "¿A cuánto queda la plaza más cercana?", ["A menos de 5 cuadras", "De 5 a 10 cuadras", "A más de 10 cuadras"]),
+    },
+    "alumbrado": {
+        "apagada": _q("cruce", "¿Está en un cruce o en un paradero?", ["Sí", "No", "No sé"]),
+        "oscura": _q("inseguro_noche", "¿Te sientes insegura o inseguro pasando por ahí de noche?", ["Sí", "A veces", "No"]),
+        "cortes": _q("cortes_luz", "¿Cada cuánto se corta la luz?", ["Una vez al mes o menos", "Varias veces al mes", "Todas las semanas"]),
+    },
+    "seguridad": {
+        "seguridad_municipal": _q("patrullaje", "¿Has visto patrullaje municipal en tu sector?", ["Seguido", "A veces", "Nunca", "No sabía que existía"]),
+        "espacio_inseguro": _q("por_que_inseguro", "¿Qué lo hace inseguro?", ["Poca luz", "Un sitio abandonado", "Consumo de drogas o alcohol", "Basura", "Otra cosa"]),
+        "delitos": _q("situacion_delito", "¿Qué tipo de situación?", ["Robos", "Asaltos", "Venta de drogas", "Disparos", "Prefiero no decir"]),
+        "convivencia": _q("conflicto", "¿Qué está pasando?", ["Ruidos molestos", "Fiestas", "Peleas entre vecinos", "Animales", "Otra cosa"]),
+    },
+    "agua": {
+        "aljibe": _q("alcanza", "¿El agua que te llega te alcanza?", ["Sí", "Menos de la que necesito", "Muy poca", "No me llega"]),
+        "apr": _q("apr", "¿Cómo funciona tu APR?", ["Bien", "Con cortes", "El agua llega en mal estado", "No hay APR"]),
+        "aguas_lluvia": _q("lluvia", "¿Qué pasa cuando llueve?", ["Se inunda la calle", "Entra agua a las casas", "Se cortan los caminos", "Otra cosa"]),
+    },
+    "transporte": {
+        "paraderos": _q("paradero", "¿Cómo es tu paradero?", ["Tiene techo y asiento", "Solo un letrero", "No hay paradero"]),
+        "transporte_municipal": _q("uso_transporte", "¿Para qué lo usas?", ["Ir al consultorio", "Ir al colegio", "Hacer trámites", "Ir a trabajar", "Otra cosa"]),
+        "ciclovias": _q("bicicleta", "¿Usarías bicicleta si hubiera una ciclovía segura?", ["Sí", "Tal vez", "No"]),
+    },
+    "vivienda": {
+        "campamento": _q("familias", "¿Cuántas familias viven ahí?", ["Menos de 20", "De 20 a 100", "Más de 100", "No sé"]),
+        "subsidio": _q("etapa", "¿En qué etapa estás?", ["Postulando", "Esperando el resultado", "Tengo el subsidio, pero no la vivienda", "Otra"]),
+        "condominio": _q("problema_condominio", "¿Cuál es el problema principal?", ["Filtraciones", "Espacios comunes", "Seguridad", "Administración", "Otro"]),
+        "emergencia": _q("dano_vivienda", "¿Cómo quedó tu vivienda?", ["Con daño leve", "Con daño grave", "No se puede vivir en ella"]),
+    },
+    "apoyo_social": {
+        "personas_mayores": _q("necesita_mayor", "¿Qué es lo que más necesita?", ["Compañía", "Cuidados", "Ayuda con trámites", "Atención de salud", "Alimentación"], tipo="varias"),
+        "discapacidad": _q("barrera", "¿Qué es lo más difícil?", ["Moverse por la comuna", "Acceder a servicios", "Encontrar trabajo", "Conseguir apoyos o ayudas técnicas"]),
+        "cuidados": _q("horas_cuidado", "¿Cuántas horas al día cuidas a otra persona?", ["Menos de 4", "De 4 a 8", "Más de 8"]),
+        "ayudas": _q("tramite_social", "¿Qué trámite o ayuda?", ["Registro Social de Hogares", "Una ayuda social", "Una pensión o bono", "Otro"]),
+    },
+    "cultura_deporte": {
+        "canchas": _q("cancha", "¿Cómo está la cancha?", ["Bien", "Más o menos", "Mal", "No hay"]),
+        "talleres": _q("talleres_para", "¿Para quiénes faltan talleres?", ["Niños", "Jóvenes", "Adultos", "Personas mayores"], tipo="varias"),
+    },
+    "animales": {
+        "esterilizacion": _q("hora_esterilizacion", "¿Pudiste conseguir hora?", ["Sí", "Estoy esperando", "No hay operativos", "No sabía que existían"]),
+        "plagas": _q("plaga", "¿Qué plaga?", ["Ratones", "Palomas", "Cucarachas", "Otra"]),
+    },
+    "municipio": {
+        "tramites": _q("tramite", "¿Qué trámite?", ["Permiso de circulación", "Patente", "Permiso de edificación", "Certificados", "Otro"]),
+        "transparencia": _q("encontro_info", "¿Encontraste la información que buscabas?", ["Sí", "En parte", "No"]),
+        "participacion_vecinal": _q("junta", "¿Tu junta de vecinos está activa?", ["Sí", "Poco", "No", "No sé"]),
+    },
+}
+
+# ---------------------------------------------------------------- seguimientos según la respuesta (versión 1.2)
+# Aparecen justo debajo de la respuesta que los activa ("si"). "reemplaza": la pregunta que deja de hacerse cuando aparece.
+MEJORAR = ["La calidad", "Lo que hay que esperar", "Cómo te tratan", "Que llegue a todos", "La información"]
+SEGUIMIENTOS = [
+    {"id": "mejorar", "pregunta": "¿Qué debería mejorar primero?", "tipo": "una", "opciones": MEJORAR,
+     "si": {"valoracion": ["1", "2", "3", "4"]}, "reemplaza": "motivo"},
+    {"id": "funciona", "pregunta": "¿Qué es lo que mejor funciona?", "tipo": "una", "opciones": MEJORAR,
+     "si": {"valoracion": ["5", "6", "7"]}, "reemplaza": "motivo"},
+    {"id": "pedido_hace", "pregunta": "¿Hace cuánto lo pediste?", "tipo": "una", "opciones": ["Menos de 1 mes", "De 1 a 6 meses", "Más de 6 meses"],
+     "si": {"espera": ["Todavía no me atienden"]}},
+    {"id": "freno", "pregunta": "¿Qué te frenó?", "tipo": "una", "opciones": ["No sabía dónde", "Pensé que no serviría", "No tuve tiempo", "Me da miedo que haya represalias"],
+     "si": {"reportado": ["Todavía no"]}},
+    {"id": "avisado_hace", "pregunta": "¿Hace cuánto avisaste?", "tipo": "una", "opciones": ["Menos de 1 mes", "De 1 a 3 meses", "Más de 3 meses"],
+     "si": {"respuesta": ["No me han respondido"]}},
+    {"id": "por_que_no_serviria", "pregunta": "¿Por qué lo sentiste?", "tipo": "una", "opciones": ["Otras veces no pasó nada", "Queda lejos", "Miedo a represalias", "Otro"],
+     "si": {"denuncia": ["Sentí que no serviría"]}},
+    {"id": "sin_agua_desde", "pregunta": "¿Desde cuándo?", "tipo": "una", "opciones": ["Menos de 1 semana", "De 1 a 4 semanas", "Más de 1 mes"],
+     "si": {"acceso": ["No me llega"]}},
+    {"id": "avisame", "pregunta": "¿Te avisamos si otros vecinos proponen lo mismo?", "tipo": "una", "opciones": ["Sí", "No"],
+     "si": {"sumarse": ["Sí, cuenten conmigo"]}, "requiere_cuenta_si": "Sí"},
+]
+# Comportamientos sin pregunta: "No sabía dónde avisar" → al final se muestra dónde avisar; "Prefiero no decir" → no se insiste.
+AL_FINAL = {"mostrar_donde_avisar_si": {"reportado": ["No sabía dónde avisar"], "freno": ["No sabía dónde"]}}
+TOPE_BASE = 8
+OMITIR_PRIMERO = ["cuando_foto", "cuando"]
+
 # ---------------------------------------------------------------- equivalencias con el gasto
 # Los rubros del Monitor de Gasto Municipal se escriben tal como vienen en la fuente (sin tildes).
 # precision: "directa" (la fuente dice para qué se gasta), "aproximada" (lo deduce del proveedor o de un rubro amplio),
@@ -421,8 +534,22 @@ def main():
              "temas": [{k: v for k, v in t.items() if k != "preguntas"} for t in TEMAS]}
     preguntas = {"version": VERSION, "comunes_por_tipo": COMUNES,
                  "por_tema": {t["id"]: t["preguntas"] for t in TEMAS},
-                 "nota": "Al aporte se le hacen las preguntas comunes de cada tipo elegido más las propias de su tema."}
+                 "por_subtema": POR_SUBTEMA, "seguimientos": SEGUIMIENTOS, "al_final": AL_FINAL,
+                 "tope_base": TOPE_BASE, "omitir_primero": OMITIR_PRIMERO,
+                 "orden": "Primero la pregunta del subtema, luego las del tema (sin las que el subtema reemplaza) y después los bloques de cada tipo de aporte elegido, sin repetir. Si pasan del tope, se omiten en el orden de omitir_primero. Cada seguimiento aparece justo después de la pregunta que lo activa y no cuenta para el tope.",
+                 "nota": "Al aporte se le hacen la pregunta de su subtema, las de su tema y las comunes de cada tipo elegido; los seguimientos aparecen según la respuesta."}
     ids = [t["id"] for t in TEMAS]
+    todos = {q["id"] for v in COMUNES.values() for q in v} | {q["id"] for t in TEMAS for q in t["preguntas"]}
+    for tid, subs in POR_SUBTEMA.items():
+        validos = {x["id"] for t in TEMAS if t["id"] == tid for x in t["subtemas"]}
+        for sid, q in subs.items():
+            assert sid in validos, (tid, sid)
+            assert q["id"] not in todos, q["id"]
+            todos.add(q["id"])
+    for sg in SEGUIMIENTOS:
+        assert all(k in todos for k in sg["si"]), sg["id"]
+        assert sg["id"] not in todos, sg["id"]
+        todos.add(sg["id"])
     assert set(ids) == set(EQUIVALENCIAS), "cada tema necesita su fila de equivalencias"
     for t in TEMAS:
         for s in t["subtemas"]:

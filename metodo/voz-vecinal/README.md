@@ -1,6 +1,6 @@
 # Voz vecinal · método público
 
-Versión 1.1 · 22-10-2026
+Versión 1.2 · 22-10-2026
 
 **Voz vecinal** es la sección de Código País donde las personas aportan, de forma voluntaria, lo que viven en su comuna: opiniones, experiencias, reclamos, propuestas y fotos. Esos aportes se ponen frente al gasto público.
 
@@ -59,6 +59,24 @@ Levantamos datos, pero la persona tiene que sentir que está en un lugar donde l
 - **Todo es opcional menos lo mínimo:** se responde solo lo que se quiere, y se dice así.
 - **Explicar cada cuidado:** si tachamos datos o no publicamos algo, decimos por qué ("para cuidarte", "para cuidar este espacio").
 - **Agradecer y cerrar el ciclo:** al terminar, contamos qué pasará con su aporte y cómo seguirlo.
+
+## Preguntas que se adaptan (versión 1.2)
+
+Las preguntas de cada aporte se arman en este orden:
+1. **La pregunta del subtema** (48 de los 60 subtemas tienen una propia). Por ejemplo, en CESFAM: "¿Qué necesitabas?". Si mide lo mismo que la del tema, la reemplaza.
+2. **Las preguntas del tema.**
+3. **Los bloques de lo que la persona quiere compartir** (opinión, algo que viví, un problema, una idea, fotos), sin repetir.
+
+Si las preguntas base pasan de 8, se omiten primero "¿Cuándo la tomaste?" y después "¿Cuándo te pasó?".
+
+**Seguimientos:** una pregunta corta aparece justo debajo de la respuesta que la activa y no cuenta para el tope. Ejemplos:
+- con nota del 1 al 4: "¿Qué debería mejorar primero?";
+- si todavía no avisó: "¿Qué te frenó?";
+- si no le han respondido: "¿Hace cuánto avisaste?".
+
+Están en `preguntas.json`, en las claves `por_subtema`, `seguimientos`, `tope_base` y `omitir_primero`.
+
+Nunca se pregunta por diagnósticos ni datos que identifiquen a la persona.
 
 ## La tabla de equivalencias
 

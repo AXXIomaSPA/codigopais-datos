@@ -1,5 +1,5 @@
 {
- "version": "1.1 · 22-10-2026",
+ "version": "1.2 · 22-10-2026",
  "comunes_por_tipo": {
   "opinion": [
    {
@@ -390,5 +390,714 @@
   ],
   "otro": []
  },
- "nota": "Al aporte se le hacen las preguntas comunes de cada tipo elegido más las propias de su tema."
+ "por_subtema": {
+  "salud": {
+   "cesfam": {
+    "id": "sub_cesfam",
+    "pregunta": "¿Qué necesitabas?",
+    "tipo": "una",
+    "opciones": [
+     "Una hora con médico",
+     "Un control o examen",
+     "Remedios",
+     "Atención dental",
+     "Otra cosa"
+    ]
+   },
+   "urgencia_primaria": {
+    "id": "sub_urgencia",
+    "pregunta": "¿A qué hora fuiste?",
+    "tipo": "una",
+    "opciones": [
+     "En la mañana",
+     "En la tarde",
+     "En la noche",
+     "De madrugada"
+    ]
+   },
+   "farmacia": {
+    "id": "sub_farmacia",
+    "pregunta": "¿Encontraste el remedio que necesitabas?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "Solo algunos",
+     "No había",
+     "No sabía que existía la farmacia municipal"
+    ]
+   },
+   "posta_rural": {
+    "id": "sub_posta",
+    "pregunta": "¿Cada cuánto viene el médico o la ronda?",
+    "tipo": "una",
+    "opciones": [
+     "Todas las semanas",
+     "Cada dos semanas",
+     "Una vez al mes o menos",
+     "No sé"
+    ]
+   },
+   "hospital": {
+    "id": "sub_hospital",
+    "pregunta": "¿Qué estás esperando?",
+    "tipo": "una",
+    "opciones": [
+     "Una consulta con especialista",
+     "Una cirugía",
+     "Un examen",
+     "Prefiero no decir"
+    ]
+   },
+   "especialista": {
+    "id": "sub_lista_espera",
+    "pregunta": "¿Hace cuánto estás en lista de espera?",
+    "tipo": "una",
+    "opciones": [
+     "Menos de 6 meses",
+     "De 6 a 12 meses",
+     "De 1 a 2 años",
+     "Más de 2 años"
+    ],
+    "reemplaza": "espera"
+   }
+  },
+  "educacion": {
+   "jardin": {
+    "id": "sub_cupo",
+    "pregunta": "¿Conseguiste cupo?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "Estoy en lista de espera",
+     "No",
+     "Todavía no he postulado"
+    ]
+   },
+   "transporte_escolar": {
+    "id": "sub_viaje",
+    "pregunta": "¿Cuánto demora el viaje?",
+    "tipo": "una",
+    "opciones": [
+     "Menos de 30 minutos",
+     "De 30 a 60 minutos",
+     "Más de 1 hora",
+     "No hay transporte"
+    ]
+   },
+   "infraestructura": {
+    "id": "sub_arreglo",
+    "pregunta": "¿Qué necesita arreglo?",
+    "tipo": "varias",
+    "opciones": [
+     "Baños",
+     "Techos o goteras",
+     "Calefacción",
+     "Patios",
+     "Accesos para personas con discapacidad",
+     "Otro"
+    ]
+   }
+  },
+  "basura": {
+   "microbasural": {
+    "id": "sub_tamano",
+    "pregunta": "¿Qué tan grande es?",
+    "tipo": "una",
+    "opciones": [
+     "Unas pocas bolsas",
+     "Un montón",
+     "Ocupa media calle o más"
+    ]
+   },
+   "voluminosos": {
+    "id": "sub_voluminosos",
+    "pregunta": "¿Sabías que el municipio retira voluminosos?",
+    "tipo": "una",
+    "opciones": [
+     "Sí, y lo pedí",
+     "Sí, pero no lo pedí",
+     "No sabía"
+    ]
+   },
+   "reciclaje": {
+    "id": "sub_reciclaje",
+    "pregunta": "¿Tienes un punto de reciclaje cerca?",
+    "tipo": "una",
+    "opciones": [
+     "A menos de 5 cuadras",
+     "Más lejos",
+     "No hay",
+     "No sé"
+    ]
+   }
+  },
+  "calles": {
+   "baches": {
+    "id": "sub_dano",
+    "pregunta": "¿Qué tan grande es el daño?",
+    "tipo": "una",
+    "opciones": [
+     "Un bache",
+     "Varios en la cuadra",
+     "Toda la calle"
+    ]
+   },
+   "veredas": {
+    "id": "sub_paso",
+    "pregunta": "¿Se puede pasar con coche o silla de ruedas?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "Con dificultad",
+     "No"
+    ]
+   },
+   "sin_pavimento": {
+    "id": "sub_casas",
+    "pregunta": "¿Cuántas casas hay en esa calle?",
+    "tipo": "una",
+    "opciones": [
+     "Menos de 10",
+     "De 10 a 50",
+     "Más de 50"
+    ]
+   },
+   "senalizacion": {
+    "id": "sub_falta_senal",
+    "pregunta": "¿Qué falta?",
+    "tipo": "una",
+    "opciones": [
+     "Un semáforo",
+     "Un paso de cebra",
+     "Una señal",
+     "Un lomo de toro",
+     "Otra cosa"
+    ]
+   },
+   "accesibilidad": {
+    "id": "sub_dificil",
+    "pregunta": "¿Para quiénes es difícil pasar?",
+    "tipo": "varias",
+    "opciones": [
+     "Personas en silla de ruedas",
+     "Personas mayores",
+     "Coches de guagua",
+     "Personas ciegas",
+     "Para todos"
+    ]
+   }
+  },
+  "areas_verdes": {
+   "mantencion": {
+    "id": "sub_falta_mant",
+    "pregunta": "¿Qué es lo que más falta?",
+    "tipo": "una",
+    "opciones": [
+     "Riego",
+     "Corte de pasto",
+     "Limpieza",
+     "Luz",
+     "Bancas o basureros"
+    ]
+   },
+   "arbolado": {
+    "id": "sub_arbol",
+    "pregunta": "¿Qué pasa con el árbol?",
+    "tipo": "una",
+    "opciones": [
+     "Necesita poda",
+     "Está seco o podría caerse",
+     "Rompe la vereda",
+     "Faltan árboles"
+    ]
+   },
+   "faltan": {
+    "id": "sub_plaza_cerca",
+    "pregunta": "¿A cuánto queda la plaza más cercana?",
+    "tipo": "una",
+    "opciones": [
+     "A menos de 5 cuadras",
+     "De 5 a 10 cuadras",
+     "A más de 10 cuadras"
+    ]
+   }
+  },
+  "alumbrado": {
+   "apagada": {
+    "id": "sub_cruce",
+    "pregunta": "¿Está en un cruce o en un paradero?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "No",
+     "No sé"
+    ]
+   },
+   "oscura": {
+    "id": "sub_inseguro_noche",
+    "pregunta": "¿Te sientes insegura o inseguro pasando por ahí de noche?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "A veces",
+     "No"
+    ]
+   },
+   "cortes": {
+    "id": "sub_cortes_luz",
+    "pregunta": "¿Cada cuánto se corta la luz?",
+    "tipo": "una",
+    "opciones": [
+     "Una vez al mes o menos",
+     "Varias veces al mes",
+     "Todas las semanas"
+    ]
+   }
+  },
+  "seguridad": {
+   "seguridad_municipal": {
+    "id": "sub_patrullaje",
+    "pregunta": "¿Has visto patrullaje municipal en tu sector?",
+    "tipo": "una",
+    "opciones": [
+     "Seguido",
+     "A veces",
+     "Nunca",
+     "No sabía que existía"
+    ]
+   },
+   "espacio_inseguro": {
+    "id": "sub_por_que_inseguro",
+    "pregunta": "¿Qué lo hace inseguro?",
+    "tipo": "una",
+    "opciones": [
+     "Poca luz",
+     "Un sitio abandonado",
+     "Consumo de drogas o alcohol",
+     "Basura",
+     "Otra cosa"
+    ]
+   },
+   "delitos": {
+    "id": "sub_situacion_delito",
+    "pregunta": "¿Qué tipo de situación?",
+    "tipo": "una",
+    "opciones": [
+     "Robos",
+     "Asaltos",
+     "Venta de drogas",
+     "Disparos",
+     "Prefiero no decir"
+    ]
+   },
+   "convivencia": {
+    "id": "sub_conflicto",
+    "pregunta": "¿Qué está pasando?",
+    "tipo": "una",
+    "opciones": [
+     "Ruidos molestos",
+     "Fiestas",
+     "Peleas entre vecinos",
+     "Animales",
+     "Otra cosa"
+    ]
+   }
+  },
+  "agua": {
+   "aljibe": {
+    "id": "sub_alcanza",
+    "pregunta": "¿El agua que te llega te alcanza?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "Menos de la que necesito",
+     "Muy poca",
+     "No me llega"
+    ]
+   },
+   "apr": {
+    "id": "sub_apr",
+    "pregunta": "¿Cómo funciona tu APR?",
+    "tipo": "una",
+    "opciones": [
+     "Bien",
+     "Con cortes",
+     "El agua llega en mal estado",
+     "No hay APR"
+    ]
+   },
+   "aguas_lluvia": {
+    "id": "sub_lluvia",
+    "pregunta": "¿Qué pasa cuando llueve?",
+    "tipo": "una",
+    "opciones": [
+     "Se inunda la calle",
+     "Entra agua a las casas",
+     "Se cortan los caminos",
+     "Otra cosa"
+    ]
+   }
+  },
+  "transporte": {
+   "paraderos": {
+    "id": "sub_paradero",
+    "pregunta": "¿Cómo es tu paradero?",
+    "tipo": "una",
+    "opciones": [
+     "Tiene techo y asiento",
+     "Solo un letrero",
+     "No hay paradero"
+    ]
+   },
+   "transporte_municipal": {
+    "id": "sub_uso_transporte",
+    "pregunta": "¿Para qué lo usas?",
+    "tipo": "una",
+    "opciones": [
+     "Ir al consultorio",
+     "Ir al colegio",
+     "Hacer trámites",
+     "Ir a trabajar",
+     "Otra cosa"
+    ]
+   },
+   "ciclovias": {
+    "id": "sub_bicicleta",
+    "pregunta": "¿Usarías bicicleta si hubiera una ciclovía segura?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "Tal vez",
+     "No"
+    ]
+   }
+  },
+  "vivienda": {
+   "campamento": {
+    "id": "sub_familias",
+    "pregunta": "¿Cuántas familias viven ahí?",
+    "tipo": "una",
+    "opciones": [
+     "Menos de 20",
+     "De 20 a 100",
+     "Más de 100",
+     "No sé"
+    ]
+   },
+   "subsidio": {
+    "id": "sub_etapa",
+    "pregunta": "¿En qué etapa estás?",
+    "tipo": "una",
+    "opciones": [
+     "Postulando",
+     "Esperando el resultado",
+     "Tengo el subsidio, pero no la vivienda",
+     "Otra"
+    ]
+   },
+   "condominio": {
+    "id": "sub_problema_condominio",
+    "pregunta": "¿Cuál es el problema principal?",
+    "tipo": "una",
+    "opciones": [
+     "Filtraciones",
+     "Espacios comunes",
+     "Seguridad",
+     "Administración",
+     "Otro"
+    ]
+   },
+   "emergencia": {
+    "id": "sub_dano_vivienda",
+    "pregunta": "¿Cómo quedó tu vivienda?",
+    "tipo": "una",
+    "opciones": [
+     "Con daño leve",
+     "Con daño grave",
+     "No se puede vivir en ella"
+    ]
+   }
+  },
+  "apoyo_social": {
+   "personas_mayores": {
+    "id": "sub_necesita_mayor",
+    "pregunta": "¿Qué es lo que más necesita?",
+    "tipo": "varias",
+    "opciones": [
+     "Compañía",
+     "Cuidados",
+     "Ayuda con trámites",
+     "Atención de salud",
+     "Alimentación"
+    ]
+   },
+   "discapacidad": {
+    "id": "sub_barrera",
+    "pregunta": "¿Qué es lo más difícil?",
+    "tipo": "una",
+    "opciones": [
+     "Moverse por la comuna",
+     "Acceder a servicios",
+     "Encontrar trabajo",
+     "Conseguir apoyos o ayudas técnicas"
+    ]
+   },
+   "cuidados": {
+    "id": "sub_horas_cuidado",
+    "pregunta": "¿Cuántas horas al día cuidas a otra persona?",
+    "tipo": "una",
+    "opciones": [
+     "Menos de 4",
+     "De 4 a 8",
+     "Más de 8"
+    ]
+   },
+   "ayudas": {
+    "id": "sub_tramite_social",
+    "pregunta": "¿Qué trámite o ayuda?",
+    "tipo": "una",
+    "opciones": [
+     "Registro Social de Hogares",
+     "Una ayuda social",
+     "Una pensión o bono",
+     "Otro"
+    ]
+   }
+  },
+  "cultura_deporte": {
+   "canchas": {
+    "id": "sub_cancha",
+    "pregunta": "¿Cómo está la cancha?",
+    "tipo": "una",
+    "opciones": [
+     "Bien",
+     "Más o menos",
+     "Mal",
+     "No hay"
+    ]
+   },
+   "talleres": {
+    "id": "sub_talleres_para",
+    "pregunta": "¿Para quiénes faltan talleres?",
+    "tipo": "varias",
+    "opciones": [
+     "Niños",
+     "Jóvenes",
+     "Adultos",
+     "Personas mayores"
+    ]
+   }
+  },
+  "animales": {
+   "esterilizacion": {
+    "id": "sub_hora_esterilizacion",
+    "pregunta": "¿Pudiste conseguir hora?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "Estoy esperando",
+     "No hay operativos",
+     "No sabía que existían"
+    ]
+   },
+   "plagas": {
+    "id": "sub_plaga",
+    "pregunta": "¿Qué plaga?",
+    "tipo": "una",
+    "opciones": [
+     "Ratones",
+     "Palomas",
+     "Cucarachas",
+     "Otra"
+    ]
+   }
+  },
+  "municipio": {
+   "tramites": {
+    "id": "sub_tramite",
+    "pregunta": "¿Qué trámite?",
+    "tipo": "una",
+    "opciones": [
+     "Permiso de circulación",
+     "Patente",
+     "Permiso de edificación",
+     "Certificados",
+     "Otro"
+    ]
+   },
+   "transparencia": {
+    "id": "sub_encontro_info",
+    "pregunta": "¿Encontraste la información que buscabas?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "En parte",
+     "No"
+    ]
+   },
+   "participacion_vecinal": {
+    "id": "sub_junta",
+    "pregunta": "¿Tu junta de vecinos está activa?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "Poco",
+     "No",
+     "No sé"
+    ]
+   }
+  }
+ },
+ "seguimientos": [
+  {
+   "id": "mejorar",
+   "pregunta": "¿Qué debería mejorar primero?",
+   "tipo": "una",
+   "opciones": [
+    "La calidad",
+    "Lo que hay que esperar",
+    "Cómo te tratan",
+    "Que llegue a todos",
+    "La información"
+   ],
+   "si": {
+    "valoracion": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "reemplaza": "motivo"
+  },
+  {
+   "id": "funciona",
+   "pregunta": "¿Qué es lo que mejor funciona?",
+   "tipo": "una",
+   "opciones": [
+    "La calidad",
+    "Lo que hay que esperar",
+    "Cómo te tratan",
+    "Que llegue a todos",
+    "La información"
+   ],
+   "si": {
+    "valoracion": [
+     "5",
+     "6",
+     "7"
+    ]
+   },
+   "reemplaza": "motivo"
+  },
+  {
+   "id": "pedido_hace",
+   "pregunta": "¿Hace cuánto lo pediste?",
+   "tipo": "una",
+   "opciones": [
+    "Menos de 1 mes",
+    "De 1 a 6 meses",
+    "Más de 6 meses"
+   ],
+   "si": {
+    "espera": [
+     "Todavía no me atienden"
+    ]
+   }
+  },
+  {
+   "id": "freno",
+   "pregunta": "¿Qué te frenó?",
+   "tipo": "una",
+   "opciones": [
+    "No sabía dónde",
+    "Pensé que no serviría",
+    "No tuve tiempo",
+    "Me da miedo que haya represalias"
+   ],
+   "si": {
+    "reportado": [
+     "Todavía no"
+    ]
+   }
+  },
+  {
+   "id": "avisado_hace",
+   "pregunta": "¿Hace cuánto avisaste?",
+   "tipo": "una",
+   "opciones": [
+    "Menos de 1 mes",
+    "De 1 a 3 meses",
+    "Más de 3 meses"
+   ],
+   "si": {
+    "respuesta": [
+     "No me han respondido"
+    ]
+   }
+  },
+  {
+   "id": "por_que_no_serviria",
+   "pregunta": "¿Por qué lo sentiste?",
+   "tipo": "una",
+   "opciones": [
+    "Otras veces no pasó nada",
+    "Queda lejos",
+    "Miedo a represalias",
+    "Otro"
+   ],
+   "si": {
+    "denuncia": [
+     "Sentí que no serviría"
+    ]
+   }
+  },
+  {
+   "id": "sin_agua_desde",
+   "pregunta": "¿Desde cuándo?",
+   "tipo": "una",
+   "opciones": [
+    "Menos de 1 semana",
+    "De 1 a 4 semanas",
+    "Más de 1 mes"
+   ],
+   "si": {
+    "acceso": [
+     "No me llega"
+    ]
+   }
+  },
+  {
+   "id": "avisame",
+   "pregunta": "¿Te avisamos si otros vecinos proponen lo mismo?",
+   "tipo": "una",
+   "opciones": [
+    "Sí",
+    "No"
+   ],
+   "si": {
+    "sumarse": [
+     "Sí, cuenten conmigo"
+    ]
+   },
+   "requiere_cuenta_si": "Sí"
+  }
+ ],
+ "al_final": {
+  "mostrar_donde_avisar_si": {
+   "reportado": [
+    "No sabía dónde avisar"
+   ],
+   "freno": [
+    "No sabía dónde"
+   ]
+  }
+ },
+ "tope_base": 8,
+ "omitir_primero": [
+  "cuando_foto",
+  "cuando"
+ ],
+ "orden": "Primero la pregunta del subtema, luego las del tema (sin las que el subtema reemplaza) y después los bloques de cada tipo de aporte elegido, sin repetir. Si pasan del tope, se omiten en el orden de omitir_primero. Cada seguimiento aparece justo después de la pregunta que lo activa y no cuenta para el tope.",
+ "nota": "Al aporte se le hacen la pregunta de su subtema, las de su tema y las comunes de cada tipo elegido; los seguimientos aparecen según la respuesta."
 }
