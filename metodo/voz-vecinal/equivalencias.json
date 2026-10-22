@@ -1,0 +1,684 @@
+{
+ "version": "1.0 · 22-10-2026",
+ "reglas_generales": [
+  "Orden de aplicación para cada ítem de compra: 1) unidad compradora, 2) palabras en el nombre, 3) categoría del producto, 4) funcionamiento general. En cada paso se recorren los temas en el orden de la lista y gana el primero que calza; así ningún peso se cuenta dos veces.",
+  "La regla por unidad compradora (salud, educación) tiene prioridad sobre la categoría del producto: un camión aljibe comprado por el Departamento de Salud cuenta como salud.",
+  "Solo se compara la necesidad con el gasto municipal en los subtemas cuyo responsable es el municipio o es compartido; los demás se muestran sin comparación y con el nombre del responsable.",
+  "Cada comparación muestra su precisión: directa, aproximada o sin dato. Sin dato, Coddy dice 'lo que aún no se puede medir'.",
+  "Las palabras se buscan en el nombre de la orden y del producto, sin tildes y en mayúsculas.",
+  "Lo que no es un tema vecinal (vehículos, combustible, oficina, limpieza de edificios, seguros) se agrupa como 'funcionamiento general' y no se compara con necesidades.",
+  "Lo que no calza con ninguna regla queda como 'sin clasificar' y se informa su porcentaje: nunca se reparte a la fuerza.",
+  "La tabla es pública y se corrige con evidencia; cada cambio cambia la versión."
+ ],
+ "unidades": {
+  "salud": [
+   "SALUD",
+   "CESFAM",
+   "CECOSF",
+   "SAPU",
+   "SAR",
+   "CONSULTORIO",
+   "DESAMU",
+   "POSTA"
+  ],
+  "educacion": [
+   "EDUCACION",
+   "EDUCACIÓN",
+   "DAEM",
+   "DEM ",
+   "LICEO",
+   "ESCUELA",
+   "COLEGIO",
+   "JARDIN",
+   "JARDÍN"
+  ]
+ },
+ "funcionamiento_general": [
+  {
+   "n1": "Servicios de limpieza industrial",
+   "n2": [
+    "Servicios de limpieza"
+   ]
+  },
+  {
+   "n1": "Vehículos y equipamiento en general"
+  },
+  {
+   "n1": "Combustibles, lubricantes y anticorrosivos"
+  },
+  {
+   "n1": "Productos de papel"
+  },
+  {
+   "n1": "Productos impresos y publicaciones"
+  },
+  {
+   "n1": "Equipos, accesorios y suministros de oficina"
+  },
+  {
+   "n1": "Tecnologías de la información, telecomunicaciones y radiodifusión"
+  },
+  {
+   "n1": "Servicios profesionales, administrativos y consultorías de gestión empresarial"
+  },
+  {
+   "n1": "Servicios basados en ingeniería, ciencias sociales y tecnología de la información"
+  },
+  {
+   "n1": "Servicios financieros, pensiones y seguros"
+  },
+  {
+   "n1": "Servicios editoriales, de diseño, publicidad, gráficos y artistas"
+  },
+  {
+   "n1": "Muebles y mobiliario"
+  },
+  {
+   "n1": "Equipos y suministros de limpieza"
+  },
+  {
+   "n1": "Herramientas y maquinaria en general"
+  },
+  {
+   "n1": "Maquinaria para construcción y edificación"
+  },
+  {
+   "n1": "Equipamiento para manejo y estiba de materiales"
+  }
+ ],
+ "temas": {
+  "salud": {
+   "chilecompra": {
+    "precision": "directa",
+    "reglas": [
+     {
+      "n1": [
+       "Servicios de construcción y mantenimiento",
+       "Artículos para estructuras, obras y construcciones"
+      ],
+      "palabras": [
+       "CESFAM",
+       "CECOSF",
+       "POSTA",
+       "SAPU",
+       "CONSULTORIO"
+      ]
+     },
+     {
+      "unidad": [
+       "SALUD",
+       "CESFAM",
+       "CECOSF",
+       "SAPU",
+       "SAR",
+       "CONSULTORIO",
+       "DESAMU",
+       "POSTA"
+      ]
+     },
+     {
+      "n1": "Medicamentos y productos farmacéuticos"
+     },
+     {
+      "n1": "Equipamiento y suministros médicos"
+     },
+     {
+      "n1": "Salud, servicios sanitarios y alimentación",
+      "n2": [
+       "Medicina y servicios de salud",
+       "Servicios para el cuidado de la salud de las personas",
+       "Prevención y control de enfermedades"
+      ]
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Actividades de atencion de la salud humana y de asistencia social"
+    ],
+    "nota": "Solo facturas; los remedios comprados a distribuidoras quedan como comercio y los sueldos de los CESFAM no aparecen."
+   },
+   "presupuesto_estado": {
+    "precision": "directa",
+    "partidas": [
+     "16"
+    ],
+    "nota": "Ministerio de Salud; incluye el aporte para atención primaria municipal."
+   }
+  },
+  "educacion": {
+   "chilecompra": {
+    "precision": "directa",
+    "reglas": [
+     {
+      "n1": [
+       "Servicios de construcción y mantenimiento",
+       "Artículos para estructuras, obras y construcciones"
+      ],
+      "palabras": [
+       "ESCUELA",
+       "LICEO",
+       "COLEGIO",
+       "JARDIN INFANTIL",
+       "SALA CUNA"
+      ]
+     },
+     {
+      "unidad": [
+       "EDUCACION",
+       "EDUCACIÓN",
+       "DAEM",
+       "DEM ",
+       "LICEO",
+       "ESCUELA",
+       "COLEGIO",
+       "JARDIN",
+       "JARDÍN"
+      ]
+     },
+     {
+      "n1": "Educación, formación, entrenamiento y capacitación"
+     },
+     {
+      "n1": "Instrumentos musicales, juegos, juguetes, artesanías y materiales educativos"
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Enseñanza"
+    ]
+   },
+   "presupuesto_estado": {
+    "precision": "directa",
+    "partidas": [
+     "09"
+    ]
+   },
+   "nota": "En las comunas donde las escuelas ya pasaron a un Servicio Local de Educación Pública, ese gasto deja de ser municipal."
+  },
+  "basura": {
+   "chilecompra": {
+    "precision": "directa",
+    "reglas": [
+     {
+      "n1": "Servicios de limpieza industrial",
+      "n2": [
+       "Eliminación y tratamiento de desechos",
+       "Limpieza de residuos o desechos tóxicos y peligrosos"
+      ]
+     },
+     {
+      "n1": "Servicios medioambientales"
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion"
+    ],
+    "nota": "El rubro mezcla basura con agua; en la práctica municipal es casi todo basura."
+   },
+   "presupuesto_estado": {
+    "precision": "sin_dato",
+    "partidas": []
+   }
+  },
+  "calles": {
+   "chilecompra": {
+    "precision": "aproximada",
+    "reglas": [
+     {
+      "n1": "Artículos para estructuras, obras y construcciones",
+      "n2": [
+       "Pavimento para carreteras y caminos"
+      ]
+     },
+     {
+      "n1": [
+       "Servicios de construcción y mantenimiento",
+       "Artículos para estructuras, obras y construcciones"
+      ],
+      "palabras": [
+       "PAVIMENT",
+       "VEREDA",
+       "BACHE",
+       "CALZADA",
+       "ACERA",
+       "ASFALT",
+       "CALLE",
+       "PASAJE",
+       "SOLERA",
+       "SENALETICA",
+       "SENALIZACION",
+       "DEMARCACION",
+       "RESALTO",
+       "LOMO DE TORO",
+       "CAMINO",
+       "AVENIDA",
+       "PUENTE",
+       "PASARELA",
+       "CICLOVIA"
+      ]
+     }
+    ],
+    "nota": "La categoría de construcción no separa calles de edificios; se usan palabras del nombre de la orden."
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Construccion"
+    ],
+    "nota": "Mezcla calles, edificios y obras."
+   },
+   "presupuesto_estado": {
+    "precision": "directa",
+    "partidas": [
+     "18",
+     "12"
+    ],
+    "nota": "Vivienda (pavimentos participativos) y Obras Públicas (vialidad)."
+   }
+  },
+  "areas_verdes": {
+   "chilecompra": {
+    "precision": "directa",
+    "reglas": [
+     {
+      "n1": [
+       "Servicios de construcción y mantenimiento",
+       "Artículos para estructuras, obras y construcciones"
+      ],
+      "palabras": [
+       "PLAZA",
+       "PARQUE",
+       "AREA VERDE",
+       "AREAS VERDES",
+       "ARBOLADO"
+      ]
+     },
+     {
+      "n1": "Servicios agrícolas, pesqueros, forestales y relacionados con la fauna",
+      "n2": [
+       "Horticultura"
+      ]
+     },
+     {
+      "n1": "Artículos para plantas y animales",
+      "n2": [
+       "Semillas, bulbos y almácigos",
+       "Abonos y herbicidas",
+       "Productos de floricultura y silvicultura"
+      ]
+     },
+     {
+      "n1": "Equipos, suministros y accesorios deportivos y recreativos",
+      "n2": [
+       "Equipos y suministros de recreación, parques infantiles, natación y de spa"
+      ]
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Agricultura; ganaderia; silvicultura y pesca"
+    ]
+   },
+   "presupuesto_estado": {
+    "precision": "sin_dato",
+    "partidas": []
+   }
+  },
+  "alumbrado": {
+   "chilecompra": {
+    "precision": "directa",
+    "reglas": [
+     {
+      "n1": [
+       "Servicios de construcción y mantenimiento",
+       "Artículos para estructuras, obras y construcciones"
+      ],
+      "palabras": [
+       "ALUMBRADO",
+       "LUMINARIA",
+       "POSTES"
+      ]
+     },
+     {
+      "n1": "Artículos eléctricos y de iluminación"
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Suministro de electricidad; gas; vapor y aire acondicionado"
+    ],
+    "nota": "Incluye las cuentas de luz del alumbrado público y de los edificios municipales."
+   },
+   "presupuesto_estado": {
+    "precision": "sin_dato",
+    "partidas": []
+   }
+  },
+  "seguridad": {
+   "chilecompra": {
+    "precision": "directa",
+    "reglas": [
+     {
+      "n1": [
+       "Servicios de construcción y mantenimiento",
+       "Artículos para estructuras, obras y construcciones"
+      ],
+      "palabras": [
+       "CAMARAS",
+       "TELEVIGILANCIA",
+       "TELE VIGILANCIA"
+      ]
+     },
+     {
+      "n1": "Servicios de defensa nacional, orden público y seguridad",
+      "n2": [
+       "Orden público y seguridad",
+       "Seguridad y protección personal"
+      ]
+     },
+     {
+      "n1": "Equipos y suministros de defensa, orden público, protección y seguridad",
+      "n2": [
+       "Seguridad y control público",
+       "Seguridad, vigilancia y detección",
+       "Protección contra incendios"
+      ]
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Actividades de servicios administrativos y de apoyo"
+    ],
+    "nota": "Los guardias están en este rubro, pero junto con otros servicios de apoyo."
+   },
+   "presupuesto_estado": {
+    "precision": "directa",
+    "partidas": [
+     "32",
+     "05"
+    ]
+   }
+  },
+  "agua": {
+   "chilecompra": {
+    "precision": "aproximada",
+    "reglas": [
+     {
+      "n1": [
+       "Servicios de construcción y mantenimiento",
+       "Artículos para estructuras, obras y construcciones"
+      ],
+      "palabras": [
+       "ALCANTARILLADO",
+       "AGUA POTABLE",
+       "AGUAS LLUVIA",
+       "COLECTOR",
+       "APR "
+      ]
+     },
+     {
+      "n1": "Servicios agrícolas, pesqueros, forestales y relacionados con la fauna",
+      "n2": [
+       "Desarrollo y vigilancia de recursos hidráulicos"
+      ]
+     },
+     {
+      "n1": "Equipamiento para el acondicionamiento, distribución y filtrado de fluidos"
+     },
+     {
+      "n1": "Servicios de transporte, almacenaje y correo",
+      "palabras": [
+       "ALJIBE",
+       "AGUA POTABLE"
+      ]
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion"
+    ]
+   },
+   "presupuesto_estado": {
+    "precision": "directa",
+    "partidas": [
+     "12"
+    ],
+    "nota": "Obras Públicas: agua potable rural y aguas lluvia."
+   }
+  },
+  "transporte": {
+   "chilecompra": {
+    "precision": "aproximada",
+    "reglas": [
+     {
+      "n1": "Servicios de transporte, almacenaje y correo",
+      "n2": [
+       "Transporte de pasajeros"
+      ],
+      "excepto_unidad": [
+       "EDUCACION",
+       "EDUCACIÓN",
+       "DAEM",
+       "DEM ",
+       "LICEO",
+       "ESCUELA",
+       "COLEGIO",
+       "JARDIN",
+       "JARDÍN"
+      ]
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Transporte y almacenamiento"
+    ]
+   },
+   "presupuesto_estado": {
+    "precision": "directa",
+    "partidas": [
+     "19"
+    ]
+   }
+  },
+  "vivienda": {
+   "chilecompra": {
+    "precision": "aproximada",
+    "reglas": [
+     {
+      "n1": [
+       "Servicios de construcción y mantenimiento",
+       "Artículos para estructuras, obras y construcciones"
+      ],
+      "palabras": [
+       "VIVIENDA",
+       "CAMPAMENTO",
+       "CONDOMINIO"
+      ]
+     },
+     {
+      "n1": "Artículos para estructuras, obras y construcciones",
+      "n2": [
+       "Estructuras prefabricadas"
+      ]
+     },
+     {
+      "n1": "Servicios de construcción y mantenimiento",
+      "n3": [
+       "Construcción residencial"
+      ]
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "sin_dato",
+    "rubros": []
+   },
+   "presupuesto_estado": {
+    "precision": "directa",
+    "partidas": [
+     "18"
+    ]
+   }
+  },
+  "apoyo_social": {
+   "chilecompra": {
+    "precision": "aproximada",
+    "reglas": [
+     {
+      "n1": "Organizaciones y consultorías políticas, demográficas, económicas, sociales y de administración pública",
+      "n2": [
+       "Ayuda y asistencia humanitaria",
+       "Desarrollo social, demográfico y comunitario"
+      ]
+     },
+     {
+      "n1": "Servicios de cuidado personal y domésticos"
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Actividades de atencion de la salud humana y de asistencia social"
+    ]
+   },
+   "presupuesto_estado": {
+    "precision": "directa",
+    "partidas": [
+     "21"
+    ]
+   }
+  },
+  "cultura_deporte": {
+   "chilecompra": {
+    "precision": "directa",
+    "reglas": [
+     {
+      "n1": [
+       "Servicios de construcción y mantenimiento",
+       "Artículos para estructuras, obras y construcciones"
+      ],
+      "palabras": [
+       "MULTICANCHA",
+       "CANCHA",
+       "ESTADIO",
+       "GIMNASIO",
+       "BIBLIOTECA",
+       "CENTRO CULTURAL",
+       "SKATEPARK"
+      ]
+     },
+     {
+      "n1": "Equipos, suministros y accesorios deportivos y recreativos"
+     },
+     {
+      "n1": "Servicios de Viajes, alimentación, alojamiento y entretenimiento",
+      "n2": [
+       "Entretenimiento",
+       "Artes interpretativas",
+       "Deportes comerciales"
+      ]
+     },
+     {
+      "n1": "Servicios básicos y de información pública",
+      "n2": [
+       "Bibliotecas y otros centros de información pública"
+      ]
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "directa",
+    "rubros": [
+     "Actividades artisticas; de entretenimiento y recreativas"
+    ]
+   },
+   "presupuesto_estado": {
+    "precision": "directa",
+    "partidas": [
+     "29",
+     "26"
+    ]
+   }
+  },
+  "animales": {
+   "chilecompra": {
+    "precision": "directa",
+    "reglas": [
+     {
+      "n1": "Servicios agrícolas, pesqueros, forestales y relacionados con la fauna",
+      "n2": [
+       "Servicios de ganadería"
+      ]
+     },
+     {
+      "n1": "Artículos para plantas y animales",
+      "n2": [
+       "Artículos para mascotas",
+       "Alimento para animales",
+       "Productos para el control de plagas",
+       "Casas y jaulas para animales"
+      ]
+     }
+    ]
+   },
+   "monitor_municipal": {
+    "precision": "sin_dato",
+    "rubros": []
+   },
+   "presupuesto_estado": {
+    "precision": "sin_dato",
+    "partidas": []
+   }
+  },
+  "municipio": {
+   "chilecompra": {
+    "precision": "sin_dato",
+    "reglas": [],
+    "nota": "El gasto en atención y trámites está dentro de 'funcionamiento general' y no se puede separar."
+   },
+   "monitor_municipal": {
+    "precision": "aproximada",
+    "rubros": [
+     "Informacion y comunicaciones",
+     "Actividades profesionales; cientificas y tecnicas"
+    ]
+   },
+   "presupuesto_estado": {
+    "precision": "sin_dato",
+    "partidas": []
+   }
+  },
+  "otro": {
+   "chilecompra": {
+    "precision": "sin_dato",
+    "reglas": []
+   },
+   "monitor_municipal": {
+    "precision": "sin_dato",
+    "rubros": []
+   },
+   "presupuesto_estado": {
+    "precision": "sin_dato",
+    "partidas": []
+   }
+  }
+ }
+}

@@ -1,0 +1,392 @@
+{
+ "version": "1.0 · 22-10-2026",
+ "comunes_por_tipo": {
+  "opinion": [
+   {
+    "id": "valoracion",
+    "pregunta": "¿Cómo lo evalúas?",
+    "tipo": "escala",
+    "opciones": [
+     "Muy mal",
+     "Mal",
+     "Regular",
+     "Bien",
+     "Muy bien"
+    ]
+   },
+   {
+    "id": "motivo",
+    "pregunta": "¿Qué pesa más en tu evaluación?",
+    "tipo": "una",
+    "opciones": [
+     "La calidad",
+     "El tiempo de espera",
+     "El trato",
+     "No llega a todos",
+     "Lo que cuesta",
+     "La información que dan"
+    ]
+   }
+  ],
+  "experiencia": [
+   {
+    "id": "cuando",
+    "pregunta": "¿Cuándo pasó?",
+    "tipo": "una",
+    "opciones": [
+     "Esta semana",
+     "Este mes",
+     "En los últimos 6 meses",
+     "Hace más de 6 meses"
+    ]
+   },
+   {
+    "id": "alcance",
+    "pregunta": "¿A quién afecta?",
+    "tipo": "una",
+    "opciones": [
+     "A mí",
+     "A mi familia",
+     "A mi cuadra o edificio",
+     "A mi barrio",
+     "A toda la comuna"
+    ]
+   }
+  ],
+  "reclamo": [
+   {
+    "id": "desde",
+    "pregunta": "¿Desde cuándo pasa?",
+    "tipo": "una",
+    "opciones": [
+     "Menos de 1 mes",
+     "De 1 a 6 meses",
+     "De 6 a 12 meses",
+     "Más de 1 año"
+    ]
+   },
+   {
+    "id": "alcance",
+    "pregunta": "¿A quién afecta?",
+    "tipo": "una",
+    "opciones": [
+     "A mí",
+     "A mi familia",
+     "A mi cuadra o edificio",
+     "A mi barrio",
+     "A toda la comuna"
+    ]
+   },
+   {
+    "id": "reportado",
+    "pregunta": "¿Lo reportaste?",
+    "tipo": "una",
+    "opciones": [
+     "Sí, al municipio",
+     "Sí, a otra institución",
+     "No",
+     "No sé dónde hacerlo"
+    ]
+   },
+   {
+    "id": "respuesta",
+    "pregunta": "¿Te respondieron?",
+    "tipo": "una",
+    "si": {
+     "reportado": [
+      "Sí, al municipio",
+      "Sí, a otra institución"
+     ]
+    },
+    "opciones": [
+     "Sí, y se resolvió",
+     "Sí, pero no se resolvió",
+     "No me respondieron",
+     "Todavía espero"
+    ]
+   }
+  ],
+  "participacion": [
+   {
+    "id": "propuesta",
+    "pregunta": "¿Qué tipo de propuesta es?",
+    "tipo": "una",
+    "opciones": [
+     "Mejorar algo que ya existe",
+     "Algo nuevo",
+     "Una actividad comunitaria",
+     "Sumarme a una iniciativa"
+    ]
+   },
+   {
+    "id": "beneficia",
+    "pregunta": "¿A quién beneficia?",
+    "tipo": "varias",
+    "opciones": [
+     "Niños y jóvenes",
+     "Personas mayores",
+     "Personas con discapacidad",
+     "Familias",
+     "Todo el barrio",
+     "Toda la comuna"
+    ]
+   },
+   {
+    "id": "sumarse",
+    "pregunta": "¿Te sumarías a impulsarla?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "Tal vez",
+     "No"
+    ]
+   }
+  ],
+  "fotos": [
+   {
+    "id": "muestra",
+    "pregunta": "¿Qué muestra la foto?",
+    "tipo": "una",
+    "opciones": [
+     "El problema",
+     "El lugar",
+     "Un documento",
+     "Una mejora que ya se hizo"
+    ]
+   },
+   {
+    "id": "cuando_foto",
+    "pregunta": "¿Cuándo la tomaste?",
+    "tipo": "una",
+    "opciones": [
+     "Hoy",
+     "Esta semana",
+     "Este mes",
+     "Antes"
+    ]
+   }
+  ]
+ },
+ "por_tema": {
+  "salud": [
+   {
+    "id": "espera",
+    "pregunta": "¿Cuánto esperaste por la atención?",
+    "tipo": "una",
+    "opciones": [
+     "El mismo día",
+     "Menos de 1 semana",
+     "De 1 a 4 semanas",
+     "De 1 a 3 meses",
+     "Más de 3 meses",
+     "No lo conseguí"
+    ]
+   },
+   {
+    "id": "obtuvo",
+    "pregunta": "¿Conseguiste lo que necesitabas?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "En parte",
+     "No"
+    ]
+   }
+  ],
+  "educacion": [
+   {
+    "id": "nivel",
+    "pregunta": "¿Qué nivel?",
+    "tipo": "una",
+    "opciones": [
+     "Sala cuna o jardín",
+     "Básica",
+     "Media",
+     "Adultos"
+    ]
+   },
+   {
+    "id": "problema",
+    "pregunta": "¿Cuál es el problema principal?",
+    "tipo": "una",
+    "opciones": [
+     "Faltan profesores o clases",
+     "Infraestructura",
+     "Convivencia o seguridad",
+     "Transporte",
+     "Alimentación",
+     "Otro"
+    ]
+   }
+  ],
+  "basura": [
+   {
+    "id": "frecuencia",
+    "pregunta": "¿Cada cuánto pasa el camión?",
+    "tipo": "una",
+    "opciones": [
+     "Más de 2 veces por semana",
+     "1 o 2 veces por semana",
+     "Menos de 1 vez por semana",
+     "No pasa",
+     "No sé"
+    ]
+   }
+  ],
+  "calles": [
+   {
+    "id": "riesgo",
+    "pregunta": "¿Hay riesgo de accidente?",
+    "tipo": "una",
+    "opciones": [
+     "Sí, alto",
+     "Algo",
+     "No"
+    ]
+   }
+  ],
+  "areas_verdes": [
+   {
+    "id": "estado",
+    "pregunta": "¿En qué estado está?",
+    "tipo": "una",
+    "opciones": [
+     "Bueno",
+     "Regular",
+     "Malo",
+     "Abandonado",
+     "No existe"
+    ]
+   }
+  ],
+  "alumbrado": [
+   {
+    "id": "luminarias",
+    "pregunta": "¿Cuántas luminarias?",
+    "tipo": "una",
+    "opciones": [
+     "Una",
+     "Varias en la cuadra",
+     "Todo el sector"
+    ]
+   }
+  ],
+  "seguridad": [
+   {
+    "id": "horario",
+    "pregunta": "¿Cuándo se siente más inseguro?",
+    "tipo": "una",
+    "opciones": [
+     "De día",
+     "Al atardecer",
+     "De noche",
+     "Siempre"
+    ]
+   },
+   {
+    "id": "denuncia",
+    "pregunta": "¿Hiciste una denuncia?",
+    "tipo": "una",
+    "opciones": [
+     "Sí",
+     "No",
+     "No sirve de nada"
+    ]
+   }
+  ],
+  "agua": [
+   {
+    "id": "acceso",
+    "pregunta": "¿Cómo es tu acceso al agua?",
+    "tipo": "una",
+    "opciones": [
+     "Normal",
+     "Con cortes frecuentes",
+     "Solo por camión aljibe",
+     "Sin agua"
+    ]
+   }
+  ],
+  "transporte": [
+   {
+    "id": "espera_micro",
+    "pregunta": "¿Cuánto esperas normalmente?",
+    "tipo": "una",
+    "opciones": [
+     "Menos de 10 minutos",
+     "De 10 a 30 minutos",
+     "Más de 30 minutos",
+     "No hay transporte"
+    ]
+   }
+  ],
+  "vivienda": [
+   {
+    "id": "situacion",
+    "pregunta": "¿Cuál es tu situación?",
+    "tipo": "una",
+    "opciones": [
+     "Propietario",
+     "Arrendatario",
+     "Allegado",
+     "En campamento",
+     "Prefiero no decir"
+    ]
+   }
+  ],
+  "apoyo_social": [
+   {
+    "id": "atencion_social",
+    "pregunta": "¿Cómo fue la atención del municipio?",
+    "tipo": "una",
+    "opciones": [
+     "Buena",
+     "Regular",
+     "Mala",
+     "No me atendieron",
+     "No he ido"
+    ]
+   }
+  ],
+  "cultura_deporte": [
+   {
+    "id": "uso",
+    "pregunta": "¿Lo usas o lo usarías?",
+    "tipo": "una",
+    "opciones": [
+     "Lo uso",
+     "Lo usaría si mejora",
+     "No lo usaría"
+    ]
+   }
+  ],
+  "animales": [
+   {
+    "id": "cantidad",
+    "pregunta": "¿Cuántos animales hay en el sector?",
+    "tipo": "una",
+    "opciones": [
+     "Pocos",
+     "Varios",
+     "Muchos",
+     "Jaurías"
+    ]
+   }
+  ],
+  "municipio": [
+   {
+    "id": "canal",
+    "pregunta": "¿Por dónde lo hiciste?",
+    "tipo": "una",
+    "opciones": [
+     "En persona",
+     "Por teléfono",
+     "Por internet",
+     "No pude hacerlo"
+    ]
+   }
+  ],
+  "otro": []
+ },
+ "nota": "Al aporte se le hacen las preguntas comunes de cada tipo elegido más las propias de su tema."
+}

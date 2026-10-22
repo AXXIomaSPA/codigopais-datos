@@ -1,0 +1,470 @@
+{
+ "version": "1.0 · 22-10-2026",
+ "responsables": {
+  "municipio": "Municipalidad",
+  "servicio_salud": "Servicio de Salud (hospitales, Ministerio de Salud)",
+  "slep": "Servicio Local de Educación Pública (donde ya se traspasaron las escuelas)",
+  "serviu": "SERVIU y Ministerio de Vivienda",
+  "mop": "Ministerio de Obras Públicas",
+  "sanitaria": "Empresa sanitaria (agua y alcantarillado urbano)",
+  "electrica": "Empresa distribuidora eléctrica",
+  "policias": "Carabineros y PDI",
+  "mtt": "Ministerio de Transportes",
+  "gore": "Gobierno Regional",
+  "compartido": "Compartido entre varias instituciones"
+ },
+ "tipos_de_aporte": [
+  {
+   "id": "opinion",
+   "nombre": "Opinión",
+   "para": "Valorar un servicio o una decisión",
+   "icono": "estrella"
+  },
+  {
+   "id": "experiencia",
+   "nombre": "Experiencia",
+   "para": "Contar lo que te pasó",
+   "icono": "conversacion"
+  },
+  {
+   "id": "reclamo",
+   "nombre": "Reclamo",
+   "para": "Un problema concreto que debería resolverse",
+   "icono": "alerta"
+  },
+  {
+   "id": "participacion",
+   "nombre": "Participación",
+   "para": "Proponer una idea o sumarte a una iniciativa",
+   "icono": "manos"
+  },
+  {
+   "id": "fotos",
+   "nombre": "Fotos",
+   "para": "Mostrar la evidencia",
+   "icono": "camara"
+  }
+ ],
+ "temas": [
+  {
+   "id": "salud",
+   "nombre": "Salud",
+   "icono": "corazon",
+   "describe": "Consultorios, urgencias, horas, remedios y postas",
+   "subtemas": [
+    {
+     "id": "cesfam",
+     "nombre": "Consultorio o CESFAM",
+     "responsable": "municipio"
+    },
+    {
+     "id": "urgencia_primaria",
+     "nombre": "Urgencia primaria (SAPU o SAR)",
+     "responsable": "municipio"
+    },
+    {
+     "id": "farmacia",
+     "nombre": "Farmacia o remedios",
+     "responsable": "municipio"
+    },
+    {
+     "id": "posta_rural",
+     "nombre": "Posta rural",
+     "responsable": "municipio"
+    },
+    {
+     "id": "hospital",
+     "nombre": "Hospital",
+     "responsable": "servicio_salud"
+    },
+    {
+     "id": "especialista",
+     "nombre": "Especialista o lista de espera",
+     "responsable": "servicio_salud"
+    }
+   ]
+  },
+  {
+   "id": "educacion",
+   "nombre": "Educación",
+   "icono": "libro",
+   "describe": "Escuelas, liceos, jardines y transporte escolar",
+   "subtemas": [
+    {
+     "id": "escuela_municipal",
+     "nombre": "Escuela o liceo municipal",
+     "responsable": "municipio"
+    },
+    {
+     "id": "escuela_slep",
+     "nombre": "Escuela de un Servicio Local (SLEP)",
+     "responsable": "slep"
+    },
+    {
+     "id": "jardin",
+     "nombre": "Jardín infantil o sala cuna",
+     "responsable": "compartido"
+    },
+    {
+     "id": "transporte_escolar",
+     "nombre": "Transporte escolar",
+     "responsable": "municipio"
+    },
+    {
+     "id": "infraestructura",
+     "nombre": "Estado del edificio",
+     "responsable": "compartido"
+    }
+   ]
+  },
+  {
+   "id": "basura",
+   "nombre": "Basura y reciclaje",
+   "icono": "basurero",
+   "describe": "Retiro de basura, microbasurales y reciclaje",
+   "subtemas": [
+    {
+     "id": "retiro",
+     "nombre": "Retiro de basura domiciliaria",
+     "responsable": "municipio"
+    },
+    {
+     "id": "microbasural",
+     "nombre": "Microbasural",
+     "responsable": "municipio"
+    },
+    {
+     "id": "voluminosos",
+     "nombre": "Retiro de escombros o voluminosos",
+     "responsable": "municipio"
+    },
+    {
+     "id": "reciclaje",
+     "nombre": "Reciclaje",
+     "responsable": "municipio"
+    }
+   ]
+  },
+  {
+   "id": "calles",
+   "nombre": "Calles y veredas",
+   "icono": "camino",
+   "describe": "Baches, veredas, pavimentos y señalización",
+   "subtemas": [
+    {
+     "id": "baches",
+     "nombre": "Baches o calles en mal estado",
+     "responsable": "municipio"
+    },
+    {
+     "id": "veredas",
+     "nombre": "Veredas",
+     "responsable": "municipio"
+    },
+    {
+     "id": "sin_pavimento",
+     "nombre": "Calle sin pavimentar",
+     "responsable": "compartido"
+    },
+    {
+     "id": "senalizacion",
+     "nombre": "Señales, semáforos o lomos de toro",
+     "responsable": "municipio"
+    },
+    {
+     "id": "accesibilidad",
+     "nombre": "Accesibilidad (rampas, pasos)",
+     "responsable": "municipio"
+    },
+    {
+     "id": "carretera",
+     "nombre": "Carretera o ruta",
+     "responsable": "mop"
+    }
+   ]
+  },
+  {
+   "id": "areas_verdes",
+   "nombre": "Plazas y áreas verdes",
+   "icono": "arbol",
+   "describe": "Plazas, parques, árboles y juegos",
+   "subtemas": [
+    {
+     "id": "mantencion",
+     "nombre": "Mantención de plazas o parques",
+     "responsable": "municipio"
+    },
+    {
+     "id": "arbolado",
+     "nombre": "Árboles y poda",
+     "responsable": "municipio"
+    },
+    {
+     "id": "juegos",
+     "nombre": "Juegos o máquinas de ejercicio",
+     "responsable": "municipio"
+    },
+    {
+     "id": "faltan",
+     "nombre": "Faltan áreas verdes",
+     "responsable": "compartido"
+    }
+   ]
+  },
+  {
+   "id": "alumbrado",
+   "nombre": "Alumbrado",
+   "icono": "ampolleta",
+   "describe": "Luminarias apagadas o calles oscuras",
+   "subtemas": [
+    {
+     "id": "apagada",
+     "nombre": "Luminaria apagada",
+     "responsable": "municipio"
+    },
+    {
+     "id": "oscura",
+     "nombre": "Calle o pasaje oscuro",
+     "responsable": "municipio"
+    },
+    {
+     "id": "cortes",
+     "nombre": "Cortes de luz en las casas",
+     "responsable": "electrica"
+    }
+   ]
+  },
+  {
+   "id": "seguridad",
+   "nombre": "Seguridad",
+   "icono": "escudo",
+   "describe": "Prevención, patrullaje, cámaras y espacios inseguros",
+   "subtemas": [
+    {
+     "id": "seguridad_municipal",
+     "nombre": "Seguridad municipal (patrullaje, cámaras)",
+     "responsable": "municipio"
+    },
+    {
+     "id": "espacio_inseguro",
+     "nombre": "Espacio inseguro (sitio eriazo, sin luz)",
+     "responsable": "municipio"
+    },
+    {
+     "id": "delitos",
+     "nombre": "Delitos en el sector",
+     "responsable": "policias"
+    },
+    {
+     "id": "convivencia",
+     "nombre": "Ruidos y convivencia vecinal",
+     "responsable": "municipio"
+    }
+   ]
+  },
+  {
+   "id": "agua",
+   "nombre": "Agua",
+   "icono": "gota",
+   "describe": "Agua potable, alcantarillado, camiones aljibe y lluvias",
+   "subtemas": [
+    {
+     "id": "aljibe",
+     "nombre": "Camión aljibe",
+     "responsable": "municipio"
+    },
+    {
+     "id": "apr",
+     "nombre": "Agua potable rural (APR)",
+     "responsable": "compartido"
+    },
+    {
+     "id": "red_urbana",
+     "nombre": "Agua o alcantarillado en la ciudad",
+     "responsable": "sanitaria"
+    },
+    {
+     "id": "aguas_lluvia",
+     "nombre": "Inundaciones y aguas lluvia",
+     "responsable": "compartido"
+    }
+   ]
+  },
+  {
+   "id": "transporte",
+   "nombre": "Transporte",
+   "icono": "bus",
+   "describe": "Micros, paraderos, ciclovías y conectividad",
+   "subtemas": [
+    {
+     "id": "paraderos",
+     "nombre": "Paraderos",
+     "responsable": "compartido"
+    },
+    {
+     "id": "recorridos",
+     "nombre": "Recorridos y frecuencia de micros",
+     "responsable": "mtt"
+    },
+    {
+     "id": "transporte_municipal",
+     "nombre": "Transporte municipal o rural",
+     "responsable": "municipio"
+    },
+    {
+     "id": "ciclovias",
+     "nombre": "Ciclovías",
+     "responsable": "compartido"
+    }
+   ]
+  },
+  {
+   "id": "vivienda",
+   "nombre": "Vivienda y barrio",
+   "icono": "casa",
+   "describe": "Campamentos, subsidios, condominios sociales",
+   "subtemas": [
+    {
+     "id": "campamento",
+     "nombre": "Campamento o toma",
+     "responsable": "compartido"
+    },
+    {
+     "id": "subsidio",
+     "nombre": "Subsidio o postulación",
+     "responsable": "serviu"
+    },
+    {
+     "id": "condominio",
+     "nombre": "Condominio o block social",
+     "responsable": "compartido"
+    },
+    {
+     "id": "emergencia",
+     "nombre": "Vivienda dañada por emergencia",
+     "responsable": "compartido"
+    }
+   ]
+  },
+  {
+   "id": "apoyo_social",
+   "nombre": "Apoyo social",
+   "icono": "mano",
+   "describe": "Personas mayores, discapacidad, cuidados y ayudas",
+   "subtemas": [
+    {
+     "id": "personas_mayores",
+     "nombre": "Personas mayores",
+     "responsable": "municipio"
+    },
+    {
+     "id": "discapacidad",
+     "nombre": "Personas con discapacidad",
+     "responsable": "compartido"
+    },
+    {
+     "id": "cuidados",
+     "nombre": "Cuidados (quien cuida a otro)",
+     "responsable": "compartido"
+    },
+    {
+     "id": "ayudas",
+     "nombre": "Ayudas sociales y Registro Social de Hogares",
+     "responsable": "municipio"
+    }
+   ]
+  },
+  {
+   "id": "cultura_deporte",
+   "nombre": "Cultura y deporte",
+   "icono": "balon",
+   "describe": "Canchas, talleres, bibliotecas y eventos",
+   "subtemas": [
+    {
+     "id": "canchas",
+     "nombre": "Canchas y recintos deportivos",
+     "responsable": "municipio"
+    },
+    {
+     "id": "talleres",
+     "nombre": "Talleres y actividades",
+     "responsable": "municipio"
+    },
+    {
+     "id": "bibliotecas",
+     "nombre": "Bibliotecas y centros culturales",
+     "responsable": "municipio"
+    },
+    {
+     "id": "eventos",
+     "nombre": "Eventos y fiestas",
+     "responsable": "municipio"
+    }
+   ]
+  },
+  {
+   "id": "animales",
+   "nombre": "Animales",
+   "icono": "huella",
+   "describe": "Perros callejeros, esterilización y tenencia responsable",
+   "subtemas": [
+    {
+     "id": "callejeros",
+     "nombre": "Perros o gatos en la calle",
+     "responsable": "municipio"
+    },
+    {
+     "id": "esterilizacion",
+     "nombre": "Esterilización y vacunas",
+     "responsable": "municipio"
+    },
+    {
+     "id": "plagas",
+     "nombre": "Plagas (ratones, palomas)",
+     "responsable": "municipio"
+    }
+   ]
+  },
+  {
+   "id": "municipio",
+   "nombre": "Atención municipal",
+   "icono": "edificio",
+   "describe": "Trámites, atención, transparencia y participación",
+   "subtemas": [
+    {
+     "id": "tramites",
+     "nombre": "Trámites y permisos",
+     "responsable": "municipio"
+    },
+    {
+     "id": "atencion",
+     "nombre": "Atención en el municipio",
+     "responsable": "municipio"
+    },
+    {
+     "id": "transparencia",
+     "nombre": "Información y transparencia",
+     "responsable": "municipio"
+    },
+    {
+     "id": "participacion_vecinal",
+     "nombre": "Participación y juntas de vecinos",
+     "responsable": "municipio"
+    }
+   ]
+  },
+  {
+   "id": "otro",
+   "nombre": "Otro tema",
+   "icono": "mas",
+   "describe": "Algo que no está en la lista",
+   "subtemas": [
+    {
+     "id": "otro",
+     "nombre": "Otro",
+     "responsable": "compartido"
+    }
+   ]
+  }
+ ]
+}

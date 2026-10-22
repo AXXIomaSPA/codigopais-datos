@@ -63,3 +63,7 @@ Antes de publicar, la cocina verifica que:
 ## Licencia
 
 Código: MIT. Datos procesados en `salida/`: CC BY 4.0, citando a Código País y a la fuente original.
+
+## Voz vecinal (método)
+
+La carpeta `metodo/voz-vecinal/` publica las reglas de la sección Voz vecinal de Código País: temas, preguntas cerradas y la tabla que une cada tema ciudadano con el gasto público, con su prueba sobre un mes real de compras municipales. Ver `metodo/voz-vecinal/README.md`.
