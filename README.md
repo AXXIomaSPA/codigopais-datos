@@ -48,6 +48,17 @@ Antes de publicar, la cocina verifica que:
 
 **Si un control falla, no se publica nada** y se mantiene el último dato bueno. El resultado de cada control queda en `salida/gasto/control.json`.
 
+## Municipios
+
+`cocina/municipios.py` procesa el **Monitor de Gasto Municipal** de Presupuesto Abierto: las facturas electrónicas (documentos tributarios aceptados por el SII) emitidas al RUT de cada municipalidad, de 2017 a la fecha. Corre cada lunes.
+
+- **Son compras con factura, no el gasto total del municipio.** No incluyen sueldos, transferencias ni compras de corporaciones municipales con RUT propio.
+- **Monto por habitante** = compras del último año completo / población censada 2024 (INE). La población por comuna la calcula `cocina/censo_poblacion.py` desde los microdatos del INE, una sola vez. Controles: el total cuadra exacto con 18.480.432 y cada región con su cifra oficial.
+- **Pesos de hoy:** cada año se lleva a pesos del último año completo con el IPC promedio del año (INE).
+- **Comparación justa:** cada comuna se compara con la **mediana** de las comunas de su tramo de población (menos de 10 mil, 10–30 mil, 30–100 mil, 100–250 mil y más de 250 mil), no con el promedio nacional.
+- **Rubros:** actividad económica de los proveedores, según el SII.
+- **Controles:** al menos 340 comunas con datos; todas con población; los rubros suman el total de cada comuna (±0,5 %); el total anual es plausible frente al año anterior; no hay montos negativos; los deflactores del IPC están disponibles.
+
 ## Licencia
 
 Código: MIT. Datos procesados en `salida/`: CC BY 4.0, citando a Código País y a la fuente original.

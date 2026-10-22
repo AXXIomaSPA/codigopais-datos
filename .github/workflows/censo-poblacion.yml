@@ -1,0 +1,33 @@
+name: Censo 2024 · población por comuna (una vez)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  censo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyarrow==17.0.0
+      - name: Contar personas por comuna (con controles contra el INE)
+        run: python cocina/censo_poblacion.py
+      - name: Guardar
+        run: |
+          git config user.name "cocina-codigopais"
+          git config user.email "cocina@users.noreply.github.com"
+          for intento in 1 2 3; do
+            git fetch origin main && git reset --mixed origin/main
+            git add datos/
+            if git diff --cached --quiet; then echo "Sin cambios."; exit 0; fi
+            git commit -m "Datos: población censada por comuna (Censo 2024)"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 10
+          done
+          exit 1

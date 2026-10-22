@@ -1,0 +1,38 @@
+name: Cocina · compras con factura de los municipios
+
+on:
+  schedule:
+    - cron: "0 14 * * 1"   # cada lunes, ~11:00 en Chile (el Monitor se actualiza una vez al mes)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cocina-municipios
+  cancel-in-progress: false
+
+jobs:
+  municipios:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Procesar Monitor de Gasto Municipal (solo publica si pasan los controles)
+        run: python cocina/municipios.py
+      - name: Guardar resultados si cambiaron
+        run: |
+          git config user.name "cocina-codigopais"
+          git config user.email "cocina@users.noreply.github.com"
+          for intento in 1 2 3; do
+            git fetch origin main && git reset --mixed origin/main
+            git add salida/municipios/
+            if git diff --cached --quiet; then echo "Sin cambios en los datos."; exit 0; fi
+            git commit -m "Datos: compras con factura de los municipios ($(date -u +%Y-%m-%d))"
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Choque con otra ejecución; reintento $intento"; sleep 10
+          done
+          exit 1
