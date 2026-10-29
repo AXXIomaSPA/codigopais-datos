@@ -3,7 +3,7 @@
  "mes": 8,
  "mes_nombre": "agosto",
  "publicado_fuente": "2026-10-01",
- "generado": "2026-10-28T18:40:52Z",
+ "generado": "2026-10-29T18:49:12Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
@@ -176,8 +176,8 @@
   "anio_anterior": 2025,
   "ejecutado_anterior": 51818949133000,
   "variacion_nominal": 3.9645125989089314,
-  "ipc_12_meses": 4.1,
-  "variacion_real": -0.13015120181657513,
+  "ipc_12_meses": null,
+  "variacion_real": null,
   "fuente_anterior": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2025-del-gobierno-central-total"
  }
 }
