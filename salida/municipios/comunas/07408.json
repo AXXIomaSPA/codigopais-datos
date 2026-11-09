@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "07408",
@@ -108,69 +108,69 @@
   },
   {
    "anio": 2025,
-   "monto": 4894277463,
-   "monto_real": 4894277463,
-   "facturas": 3133,
+   "monto": 5271021937,
+   "monto_real": 5271021937,
+   "facturas": 3392,
    "parcial": false,
    "incompleto": false
   },
   {
    "anio": 2026,
-   "monto": 5393654229,
+   "monto": 5995731204,
    "monto_real": null,
-   "facturas": 2256,
+   "facturas": 2499,
    "parcial": true,
    "incompleto": false
   }
  ],
- "monto_base": 4894277463,
- "por_habitante": 244286,
- "variacion_real": 23.540460337190794,
+ "monto_base": 5271021937,
+ "por_habitante": 263091,
+ "variacion_real": 33.050175734266716,
  "rubros_2025": [
   {
    "rubro": "Sin rubro informado",
-   "monto": 1139546773,
-   "facturas": 815
+   "monto": 1258142951,
+   "facturas": 878
   },
   {
    "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 861666677,
-   "facturas": 126
+   "monto": 893557954,
+   "facturas": 135
   },
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 684050212,
-   "facturas": 638
+   "monto": 761028589,
+   "facturas": 702
   },
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 651675895,
-   "facturas": 733
+   "monto": 691356873,
+   "facturas": 790
   },
   {
    "rubro": "Construccion",
-   "monto": 417523355,
-   "facturas": 245
+   "monto": 443540291,
+   "facturas": 263
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 375530275,
-   "facturas": 85
+   "monto": 392515083,
+   "facturas": 91
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 349712965,
-   "facturas": 125
+   "monto": 390894232,
+   "facturas": 138
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 212695821,
-   "facturas": 152
+   "monto": 233138023,
+   "facturas": 164
   },
   {
    "rubro": "Actividades de alojamiento y de servicio de comidas",
-   "monto": 51035893,
-   "facturas": 7
+   "monto": 51363158,
+   "facturas": 9
   },
   {
    "rubro": "Enseñanza",
@@ -178,19 +178,19 @@
    "facturas": 8
   },
   {
-   "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 29589486,
-   "facturas": 28
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 30030272,
+   "facturas": 57
   },
   {
-   "rubro": "Actividades financieras y de seguros",
-   "monto": 28528294,
-   "facturas": 55
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 29767986,
+   "facturas": 29
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 21106239,
-   "facturas": 14
+   "monto": 23284269,
+   "facturas": 15
   },
   {
    "rubro": "Actividades artisticas; de entretenimiento y recreativas",
@@ -199,8 +199,8 @@
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 10449641,
-   "facturas": 71
+   "monto": 10903119,
+   "facturas": 76
   },
   {
    "rubro": "Otras actividades de servicios",
@@ -209,8 +209,8 @@
   },
   {
    "rubro": "Agricultura; ganaderia; silvicultura y pesca",
-   "monto": 1744697,
-   "facturas": 21
+   "monto": 2077897,
+   "facturas": 27
   },
   {
    "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
@@ -219,6 +219,6 @@
   }
  ],
  "rubros_2026": [],
- "mediana_tramo": 263424,
- "vs_mediana": 0.9273490646258503
+ "mediana_tramo": 296386,
+ "vs_mediana": 0.8876633849102185
 }

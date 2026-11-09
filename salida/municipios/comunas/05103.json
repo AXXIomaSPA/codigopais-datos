@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "05103",
@@ -108,74 +108,74 @@
   },
   {
    "anio": 2025,
-   "monto": 7065199962,
-   "monto_real": 7065199962,
-   "facturas": 5854,
+   "monto": 7547718110,
+   "monto_real": 7547718110,
+   "facturas": 6139,
    "parcial": false,
    "incompleto": false
   },
   {
    "anio": 2026,
-   "monto": 5000945677,
+   "monto": 5739262175,
    "monto_real": null,
-   "facturas": 3698,
+   "facturas": 4034,
    "parcial": true,
    "incompleto": false
   }
  ],
- "monto_base": 7065199962,
- "por_habitante": 146296,
- "variacion_real": -34.96055628656446,
+ "monto_base": 7547718110,
+ "por_habitante": 156287,
+ "variacion_real": -30.518684563704767,
  "rubros_2025": [
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 1892178393,
-   "facturas": 71
+   "monto": 2135234024,
+   "facturas": 77
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 1109666077,
-   "facturas": 178
-  },
-  {
-   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 779102187,
-   "facturas": 2433
-  },
-  {
-   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 741472558,
-   "facturas": 1197
+   "monto": 1109944662,
+   "facturas": 185
   },
   {
    "rubro": "Construccion",
-   "monto": 724836835,
-   "facturas": 128
+   "monto": 812942962,
+   "facturas": 140
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 786199142,
+   "facturas": 2491
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 781129573,
+   "facturas": 1278
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 427688383,
-   "facturas": 248
+   "monto": 455506323,
+   "facturas": 270
   },
   {
    "rubro": "Sin rubro informado",
-   "monto": 229488824,
-   "facturas": 292
+   "monto": 258950575,
+   "facturas": 336
   },
   {
    "rubro": "Actividades inmobiliarias",
-   "monto": 207871952,
-   "facturas": 18
+   "monto": 208585952,
+   "facturas": 19
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 188954164,
-   "facturas": 47
+   "monto": 200268876,
+   "facturas": 58
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 170116267,
-   "facturas": 302
+   "monto": 175346295,
+   "facturas": 324
   },
   {
    "rubro": "Actividades artisticas; de entretenimiento y recreativas",
@@ -189,18 +189,18 @@
   },
   {
    "rubro": "Actividades de alojamiento y de servicio de comidas",
-   "monto": 141135338,
-   "facturas": 766
+   "monto": 145156249,
+   "facturas": 771
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 48783022,
-   "facturas": 38
+   "monto": 69110592,
+   "facturas": 42
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 40737425,
-   "facturas": 79
+   "monto": 46174348,
+   "facturas": 91
   },
   {
    "rubro": "Otras actividades de servicios",
@@ -229,6 +229,6 @@
   }
  ],
  "rubros_2026": [],
- "mediana_tramo": 202142,
- "vs_mediana": 0.723728863867974
+ "mediana_tramo": 221878,
+ "vs_mediana": 0.7043825886297875
 }

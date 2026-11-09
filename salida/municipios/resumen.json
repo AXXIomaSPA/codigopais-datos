@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "totales": [
@@ -84,13 +84,13 @@
   },
   {
    "anio": 2025,
-   "monto": 3412282162318,
-   "monto_real": 3412282162318,
+   "monto": 3805296674480,
+   "monto_real": 3805296674480,
    "parcial": false
   },
   {
    "anio": 2026,
-   "monto": 2463902164580,
+   "monto": 2783332545718,
    "monto_real": null,
    "parcial": true
   }
@@ -98,91 +98,91 @@
  "rubros": [
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 670059453567
+   "monto": 737671931662
   },
   {
    "rubro": "Construccion",
-   "monto": 552591005353
-  },
-  {
-   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 452377959427
+   "monto": 612597931790
   },
   {
    "rubro": "Sin rubro informado",
-   "monto": 449023218797
+   "monto": 516284045877
+  },
+  {
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 509850036365
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 374795831856
+   "monto": 412123039024
   },
   {
    "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 208868789715
+   "monto": 226204497440
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 140457547913
+   "monto": 156215015050
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 128108142344
+   "monto": 142574353178
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 117969831643
+   "monto": 131336354866
   },
   {
    "rubro": "Actividades financieras y de seguros",
-   "monto": 65056569799
+   "monto": 69949087665
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 57329796836
+   "monto": 66244866708
   },
   {
    "rubro": "Actividades artisticas; de entretenimiento y recreativas",
-   "monto": 51042115071
+   "monto": 57164050633
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 48531493859
+   "monto": 57020686971
   },
   {
    "rubro": "Actividades de alojamiento y de servicio de comidas",
-   "monto": 20238597845
+   "monto": 24716218698
   },
   {
    "rubro": "Actividades inmobiliarias",
-   "monto": 19441343629
+   "monto": 20828658821
   },
   {
    "rubro": "Agricultura; ganaderia; silvicultura y pesca",
-   "monto": 17669499033
+   "monto": 19492548631
   },
   {
    "rubro": "Otras actividades de servicios",
-   "monto": 15778956344
+   "monto": 17899336734
   },
   {
    "rubro": "Enseñanza",
-   "monto": 13376849246
+   "monto": 16980198173
   },
   {
    "rubro": "Explotacion de minas y canteras",
-   "monto": 4999996168
+   "monto": 5245752279
   },
   {
    "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
-   "monto": 4533439504
+   "monto": 4858655656
   },
   {
    "rubro": "Actividades de organizaciones y organos extraterritoriales",
-   "monto": 21706250
+   "monto": 21760300
   },
   {
    "rubro": "Valor por defecto",
-   "monto": 9777144
+   "monto": 17406984
   },
   {
    "rubro": "Actividades de los hogares como empleadores; actividades no diferenciadas de los hogares",

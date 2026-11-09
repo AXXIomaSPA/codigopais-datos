@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "12301",
@@ -92,17 +92,17 @@
   },
   {
    "anio": 2025,
-   "monto": 194305960,
+   "monto": 197549899,
    "monto_real": null,
-   "facturas": 110,
+   "facturas": 123,
    "parcial": false,
    "incompleto": true
   },
   {
    "anio": 2026,
-   "monto": 73747118,
+   "monto": 145058905,
    "monto_real": null,
-   "facturas": 93,
+   "facturas": 144,
    "parcial": true,
    "incompleto": false
   }
@@ -112,19 +112,19 @@
  "variacion_real": null,
  "rubros_2025": [
   {
+   "rubro": "Sin rubro informado",
+   "monto": 80257565,
+   "facturas": 39
+  },
+  {
    "rubro": "Construccion",
    "monto": 80199682,
    "facturas": 1
   },
   {
-   "rubro": "Sin rubro informado",
-   "monto": 78101525,
-   "facturas": 29
-  },
-  {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 11514943,
-   "facturas": 30
+   "monto": 12598936,
+   "facturas": 32
   },
   {
    "rubro": "Industria manufacturera",
@@ -173,15 +173,15 @@
   },
   {
    "rubro": "Actividades financieras y de seguros",
-   "monto": 236209,
-   "facturas": 3
+   "monto": 240115,
+   "facturas": 4
   }
  ],
  "rubros_2026": [
   {
    "rubro": "Sin rubro informado",
-   "monto": 29444791,
-   "facturas": 22
+   "monto": 71510446,
+   "facturas": 33
   },
   {
    "rubro": "Actividades financieras y de seguros",
@@ -189,46 +189,56 @@
    "facturas": 3
   },
   {
-   "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 5500000,
-   "facturas": 3
+   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
+   "monto": 14256072,
+   "facturas": 45
   },
   {
-   "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 4866022,
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 8949155,
    "facturas": 33
   },
   {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 6000000,
+   "facturas": 1
+  },
+  {
+   "rubro": "Actividades profesionales; cientificas y tecnicas",
+   "monto": 5916800,
+   "facturas": 4
+  },
+  {
    "rubro": "Enseñanza",
-   "monto": 4430000,
+   "monto": 5705000,
+   "facturas": 7
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 4191519,
    "facturas": 6
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 2547699,
-   "facturas": 4
+   "monto": 3979259,
+   "facturas": 6
   },
   {
-   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 2427947,
-   "facturas": 16
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 1331687,
+   "facturas": 2
   },
   {
-   "rubro": "Transporte y almacenamiento",
-   "monto": 1377052,
-   "facturas": 3
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 801577,
+   "facturas": 2
   },
   {
    "rubro": "Otras actividades de servicios",
    "monto": 800000,
    "facturas": 2
-  },
-  {
-   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 736217,
-   "facturas": 1
   }
  ],
- "mediana_tramo": 507461,
+ "mediana_tramo": 558098,
  "vs_mediana": null
 }

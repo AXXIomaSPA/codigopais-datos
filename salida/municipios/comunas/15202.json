@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "15202",
@@ -108,126 +108,136 @@
   },
   {
    "anio": 2025,
-   "monto": 1392598642,
-   "monto_real": 1392598642,
-   "facturas": 979,
+   "monto": 1574820469,
+   "monto_real": 1574820469,
+   "facturas": 1085,
    "parcial": false,
    "incompleto": false
   },
   {
    "anio": 2026,
-   "monto": 915400508,
+   "monto": 1077514136,
    "monto_real": null,
-   "facturas": 692,
+   "facturas": 801,
    "parcial": true,
    "incompleto": false
   }
  ],
- "monto_base": 1392598642,
- "por_habitante": 2741336,
- "variacion_real": -6.914788336860034,
+ "monto_base": 1574820469,
+ "por_habitante": 3100040,
+ "variacion_real": 5.265431307458046,
  "rubros_2025": [
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 474800737,
-   "facturas": 277
+   "monto": 519559191,
+   "facturas": 308
   },
   {
    "rubro": "Sin rubro informado",
-   "monto": 250320593,
-   "facturas": 165
+   "monto": 276251119,
+   "facturas": 189
   },
   {
    "rubro": "Construccion",
-   "monto": 184463276,
-   "facturas": 43
-  },
-  {
-   "rubro": "Actividades de alojamiento y de servicio de comidas",
-   "monto": 129447258,
-   "facturas": 18
+   "monto": 185091596,
+   "facturas": 45
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 108190108,
-   "facturas": 26
+   "monto": 159655636,
+   "facturas": 31
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 141049758,
+   "facturas": 20
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 96173022,
-   "facturas": 53
+   "monto": 107541758,
+   "facturas": 58
   },
   {
    "rubro": "Actividades financieras y de seguros",
-   "monto": 40599345,
-   "facturas": 95
+   "monto": 44572796,
+   "facturas": 102
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 34897197,
-   "facturas": 43
+   "monto": 37365577,
+   "facturas": 46
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 24587260,
-   "facturas": 29
-  },
-  {
-   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 15579575,
-   "facturas": 208
+   "monto": 32205260,
+   "facturas": 32
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 14831876,
-   "facturas": 12
+   "monto": 19164756,
+   "facturas": 13
   },
   {
    "rubro": "Actividades artisticas; de entretenimiento y recreativas",
-   "monto": 12870000,
-   "facturas": 4
+   "monto": 17669999,
+   "facturas": 5
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 5235240,
-   "facturas": 5
+   "monto": 17623003,
+   "facturas": 8
+  },
+  {
+   "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
+   "monto": 16102865,
+   "facturas": 226
   },
   {
    "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
    "monto": 603155,
+   "facturas": 1
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 364000,
    "facturas": 1
   }
  ],
  "rubros_2026": [
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 319504276,
-   "facturas": 181
+   "monto": 368175360,
+   "facturas": 224
   },
   {
    "rubro": "Sin rubro informado",
-   "monto": 207325559,
-   "facturas": 157
-  },
-  {
-   "rubro": "Industria manufacturera",
-   "monto": 88656963,
-   "facturas": 42
+   "monto": 222656759,
+   "facturas": 183
   },
   {
    "rubro": "Actividades de alojamiento y de servicio de comidas",
-   "monto": 74754610,
-   "facturas": 9
+   "monto": 89748610,
+   "facturas": 11
   },
   {
-   "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 60011096,
-   "facturas": 21
+   "rubro": "Industria manufacturera",
+   "monto": 88698964,
+   "facturas": 43
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 48805771,
-   "facturas": 22
+   "monto": 76441950,
+   "facturas": 25
+  },
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 65937286,
+   "facturas": 25
+  },
+  {
+   "rubro": "Construccion",
+   "monto": 61050330,
+   "facturas": 15
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
@@ -236,23 +246,18 @@
   },
   {
    "rubro": "Actividades financieras y de seguros",
-   "monto": 23746932,
-   "facturas": 39
+   "monto": 26857201,
+   "facturas": 42
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 19848240,
-   "facturas": 26
-  },
-  {
-   "rubro": "Construccion",
-   "monto": 17944430,
-   "facturas": 10
+   "monto": 19992320,
+   "facturas": 28
   },
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 7607630,
-   "facturas": 168
+   "monto": 8160355,
+   "facturas": 187
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
@@ -263,8 +268,13 @@
    "rubro": "Otras actividades de servicios",
    "monto": 4584813,
    "facturas": 1
+  },
+  {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 2600000,
+   "facturas": 1
   }
  ],
- "mediana_tramo": 507461,
- "vs_mediana": 5.402062424501588
+ "mediana_tramo": 558098,
+ "vs_mediana": 5.554651691996746
 }

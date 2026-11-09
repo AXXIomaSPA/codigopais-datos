@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "comunas": [
@@ -41,12 +41,12 @@
    "nombre_region": "Tarapacá",
    "poblacion": 199587,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 28685179663,
-   "por_habitante": 143723,
-   "variacion_real": -5.310493087335577,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.0101561731258522,
-   "monto_actual": 22894213387
+   "monto_base": 32414566120,
+   "por_habitante": 162408,
+   "variacion_real": 7.000176354124932,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.0464230717189744,
+   "monto_actual": 25545358691
   },
   {
    "codigo": "01107",
@@ -55,12 +55,12 @@
    "nombre_region": "Tarapacá",
    "poblacion": 142086,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 12947611333,
-   "por_habitante": 91125,
-   "variacion_real": -15.159104629568498,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.640471471344832,
-   "monto_actual": 8166079906
+   "monto_base": 13595993692,
+   "por_habitante": 95688,
+   "variacion_real": -10.910495487297723,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.6165344742047512,
+   "monto_actual": 8871498137
   },
   {
    "codigo": "01401",
@@ -69,12 +69,12 @@
    "nombre_region": "Tarapacá",
    "poblacion": 16878,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5098297529,
-   "por_habitante": 302068,
-   "variacion_real": -26.533713683966088,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1466988581146744,
-   "monto_actual": 3770734655
+   "monto_base": 5883098619,
+   "por_habitante": 348566,
+   "variacion_real": -15.224757850942272,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1760541995910738,
+   "monto_actual": 4417448605
   },
   {
    "codigo": "01402",
@@ -83,12 +83,12 @@
    "nombre_region": "Tarapacá",
    "poblacion": 1335,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1932784692,
-   "por_habitante": 1447779,
-   "variacion_real": -39.435840120654056,
-   "mediana_tramo": 507461,
-   "vs_mediana": 2.852985746687923,
-   "monto_actual": 1325239704
+   "monto_base": 2248136900,
+   "por_habitante": 1683998,
+   "variacion_real": -29.554221323345843,
+   "mediana_tramo": 558098,
+   "vs_mediana": 3.0173876272625955,
+   "monto_actual": 1460528645
   },
   {
    "codigo": "01403",
@@ -97,12 +97,12 @@
    "nombre_region": "Tarapacá",
    "poblacion": 790,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1265656606,
-   "por_habitante": 1602097,
-   "variacion_real": -58.50545855439739,
-   "mediana_tramo": 507461,
-   "vs_mediana": 3.157083992661505,
-   "monto_actual": 1136072875
+   "monto_base": 1484473768,
+   "por_habitante": 1879081,
+   "variacion_real": -51.33153969317183,
+   "mediana_tramo": 558098,
+   "vs_mediana": 3.3669373479209743,
+   "monto_actual": 1394578969
   },
   {
    "codigo": "01404",
@@ -111,12 +111,12 @@
    "nombre_region": "Tarapacá",
    "poblacion": 2858,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 4342436018,
-   "por_habitante": 1519397,
-   "variacion_real": 11.46003885574942,
-   "mediana_tramo": 507461,
-   "vs_mediana": 2.9941158039731133,
-   "monto_actual": 1971436680
+   "monto_base": 4945197945,
+   "por_habitante": 1730300,
+   "variacion_real": 26.93150867722749,
+   "mediana_tramo": 558098,
+   "vs_mediana": 3.1003515511612654,
+   "monto_actual": 2253997093
   },
   {
    "codigo": "01405",
@@ -125,12 +125,12 @@
    "nombre_region": "Tarapacá",
    "poblacion": 6272,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2607242794,
-   "por_habitante": 415696,
-   "variacion_real": -38.65623334518151,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.8191683695889931,
-   "monto_actual": 3059553129
+   "monto_base": 2942537773,
+   "por_habitante": 469155,
+   "variacion_real": -30.76734129429863,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.840631932026275,
+   "monto_actual": 3475031641
   },
   {
    "codigo": "02101",
@@ -139,12 +139,12 @@
    "nombre_region": "Antofagasta",
    "poblacion": 401096,
    "tramo": "Más de 250 mil",
-   "monto_base": 48114271837,
-   "por_habitante": 119957,
-   "variacion_real": 7.58438195589779,
-   "mediana_tramo": 142825,
-   "vs_mediana": 0.8398879747943288,
-   "monto_actual": 35034879522
+   "monto_base": 55953532110,
+   "por_habitante": 139502,
+   "variacion_real": 25.113109696375922,
+   "mediana_tramo": 152218,
+   "vs_mediana": 0.9164619164619164,
+   "monto_actual": 39446650400
   },
   {
    "codigo": "02102",
@@ -153,12 +153,12 @@
    "nombre_region": "Antofagasta",
    "poblacion": 14084,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 8009172709,
-   "por_habitante": 568672,
-   "variacion_real": 14.781691049007662,
-   "mediana_tramo": 263424,
-   "vs_mediana": 2.1587706511175897,
-   "monto_actual": 5299858829
+   "monto_base": 8876389148,
+   "por_habitante": 630246,
+   "variacion_real": 27.210012049260747,
+   "mediana_tramo": 296386,
+   "vs_mediana": 2.1264364713582964,
+   "monto_actual": 6105836152
   },
   {
    "codigo": "02103",
@@ -167,12 +167,12 @@
    "nombre_region": "Antofagasta",
    "poblacion": 1472,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3539970840,
-   "por_habitante": 2404871,
-   "variacion_real": -25.069068759622038,
-   "mediana_tramo": 507461,
-   "vs_mediana": 4.739026250293126,
-   "monto_actual": 2174249719
+   "monto_base": 4156793153,
+   "por_habitante": 2823908,
+   "variacion_real": -12.012726656269034,
+   "mediana_tramo": 558098,
+   "vs_mediana": 5.059878372615562,
+   "monto_actual": 2472493491
   },
   {
    "codigo": "02104",
@@ -181,12 +181,12 @@
    "nombre_region": "Antofagasta",
    "poblacion": 12097,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4287433962,
-   "por_habitante": 354421,
-   "variacion_real": -19.342705745307086,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.345439291788144,
-   "monto_actual": 2720341272
+   "monto_base": 4807990687,
+   "por_habitante": 397453,
+   "variacion_real": -9.549739295743787,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.3409978878894415,
+   "monto_actual": 2928676261
   },
   {
    "codigo": "02201",
@@ -195,12 +195,12 @@
    "nombre_region": "Antofagasta",
    "poblacion": 166334,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 23370544595,
-   "por_habitante": 140504,
-   "variacion_real": 12.731423169062417,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.9875314525084693,
-   "monto_actual": 19858045830
+   "monto_base": 25815577944,
+   "por_habitante": 155203,
+   "variacion_real": 24.52541829862216,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.0,
+   "monto_actual": 23648232551
   },
   {
    "codigo": "02202",
@@ -209,12 +209,12 @@
    "nombre_region": "Antofagasta",
    "poblacion": 256,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2671285606,
-   "por_habitante": 10434709,
-   "variacion_real": 70.88808732406335,
-   "mediana_tramo": 507461,
-   "vs_mediana": 20.562583134467477,
-   "monto_actual": 1313364096
+   "monto_base": 2844427327,
+   "por_habitante": 11111044,
+   "variacion_real": 81.96434868347362,
+   "mediana_tramo": 558098,
+   "vs_mediana": 19.908768710871566,
+   "monto_actual": 1477256783
   },
   {
    "codigo": "02203",
@@ -223,12 +223,12 @@
    "nombre_region": "Antofagasta",
    "poblacion": 9843,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 6876587534,
-   "por_habitante": 698627,
-   "variacion_real": -44.49158863274013,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.3767107225974016,
-   "monto_actual": 6324631875
+   "monto_base": 7992625298,
+   "por_habitante": 812011,
+   "variacion_real": -35.48283494507002,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.4549613150378606,
+   "monto_actual": 7720570773
   },
   {
    "codigo": "02301",
@@ -237,12 +237,12 @@
    "nombre_region": "Antofagasta",
    "poblacion": 25400,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5510618632,
-   "por_habitante": 216953,
-   "variacion_real": -31.353331832953025,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8235885872206026,
-   "monto_actual": 4774365019
+   "monto_base": 6228461590,
+   "por_habitante": 245215,
+   "variacion_real": -22.411045925573347,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8273501447436789,
+   "monto_actual": 5265440636
   },
   {
    "codigo": "02302",
@@ -251,12 +251,12 @@
    "nombre_region": "Antofagasta",
    "poblacion": 4834,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1158070130,
-   "por_habitante": 239568,
-   "variacion_real": -62.92377799468424,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.4720914513627648,
-   "monto_actual": 2205646911
+   "monto_base": 1006639771,
+   "por_habitante": 208242,
+   "variacion_real": -67.77190028295072,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.37312801694326087,
+   "monto_actual": 2360931022
   },
   {
    "codigo": "03101",
@@ -265,12 +265,12 @@
    "nombre_region": "Atacama",
    "poblacion": 168831,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 35809841865,
-   "por_habitante": 212105,
-   "variacion_real": 20.75933889455104,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.490778616511337,
-   "monto_actual": 25826091775
+   "monto_base": 40368970053,
+   "por_habitante": 239109,
+   "variacion_real": 36.133807957942764,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.5406209931509056,
+   "monto_actual": 29863385485
   },
   {
    "codigo": "03102",
@@ -279,12 +279,12 @@
    "nombre_region": "Atacama",
    "poblacion": 18805,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6288641006,
-   "por_habitante": 334413,
-   "variacion_real": -6.58429219880019,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.2694856960641399,
-   "monto_actual": 4069030523
+   "monto_base": 7084755472,
+   "por_habitante": 376748,
+   "variacion_real": 5.241728122793643,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.271139662467188,
+   "monto_actual": 4686601990
   },
   {
    "codigo": "03103",
@@ -293,12 +293,12 @@
    "nombre_region": "Atacama",
    "poblacion": 11846,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3532599587,
-   "por_habitante": 298210,
-   "variacion_real": -23.708154920059286,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1320532677356656,
-   "monto_actual": 2964613573
+   "monto_base": 4270411590,
+   "por_habitante": 360494,
+   "variacion_real": -7.773985862761956,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.2162990154730655,
+   "monto_actual": 3448792900
   },
   {
    "codigo": "03201",
@@ -307,12 +307,12 @@
    "nombre_region": "Atacama",
    "poblacion": 12345,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3179662455,
-   "por_habitante": 257567,
-   "variacion_real": -9.692547688952436,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9777658831389698,
-   "monto_actual": 2059084588
+   "monto_base": 3566385890,
+   "por_habitante": 288893,
+   "variacion_real": 1.2910106786690134,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9747187788896912,
+   "monto_actual": 2415370451
   },
   {
    "codigo": "03202",
@@ -321,12 +321,12 @@
    "nombre_region": "Atacama",
    "poblacion": 11397,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3893500816,
-   "por_habitante": 341625,
-   "variacion_real": 7.120930610171183,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.296863611516035,
-   "monto_actual": 2387049527
+   "monto_base": 4342202575,
+   "por_habitante": 380995,
+   "variacion_real": 19.465951778005653,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.2854689492756068,
+   "monto_actual": 2876830347
   },
   {
    "codigo": "03301",
@@ -335,12 +335,12 @@
    "nombre_region": "Atacama",
    "poblacion": 54222,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 8439122668,
-   "por_habitante": 155640,
-   "variacion_real": 12.586062712453195,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.7699537948570807,
-   "monto_actual": 6234058922
+   "monto_base": 9738464958,
+   "por_habitante": 179604,
+   "variacion_real": 29.920546201072938,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.809471871929619,
+   "monto_actual": 7360927154
   },
   {
    "codigo": "03302",
@@ -349,12 +349,12 @@
    "nombre_region": "Atacama",
    "poblacion": 4788,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2634382933,
-   "por_habitante": 550205,
-   "variacion_real": 16.85346483479233,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.0842311034739616,
-   "monto_actual": 1743434547
+   "monto_base": 2934538236,
+   "por_habitante": 612894,
+   "variacion_real": 30.167469683793115,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.0981834731534605,
+   "monto_actual": 1885781411
   },
   {
    "codigo": "03303",
@@ -363,12 +363,12 @@
    "nombre_region": "Atacama",
    "poblacion": 7577,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3844844779,
-   "por_habitante": 507436,
-   "variacion_real": 9.562736615743228,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.9999507351303843,
-   "monto_actual": 2467694492
+   "monto_base": 4175395320,
+   "por_habitante": 551062,
+   "variacion_real": 18.982108253209894,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.9873928951546144,
+   "monto_actual": 2735302788
   },
   {
    "codigo": "03304",
@@ -377,12 +377,12 @@
    "nombre_region": "Atacama",
    "poblacion": 9369,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 4916145651,
-   "por_habitante": 524725,
-   "variacion_real": 14.485983405474467,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.034020348361746,
-   "monto_actual": 3773278454
+   "monto_base": 5294752611,
+   "por_habitante": 565135,
+   "variacion_real": 23.30288860252456,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.012608896645392,
+   "monto_actual": 4255989143
   },
   {
    "codigo": "04101",
@@ -391,12 +391,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 250141,
    "tramo": "Más de 250 mil",
-   "monto_base": 24417921583,
-   "por_habitante": 97617,
-   "variacion_real": 27.578387037478457,
-   "mediana_tramo": 142825,
-   "vs_mediana": 0.6834727813758096,
-   "monto_actual": 18828624946
+   "monto_base": 27613210435,
+   "por_habitante": 110391,
+   "variacion_real": 44.27308385970128,
+   "mediana_tramo": 152218,
+   "vs_mediana": 0.7252164658581771,
+   "monto_actual": 21197962521
   },
   {
    "codigo": "04102",
@@ -405,12 +405,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 263719,
    "tramo": "Más de 250 mil",
-   "monto_base": 43805399089,
-   "por_habitante": 166106,
-   "variacion_real": 11.951299174302843,
-   "mediana_tramo": 142825,
-   "vs_mediana": 1.163003675827061,
-   "monto_actual": 28436090570
+   "monto_base": 50339996303,
+   "por_habitante": 190885,
+   "variacion_real": 28.65144716751633,
+   "mediana_tramo": 152218,
+   "vs_mediana": 1.2540238342377379,
+   "monto_actual": 32562214622
   },
   {
    "codigo": "04103",
@@ -419,12 +419,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 11566,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2485042653,
-   "por_habitante": 214858,
-   "variacion_real": 3.2032110381194245,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8156356292517006,
-   "monto_actual": 2939989277
+   "monto_base": 2943587564,
+   "por_habitante": 254504,
+   "variacion_real": 22.24646857064465,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8586910312902769,
+   "monto_actual": 3370527665
   },
   {
    "codigo": "04104",
@@ -433,12 +433,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 4335,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3406290189,
-   "por_habitante": 785765,
-   "variacion_real": 18.1281789180894,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.548424410939954,
-   "monto_actual": 1991224821
+   "monto_base": 3770460767,
+   "por_habitante": 869772,
+   "variacion_real": 30.757404500105135,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.558457475210447,
+   "monto_actual": 2201466210
   },
   {
    "codigo": "04105",
@@ -447,12 +447,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 4649,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2823080875,
-   "por_habitante": 607245,
-   "variacion_real": -34.46417247632719,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.1966338299889057,
-   "monto_actual": 945090758
+   "monto_base": 3136457348,
+   "por_habitante": 674652,
+   "variacion_real": -27.1893591097052,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.2088414579518292,
+   "monto_actual": 1114619874
   },
   {
    "codigo": "04106",
@@ -461,12 +461,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 28047,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 7205845643,
-   "por_habitante": 256920,
-   "variacion_real": -18.71896789494647,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9753097667638484,
-   "monto_actual": 4812108493
+   "monto_base": 8091568081,
+   "por_habitante": 288500,
+   "variacion_real": -8.72813024923862,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9733928053281868,
+   "monto_actual": 5627702802
   },
   {
    "codigo": "04201",
@@ -475,12 +475,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 32009,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 8280699699,
-   "por_habitante": 258699,
-   "variacion_real": 1.0309824575978066,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.2797884655341294,
-   "monto_actual": 4889424418
+   "monto_base": 9225565098,
+   "por_habitante": 288218,
+   "variacion_real": 12.559075858049006,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.29899314037444,
+   "monto_actual": 5490717877
   },
   {
    "codigo": "04202",
@@ -489,12 +489,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 9639,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3905612130,
-   "por_habitante": 405189,
-   "variacion_real": -10.804658561208702,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7984633301869504,
-   "monto_actual": 3531951272
+   "monto_base": 4364910345,
+   "por_habitante": 452839,
+   "variacion_real": -0.3153268647833385,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.811396923121029,
+   "monto_actual": 3959431455
   },
   {
    "codigo": "04203",
@@ -503,12 +503,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 22879,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 12268327038,
-   "por_habitante": 536227,
-   "variacion_real": 28.298844642581656,
-   "mediana_tramo": 263424,
-   "vs_mediana": 2.035604197035957,
-   "monto_actual": 8793834520
+   "monto_base": 13547031414,
+   "por_habitante": 592116,
+   "variacion_real": 41.67118901945261,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.9977866700856315,
+   "monto_actual": 10290522647
   },
   {
    "codigo": "04204",
@@ -517,12 +517,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 27823,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4180067412,
-   "por_habitante": 150238,
-   "variacion_real": -22.216741104525717,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.5703276846452867,
-   "monto_actual": 3311877420
+   "monto_base": 4759928653,
+   "por_habitante": 171079,
+   "variacion_real": -11.426604825222576,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.5772168725918229,
+   "monto_actual": 3774619721
   },
   {
    "codigo": "04301",
@@ -531,12 +531,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 118696,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 32285229542,
-   "por_habitante": 271999,
-   "variacion_real": 1.7013423648545523,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.91174320696102,
-   "monto_actual": 19035821208
+   "monto_base": 36513899327,
+   "por_habitante": 307625,
+   "variacion_real": 15.022028005101662,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.982081531929151,
+   "monto_actual": 21201168847
   },
   {
    "codigo": "04302",
@@ -545,12 +545,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 12954,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4003980359,
-   "por_habitante": 309092,
-   "variacion_real": -24.606402004380023,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1733630952380953,
-   "monto_actual": 2412560379
+   "monto_base": 4578322525,
+   "por_habitante": 353429,
+   "variacion_real": -13.791732976844562,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.192461857172741,
+   "monto_actual": 2709935012
   },
   {
    "codigo": "04303",
@@ -559,12 +559,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 29997,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 7130791610,
-   "por_habitante": 237717,
-   "variacion_real": -9.212591525845081,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9024120809037901,
-   "monto_actual": 4695254393
+   "monto_base": 8144115778,
+   "por_habitante": 271498,
+   "variacion_real": 3.6887916849523528,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9160284223951198,
+   "monto_actual": 5389211415
   },
   {
    "codigo": "04304",
@@ -573,12 +573,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 12076,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3520745064,
-   "por_habitante": 291549,
-   "variacion_real": -21.265564072290054,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1067670371720117,
-   "monto_actual": 2592945778
+   "monto_base": 4161806348,
+   "por_habitante": 344635,
+   "variacion_real": -6.929508017868081,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1627910899975034,
+   "monto_actual": 2849146810
   },
   {
    "codigo": "04305",
@@ -587,12 +587,12 @@
    "nombre_region": "Coquimbo",
    "poblacion": 4334,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2523145784,
-   "por_habitante": 582175,
-   "variacion_real": 15.924138317421544,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.1472310187383858,
-   "monto_actual": 1600393072
+   "monto_base": 2787094364,
+   "por_habitante": 643077,
+   "variacion_real": 28.051068077341835,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.1522653727481553,
+   "monto_actual": 1771186352
   },
   {
    "codigo": "05101",
@@ -601,12 +601,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 284938,
    "tramo": "Más de 250 mil",
-   "monto_base": 30718758786,
-   "por_habitante": 107809,
-   "variacion_real": 6.925656396851743,
-   "mediana_tramo": 142825,
-   "vs_mediana": 0.7548328373884124,
-   "monto_actual": 23509593677
+   "monto_base": 33833017061,
+   "por_habitante": 118738,
+   "variacion_real": 17.76574640711166,
+   "mediana_tramo": 152218,
+   "vs_mediana": 0.7800522934212774,
+   "monto_actual": 27142499811
   },
   {
    "codigo": "05102",
@@ -615,12 +615,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 29876,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6351363521,
-   "por_habitante": 212591,
-   "variacion_real": -26.41962981093613,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8070297315354713,
-   "monto_actual": 4439513790
+   "monto_base": 7327295162,
+   "por_habitante": 245257,
+   "variacion_real": -15.113488824583888,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8274918518418549,
+   "monto_actual": 4961417565
   },
   {
    "codigo": "05103",
@@ -629,12 +629,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 48294,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 7065199962,
-   "por_habitante": 146296,
-   "variacion_real": -34.96055628656446,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.723728863867974,
-   "monto_actual": 5000945677
+   "monto_base": 7547718110,
+   "por_habitante": 156287,
+   "variacion_real": -30.518684563704767,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.7043825886297875,
+   "monto_actual": 5739262175
   },
   {
    "codigo": "05104",
@@ -643,12 +643,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 904,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1695233457,
-   "por_habitante": 1875258,
-   "variacion_real": 20.888924326558023,
-   "mediana_tramo": 507461,
-   "vs_mediana": 3.6953736346241386,
-   "monto_actual": 1284924329
+   "monto_base": 2050915728,
+   "por_habitante": 2268712,
+   "variacion_real": 46.25301029694084,
+   "mediana_tramo": 558098,
+   "vs_mediana": 4.065078176234281,
+   "monto_actual": 1431017876
   },
   {
    "codigo": "05105",
@@ -657,12 +657,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 22539,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 8740201878,
-   "por_habitante": 387781,
-   "variacion_real": -3.5421650900646195,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.472079233479106,
-   "monto_actual": 7065449741
+   "monto_base": 9648599789,
+   "por_habitante": 428085,
+   "variacion_real": 6.483014757591099,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.4443495981591574,
+   "monto_actual": 7791042530
   },
   {
    "codigo": "05107",
@@ -671,12 +671,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 35754,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 14284794196,
-   "por_habitante": 399530,
-   "variacion_real": 13.758793537806735,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.9764818790751055,
-   "monto_actual": 10391907522
+   "monto_base": 15987180800,
+   "por_habitante": 447144,
+   "variacion_real": 27.315967939394724,
+   "mediana_tramo": 221878,
+   "vs_mediana": 2.01526965269202,
+   "monto_actual": 12000623189
   },
   {
    "codigo": "05109",
@@ -685,12 +685,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 334871,
    "tramo": "Más de 250 mil",
-   "monto_base": 56846404558,
-   "por_habitante": 169756,
-   "variacion_real": 0.39188988495830746,
-   "mediana_tramo": 142825,
-   "vs_mediana": 1.188559425870821,
-   "monto_actual": 41533888298
+   "monto_base": 62934220032,
+   "por_habitante": 187936,
+   "variacion_real": 11.143094036879365,
+   "mediana_tramo": 152218,
+   "vs_mediana": 1.2346503041690207,
+   "monto_actual": 46404175541
   },
   {
    "codigo": "05201",
@@ -699,12 +699,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 4800,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 6396186892,
-   "por_habitante": 1332539,
-   "variacion_real": -9.649406273114069,
-   "mediana_tramo": 507461,
-   "vs_mediana": 2.6258944037078713,
-   "monto_actual": 5139278286
+   "monto_base": 7440453374,
+   "por_habitante": 1550094,
+   "variacion_real": 5.101584942573245,
+   "mediana_tramo": 558098,
+   "vs_mediana": 2.7774584391988504,
+   "monto_actual": 5929984791
   },
   {
    "codigo": "05301",
@@ -713,12 +713,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 63440,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 3007995875,
-   "por_habitante": 47415,
-   "variacion_real": -76.6205772939469,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.23456283206854586,
-   "monto_actual": 1461139418
+   "monto_base": 3079846695,
+   "por_habitante": 48547,
+   "variacion_real": -76.06212217553468,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.218800421853451,
+   "monto_actual": 1571982145
   },
   {
    "codigo": "05302",
@@ -727,12 +727,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 16597,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4632059788,
-   "por_habitante": 279090,
-   "variacion_real": -20.219990243894014,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0594706632653061,
-   "monto_actual": 3948980090
+   "monto_base": 5249621212,
+   "por_habitante": 316299,
+   "variacion_real": -9.583457321898248,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0671860344280768,
+   "monto_actual": 4516319933
   },
   {
    "codigo": "05303",
@@ -741,12 +741,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 11855,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2942553049,
-   "por_habitante": 248212,
-   "variacion_real": -22.12229933827127,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9422527939747327,
-   "monto_actual": 1845086742
+   "monto_base": 3364682522,
+   "por_habitante": 283820,
+   "variacion_real": -10.95020755560675,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9576025858171439,
+   "monto_actual": 2005578009
   },
   {
    "codigo": "05304",
@@ -755,12 +755,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 20112,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5339680431,
-   "por_habitante": 265497,
-   "variacion_real": -4.892422668316132,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0078694424198251,
-   "monto_actual": 3314335451
+   "monto_base": 5893866964,
+   "por_habitante": 293052,
+   "variacion_real": 4.978456165083345,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9887511555876458,
+   "monto_actual": 3793936992
   },
   {
    "codigo": "05401",
@@ -769,12 +769,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 39270,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 9008540498,
-   "por_habitante": 229400,
-   "variacion_real": 0.019312644052793537,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.1348458014662959,
-   "monto_actual": 5801484728
+   "monto_base": 10587604040,
+   "por_habitante": 269610,
+   "variacion_real": 17.551214745973432,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.2151272320824957,
+   "monto_actual": 6609792638
   },
   {
    "codigo": "05402",
@@ -783,12 +783,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 20015,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4366360138,
-   "por_habitante": 218154,
-   "variacion_real": 5.604820868314753,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8281477769679301,
-   "monto_actual": 2708114662
+   "monto_base": 4837701060,
+   "por_habitante": 241704,
+   "variacion_real": 17.00467613964747,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8155041061318685,
+   "monto_actual": 3136873194
   },
   {
    "codigo": "05403",
@@ -797,12 +797,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 7561,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3032452494,
-   "por_habitante": 401065,
-   "variacion_real": -6.980867075927588,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7903365972951616,
-   "monto_actual": 2225291568
+   "monto_base": 3338769213,
+   "por_habitante": 441578,
+   "variacion_real": 2.4152621817948416,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7912194632483901,
+   "monto_actual": 2252108367
   },
   {
    "codigo": "05404",
@@ -811,12 +811,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 10206,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2813804693,
-   "por_habitante": 275701,
-   "variacion_real": 4.8167685372191515,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0466054725461613,
-   "monto_actual": 2233639314
+   "monto_base": 3441288058,
+   "por_habitante": 337183,
+   "variacion_real": 28.191091138137647,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1376482020068424,
+   "monto_actual": 2377157463
   },
   {
    "codigo": "05405",
@@ -825,12 +825,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 7980,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 10350695518,
-   "por_habitante": 1297080,
-   "variacion_real": -9.92796202197016,
-   "mediana_tramo": 507461,
-   "vs_mediana": 2.556019083239894,
-   "monto_actual": 6654477400
+   "monto_base": 11394974003,
+   "por_habitante": 1427942,
+   "variacion_real": -0.8406218333821158,
+   "mediana_tramo": 558098,
+   "vs_mediana": 2.5585864848109114,
+   "monto_actual": 7540323556
   },
   {
    "codigo": "05501",
@@ -839,12 +839,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 96753,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 11649454841,
-   "por_habitante": 120404,
-   "variacion_real": -4.893216028854209,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.5956406882290667,
-   "monto_actual": 8508049730
+   "monto_base": 12683232209,
+   "por_habitante": 131089,
+   "variacion_real": 3.546598722528249,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.5908156734782177,
+   "monto_actual": 9368641772
   },
   {
    "codigo": "05502",
@@ -853,12 +853,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 50631,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 13688607423,
-   "por_habitante": 270360,
-   "variacion_real": 24.78906286191551,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.3374756359390922,
-   "monto_actual": 7705678827
+   "monto_base": 14855067600,
+   "por_habitante": 293399,
+   "variacion_real": 35.42283062626803,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.3223438105625613,
+   "monto_actual": 8597719136
   },
   {
    "codigo": "05503",
@@ -867,12 +867,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 19286,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4087770348,
-   "por_habitante": 211955,
-   "variacion_real": -24.339401168219887,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8046153729348883,
-   "monto_actual": 3674695285
+   "monto_base": 4744962764,
+   "por_habitante": 246031,
+   "variacion_real": -12.175417502505326,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8301033112225273,
+   "monto_actual": 4067110875
   },
   {
    "codigo": "05504",
@@ -881,12 +881,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 24939,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4110583016,
-   "por_habitante": 164825,
-   "variacion_real": -17.043845664474443,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.6257022898445093,
-   "monto_actual": 3047968268
+   "monto_base": 4476119775,
+   "por_habitante": 179483,
+   "variacion_real": -9.666905781036794,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.6055717881411403,
+   "monto_actual": 3393701711
   },
   {
    "codigo": "05506",
@@ -895,12 +895,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 22136,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4841366273,
-   "por_habitante": 218710,
-   "variacion_real": -17.283711329953043,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8302584426627794,
-   "monto_actual": 4271889801
+   "monto_base": 5856334931,
+   "por_habitante": 264562,
+   "variacion_real": 0.05735228144667648,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8926265073249073,
+   "monto_actual": 4711466270
   },
   {
    "codigo": "05601",
@@ -909,12 +909,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 96770,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 18783845059,
-   "por_habitante": 194108,
-   "variacion_real": 0.2537706734665468,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.9602556618614637,
-   "monto_actual": 14878537839
+   "monto_base": 20626833807,
+   "por_habitante": 213153,
+   "variacion_real": 10.090232309272196,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.960676588034866,
+   "monto_actual": 17280731280
   },
   {
    "codigo": "05602",
@@ -923,12 +923,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 16076,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 7894072915,
-   "por_habitante": 491047,
-   "variacion_real": 25.817429432506422,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.8640936285228378,
-   "monto_actual": 4723117067
+   "monto_base": 8979292958,
+   "por_habitante": 558553,
+   "variacion_real": 43.11389953724121,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.8845458287503458,
+   "monto_actual": 5218438150
   },
   {
    "codigo": "05603",
@@ -937,12 +937,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 24599,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 9215738656,
-   "por_habitante": 374639,
-   "variacion_real": 7.685140272256952,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.4221900813896988,
-   "monto_actual": 7105500619
+   "monto_base": 10564555433,
+   "por_habitante": 429471,
+   "variacion_real": 23.445952210891274,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.4490259323989663,
+   "monto_actual": 7977024816
   },
   {
    "codigo": "05604",
@@ -951,12 +951,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 18971,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 12186171967,
-   "por_habitante": 642358,
-   "variacion_real": -5.897893066480242,
-   "mediana_tramo": 263424,
-   "vs_mediana": 2.438494594266278,
-   "monto_actual": 8101643331
+   "monto_base": 13341213750,
+   "por_habitante": 703243,
+   "variacion_real": 3.021385741572491,
+   "mediana_tramo": 296386,
+   "vs_mediana": 2.3727267819667595,
+   "monto_actual": 9301510466
   },
   {
    "codigo": "05605",
@@ -965,12 +965,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 16260,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 9845259684,
-   "por_habitante": 605490,
-   "variacion_real": 27.84227608810874,
-   "mediana_tramo": 263424,
-   "vs_mediana": 2.298537718658892,
-   "monto_actual": 5624790553
+   "monto_base": 10841855763,
+   "por_habitante": 666781,
+   "variacion_real": 40.78323601899814,
+   "mediana_tramo": 296386,
+   "vs_mediana": 2.2497047768788,
+   "monto_actual": 6385233675
   },
   {
    "codigo": "05606",
@@ -979,12 +979,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 13171,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 12409103716,
-   "por_habitante": 942153,
-   "variacion_real": -15.815121164768886,
-   "mediana_tramo": 263424,
-   "vs_mediana": 3.576564777696793,
-   "monto_actual": 7374418852
+   "monto_base": 13657687784,
+   "por_habitante": 1036951,
+   "variacion_real": -7.344573985390312,
+   "mediana_tramo": 296386,
+   "vs_mediana": 3.4986504085887997,
+   "monto_actual": 8506762285
   },
   {
    "codigo": "05701",
@@ -993,12 +993,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 80413,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 15347535734,
-   "por_habitante": 190859,
-   "variacion_real": 10.01207393297725,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.9441828021885605,
-   "monto_actual": 10046223817
+   "monto_base": 17140692715,
+   "por_habitante": 213158,
+   "variacion_real": 22.86553274136358,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.9606991229414363,
+   "monto_actual": 11319109487
   },
   {
    "codigo": "05702",
@@ -1007,12 +1007,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 13760,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4725802203,
-   "por_habitante": 343445,
-   "variacion_real": -3.0602054881488483,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.3037726251214772,
-   "monto_actual": 3309772435
+   "monto_base": 5492055377,
+   "por_habitante": 399132,
+   "variacion_real": 12.657850841940377,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.3466627978379546,
+   "monto_actual": 3743159550
   },
   {
    "codigo": "05703",
@@ -1021,12 +1021,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 25484,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 1994803298,
-   "por_habitante": 78277,
-   "variacion_real": -61.4334014792453,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.29715211977648204,
-   "monto_actual": 1381508477
+   "monto_base": 2081596151,
+   "por_habitante": 81682,
+   "variacion_real": -59.75538885540519,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.2755933141241489,
+   "monto_actual": 1527966117
   },
   {
    "codigo": "05704",
@@ -1035,12 +1035,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 7269,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2595180470,
-   "por_habitante": 357020,
-   "variacion_real": 23.501625542849403,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7035417500064044,
-   "monto_actual": 2007791710
+   "monto_base": 2804228572,
+   "por_habitante": 385779,
+   "variacion_real": 33.44998201057798,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.6912388146884597,
+   "monto_actual": 1917343651
   },
   {
    "codigo": "05705",
@@ -1049,12 +1049,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 17336,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4069620399,
-   "por_habitante": 234750,
-   "variacion_real": -13.512571638346738,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8911488702623906,
-   "monto_actual": 2688925150
+   "monto_base": 4496900370,
+   "por_habitante": 259397,
+   "variacion_real": -4.432032851163459,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.875199908227784,
+   "monto_actual": 3063241081
   },
   {
    "codigo": "05706",
@@ -1063,12 +1063,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 15134,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3664946249,
-   "por_habitante": 242166,
-   "variacion_real": 21.102691982536513,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9193012026239067,
-   "monto_actual": 2531836736
+   "monto_base": 4125670250,
+   "por_habitante": 272609,
+   "variacion_real": 36.326630613911746,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9197769125397286,
+   "monto_actual": 2735099276
   },
   {
    "codigo": "05801",
@@ -1077,12 +1077,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 162559,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 21128212536,
-   "por_habitante": 129973,
-   "variacion_real": 10.0429124338008,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.9135143873262205,
-   "monto_actual": 14548431574
+   "monto_base": 24027844563,
+   "por_habitante": 147810,
+   "variacion_real": 25.145181624520262,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.9523656114894686,
+   "monto_actual": 16296549191
   },
   {
    "codigo": "05802",
@@ -1091,12 +1091,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 56145,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 9404332221,
-   "por_habitante": 167501,
-   "variacion_real": -8.780839616165636,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.8286303687506802,
-   "monto_actual": 6334697659
+   "monto_base": 10253377886,
+   "por_habitante": 182623,
+   "variacion_real": -0.5453550683219177,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.8230784485167525,
+   "monto_actual": 7086681833
   },
   {
    "codigo": "05803",
@@ -1105,12 +1105,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 19778,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2190275587,
-   "por_habitante": 110743,
-   "variacion_real": -51.930782647301776,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.4203982932458698,
-   "monto_actual": 2123906828
+   "monto_base": 2390161276,
+   "por_habitante": 120849,
+   "variacion_real": -47.54396087598517,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.4077419311303503,
+   "monto_actual": 2262678474
   },
   {
    "codigo": "05804",
@@ -1119,12 +1119,12 @@
    "nombre_region": "Valparaíso",
    "poblacion": 139571,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 17020395695,
-   "por_habitante": 121948,
-   "variacion_real": 11.15602581260502,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.8571107268867991,
-   "monto_actual": 13537727588
+   "monto_base": 18962979903,
+   "por_habitante": 135866,
+   "variacion_real": 23.842566374704855,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.8754083361790687,
+   "monto_actual": 15322867771
   },
   {
    "codigo": "06101",
@@ -1133,12 +1133,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 257744,
    "tramo": "Más de 250 mil",
-   "monto_base": 36546668473,
-   "por_habitante": 141794,
-   "variacion_real": 13.267823243374188,
-   "mediana_tramo": 142825,
-   "vs_mediana": 0.9927813758095572,
-   "monto_actual": 27937333575
+   "monto_base": 40033180641,
+   "por_habitante": 155321,
+   "variacion_real": 24.073449596776264,
+   "mediana_tramo": 152218,
+   "vs_mediana": 1.020385236962777,
+   "monto_actual": 31135362076
   },
   {
    "codigo": "06102",
@@ -1147,12 +1147,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 13955,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3233987224,
-   "por_habitante": 231744,
-   "variacion_real": 19.63142688879682,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8797376093294461,
-   "monto_actual": 2008431813
+   "monto_base": 3523679991,
+   "por_habitante": 252503,
+   "variacion_real": 30.347721257056136,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8519397002557476,
+   "monto_actual": 2289131427
   },
   {
    "codigo": "06103",
@@ -1161,12 +1161,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 7916,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1756761841,
-   "por_habitante": 221925,
-   "variacion_real": -26.09821154680474,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.4373242475776464,
-   "monto_actual": 1569813744
+   "monto_base": 2020578089,
+   "por_habitante": 255252,
+   "variacion_real": -15.000240213869986,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.45736053524649795,
+   "monto_actual": 1868504560
   },
   {
    "codigo": "06104",
@@ -1175,12 +1175,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 21373,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5867877062,
-   "por_habitante": 274546,
-   "variacion_real": -23.773764053329415,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0422209062196308,
-   "monto_actual": 3599954908
+   "monto_base": 6851650904,
+   "por_habitante": 320575,
+   "variacion_real": -10.994120545785414,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0816131666138076,
+   "monto_actual": 4176648199
   },
   {
    "codigo": "06105",
@@ -1189,12 +1189,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 21925,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3613099526,
-   "por_habitante": 164794,
-   "variacion_real": -30.948176834635753,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.6255846088435374,
-   "monto_actual": 3212589270
+   "monto_base": 4104282826,
+   "por_habitante": 187196,
+   "variacion_real": -21.56091746651946,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.6315952845276093,
+   "monto_actual": 3592144312
   },
   {
    "codigo": "06106",
@@ -1203,12 +1203,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 35938,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 2933698597,
-   "por_habitante": 81632,
-   "variacion_real": -16.090951807161435,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.40383492792195586,
-   "monto_actual": 2127462064
+   "monto_base": 3265993218,
+   "por_habitante": 90879,
+   "variacion_real": -6.5867289138408,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.40958995484004723,
+   "monto_actual": 2433989607
   },
   {
    "codigo": "06107",
@@ -1217,12 +1217,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 27554,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5549721492,
-   "por_habitante": 201413,
-   "variacion_real": -18.089828764659053,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.764596240281827,
-   "monto_actual": 3708018423
+   "monto_base": 6262720469,
+   "por_habitante": 227289,
+   "variacion_real": -7.566441531465462,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7668682056507392,
+   "monto_actual": 4411715556
   },
   {
    "codigo": "06108",
@@ -1231,12 +1231,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 60875,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 11246372908,
-   "por_habitante": 184745,
-   "variacion_real": -13.47671155860608,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.9139367375409365,
-   "monto_actual": 6382774878
+   "monto_base": 12165688309,
+   "por_habitante": 199847,
+   "variacion_real": -6.404014231207555,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.9007066946700439,
+   "monto_actual": 7633487606
   },
   {
    "codigo": "06109",
@@ -1245,12 +1245,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 13882,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4240360499,
-   "por_habitante": 305457,
-   "variacion_real": -5.348378416954603,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1595640488338192,
-   "monto_actual": 2729884658
+   "monto_base": 4802706674,
+   "por_habitante": 345966,
+   "variacion_real": 7.2040867254137275,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.167281855418272,
+   "monto_actual": 3033801513
   },
   {
    "codigo": "06110",
@@ -1259,12 +1259,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 27394,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 8210160169,
-   "por_habitante": 299707,
-   "variacion_real": -7.44319949227108,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1377361212342079,
-   "monto_actual": 6203285397
+   "monto_base": 9391655149,
+   "por_habitante": 342836,
+   "variacion_real": 5.876320823257997,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.15672130262563,
+   "monto_actual": 7818607547
   },
   {
    "codigo": "06111",
@@ -1273,12 +1273,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 13901,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4040842377,
-   "por_habitante": 290687,
-   "variacion_real": -8.77884761566532,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.103494746112731,
-   "monto_actual": 3254831773
+   "monto_base": 4393898388,
+   "por_habitante": 316085,
+   "variacion_real": -0.8086836808011144,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0664640030230848,
+   "monto_actual": 3542911346
   },
   {
    "codigo": "06112",
@@ -1287,12 +1287,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 14243,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2569533146,
-   "por_habitante": 180407,
-   "variacion_real": -19.524213644603726,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.684854075558795,
-   "monto_actual": 2063192259
+   "monto_base": 3064574481,
+   "por_habitante": 215164,
+   "variacion_real": -4.019902764408467,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7259587159987314,
+   "monto_actual": 2315940181
   },
   {
    "codigo": "06113",
@@ -1301,12 +1301,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 20363,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3948372929,
-   "por_habitante": 193899,
-   "variacion_real": 7.029640030093187,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7360718841107872,
-   "monto_actual": 2514979855
+   "monto_base": 4440334981,
+   "por_habitante": 218059,
+   "variacion_real": 20.365391814654686,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7357263838372933,
+   "monto_actual": 2905667695
   },
   {
    "codigo": "06114",
@@ -1315,12 +1315,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 13558,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3653519563,
-   "por_habitante": 269473,
-   "variacion_real": 5.958951191546391,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.022962979834791,
-   "monto_actual": 2339209074
+   "monto_base": 4022189515,
+   "por_habitante": 296665,
+   "variacion_real": 16.651074437680414,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0009413400093121,
+   "monto_actual": 2577401699
   },
   {
    "codigo": "06115",
@@ -1329,12 +1329,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 63620,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 14425698777,
-   "por_habitante": 226748,
-   "variacion_real": 11.605041854929432,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.1217263112069733,
-   "monto_actual": 8667177629
+   "monto_base": 15794211549,
+   "por_habitante": 248259,
+   "variacion_real": 22.19260004251471,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.1188986740460973,
+   "monto_actual": 9816103288
   },
   {
    "codigo": "06116",
@@ -1343,12 +1343,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 29508,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6091031693,
-   "por_habitante": 206420,
-   "variacion_real": -23.54284592267667,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7836036200194364,
-   "monto_actual": 4537776002
+   "monto_base": 6787312089,
+   "por_habitante": 230016,
+   "variacion_real": -14.802845837112887,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.776069045096597,
+   "monto_actual": 5122927261
   },
   {
    "codigo": "06117",
@@ -1357,12 +1357,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 49559,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 10272348528,
-   "por_habitante": 207275,
-   "variacion_real": -1.080890689871583,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.025393040535861,
-   "monto_actual": 6456554258
+   "monto_base": 10847519094,
+   "por_habitante": 218881,
+   "variacion_real": 4.4577998963209575,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.9864925770017757,
+   "monto_actual": 7309645500
   },
   {
    "codigo": "06201",
@@ -1371,12 +1371,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 19847,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 7452336774,
-   "por_habitante": 375489,
-   "variacion_real": -5.321405600341011,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.4254168185131195,
-   "monto_actual": 6150647624
+   "monto_base": 8059159268,
+   "por_habitante": 406064,
+   "variacion_real": 2.3880018679929504,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.370051216994055,
+   "monto_actual": 6983183004
   },
   {
    "codigo": "06202",
@@ -1385,12 +1385,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 4609,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2457378874,
-   "por_habitante": 533170,
-   "variacion_real": 9.025756910667537,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.0506620213178943,
-   "monto_actual": 1195400771
+   "monto_base": 2697722915,
+   "por_habitante": 585316,
+   "variacion_real": 19.68902551211864,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.0487692125755692,
+   "monto_actual": 1517302190
   },
   {
    "codigo": "06203",
@@ -1399,12 +1399,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 8852,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3722284364,
-   "por_habitante": 420502,
-   "variacion_real": 17.879820813949653,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.8286390481238952,
-   "monto_actual": 4432266604
+   "monto_base": 4568729379,
+   "por_habitante": 516124,
+   "variacion_real": 44.685614498620694,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.9247909865292475,
+   "monto_actual": 5139930473
   },
   {
    "codigo": "06204",
@@ -1413,12 +1413,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 8715,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3339206153,
-   "por_habitante": 383156,
-   "variacion_real": -21.572285437226224,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7550452152973331,
-   "monto_actual": 3108020524
+   "monto_base": 3804958593,
+   "por_habitante": 436599,
+   "variacion_real": -10.63318861374376,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7822980910162731,
+   "monto_actual": 3564510842
   },
   {
    "codigo": "06205",
@@ -1427,12 +1427,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 8885,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3279207900,
-   "por_habitante": 369072,
-   "variacion_real": -28.036723200207536,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.727291358350691,
-   "monto_actual": 2410579372
+   "monto_base": 3874666602,
+   "por_habitante": 436091,
+   "variacion_real": -14.96918960623469,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7813878566129963,
+   "monto_actual": 2733197196
   },
   {
    "codigo": "06206",
@@ -1441,12 +1441,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 7228,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3201371244,
-   "por_habitante": 442912,
-   "variacion_real": -4.504188547420318,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.8728000772473156,
-   "monto_actual": 2185949162
+   "monto_base": 3664861369,
+   "por_habitante": 507037,
+   "variacion_real": 9.321563673627796,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.908508899870632,
+   "monto_actual": 2598392380
   },
   {
    "codigo": "06301",
@@ -1455,12 +1455,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 75585,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 9776433019,
-   "por_habitante": 129344,
-   "variacion_real": -2.1437485192915107,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.6398670241711272,
-   "monto_actual": 6826726842
+   "monto_base": 11032293714,
+   "por_habitante": 145959,
+   "variacion_real": 10.426666452694633,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.6578344856182227,
+   "monto_actual": 7889256252
   },
   {
    "codigo": "06302",
@@ -1469,12 +1469,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 15668,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4515423138,
-   "por_habitante": 288194,
-   "variacion_real": -21.13879662506921,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0940309159378037,
-   "monto_actual": 3028885075
+   "monto_base": 5021471710,
+   "por_habitante": 320492,
+   "variacion_real": -12.300732475944665,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0813331263959836,
+   "monto_actual": 3669362385
   },
   {
    "codigo": "06303",
@@ -1483,12 +1483,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 37258,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 2354880365,
-   "por_habitante": 63205,
-   "variacion_real": -51.081222702903496,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.31267623749641343,
-   "monto_actual": 485424779
+   "monto_base": 2399390415,
+   "por_habitante": 64399,
+   "variacion_real": -50.15659941596526,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.2902450896438583,
+   "monto_actual": 484773279
   },
   {
    "codigo": "06304",
@@ -1497,12 +1497,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 7791,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2192082923,
-   "por_habitante": 281361,
-   "variacion_real": -21.327515038843003,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.5544485191965491,
-   "monto_actual": 1496097337
+   "monto_base": 2606798028,
+   "por_habitante": 334591,
+   "variacion_real": -6.443649324207746,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.5995201559582726,
+   "monto_actual": 1764206834
   },
   {
    "codigo": "06305",
@@ -1511,12 +1511,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 18723,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3194276857,
-   "por_habitante": 170607,
-   "variacion_real": -26.685782562950045,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.647651694606414,
-   "monto_actual": 2361198034
+   "monto_base": 3615384520,
+   "por_habitante": 193099,
+   "variacion_real": -17.020628241109137,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.6515118797783971,
+   "monto_actual": 2757125195
   },
   {
    "codigo": "06306",
@@ -1525,12 +1525,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 13060,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5916515496,
-   "por_habitante": 453026,
-   "variacion_real": 60.07671982895424,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.7197597789115646,
-   "monto_actual": 1955669682
+   "monto_base": 6424046830,
+   "por_habitante": 491887,
+   "variacion_real": 73.80844270064455,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.6596161762026547,
+   "monto_actual": 2559165612
   },
   {
    "codigo": "06307",
@@ -1539,12 +1539,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 12493,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3860859891,
-   "por_habitante": 309042,
-   "variacion_real": -0.6515537501446178,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1731732871720117,
-   "monto_actual": 1919295007
+   "monto_base": 4271433116,
+   "por_habitante": 341906,
+   "variacion_real": 9.91340150001272,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1535835025945895,
+   "monto_actual": 2177118466
   },
   {
    "codigo": "06308",
@@ -1553,12 +1553,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 9438,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2073190704,
-   "por_habitante": 219664,
-   "variacion_real": 5.4884696820519885,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.43286873276961185,
-   "monto_actual": 1839222690
+   "monto_base": 2311094482,
+   "por_habitante": 244871,
+   "variacion_real": 17.593533352450663,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.4387598593795355,
+   "monto_actual": 2068206481
   },
   {
    "codigo": "06309",
@@ -1567,12 +1567,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 4559,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1689091653,
-   "por_habitante": 370496,
-   "variacion_real": 4.72335978268692,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7300974853239953,
-   "monto_actual": 1251592510
+   "monto_base": 1829733584,
+   "por_habitante": 401345,
+   "variacion_real": 13.443132634850109,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7191299735888679,
+   "monto_actual": 1420993342
   },
   {
    "codigo": "06310",
@@ -1581,12 +1581,12 @@
    "nombre_region": "Libertador General Bernardo O'Higgins",
    "poblacion": 41209,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 11658306853,
-   "por_habitante": 282907,
-   "variacion_real": 2.431111997521307,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.3995458637987157,
-   "monto_actual": 7972609237
+   "monto_base": 13316803990,
+   "por_habitante": 323153,
+   "variacion_real": 17.00284253521087,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.4564445325809678,
+   "monto_actual": 8984892731
   },
   {
    "codigo": "07101",
@@ -1595,12 +1595,12 @@
    "nombre_region": "Maule",
    "poblacion": 232131,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 33181485803,
-   "por_habitante": 142943,
-   "variacion_real": 5.965886761534245,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.004673948185946,
-   "monto_actual": 22726281162
+   "monto_base": 36786809744,
+   "por_habitante": 158474,
+   "variacion_real": 17.479576978387446,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.0210756235382048,
+   "monto_actual": 26347547030
   },
   {
    "codigo": "07102",
@@ -1609,12 +1609,12 @@
    "nombre_region": "Maule",
    "poblacion": 47004,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 10015273276,
-   "por_habitante": 213073,
-   "variacion_real": -8.931815681688226,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.054075847671439,
-   "monto_actual": 7050522674
+   "monto_base": 11352164022,
+   "por_habitante": 241515,
+   "variacion_real": 3.2244390220075303,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.0885035920641073,
+   "monto_actual": 7911744247
   },
   {
    "codigo": "07103",
@@ -1623,12 +1623,12 @@
    "nombre_region": "Maule",
    "poblacion": 9519,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2460124760,
-   "por_habitante": 258444,
-   "variacion_real": -21.629735793491033,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.5092883985173244,
-   "monto_actual": 1682735491
+   "monto_base": 2629145672,
+   "por_habitante": 276200,
+   "variacion_real": -16.24536921776294,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.4948951617816226,
+   "monto_actual": 1840564851
   },
   {
    "codigo": "07104",
@@ -1637,12 +1637,12 @@
    "nombre_region": "Maule",
    "poblacion": 3990,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2091890323,
-   "por_habitante": 524283,
-   "variacion_real": -8.388028493355804,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.0331493454669423,
-   "monto_actual": 1804053900
+   "monto_base": 2290933608,
+   "por_habitante": 574169,
+   "variacion_real": 0.3288471255620484,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.0287960179036657,
+   "monto_actual": 1971622038
   },
   {
    "codigo": "07105",
@@ -1651,12 +1651,12 @@
    "nombre_region": "Maule",
    "poblacion": 61081,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 9253688814,
-   "por_habitante": 151499,
-   "variacion_real": -4.5591495809084615,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.7494681956248578,
-   "monto_actual": 7364186502
+   "monto_base": 10496248941,
+   "por_habitante": 171841,
+   "variacion_real": 8.256387833567459,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.7744841759886063,
+   "monto_actual": 8193260866
   },
   {
    "codigo": "07106",
@@ -1668,9 +1668,9 @@
    "monto_base": null,
    "por_habitante": null,
    "variacion_real": null,
-   "mediana_tramo": 507461,
+   "mediana_tramo": 558098,
    "vs_mediana": null,
-   "monto_actual": 316827922
+   "monto_actual": 319280763
   },
   {
    "codigo": "07107",
@@ -1679,12 +1679,12 @@
    "nombre_region": "Maule",
    "poblacion": 9181,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2976341278,
-   "por_habitante": 324185,
-   "variacion_real": -13.144565688666399,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.6388372702532805,
-   "monto_actual": 2148730875
+   "monto_base": 3321622572,
+   "por_habitante": 361793,
+   "variacion_real": -3.068585164651627,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.6482606997337386,
+   "monto_actual": 2363101584
   },
   {
    "codigo": "07108",
@@ -1693,12 +1693,12 @@
    "nombre_region": "Maule",
    "poblacion": 14276,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4392258944,
-   "por_habitante": 307667,
-   "variacion_real": 13.106527840195703,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1679535653547133,
-   "monto_actual": 2468829282
+   "monto_base": 4763313332,
+   "por_habitante": 333659,
+   "variacion_real": 22.661673381849102,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1257583016741681,
+   "monto_actual": 2754383120
   },
   {
    "codigo": "07109",
@@ -1707,12 +1707,12 @@
    "nombre_region": "Maule",
    "poblacion": 47380,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 14232055599,
-   "por_habitante": 300381,
-   "variacion_real": 18.316993307940834,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.4859900466009044,
-   "monto_actual": 10333553707
+   "monto_base": 15438823941,
+   "por_habitante": 325851,
+   "variacion_real": 28.349360090900923,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.4686043681662895,
+   "monto_actual": 11358901266
   },
   {
    "codigo": "07110",
@@ -1721,12 +1721,12 @@
    "nombre_region": "Maule",
    "poblacion": 11230,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3909164259,
-   "por_habitante": 348100,
-   "variacion_real": 2.0522385710693314,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.3214437560738581,
-   "monto_actual": 2871805921
+   "monto_base": 4373095189,
+   "por_habitante": 389412,
+   "variacion_real": 14.163571534337894,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.3138677265457883,
+   "monto_actual": 3266533669
   },
   {
    "codigo": "07201",
@@ -1735,12 +1735,12 @@
    "nombre_region": "Maule",
    "poblacion": 42798,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 9776989740,
-   "por_habitante": 228445,
-   "variacion_real": -13.791080272470102,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.1301213998080557,
-   "monto_actual": 5971270320
+   "monto_base": 10781125072,
+   "por_habitante": 251907,
+   "variacion_real": -4.937084867544517,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.1353401418797717,
+   "monto_actual": 6801491010
   },
   {
    "codigo": "07202",
@@ -1749,12 +1749,12 @@
    "nombre_region": "Maule",
    "poblacion": 9446,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2597910208,
-   "por_habitante": 275028,
-   "variacion_real": -26.262277091692287,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.5419687424255263,
-   "monto_actual": 1699126226
+   "monto_base": 2900286579,
+   "por_habitante": 307039,
+   "variacion_real": -17.679784521257137,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.5501524821805489,
+   "monto_actual": 1982969968
   },
   {
    "codigo": "07203",
@@ -1763,12 +1763,12 @@
    "nombre_region": "Maule",
    "poblacion": 8578,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 4629762317,
-   "por_habitante": 539725,
-   "variacion_real": -18.181112847733182,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.0635792701311038,
-   "monto_actual": 3680828088
+   "monto_base": 5441129400,
+   "por_habitante": 634312,
+   "variacion_real": -3.842331014531597,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.1365602456916168,
+   "monto_actual": 4170498840
   },
   {
    "codigo": "07301",
@@ -1777,12 +1777,12 @@
    "nombre_region": "Maule",
    "poblacion": 159968,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 26108327317,
-   "por_habitante": 163210,
-   "variacion_real": -4.976946691940465,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.1471204262078467,
-   "monto_actual": 20276080893
+   "monto_base": 29660703701,
+   "por_habitante": 185416,
+   "variacion_real": 7.952171531858143,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.1946676288473805,
+   "monto_actual": 22431313985
   },
   {
    "codigo": "07302",
@@ -1791,12 +1791,12 @@
    "nombre_region": "Maule",
    "poblacion": 10775,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3976121526,
-   "por_habitante": 369014,
-   "variacion_real": 17.9801002036003,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.4008366739552964,
-   "monto_actual": 2261794606
+   "monto_base": 4464963184,
+   "por_habitante": 414382,
+   "variacion_real": 32.48508638609107,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.3981159703899644,
+   "monto_actual": 2539514074
   },
   {
    "codigo": "07303",
@@ -1805,12 +1805,12 @@
    "nombre_region": "Maule",
    "poblacion": 6892,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3497594532,
-   "por_habitante": 507486,
-   "variacion_real": -29.709862082047078,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.0000492648696155,
-   "monto_actual": 2377092324
+   "monto_base": 3988156095,
+   "por_habitante": 578665,
+   "variacion_real": -19.851189327089635,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.036851950732667,
+   "monto_actual": 2656387373
   },
   {
    "codigo": "07304",
@@ -1819,12 +1819,12 @@
    "nombre_region": "Maule",
    "poblacion": 48949,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 13672190817,
-   "por_habitante": 279315,
-   "variacion_real": -10.498929390647493,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.3817761771428005,
-   "monto_actual": 7528432785
+   "monto_base": 15322906157,
+   "por_habitante": 313038,
+   "variacion_real": 0.3070045067627536,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.4108564165892967,
+   "monto_actual": 8406225356
   },
   {
    "codigo": "07305",
@@ -1833,12 +1833,12 @@
    "nombre_region": "Maule",
    "poblacion": 11266,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3724551935,
-   "por_habitante": 330601,
-   "variacion_real": 17.532543824107584,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.2550147291059282,
-   "monto_actual": 2738079780
+   "monto_base": 4181579150,
+   "por_habitante": 371168,
+   "variacion_real": 31.954566154102903,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.2523128622809445,
+   "monto_actual": 3087881596
   },
   {
    "codigo": "07306",
@@ -1847,12 +1847,12 @@
    "nombre_region": "Maule",
    "poblacion": 17233,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3171109832,
-   "por_habitante": 184014,
-   "variacion_real": -33.4419584020698,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.6985468294460642,
-   "monto_actual": 2824119147
+   "monto_base": 4170776034,
+   "por_habitante": 242023,
+   "variacion_real": -12.460085120564079,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8165804052823008,
+   "monto_actual": 3158941181
   },
   {
    "codigo": "07307",
@@ -1861,12 +1861,12 @@
    "nombre_region": "Maule",
    "poblacion": 19427,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4907201727,
-   "por_habitante": 252597,
-   "variacion_real": -13.296699422982305,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9588989613702624,
-   "monto_actual": 2984484268
+   "monto_base": 5603588688,
+   "por_habitante": 288443,
+   "variacion_real": -0.9925286640574571,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9732004885520908,
+   "monto_actual": 3391370218
   },
   {
    "codigo": "07308",
@@ -1875,12 +1875,12 @@
    "nombre_region": "Maule",
    "poblacion": 30113,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 8917822292,
-   "por_habitante": 296145,
-   "variacion_real": 16.84781021515931,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.465034480711579,
-   "monto_actual": 5569824349
+   "monto_base": 9895558647,
+   "por_habitante": 328614,
+   "variacion_real": 29.658824867468514,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.4810571575370248,
+   "monto_actual": 6273346491
   },
   {
    "codigo": "07309",
@@ -1889,12 +1889,12 @@
    "nombre_region": "Maule",
    "poblacion": 4716,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3176572938,
-   "por_habitante": 673574,
-   "variacion_real": 22.69446890614326,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.3273414114582205,
-   "monto_actual": 1727604951
+   "monto_base": 3360282353,
+   "por_habitante": 712528,
+   "variacion_real": 29.790206843353918,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.2767076749961477,
+   "monto_actual": 1831441014
   },
   {
    "codigo": "07401",
@@ -1903,12 +1903,12 @@
    "nombre_region": "Maule",
    "poblacion": 96744,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 11689497207,
-   "por_habitante": 120829,
-   "variacion_real": -4.207482527374373,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.5977431706424197,
-   "monto_actual": 8860155178
+   "monto_base": 12589169592,
+   "por_habitante": 130129,
+   "variacion_real": 3.1651085373758825,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.5864889714167245,
+   "monto_actual": 10685375773
   },
   {
    "codigo": "07402",
@@ -1917,12 +1917,12 @@
    "nombre_region": "Maule",
    "poblacion": 22637,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 7250008727,
-   "por_habitante": 320273,
-   "variacion_real": 11695.331651147122,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.2158079749757045,
-   "monto_actual": 4572092589
+   "monto_base": 7819127229,
+   "por_habitante": 345414,
+   "variacion_real": 12621.25349933665,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1654194192708158,
+   "monto_actual": 5568656138
   },
   {
    "codigo": "07403",
@@ -1931,12 +1931,12 @@
    "nombre_region": "Maule",
    "poblacion": 33299,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 7942753117,
-   "por_habitante": 238528,
-   "variacion_real": 6.115566146134266,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.180002176687675,
-   "monto_actual": 3694538067
+   "monto_base": 8586845113,
+   "por_habitante": 257871,
+   "variacion_real": 14.720666392728464,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.1622197784367987,
+   "monto_actual": 4045286034
   },
   {
    "codigo": "07404",
@@ -1945,12 +1945,12 @@
    "nombre_region": "Maule",
    "poblacion": 45323,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 12057848871,
-   "por_habitante": 266043,
-   "variacion_real": 22.894876147194985,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.3161193616368692,
-   "monto_actual": 7840540809
+   "monto_base": 13204703896,
+   "por_habitante": 291347,
+   "variacion_real": 34.583744349477776,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.3130954849061196,
+   "monto_actual": 8878487015
   },
   {
    "codigo": "07405",
@@ -1959,12 +1959,12 @@
    "nombre_region": "Maule",
    "poblacion": 22310,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6370649909,
-   "por_habitante": 285551,
-   "variacion_real": 32.92905650039732,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0839976615646258,
-   "monto_actual": 3601702905
+   "monto_base": 7281170762,
+   "por_habitante": 326364,
+   "variacion_real": 51.92785248544083,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1011451283124034,
+   "monto_actual": 4096751586
   },
   {
    "codigo": "07406",
@@ -1973,12 +1973,12 @@
    "nombre_region": "Maule",
    "poblacion": 49559,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 12299344830,
-   "por_habitante": 248176,
-   "variacion_real": 5.048641052675507,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.2277310009795095,
-   "monto_actual": 8911690412
+   "monto_base": 13616197440,
+   "por_habitante": 274747,
+   "variacion_real": 16.29587243444408,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.2382795950927987,
+   "monto_actual": 10428625266
   },
   {
    "codigo": "07407",
@@ -1987,12 +1987,12 @@
    "nombre_region": "Maule",
    "poblacion": 17919,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3664703199,
-   "por_habitante": 204515,
-   "variacion_real": -34.745296852619376,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7763719327016521,
-   "monto_actual": 2840752930
+   "monto_base": 4078412787,
+   "por_habitante": 227603,
+   "variacion_real": -27.378671265714605,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7679276349085314,
+   "monto_actual": 3205547672
   },
   {
    "codigo": "07408",
@@ -2001,12 +2001,12 @@
    "nombre_region": "Maule",
    "poblacion": 20035,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4894277463,
-   "por_habitante": 244286,
-   "variacion_real": 23.540460337190794,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9273490646258503,
-   "monto_actual": 5393654229
+   "monto_base": 5271021937,
+   "por_habitante": 263091,
+   "variacion_real": 33.050175734266716,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8876633849102185,
+   "monto_actual": 5995731204
   },
   {
    "codigo": "08101",
@@ -2015,12 +2015,12 @@
    "nombre_region": "Biobío",
    "poblacion": 230375,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 33072193056,
-   "por_habitante": 143558,
-   "variacion_real": 27.0659646892365,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.0089964716962567,
-   "monto_actual": 22261110152
+   "monto_base": 37133382698,
+   "por_habitante": 161187,
+   "variacion_real": 42.66937444113515,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.038555955748278,
+   "monto_actual": 24741816094
   },
   {
    "codigo": "08102",
@@ -2029,12 +2029,12 @@
    "nombre_region": "Biobío",
    "poblacion": 123648,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 20243179397,
-   "por_habitante": 163716,
-   "variacion_real": -0.9867544217342594,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.150676843925273,
-   "monto_actual": 14585673547
+   "monto_base": 22723557158,
+   "por_habitante": 183776,
+   "variacion_real": 11.145245574924267,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.1841008227933738,
+   "monto_actual": 15893730387
   },
   {
    "codigo": "08103",
@@ -2043,12 +2043,12 @@
    "nombre_region": "Biobío",
    "poblacion": 85822,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 14420905526,
-   "por_habitante": 168033,
-   "variacion_real": 5.891183794415622,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.8312621820304539,
-   "monto_actual": 10575023040
+   "monto_base": 16042377382,
+   "por_habitante": 186926,
+   "variacion_real": 17.797480109276332,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.8424719891111332,
+   "monto_actual": 12252298958
   },
   {
    "codigo": "08104",
@@ -2057,12 +2057,12 @@
    "nombre_region": "Biobío",
    "poblacion": 12958,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3404705343,
-   "por_habitante": 262749,
-   "variacion_real": 7.495505225259547,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9974375911078717,
-   "monto_actual": 2387378117
+   "monto_base": 3864039296,
+   "por_habitante": 298197,
+   "variacion_real": 21.99788659766444,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0061102751142093,
+   "monto_actual": 2791107075
   },
   {
    "codigo": "08105",
@@ -2071,12 +2071,12 @@
    "nombre_region": "Biobío",
    "poblacion": 25795,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4676371619,
-   "por_habitante": 181290,
-   "variacion_real": 15.88558632592365,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.6882060860058309,
-   "monto_actual": 3155017972
+   "monto_base": 5371472486,
+   "por_habitante": 208237,
+   "variacion_real": 33.110943523942524,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7025871667352709,
+   "monto_actual": 3709033276
   },
   {
    "codigo": "08106",
@@ -2085,12 +2085,12 @@
    "nombre_region": "Biobío",
    "poblacion": 39980,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 7945590549,
-   "por_habitante": 198739,
-   "variacion_real": 0.6705974017280791,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.9831652996408465,
-   "monto_actual": 4248739859
+   "monto_base": 8594068126,
+   "por_habitante": 214959,
+   "variacion_real": 8.886805457708435,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.9688161962880502,
+   "monto_actual": 4903257295
   },
   {
    "codigo": "08107",
@@ -2099,12 +2099,12 @@
    "nombre_region": "Biobío",
    "poblacion": 48971,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 7142734173,
-   "por_habitante": 145856,
-   "variacion_real": 22.282185559913103,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.7215521761929733,
-   "monto_actual": 5056262905
+   "monto_base": 7955641315,
+   "por_habitante": 162456,
+   "variacion_real": 36.19899382596567,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.7321861563561958,
+   "monto_actual": 5660005378
   },
   {
    "codigo": "08108",
@@ -2113,12 +2113,12 @@
    "nombre_region": "Biobío",
    "poblacion": 150992,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 16299927073,
-   "por_habitante": 107952,
-   "variacion_real": 11.707934548585586,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.7587399316830431,
-   "monto_actual": 11411839096
+   "monto_base": 18842142473,
+   "por_habitante": 124789,
+   "variacion_real": 29.13044387882755,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.8040372930935613,
+   "monto_actual": 12764828989
   },
   {
    "codigo": "08109",
@@ -2127,12 +2127,12 @@
    "nombre_region": "Biobío",
    "poblacion": 14947,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2753924252,
-   "por_habitante": 184246,
-   "variacion_real": -44.328289030905296,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.6994275388726919,
-   "monto_actual": 3162688059
+   "monto_base": 3320537179,
+   "por_habitante": 222154,
+   "variacion_real": -32.87397576125449,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7495428259094559,
+   "monto_actual": 3695579649
   },
   {
    "codigo": "08110",
@@ -2141,12 +2141,12 @@
    "nombre_region": "Biobío",
    "poblacion": 147322,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 22367376356,
-   "por_habitante": 151826,
-   "variacion_real": -23.84621567183054,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.0671080560592643,
-   "monto_actual": 17714102889
+   "monto_base": 25087310011,
+   "por_habitante": 170289,
+   "variacion_real": -14.585708867051139,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.0972017293480152,
+   "monto_actual": 20430977310
   },
   {
    "codigo": "08111",
@@ -2155,12 +2155,12 @@
    "nombre_region": "Biobío",
    "poblacion": 56907,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 12175064836,
-   "por_habitante": 213947,
-   "variacion_real": -25.453008885741745,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.0583995409167812,
-   "monto_actual": 8872206052
+   "monto_base": 13197161577,
+   "por_habitante": 231908,
+   "variacion_real": -19.194788687690455,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.0452050225799763,
+   "monto_actual": 9915253444
   },
   {
    "codigo": "08112",
@@ -2169,12 +2169,12 @@
    "nombre_region": "Biobío",
    "poblacion": 87731,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 20155929723,
-   "por_habitante": 229747,
-   "variacion_real": 6.451883497053745,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.1365624165190806,
-   "monto_actual": 13482379836
+   "monto_base": 21986448906,
+   "por_habitante": 250612,
+   "variacion_real": 16.11961986475301,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.12950360107807,
+   "monto_actual": 15383750241
   },
   {
    "codigo": "08201",
@@ -2183,12 +2183,12 @@
    "nombre_region": "Biobío",
    "poblacion": 25246,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 7344010387,
-   "por_habitante": 290898,
-   "variacion_real": -19.132880747907734,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1042957361516035,
-   "monto_actual": 3985204766
+   "monto_base": 8020412011,
+   "por_habitante": 317690,
+   "variacion_real": -11.68481791739463,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0718792385605258,
+   "monto_actual": 4350965947
   },
   {
    "codigo": "08202",
@@ -2197,12 +2197,12 @@
    "nombre_region": "Biobío",
    "poblacion": 37163,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 11437327527,
-   "por_habitante": 307761,
-   "variacion_real": -3.1403367466649956,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.5224990353315986,
-   "monto_actual": 7919886585
+   "monto_base": 13343784028,
+   "por_habitante": 359061,
+   "variacion_real": 13.004932701820149,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.618281217606072,
+   "monto_actual": 8788555235
   },
   {
    "codigo": "08203",
@@ -2211,12 +2211,12 @@
    "nombre_region": "Biobío",
    "poblacion": 34640,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 10726777062,
-   "por_habitante": 309664,
-   "variacion_real": 20.18655311430251,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.5319132095259769,
-   "monto_actual": 6722827895
+   "monto_base": 12047304660,
+   "por_habitante": 347786,
+   "variacion_real": 34.982205096123224,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.5674650032900963,
+   "monto_actual": 7406163809
   },
   {
    "codigo": "08204",
@@ -2225,12 +2225,12 @@
    "nombre_region": "Biobío",
    "poblacion": 5905,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 992406318,
-   "por_habitante": 168062,
-   "variacion_real": -51.20787206325939,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.33118210069345233,
-   "monto_actual": 1143631148
+   "monto_base": 1055268062,
+   "por_habitante": 178708,
+   "variacion_real": -48.11724456528468,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.3202089955527524,
+   "monto_actual": 1268972220
   },
   {
    "codigo": "08205",
@@ -2239,12 +2239,12 @@
    "nombre_region": "Biobío",
    "poblacion": 31119,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 6122755597,
-   "por_habitante": 196753,
-   "variacion_real": 21.849244438676727,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.9733405229986841,
-   "monto_actual": 4172374994
+   "monto_base": 7125684376,
+   "por_habitante": 228982,
+   "variacion_real": 41.8085768031488,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.03201759525505,
+   "monto_actual": 4740596279
   },
   {
    "codigo": "08206",
@@ -2253,12 +2253,12 @@
    "nombre_region": "Biobío",
    "poblacion": 21950,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4257146083,
-   "por_habitante": 193947,
-   "variacion_real": 10.818295929192722,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7362540998542274,
-   "monto_actual": 2558990144
+   "monto_base": 4610186754,
+   "por_habitante": 210031,
+   "variacion_real": 20.008341276743646,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7086400842145041,
+   "monto_actual": 2835103383
   },
   {
    "codigo": "08207",
@@ -2267,12 +2267,12 @@
    "nombre_region": "Biobío",
    "poblacion": 10208,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5739331121,
-   "por_habitante": 562239,
-   "variacion_real": 23.170989004632148,
-   "mediana_tramo": 263424,
-   "vs_mediana": 2.134349945335277,
-   "monto_actual": 3441454321
+   "monto_base": 6472368603,
+   "por_habitante": 634049,
+   "variacion_real": 38.90260471591971,
+   "mediana_tramo": 296386,
+   "vs_mediana": 2.139267711700283,
+   "monto_actual": 3877586482
   },
   {
    "codigo": "08301",
@@ -2281,12 +2281,12 @@
    "nombre_region": "Biobío",
    "poblacion": 219441,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 31221645282,
-   "por_habitante": 142278,
-   "variacion_real": 27.103266911059066,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.0,
-   "monto_actual": 23030797220
+   "monto_base": 33624964631,
+   "por_habitante": 153230,
+   "variacion_real": 36.887176052598434,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.9872876168630761,
+   "monto_actual": 26102948480
   },
   {
    "codigo": "08302",
@@ -2295,12 +2295,12 @@
    "nombre_region": "Biobío",
    "poblacion": 4373,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1592637044,
-   "por_habitante": 364198,
-   "variacion_real": 6.561087054947334,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7176866793704344,
-   "monto_actual": 951064725
+   "monto_base": 1831808651,
+   "por_habitante": 418891,
+   "variacion_real": 22.563720254152674,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.750568896502048,
+   "monto_actual": 1146161800
   },
   {
    "codigo": "08303",
@@ -2309,12 +2309,12 @@
    "nombre_region": "Biobío",
    "poblacion": 31256,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 7175574535,
-   "por_habitante": 229574,
-   "variacion_real": 21.837190443942234,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.1357065825014099,
-   "monto_actual": 5161034015
+   "monto_base": 8636909063,
+   "por_habitante": 276328,
+   "variacion_real": 46.649822843174164,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.2454051325503204,
+   "monto_actual": 5768810986
   },
   {
    "codigo": "08304",
@@ -2323,12 +2323,12 @@
    "nombre_region": "Biobío",
    "poblacion": 23706,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 10572709901,
-   "por_habitante": 445993,
-   "variacion_real": 8.516866567683312,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.6930613763362488,
-   "monto_actual": 5968527457
+   "monto_base": 11562548995,
+   "por_habitante": 487748,
+   "variacion_real": 18.67644134963349,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.64565127907526,
+   "monto_actual": 6788618775
   },
   {
    "codigo": "08305",
@@ -2337,12 +2337,12 @@
    "nombre_region": "Biobío",
    "poblacion": 29036,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6240612239,
-   "por_habitante": 214927,
-   "variacion_real": 1.2445327383827198,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8158975643828961,
-   "monto_actual": 4533160223
+   "monto_base": 7137316103,
+   "por_habitante": 245809,
+   "variacion_real": 15.792202139795485,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8293542879893112,
+   "monto_actual": 5074023568
   },
   {
    "codigo": "08306",
@@ -2351,12 +2351,12 @@
    "nombre_region": "Biobío",
    "poblacion": 26140,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6163286611,
-   "por_habitante": 235780,
-   "variacion_real": 19.592829330010876,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8950589164237124,
-   "monto_actual": 4094964182
+   "monto_base": 6903567526,
+   "por_habitante": 264100,
+   "variacion_real": 33.9572901626209,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8910677292449711,
+   "monto_actual": 4656784817
   },
   {
    "codigo": "08307",
@@ -2365,12 +2365,12 @@
    "nombre_region": "Biobío",
    "poblacion": 10723,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2918276108,
-   "por_habitante": 272151,
-   "variacion_real": -23.43722214139482,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0331290998542273,
-   "monto_actual": 2549234249
+   "monto_base": 3225815953,
+   "por_habitante": 300831,
+   "variacion_real": -15.36872417752605,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.014997334556963,
+   "monto_actual": 2938243073
   },
   {
    "codigo": "08308",
@@ -2379,12 +2379,12 @@
    "nombre_region": "Biobío",
    "poblacion": 4440,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3030441242,
-   "por_habitante": 682532,
-   "variacion_real": 6.388356607265888,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.3449939995388809,
-   "monto_actual": 1440592446
+   "monto_base": 3308183241,
+   "por_habitante": 745086,
+   "variacion_real": 16.138921780714277,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.3350450996061625,
+   "monto_actual": 1575191159
   },
   {
    "codigo": "08309",
@@ -2393,12 +2393,12 @@
    "nombre_region": "Biobío",
    "poblacion": 9700,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 4324052020,
-   "por_habitante": 445779,
-   "variacion_real": 99.65334558809691,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.8784497724948321,
-   "monto_actual": 1427778960
+   "monto_base": 4846867343,
+   "por_habitante": 499677,
+   "variacion_real": 123.79316349011917,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.8953212518231565,
+   "monto_actual": 1708847185
   },
   {
    "codigo": "08310",
@@ -2407,12 +2407,12 @@
    "nombre_region": "Biobío",
    "poblacion": 3575,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2771904955,
-   "por_habitante": 775358,
-   "variacion_real": 40.94185772534633,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.5279164310163738,
-   "monto_actual": 2003541030
+   "monto_base": 3110836108,
+   "por_habitante": 870164,
+   "variacion_real": 58.17534412560914,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.5591598608129755,
+   "monto_actual": 2176586147
   },
   {
    "codigo": "08311",
@@ -2421,12 +2421,12 @@
    "nombre_region": "Biobío",
    "poblacion": 14075,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3506967379,
-   "por_habitante": 249163,
-   "variacion_real": 11.849859579658272,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9458629433916423,
-   "monto_actual": 1608748797
+   "monto_base": 3862679440,
+   "por_habitante": 274435,
+   "variacion_real": 23.194802310487383,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9259377973318578,
+   "monto_actual": 1852544332
   },
   {
    "codigo": "08312",
@@ -2435,12 +2435,12 @@
    "nombre_region": "Biobío",
    "poblacion": 15729,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3254400687,
-   "por_habitante": 206904,
-   "variacion_real": -28.1106425823353,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7854409620991254,
-   "monto_actual": 1798905575
+   "monto_base": 3584916398,
+   "por_habitante": 227918,
+   "variacion_real": -20.809586453891647,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7689904381448517,
+   "monto_actual": 1995315957
   },
   {
    "codigo": "08313",
@@ -2449,12 +2449,12 @@
    "nombre_region": "Biobío",
    "poblacion": 23170,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4859808900,
-   "por_habitante": 209746,
-   "variacion_real": -16.814932498155756,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7962296525753159,
-   "monto_actual": 4577605098
+   "monto_base": 5842080300,
+   "por_habitante": 252140,
+   "variacion_real": -0.0014498292938092128,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8507149460500834,
+   "monto_actual": 5074485402
   },
   {
    "codigo": "08314",
@@ -2463,12 +2463,12 @@
    "nombre_region": "Biobío",
    "poblacion": 6016,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2138531684,
-   "por_habitante": 355474,
-   "variacion_real": -25.25792478804637,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.700495210469376,
-   "monto_actual": 1613880118
+   "monto_base": 2531149732,
+   "por_habitante": 420736,
+   "variacion_real": -11.535851885063641,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7538747675139492,
+   "monto_actual": 1899617285
   },
   {
    "codigo": "09101",
@@ -2477,12 +2477,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 292518,
    "tramo": "Más de 250 mil",
-   "monto_base": 59453156845,
-   "por_habitante": 203246,
-   "variacion_real": -1.0303185358721212,
-   "mediana_tramo": 142825,
-   "vs_mediana": 1.4230421844915107,
-   "monto_actual": 41711370636
+   "monto_base": 66866831134,
+   "por_habitante": 228590,
+   "variacion_real": 11.310977062173677,
+   "mediana_tramo": 152218,
+   "vs_mediana": 1.501727785150245,
+   "monto_actual": 47694332099
   },
   {
    "codigo": "09102",
@@ -2491,12 +2491,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 24957,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5870911106,
-   "por_habitante": 235241,
-   "variacion_real": -6.828588372299748,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8930127854713313,
-   "monto_actual": 4826954675
+   "monto_base": 6507966497,
+   "por_habitante": 260767,
+   "variacion_real": 3.2814863661588367,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.879822258811145,
+   "monto_actual": 5431170418
   },
   {
    "codigo": "09103",
@@ -2505,12 +2505,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 19177,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3499610367,
-   "por_habitante": 182490,
-   "variacion_real": -23.200038863814797,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.6927614795918368,
-   "monto_actual": 2941732666
+   "monto_base": 3609071773,
+   "por_habitante": 188198,
+   "variacion_real": -20.797876667136116,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.6349760110126659,
+   "monto_actual": 3354245389
   },
   {
    "codigo": "09104",
@@ -2519,12 +2519,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 7733,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2405579394,
-   "por_habitante": 311080,
-   "variacion_real": 7.21869475933179,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.6130126256007851,
-   "monto_actual": 3412833701
+   "monto_base": 2689073197,
+   "por_habitante": 347740,
+   "variacion_real": 19.854251750646434,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.62308053424309,
+   "monto_actual": 3591020707
   },
   {
    "codigo": "09105",
@@ -2533,12 +2533,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 26164,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6369642337,
-   "por_habitante": 243451,
-   "variacion_real": -1.3162292516111784,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9241792699222546,
-   "monto_actual": 4161884834
+   "monto_base": 7520908822,
+   "por_habitante": 287453,
+   "variacion_real": 16.520143948827037,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9698602498093702,
+   "monto_actual": 4793706820
   },
   {
    "codigo": "09106",
@@ -2547,12 +2547,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 12710,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4293628782,
-   "por_habitante": 337815,
-   "variacion_real": -22.35309075973191,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.2824002368804666,
-   "monto_actual": 3420187671
+   "monto_base": 4935202003,
+   "por_habitante": 388293,
+   "variacion_real": -10.750742212317721,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.3100922445729555,
+   "monto_actual": 3804851976
   },
   {
    "codigo": "09107",
@@ -2561,12 +2561,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 14148,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4113724626,
-   "por_habitante": 290764,
-   "variacion_real": 2.8229328679613586,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1037870505344995,
-   "monto_actual": 2630829250
+   "monto_base": 4528881941,
+   "por_habitante": 320108,
+   "variacion_real": 13.199828895490473,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0800375186412314,
+   "monto_actual": 2992767450
   },
   {
    "codigo": "09108",
@@ -2575,12 +2575,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 41936,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 12457625981,
-   "por_habitante": 297063,
-   "variacion_real": -9.634745056377081,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.4695758427244214,
-   "monto_actual": 8574842272
+   "monto_base": 14276449644,
+   "por_habitante": 340434,
+   "variacion_real": 3.5586566603837078,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.5343296766691605,
+   "monto_actual": 9759403458
   },
   {
    "codigo": "09109",
@@ -2589,12 +2589,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 25158,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 8528268542,
-   "por_habitante": 338988,
-   "variacion_real": 13.541232840890615,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.2868531341107872,
-   "monto_actual": 5158757845
+   "monto_base": 9520195649,
+   "por_habitante": 378416,
+   "variacion_real": 26.747269454585943,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.2767674586518931,
+   "monto_actual": 5707420512
   },
   {
    "codigo": "09110",
@@ -2603,12 +2603,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 6796,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2630668408,
-   "por_habitante": 387091,
-   "variacion_real": 4.704511559788704,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.762799505774828,
-   "monto_actual": 1678013796
+   "monto_base": 3071287414,
+   "por_habitante": 451926,
+   "variacion_real": 22.24180271624585,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.8097610097151396,
+   "monto_actual": 1883757683
   },
   {
    "codigo": "09111",
@@ -2617,12 +2617,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 33988,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 7171883135,
-   "por_habitante": 211012,
-   "variacion_real": -5.937705600196619,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.0438800447210377,
-   "monto_actual": 5972416811
+   "monto_base": 8048096514,
+   "por_habitante": 236792,
+   "variacion_real": 5.55420513804834,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.0672171193178233,
+   "monto_actual": 6505611106
   },
   {
    "codigo": "09112",
@@ -2631,12 +2631,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 80656,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 14834582579,
-   "por_habitante": 183924,
-   "variacion_real": -7.9685909926864635,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.9098752362200829,
-   "monto_actual": 14018007103
+   "monto_base": 16847802869,
+   "por_habitante": 208885,
+   "variacion_real": 4.521109943900448,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.9414407917864772,
+   "monto_actual": 15774032377
   },
   {
    "codigo": "09113",
@@ -2645,12 +2645,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 7438,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3658597737,
-   "por_habitante": 491879,
-   "variacion_real": 8.636843576387054,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.9692941920659913,
-   "monto_actual": 2732388938
+   "monto_base": 3998260481,
+   "por_habitante": 537545,
+   "variacion_real": 18.722644487342578,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.9631731344674233,
+   "monto_actual": 3089433639
   },
   {
    "codigo": "09114",
@@ -2659,12 +2659,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 27041,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6887297310,
-   "por_habitante": 254698,
-   "variacion_real": 4.465611215833976,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9668746963070942,
-   "monto_actual": 4504707078
+   "monto_base": 7708712291,
+   "por_habitante": 285075,
+   "variacion_real": 16.924724593648598,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9618369288697847,
+   "monto_actual": 5314868697
   },
   {
    "codigo": "09115",
@@ -2673,12 +2673,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 32321,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 14347709734,
-   "por_habitante": 443913,
-   "variacion_real": 36.38701399455322,
-   "mediana_tramo": 202142,
-   "vs_mediana": 2.196045354255919,
-   "monto_actual": 10211882804
+   "monto_base": 16426093049,
+   "por_habitante": 508217,
+   "variacion_real": 56.14379047834426,
+   "mediana_tramo": 221878,
+   "vs_mediana": 2.2905245224853297,
+   "monto_actual": 11113019488
   },
   {
    "codigo": "09116",
@@ -2687,12 +2687,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 12877,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3794051959,
-   "por_habitante": 294638,
-   "variacion_real": -1.6381257823768869,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.118493379494655,
-   "monto_actual": 2734713488
+   "monto_base": 4424469331,
+   "por_habitante": 343595,
+   "variacion_real": 14.705623570389559,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1592821523283825,
+   "monto_actual": 3233169657
   },
   {
    "codigo": "09117",
@@ -2701,12 +2701,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 15639,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4130244466,
-   "por_habitante": 264099,
-   "variacion_real": -12.95048312920899,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0025624088921283,
-   "monto_actual": 3162055320
+   "monto_base": 4759326568,
+   "por_habitante": 304324,
+   "variacion_real": 0.3081250480924558,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0267826415552692,
+   "monto_actual": 3652479756
   },
   {
    "codigo": "09118",
@@ -2715,12 +2715,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 10041,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3867694458,
-   "por_habitante": 385190,
-   "variacion_real": 24.889311466046514,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.462243379494655,
-   "monto_actual": 2320932426
+   "monto_base": 4376782153,
+   "por_habitante": 435891,
+   "variacion_real": 41.327944971047835,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.4706868745487305,
+   "monto_actual": 2611775281
   },
   {
    "codigo": "09119",
@@ -2729,12 +2729,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 31575,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 8406193773,
-   "por_habitante": 266229,
-   "variacion_real": 0.20652636882754205,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.3170395068813012,
-   "monto_actual": 11261204670
+   "monto_base": 10322546599,
+   "por_habitante": 326922,
+   "variacion_real": 23.050522733428846,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.473431345153643,
+   "monto_actual": 12109721698
   },
   {
    "codigo": "09120",
@@ -2743,12 +2743,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 67737,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 14201002682,
-   "por_habitante": 209649,
-   "variacion_real": 0.061158635889468904,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.0371372599459785,
-   "monto_actual": 9363802261
+   "monto_base": 15919179406,
+   "por_habitante": 235015,
+   "variacion_real": 12.167539966453678,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.0592082135227467,
+   "monto_actual": 10613224263
   },
   {
    "codigo": "09121",
@@ -2757,12 +2757,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 13167,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2631786413,
-   "por_habitante": 199877,
-   "variacion_real": -6.689675379948823,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7587653364917396,
-   "monto_actual": 3696038184
+   "monto_base": 3321753958,
+   "por_habitante": 252279,
+   "variacion_real": 17.773212369312375,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8511839290654755,
+   "monto_actual": 4113683425
   },
   {
    "codigo": "09201",
@@ -2771,12 +2771,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 53022,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 14796112712,
-   "por_habitante": 279056,
-   "variacion_real": 6.373211475251583,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.3804948996250161,
-   "monto_actual": 10538187353
+   "monto_base": 17015217821,
+   "por_habitante": 320909,
+   "variacion_real": 22.326951598765476,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.4463308665122274,
+   "monto_actual": 11843134974
   },
   {
    "codigo": "09202",
@@ -2785,12 +2785,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 24303,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 1622270929,
-   "por_habitante": 66752,
-   "variacion_real": -69.86180860882247,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.2534013605442177,
-   "monto_actual": 1086078933
+   "monto_base": 1925896297,
+   "por_habitante": 79245,
+   "variacion_real": -64.22112351213434,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.26737092845141136,
+   "monto_actual": 1359197451
   },
   {
    "codigo": "09203",
@@ -2799,12 +2799,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 18536,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5489354275,
-   "por_habitante": 296146,
-   "variacion_real": -19.825808407723468,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1242179907677357,
-   "monto_actual": 7028560286
+   "monto_base": 6427935730,
+   "por_habitante": 346781,
+   "variacion_real": -6.1174548148725805,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1700316479185926,
+   "monto_actual": 7457648836
   },
   {
    "codigo": "09204",
@@ -2813,12 +2813,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 7730,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2800149818,
-   "por_habitante": 362244,
-   "variacion_real": -19.523511658349037,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7138361371612794,
-   "monto_actual": 2406053703
+   "monto_base": 3333883398,
+   "por_habitante": 431292,
+   "variacion_real": -4.18397376923112,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7727890083820405,
+   "monto_actual": 2770461321
   },
   {
    "codigo": "09205",
@@ -2827,12 +2827,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 10247,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4015321267,
-   "por_habitante": 391853,
-   "variacion_real": -20.661352477893747,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.4875372023809523,
-   "monto_actual": 3084309381
+   "monto_base": 4486628424,
+   "por_habitante": 437848,
+   "variacion_real": -11.348804385868561,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.4772897505280276,
+   "monto_actual": 3293876684
   },
   {
    "codigo": "09206",
@@ -2841,12 +2841,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 7348,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3768057764,
-   "por_habitante": 512800,
-   "variacion_real": 1.4100023102580073,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.0105210055551066,
-   "monto_actual": 2727733145
+   "monto_base": 4415635988,
+   "por_habitante": 600930,
+   "variacion_real": 18.838320373566965,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.076746377876287,
+   "monto_actual": 3062443313
   },
   {
    "codigo": "09207",
@@ -2855,12 +2855,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 9253,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 4191010914,
-   "por_habitante": 452935,
-   "variacion_real": -11.47267545323144,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.8925513487736003,
-   "monto_actual": 3151730870
+   "monto_base": 4744364971,
+   "por_habitante": 512738,
+   "variacion_real": 0.2159016463103347,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.9187239517074062,
+   "monto_actual": 3648059449
   },
   {
    "codigo": "09208",
@@ -2869,12 +2869,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 12184,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3454825864,
-   "por_habitante": 283554,
-   "variacion_real": -8.933749465675355,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0764167274052479,
-   "monto_actual": 2083593382
+   "monto_base": 3895034760,
+   "por_habitante": 319684,
+   "variacion_real": 2.669779970728814,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0786069517453591,
+   "monto_actual": 2351806742
   },
   {
    "codigo": "09209",
@@ -2883,12 +2883,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 10686,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3791361436,
-   "por_habitante": 354797,
-   "variacion_real": 23.283018685870527,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.3468666484450924,
-   "monto_actual": 2462329641
+   "monto_base": 4508309996,
+   "por_habitante": 421889,
+   "variacion_real": 46.59590620960381,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.4234444271996654,
+   "monto_actual": 2797577543
   },
   {
    "codigo": "09210",
@@ -2897,12 +2897,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 18873,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6448068526,
-   "por_habitante": 341656,
-   "variacion_real": 5.757193796836435,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.2969812925170068,
-   "monto_actual": 4329663383
+   "monto_base": 7157851369,
+   "por_habitante": 379264,
+   "variacion_real": 17.39860880012676,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.2796285924436377,
+   "monto_actual": 4894317607
   },
   {
    "codigo": "09211",
@@ -2911,12 +2911,12 @@
    "nombre_region": "La Araucanía",
    "poblacion": 34464,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 11535701866,
-   "por_habitante": 334717,
-   "variacion_real": -4.107713551862846,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.6558508375300531,
-   "monto_actual": 7209863160
+   "monto_base": 13304728472,
+   "por_habitante": 386047,
+   "variacion_real": 10.597590729353733,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.7399066153471727,
+   "monto_actual": 8140012397
   },
   {
    "codigo": "10101",
@@ -2925,12 +2925,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 277040,
    "tramo": "Más de 250 mil",
-   "monto_base": 39853737758,
-   "por_habitante": 143856,
-   "variacion_real": 4.3047162212193735,
-   "mediana_tramo": 142825,
-   "vs_mediana": 1.0072186241904428,
-   "monto_actual": 20560552877
+   "monto_base": 41310799673,
+   "por_habitante": 149115,
+   "variacion_real": 8.118120888145853,
+   "mediana_tramo": 152218,
+   "vs_mediana": 0.979614763037223,
+   "monto_actual": 22577448703
   },
   {
    "codigo": "10102",
@@ -2939,12 +2939,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 36474,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 5610550835,
-   "por_habitante": 153823,
-   "variacion_real": 3.9182276871770894,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.7609650641628163,
-   "monto_actual": 4390567340
+   "monto_base": 6188501574,
+   "por_habitante": 169669,
+   "variacion_real": 14.622990597925089,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.7646950125744779,
+   "monto_actual": 4869586405
   },
   {
    "codigo": "10103",
@@ -2953,12 +2953,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 4199,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1768537000,
-   "por_habitante": 421181,
-   "variacion_real": 11.065378415173367,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.8299770819826549,
-   "monto_actual": 1330923193
+   "monto_base": 1980829658,
+   "por_habitante": 471738,
+   "variacion_real": 24.397507963796315,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.8452601514429365,
+   "monto_actual": 1481653431
   },
   {
    "codigo": "10104",
@@ -2967,12 +2967,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 12320,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2090211051,
-   "por_habitante": 169660,
-   "variacion_real": -1.8252006826395384,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.644056729834791,
-   "monto_actual": 1706503895
+   "monto_base": 2302295011,
+   "por_habitante": 186875,
+   "variacion_real": 8.136138006805126,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.6305122374201211,
+   "monto_actual": 1903831673
   },
   {
    "codigo": "10105",
@@ -2981,12 +2981,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 22554,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3138889268,
-   "por_habitante": 139172,
-   "variacion_real": 4.078422696782402,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.5283193634596696,
-   "monto_actual": 1339905375
+   "monto_base": 3434897623,
+   "por_habitante": 152297,
+   "variacion_real": 13.893385909262701,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.5138468078789147,
+   "monto_actual": 1628185216
   },
   {
    "codigo": "10106",
@@ -2995,12 +2995,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 17162,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5009154815,
-   "por_habitante": 291875,
-   "variacion_real": 58.44498004512175,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1080045857628766,
-   "monto_actual": 3954209105
+   "monto_base": 5585729163,
+   "por_habitante": 325471,
+   "variacion_real": 76.6826497593466,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0981321654868987,
+   "monto_actual": 4384378628
   },
   {
    "codigo": "10107",
@@ -3009,12 +3009,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 18088,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 1952180885,
-   "por_habitante": 107927,
-   "variacion_real": 5.57404904231058,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.40970830296404276,
-   "monto_actual": 1308578533
+   "monto_base": 2114877590,
+   "por_habitante": 116922,
+   "variacion_real": 14.37269574798834,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.39449231745089175,
+   "monto_actual": 1435788443
   },
   {
    "codigo": "10108",
@@ -3023,12 +3023,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 15063,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5106996415,
-   "por_habitante": 339042,
-   "variacion_real": 16.11954910505611,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.2870581268221575,
-   "monto_actual": 3625165393
+   "monto_base": 5594990314,
+   "por_habitante": 371439,
+   "variacion_real": 27.215235671716485,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.2532272104620326,
+   "monto_actual": 4046662466
   },
   {
    "codigo": "10109",
@@ -3037,12 +3037,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 52942,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 13124732932,
-   "por_habitante": 247908,
-   "variacion_real": 31.594893728997153,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.2264052003047363,
-   "monto_actual": 9322381684
+   "monto_base": 15268465333,
+   "por_habitante": 288400,
+   "variacion_real": 53.08898728157465,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.2998134109735981,
+   "monto_actual": 11101943098
   },
   {
    "codigo": "10201",
@@ -3051,12 +3051,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 46997,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 9660032623,
-   "por_habitante": 205546,
-   "variacion_real": 8.640060329401432,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.0168396473765966,
-   "monto_actual": 7368499181
+   "monto_base": 10568491645,
+   "por_habitante": 224876,
+   "variacion_real": 18.856903978757412,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.0135119299795383,
+   "monto_actual": 8413816842
   },
   {
    "codigo": "10202",
@@ -3065,12 +3065,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 40949,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 7525967873,
-   "por_habitante": 183789,
-   "variacion_real": 16.954688300542674,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.9092073888652531,
-   "monto_actual": 6144936451
+   "monto_base": 8114263324,
+   "por_habitante": 198155,
+   "variacion_real": 26.096889311946335,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.893080882286662,
+   "monto_actual": 6941825041
   },
   {
    "codigo": "10203",
@@ -3079,12 +3079,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 16078,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3640445088,
-   "por_habitante": 226424,
-   "variacion_real": 19.085319178507575,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8595420310981535,
-   "monto_actual": 2785305779
+   "monto_base": 4056743734,
+   "por_habitante": 252316,
+   "variacion_real": 32.70317521921666,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8513087662710115,
+   "monto_actual": 3048625387
   },
   {
    "codigo": "10204",
@@ -3093,12 +3093,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 3662,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2679461410,
-   "por_habitante": 731693,
-   "variacion_real": -0.6323480608743437,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.4418704097457735,
-   "monto_actual": 1670437024
+   "monto_base": 2829882460,
+   "por_habitante": 772770,
+   "variacion_real": 4.946006784966794,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.3846492909847374,
+   "monto_actual": 1877546801
   },
   {
    "codigo": "10205",
@@ -3107,12 +3107,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 14894,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4002073688,
-   "por_habitante": 268704,
-   "variacion_real": 37.84110845985475,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0200437317784257,
-   "monto_actual": 3609890495
+   "monto_base": 4410215593,
+   "por_habitante": 296107,
+   "variacion_real": 51.8985039453016,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9990586599906878,
+   "monto_actual": 3931463868
   },
   {
    "codigo": "10206",
@@ -3121,12 +3121,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 4048,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2015472878,
-   "por_habitante": 497893,
-   "variacion_real": 24.276526890598205,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.981145349100719,
-   "monto_actual": 1807830789
+   "monto_base": 2168877610,
+   "por_habitante": 535790,
+   "variacion_real": 33.73565060773862,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.9600285254561027,
+   "monto_actual": 1942381260
   },
   {
    "codigo": "10207",
@@ -3135,12 +3135,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 5690,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1739302630,
-   "por_habitante": 305677,
-   "variacion_real": -18.70374236972929,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.6023655019794625,
-   "monto_actual": 1726841966
+   "monto_base": 1855624563,
+   "por_habitante": 326120,
+   "variacion_real": -13.26677144235302,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.5843418181036305,
+   "monto_actual": 1835932408
   },
   {
    "codigo": "10208",
@@ -3149,12 +3149,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 28460,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3196721159,
-   "por_habitante": 112323,
-   "variacion_real": -13.849088225559836,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.42639622813411077,
-   "monto_actual": 3820857040
+   "monto_base": 3610176886,
+   "por_habitante": 126851,
+   "variacion_real": -2.70654995345212,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.42799255025541016,
+   "monto_actual": 4174511825
   },
   {
    "codigo": "10209",
@@ -3163,12 +3163,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 8409,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3190437067,
-   "por_habitante": 379407,
-   "variacion_real": 4.933068040790078,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7476574554497784,
-   "monto_actual": 2147549038
+   "monto_base": 3571897909,
+   "por_habitante": 424771,
+   "variacion_real": 17.479266460595188,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7611046805399768,
+   "monto_actual": 2414599905
   },
   {
    "codigo": "10210",
@@ -3177,12 +3177,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 7678,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3093901699,
-   "por_habitante": 402957,
-   "variacion_real": 27.490505275439148,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7940649626276699,
-   "monto_actual": 1901200537
+   "monto_base": 3396895403,
+   "por_habitante": 442419,
+   "variacion_real": 39.9759764301052,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7927263670538149,
+   "monto_actual": 2194510535
   },
   {
    "codigo": "10301",
@@ -3191,12 +3191,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 166455,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 38402500357,
-   "por_habitante": 230708,
-   "variacion_real": 3.039723763718327,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.6215296813281042,
-   "monto_actual": 24793069789
+   "monto_base": 41998193013,
+   "por_habitante": 252310,
+   "variacion_real": 12.687511656933893,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.6256773387112362,
+   "monto_actual": 27904047656
   },
   {
    "codigo": "10302",
@@ -3205,12 +3205,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 8865,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3268998006,
-   "por_habitante": 368753,
-   "variacion_real": -21.729461309955987,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.726662738614396,
-   "monto_actual": 2108625739
+   "monto_base": 3667526425,
+   "por_habitante": 413709,
+   "variacion_real": -12.187383284466502,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7412837888686217,
+   "monto_actual": 2434805490
   },
   {
    "codigo": "10303",
@@ -3219,12 +3219,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 19542,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6945628972,
-   "por_habitante": 355421,
-   "variacion_real": 35.56852407729314,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.3492354531098154,
-   "monto_actual": 4366020116
+   "monto_base": 7586660214,
+   "por_habitante": 388223,
+   "variacion_real": 48.080516830679464,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.3098560660759955,
+   "monto_actual": 4872183789
   },
   {
    "codigo": "10304",
@@ -3233,12 +3233,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 11712,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4044569263,
-   "por_habitante": 345335,
-   "variacion_real": -3.2574174564836134,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.3109473700194363,
-   "monto_actual": 2967735969
+   "monto_base": 4716468612,
+   "por_habitante": 402704,
+   "variacion_real": 12.813831174663237,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.3587146491399729,
+   "monto_actual": 3299505165
   },
   {
    "codigo": "10305",
@@ -3247,12 +3247,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 13874,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2905404967,
-   "por_habitante": 209414,
-   "variacion_real": 5.385541194615251,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7949693270165209,
-   "monto_actual": 1599775453
+   "monto_base": 3058798147,
+   "por_habitante": 220470,
+   "variacion_real": 10.949455166496014,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7438610460683028,
+   "monto_actual": 1811795747
   },
   {
    "codigo": "10306",
@@ -3261,12 +3261,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 7776,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3054142574,
-   "por_habitante": 392765,
-   "variacion_real": 5.508587351054328,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7739806605827837,
-   "monto_actual": 2256229607
+   "monto_base": 3469906876,
+   "por_habitante": 446233,
+   "variacion_real": 19.87160515790316,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7995602922784171,
+   "monto_actual": 2710188088
   },
   {
    "codigo": "10307",
@@ -3275,12 +3275,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 10883,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2300431587,
-   "por_habitante": 211378,
-   "variacion_real": -6.408462148294259,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8024249878522838,
-   "monto_actual": 1774515929
+   "monto_base": 2571151923,
+   "por_habitante": 236254,
+   "variacion_real": 4.605615695686627,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.797115923154265,
+   "monto_actual": 1985315168
   },
   {
    "codigo": "10401",
@@ -3289,12 +3289,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 4025,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2956079875,
-   "por_habitante": 734430,
-   "variacion_real": 37.15626935316267,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.447263927671289,
-   "monto_actual": 2065240930
+   "monto_base": 3191206620,
+   "por_habitante": 792846,
+   "variacion_real": 48.0656860580656,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.4206214679142373,
+   "monto_actual": 2259793927
   },
   {
    "codigo": "10402",
@@ -3303,12 +3303,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 3062,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 689346225,
-   "por_habitante": 225129,
-   "variacion_real": -41.14966172784058,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.44363803326758117,
-   "monto_actual": 1038968508
+   "monto_base": 721250155,
+   "por_habitante": 235549,
+   "variacion_real": -38.4259838362103,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.4220566997194041,
+   "monto_actual": 1126350045
   },
   {
    "codigo": "10403",
@@ -3317,12 +3317,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 9480,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2601817235,
-   "por_habitante": 274453,
-   "variacion_real": 17.662174149746555,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.5408356504243675,
-   "monto_actual": 1771759939
+   "monto_base": 3016104180,
+   "por_habitante": 318154,
+   "variacion_real": 36.39750344760038,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.570068339252246,
+   "monto_actual": 2104756716
   },
   {
    "codigo": "10404",
@@ -3331,12 +3331,12 @@
    "nombre_region": "Los Lagos",
    "poblacion": 1903,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1899652036,
-   "por_habitante": 998241,
-   "variacion_real": 35.20842247056051,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.9671285083976897,
-   "monto_actual": 907444250
+   "monto_base": 2005931701,
+   "por_habitante": 1054089,
+   "variacion_real": 42.772916163630526,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.88871667699938,
+   "monto_actual": 1053401100
   },
   {
    "codigo": "11101",
@@ -3345,12 +3345,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 57823,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 15495121837,
-   "por_habitante": 267975,
-   "variacion_real": 13.109357706868119,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.3256769993370996,
-   "monto_actual": 11958510863
+   "monto_base": 17145477721,
+   "por_habitante": 296517,
+   "variacion_real": 25.156419742950288,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.3363965782997864,
+   "monto_actual": 13644482643
   },
   {
    "codigo": "11102",
@@ -3359,12 +3359,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 779,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1006136726,
-   "por_habitante": 1291575,
-   "variacion_real": -22.365733556796886,
-   "mediana_tramo": 507461,
-   "vs_mediana": 2.54517095895054,
-   "monto_actual": 911582373
+   "monto_base": 1145000914,
+   "por_habitante": 1469834,
+   "variacion_real": -11.650868377915579,
+   "mediana_tramo": 558098,
+   "vs_mediana": 2.633648570681135,
+   "monto_actual": 974470513
   },
   {
    "codigo": "11201",
@@ -3373,12 +3373,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 23170,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6686032259,
-   "por_habitante": 288564,
-   "variacion_real": 21.818343394954056,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0954354956268222,
-   "monto_actual": 6345302329
+   "monto_base": 7354806558,
+   "por_habitante": 317428,
+   "variacion_real": 34.00329465653931,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0709952561861897,
+   "monto_actual": 6868412754
   },
   {
    "codigo": "11202",
@@ -3387,12 +3387,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 5137,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2856920179,
-   "por_habitante": 556146,
-   "variacion_real": -19.724927203338716,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.0959384070894118,
-   "monto_actual": 2231724836
+   "monto_base": 3297248389,
+   "por_habitante": 641863,
+   "variacion_real": -7.352380230554168,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.1500901275403244,
+   "monto_actual": 2440558903
   },
   {
    "codigo": "11203",
@@ -3401,12 +3401,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 1598,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 730593258,
-   "por_habitante": 457192,
-   "variacion_real": -12.658512622514717,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.900940170771744,
-   "monto_actual": 599141171
+   "monto_base": 736300091,
+   "por_habitante": 460764,
+   "variacion_real": -11.976268053492278,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.825596938172149,
+   "monto_actual": 612964179
   },
   {
    "codigo": "11301",
@@ -3415,12 +3415,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 3458,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2625391605,
-   "por_habitante": 759223,
-   "variacion_real": -6.282773506313166,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.496120884166468,
-   "monto_actual": 1763588689
+   "monto_base": 2845721569,
+   "por_habitante": 822939,
+   "variacion_real": 1.582229604159524,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.4745421055083516,
+   "monto_actual": 2036077917
   },
   {
    "codigo": "11302",
@@ -3429,12 +3429,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 647,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2902692023,
-   "por_habitante": 4486386,
-   "variacion_real": 99.10860634498806,
-   "mediana_tramo": 507461,
-   "vs_mediana": 8.840848853409424,
-   "monto_actual": 1831263050
+   "monto_base": 3061169218,
+   "por_habitante": 4731328,
+   "variacion_real": 109.97926474894126,
+   "mediana_tramo": 558098,
+   "vs_mediana": 8.477593540919337,
+   "monto_actual": 1961784727
   },
   {
    "codigo": "11303",
@@ -3443,12 +3443,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 505,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1672369212,
-   "por_habitante": 3311622,
-   "variacion_real": 37.26276449132406,
-   "mediana_tramo": 507461,
-   "vs_mediana": 6.52586504184558,
-   "monto_actual": 1008130598
+   "monto_base": 1828461336,
+   "por_habitante": 3620716,
+   "variacion_real": 50.07431130875168,
+   "mediana_tramo": 558098,
+   "vs_mediana": 6.4875989521553565,
+   "monto_actual": 1091293642
   },
   {
    "codigo": "11401",
@@ -3457,12 +3457,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 4905,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2044066773,
-   "por_habitante": 416731,
-   "variacion_real": -32.251705040649824,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.8212079351910787,
-   "monto_actual": 2103653553
+   "monto_base": 2219496845,
+   "por_habitante": 452497,
+   "variacion_real": -26.437272547746115,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.8107841275188229,
+   "monto_actual": 2302659868
   },
   {
    "codigo": "11402",
@@ -3471,12 +3471,12 @@
    "nombre_region": "Aysén del General Carlos Ibáñez del Campo",
    "poblacion": 2723,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2313347864,
-   "por_habitante": 849559,
-   "variacion_real": 1.9098387268971617,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.6741365346302475,
-   "monto_actual": 1515380662
+   "monto_base": 2626897359,
+   "por_habitante": 964707,
+   "variacion_real": 15.722624501838478,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.7285620088228233,
+   "monto_actual": 1681866733
   },
   {
    "codigo": "12101",
@@ -3485,12 +3485,12 @@
    "nombre_region": "Magallanes y de la Antártica Chilena",
    "poblacion": 132363,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 13858911279,
-   "por_habitante": 104704,
-   "variacion_real": 1.4964888514650054,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.7359113847537919,
-   "monto_actual": 10556289994
+   "monto_base": 15170303309,
+   "por_habitante": 114611,
+   "variacion_real": 11.100539550200628,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.7384586638144881,
+   "monto_actual": 11803860342
   },
   {
    "codigo": "12102",
@@ -3499,12 +3499,12 @@
    "nombre_region": "Magallanes y de la Antártica Chilena",
    "poblacion": 269,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 818000451,
-   "por_habitante": 3040894,
-   "variacion_real": 25.875575030250353,
-   "mediana_tramo": 507461,
-   "vs_mediana": 5.992369856993936,
-   "monto_actual": 689917369
+   "monto_base": 938205280,
+   "por_habitante": 3487752,
+   "variacion_real": 44.37293888046652,
+   "mediana_tramo": 558098,
+   "vs_mediana": 6.249354056097674,
+   "monto_actual": 722948899
   },
   {
    "codigo": "12103",
@@ -3513,12 +3513,12 @@
    "nombre_region": "Magallanes y de la Antártica Chilena",
    "poblacion": 102,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1940899789,
-   "por_habitante": 19028429,
-   "variacion_real": 33.98014187621088,
-   "mediana_tramo": 507461,
-   "vs_mediana": 37.497322946985086,
-   "monto_actual": 1139416488
+   "monto_base": 2128115091,
+   "por_habitante": 20863873,
+   "variacion_real": 46.90359772154389,
+   "mediana_tramo": 558098,
+   "vs_mediana": 37.383887775982,
+   "monto_actual": 1264301772
   },
   {
    "codigo": "12104",
@@ -3527,12 +3527,12 @@
    "nombre_region": "Magallanes y de la Antártica Chilena",
    "poblacion": 241,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1748754198,
-   "por_habitante": 7256241,
-   "variacion_real": -7.455006008785226,
-   "mediana_tramo": 507461,
-   "vs_mediana": 14.299110670573699,
-   "monto_actual": 1269304605
+   "monto_base": 1930221635,
+   "por_habitante": 8009218,
+   "variacion_real": 2.14834641545647,
+   "mediana_tramo": 558098,
+   "vs_mediana": 14.3509168640633,
+   "monto_actual": 1412060903
   },
   {
    "codigo": "12201",
@@ -3541,12 +3541,12 @@
    "nombre_region": "Magallanes y de la Antártica Chilena",
    "poblacion": 1750,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1953252888,
-   "por_habitante": 1116145,
-   "variacion_real": 11.66235208765183,
-   "mediana_tramo": 507461,
-   "vs_mediana": 2.199469515883979,
-   "monto_actual": 1160767079
+   "monto_base": 2095607291,
+   "por_habitante": 1197490,
+   "variacion_real": 19.800380484624803,
+   "mediana_tramo": 558098,
+   "vs_mediana": 2.1456625897243855,
+   "monto_actual": 1257033604
   },
   {
    "codigo": "12301",
@@ -3558,9 +3558,9 @@
    "monto_base": null,
    "por_habitante": null,
    "variacion_real": null,
-   "mediana_tramo": 507461,
+   "mediana_tramo": 558098,
    "vs_mediana": null,
-   "monto_actual": 73747118
+   "monto_actual": 145058905
   },
   {
    "codigo": "12302",
@@ -3569,12 +3569,12 @@
    "nombre_region": "Magallanes y de la Antártica Chilena",
    "poblacion": 431,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 923726618,
-   "por_habitante": 2143217,
-   "variacion_real": -1.6405535151543527,
-   "mediana_tramo": 507461,
-   "vs_mediana": 4.223412242517159,
-   "monto_actual": 409076062
+   "monto_base": 988618302,
+   "por_habitante": 2293778,
+   "variacion_real": 5.269185790105668,
+   "mediana_tramo": 558098,
+   "vs_mediana": 4.109991435195969,
+   "monto_actual": 487575447
   },
   {
    "codigo": "12303",
@@ -3583,12 +3583,12 @@
    "nombre_region": "Magallanes y de la Antártica Chilena",
    "poblacion": 157,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1937414791,
-   "por_habitante": 12340222,
-   "variacion_real": 33.34407542074216,
-   "mediana_tramo": 507461,
-   "vs_mediana": 24.31757711430041,
-   "monto_actual": 1494870266
+   "monto_base": 2232527683,
+   "por_habitante": 14219922,
+   "variacion_real": 53.655449067358084,
+   "mediana_tramo": 558098,
+   "vs_mediana": 25.479256331325324,
+   "monto_actual": 1695337553
   },
   {
    "codigo": "12401",
@@ -3597,12 +3597,12 @@
    "nombre_region": "Magallanes y de la Antártica Chilena",
    "poblacion": 24152,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2561840447,
-   "por_habitante": 106072,
-   "variacion_real": -8.682765466342058,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.40266642371234207,
-   "monto_actual": 1936064298
+   "monto_base": 2957319706,
+   "por_habitante": 122446,
+   "variacion_real": 5.414159379071726,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.4131301748395673,
+   "monto_actual": 2173624886
   },
   {
    "codigo": "12402",
@@ -3611,12 +3611,12 @@
    "nombre_region": "Magallanes y de la Antártica Chilena",
    "poblacion": 203,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1500949800,
-   "por_habitante": 7393841,
-   "variacion_real": 12.055234996974473,
-   "mediana_tramo": 507461,
-   "vs_mediana": 14.570264512937941,
-   "monto_actual": 893145979
+   "monto_base": 1602362592,
+   "por_habitante": 7893412,
+   "variacion_real": 19.626330472159115,
+   "mediana_tramo": 558098,
+   "vs_mediana": 14.143415672516296,
+   "monto_actual": 1016842635
   },
   {
    "codigo": "13101",
@@ -3625,12 +3625,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 438856,
    "tramo": "Más de 250 mil",
-   "monto_base": 63604667942,
-   "por_habitante": 144933,
-   "variacion_real": -3.2803698206369303,
-   "mediana_tramo": 142825,
-   "vs_mediana": 1.0147593208471906,
-   "monto_actual": 45114102417
+   "monto_base": 69281725226,
+   "por_habitante": 157869,
+   "variacion_real": 5.3523752086467535,
+   "mediana_tramo": 152218,
+   "vs_mediana": 1.037124387391767,
+   "monto_actual": 50592205724
   },
   {
    "codigo": "13102",
@@ -3639,12 +3639,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 85041,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 11127730206,
-   "por_habitante": 130851,
-   "variacion_real": -14.993468263212018,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.6473221794580047,
-   "monto_actual": 10004930675
+   "monto_base": 12250999884,
+   "por_habitante": 144060,
+   "variacion_real": -6.412629425081883,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.6492757281028313,
+   "monto_actual": 11118858430
   },
   {
    "codigo": "13103",
@@ -3653,12 +3653,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 127250,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 19156304565,
-   "por_habitante": 150541,
-   "variacion_real": 21.705068676259963,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.058076441895444,
-   "monto_actual": 11291497575
+   "monto_base": 21234444146,
+   "por_habitante": 166872,
+   "variacion_real": 34.908038986439884,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.0751854023440268,
+   "monto_actual": 12882289241
   },
   {
    "codigo": "13104",
@@ -3667,12 +3667,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 121587,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 14433734172,
-   "por_habitante": 118711,
-   "variacion_real": 16.478701198482625,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.8343594933861876,
-   "monto_actual": 11113404001
+   "monto_base": 16551480295,
+   "por_habitante": 136129,
+   "variacion_real": 33.568687402723626,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.8771028910523637,
+   "monto_actual": 12144336682
   },
   {
    "codigo": "13105",
@@ -3681,12 +3681,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 155257,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 29497389301,
-   "por_habitante": 189991,
-   "variacion_real": 16.589963443072065,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.3353505109714783,
-   "monto_actual": 19011062194
+   "monto_base": 33383033350,
+   "por_habitante": 215018,
+   "variacion_real": 31.948173385073343,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.3853984781222013,
+   "monto_actual": 21053163018
   },
   {
    "codigo": "13106",
@@ -3695,12 +3695,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 181049,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 17300112436,
-   "por_habitante": 95555,
-   "variacion_real": 4.570080603965576,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.6716076976060951,
-   "monto_actual": 13765002015
+   "monto_base": 18874287103,
+   "por_habitante": 104250,
+   "variacion_real": 14.085138521760854,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.6717009336159739,
+   "monto_actual": 15608238101
   },
   {
    "codigo": "13107",
@@ -3709,12 +3709,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 101808,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 28311132276,
-   "por_habitante": 278084,
-   "variacion_real": 13.705424522799747,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.9545115899858025,
-   "monto_actual": 19340552066
+   "monto_base": 31663291452,
+   "por_habitante": 311010,
+   "variacion_real": 27.168633216088068,
+   "mediana_tramo": 155203,
+   "vs_mediana": 2.003891677351598,
+   "monto_actual": 22195148470
   },
   {
    "codigo": "13108",
@@ -3723,12 +3723,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 116943,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 17083578495,
-   "por_habitante": 146085,
-   "variacion_real": 28.068189999142735,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.0267574748028507,
-   "monto_actual": 11753772800
+   "monto_base": 18957573399,
+   "por_habitante": 162110,
+   "variacion_real": 42.116718268155,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.0445030057408684,
+   "monto_actual": 13456709652
   },
   {
    "codigo": "13109",
@@ -3737,12 +3737,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 103157,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 6771234264,
-   "por_habitante": 65640,
-   "variacion_real": -43.215886519535,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.46135031417366,
-   "monto_actual": 7605200002
+   "monto_base": 7283131204,
+   "por_habitante": 70602,
+   "variacion_real": -38.92307773490855,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.4549010006249879,
+   "monto_actual": 8789166113
   },
   {
    "codigo": "13110",
@@ -3751,12 +3751,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 374836,
    "tramo": "Más de 250 mil",
-   "monto_base": 44649182799,
-   "por_habitante": 119117,
-   "variacion_real": -3.8102361343891222,
-   "mediana_tramo": 142825,
-   "vs_mediana": 0.8340066514965867,
-   "monto_actual": 33757621802
+   "monto_base": 49343642684,
+   "por_habitante": 131641,
+   "variacion_real": 6.303252164994633,
+   "mediana_tramo": 152218,
+   "vs_mediana": 0.8648188781878622,
+   "monto_actual": 37699297980
   },
   {
    "codigo": "13111",
@@ -3765,12 +3765,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 112022,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 19374122755,
-   "por_habitante": 172949,
-   "variacion_real": -13.112766363297023,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.2155709245280366,
-   "monto_actual": 13977828537
+   "monto_base": 21259150287,
+   "por_habitante": 189777,
+   "variacion_real": -4.658973143563616,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.222766312506846,
+   "monto_actual": 15599973870
   },
   {
    "codigo": "13112",
@@ -3779,12 +3779,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 175421,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 23445988267,
-   "por_habitante": 133656,
-   "variacion_real": -2.9466298531761637,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.9394003289334963,
-   "monto_actual": 17876511360
+   "monto_base": 26859847570,
+   "por_habitante": 153116,
+   "variacion_real": 11.184851694546705,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.9865530949788341,
+   "monto_actual": 20172310264
   },
   {
    "codigo": "13113",
@@ -3793,12 +3793,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 89870,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 12436251004,
-   "por_habitante": 138380,
-   "variacion_real": -2.1645158498267203,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.6845682737877333,
-   "monto_actual": 9188988810
+   "monto_base": 13383934500,
+   "por_habitante": 148925,
+   "variacion_real": 5.290871921171725,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.6712021921957112,
+   "monto_actual": 11172486608
   },
   {
    "codigo": "13114",
@@ -3807,12 +3807,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 296134,
    "tramo": "Más de 250 mil",
-   "monto_base": 65777411952,
-   "por_habitante": 222120,
-   "variacion_real": -6.941598488707779,
-   "mediana_tramo": 142825,
-   "vs_mediana": 1.5551899177314896,
-   "monto_actual": 59763392331
+   "monto_base": 74602475643,
+   "por_habitante": 251921,
+   "variacion_real": 5.543634601932768,
+   "mediana_tramo": 152218,
+   "vs_mediana": 1.65500137960031,
+   "monto_actual": 68091212060
   },
   {
    "codigo": "13115",
@@ -3821,12 +3821,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 112620,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 58740926385,
-   "por_habitante": 521585,
-   "variacion_real": 4.686594453586079,
-   "mediana_tramo": 142278,
-   "vs_mediana": 3.665956788821884,
-   "monto_actual": 40767419075
+   "monto_base": 65714239170,
+   "por_habitante": 583504,
+   "variacion_real": 17.114256263627215,
+   "mediana_tramo": 155203,
+   "vs_mediana": 3.759618048620194,
+   "monto_actual": 45621609907
   },
   {
    "codigo": "13116",
@@ -3835,12 +3835,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 87295,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 14425669875,
-   "por_habitante": 165252,
-   "variacion_real": -11.54264041586549,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.8175045265209605,
-   "monto_actual": 10534081568
+   "monto_base": 16080074988,
+   "por_habitante": 184204,
+   "variacion_real": -1.397925525911603,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.8302039859742741,
+   "monto_actual": 11799343021
   },
   {
    "codigo": "13117",
@@ -3849,12 +3849,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 91290,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 11764015725,
-   "por_habitante": 128864,
-   "variacion_real": -11.273775876461967,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.6374924557983992,
-   "monto_actual": 8394983760
+   "monto_base": 13207416038,
+   "por_habitante": 144675,
+   "variacion_real": -0.38740317304372107,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.6520475216109755,
+   "monto_actual": 9171633797
   },
   {
    "codigo": "13118",
@@ -3863,12 +3863,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 123800,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 14278775404,
-   "por_habitante": 115337,
-   "variacion_real": 38.95082516235495,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.8106453562743362,
-   "monto_actual": 8647017433
+   "monto_base": 15016261175,
+   "por_habitante": 121295,
+   "variacion_real": 46.12750898338058,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.7815248416589885,
+   "monto_actual": 9437064405
   },
   {
    "codigo": "13119",
@@ -3877,12 +3877,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 503635,
    "tramo": "Más de 250 mil",
-   "monto_base": 107433462761,
-   "por_habitante": 213316,
-   "variacion_real": 6.5944324671425525,
-   "mediana_tramo": 142825,
-   "vs_mediana": 1.4935480483108698,
-   "monto_actual": 81259352659
+   "monto_base": 117627913322,
+   "por_habitante": 233558,
+   "variacion_real": 16.709266746305484,
+   "mediana_tramo": 152218,
+   "vs_mediana": 1.534365186771604,
+   "monto_actual": 91816736653
   },
   {
    "codigo": "13120",
@@ -3891,12 +3891,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 241467,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 24584339858,
-   "por_habitante": 101812,
-   "variacion_real": -11.006819585528127,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.7155849815150621,
-   "monto_actual": 23443461092
+   "monto_base": 26094950354,
+   "por_habitante": 108068,
+   "variacion_real": -5.538540462191143,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.6963009735636554,
+   "monto_actual": 25671347043
   },
   {
    "codigo": "13121",
@@ -3905,12 +3905,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 96062,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 16007263394,
-   "por_habitante": 166635,
-   "variacion_real": 3.1387042923468167,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.8243462516448833,
-   "monto_actual": 11143144362
+   "monto_base": 18054230642,
+   "por_habitante": 187944,
+   "variacion_real": 16.327813791646072,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.8470600960888416,
+   "monto_actual": 12472665288
   },
   {
    "codigo": "13122",
@@ -3919,12 +3919,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 236478,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 33324159417,
-   "por_habitante": 140919,
-   "variacion_real": 15.927672942710537,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.9904482773162401,
-   "monto_actual": 27855458326
+   "monto_base": 35899282087,
+   "por_habitante": 151808,
+   "variacion_real": 24.885977785137502,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.9781254228333215,
+   "monto_actual": 30645215854
   },
   {
    "codigo": "13123",
@@ -3933,12 +3933,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 143974,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 41677650544,
-   "por_habitante": 289480,
-   "variacion_real": 9.280345327873295,
-   "mediana_tramo": 142278,
-   "vs_mediana": 2.034608302056537,
-   "monto_actual": 28802351028
+   "monto_base": 45855967312,
+   "por_habitante": 318502,
+   "variacion_real": 20.236046845026536,
+   "mediana_tramo": 155203,
+   "vs_mediana": 2.0521639401300233,
+   "monto_actual": 32180671248
   },
   {
    "codigo": "13124",
@@ -3947,12 +3947,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 227820,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 45343761881,
-   "por_habitante": 199033,
-   "variacion_real": 0.7159139066776232,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.3989021493133162,
-   "monto_actual": 29932346548
+   "monto_base": 51387680099,
+   "por_habitante": 225563,
+   "variacion_real": 14.14044512445809,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.4533417524145795,
+   "monto_actual": 33968259057
   },
   {
    "codigo": "13125",
@@ -3961,12 +3961,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 205624,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 34931316724,
-   "por_habitante": 169880,
-   "variacion_real": 4.4710596709427675,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.1940004779375588,
-   "monto_actual": 23028828325
+   "monto_base": 39470666811,
+   "por_habitante": 191956,
+   "variacion_real": 18.047150075815765,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.2368059895749437,
+   "monto_actual": 25537005832
   },
   {
    "codigo": "13126",
@@ -3975,12 +3975,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 129351,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 16008759725,
-   "por_habitante": 123762,
-   "variacion_real": 35.40006257192543,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.8698604141188377,
-   "monto_actual": 10227010222
+   "monto_base": 18023076842,
+   "por_habitante": 139335,
+   "variacion_real": 52.43690167543071,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.8977597082530622,
+   "monto_actual": 11681766734
   },
   {
    "codigo": "13127",
@@ -3989,12 +3989,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 154615,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 25392269342,
-   "por_habitante": 164229,
-   "variacion_real": 20.37696091002159,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.1542824610972884,
-   "monto_actual": 18901434240
+   "monto_base": 27825568321,
+   "por_habitante": 179967,
+   "variacion_real": 31.912485054489714,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.159558771415501,
+   "monto_actual": 21598850528
   },
   {
    "codigo": "13128",
@@ -4003,12 +4003,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 143622,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 19288246026,
-   "por_habitante": 134299,
-   "variacion_real": 1.3551521729727511,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.9439196502621628,
-   "monto_actual": 14805078569
+   "monto_base": 21358301913,
+   "por_habitante": 148712,
+   "variacion_real": 12.232804249300688,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.9581773548191723,
+   "monto_actual": 16774448153
   },
   {
    "codigo": "13129",
@@ -4017,12 +4017,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 95602,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 12605392556,
-   "por_habitante": 131853,
-   "variacion_real": 14.62535589172045,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.6522790909360746,
-   "monto_actual": 8681764359
+   "monto_base": 13614242270,
+   "por_habitante": 142405,
+   "variacion_real": 23.79918820156528,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.6418166740280695,
+   "monto_actual": 9690026701
   },
   {
    "codigo": "13130",
@@ -4031,12 +4031,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 150829,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 8136521980,
-   "por_habitante": 53945,
-   "variacion_real": 1.5705589039723744,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.37915208254262783,
-   "monto_actual": 11999636412
+   "monto_base": 9414199190,
+   "por_habitante": 62416,
+   "variacion_real": 17.52017332614937,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.4021571747968789,
+   "monto_actual": 12789930522
   },
   {
    "codigo": "13131",
@@ -4045,12 +4045,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 76002,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 10286087058,
-   "por_habitante": 135340,
-   "variacion_real": -2.918006652277527,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.6695293407604556,
-   "monto_actual": 9008654804
+   "monto_base": 11743729527,
+   "por_habitante": 154519,
+   "variacion_real": 10.839492742864731,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.6964142456665374,
+   "monto_actual": 10461947797
   },
   {
    "codigo": "13132",
@@ -4059,12 +4059,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 86420,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 49393489708,
-   "por_habitante": 571552,
-   "variacion_real": 5.869431137370262,
-   "mediana_tramo": 202142,
-   "vs_mediana": 2.8274777136864184,
-   "monto_actual": 34931095704
+   "monto_base": 53541478813,
+   "por_habitante": 619550,
+   "variacion_real": 14.760182722375891,
+   "mediana_tramo": 221878,
+   "vs_mediana": 2.7923002731230677,
+   "monto_actual": 39467700585
   },
   {
    "codigo": "13201",
@@ -4073,12 +4073,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 568086,
    "tramo": "Más de 250 mil",
-   "monto_base": 57120481357,
-   "por_habitante": 100549,
-   "variacion_real": -8.948359333533705,
-   "mediana_tramo": 142825,
-   "vs_mediana": 0.7040014003150709,
-   "monto_actual": 41920758001
+   "monto_base": 64225432907,
+   "por_habitante": 113056,
+   "variacion_real": 2.3771316307327206,
+   "mediana_tramo": 152218,
+   "vs_mediana": 0.7427242507456411,
+   "monto_actual": 47633500941
   },
   {
    "codigo": "13202",
@@ -4087,12 +4087,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 29060,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3818326534,
-   "por_habitante": 131395,
-   "variacion_real": -10.414393135005628,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.4987966168610301,
-   "monto_actual": 3282553448
+   "monto_base": 4234517589,
+   "por_habitante": 145716,
+   "variacion_real": -0.6497153626993102,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.4916426551861424,
+   "monto_actual": 3545266877
   },
   {
    "codigo": "13203",
@@ -4101,12 +4101,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 17441,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2336732488,
-   "por_habitante": 133979,
-   "variacion_real": -18.424660542265592,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.5086058977162293,
-   "monto_actual": 3201908738
+   "monto_base": 2768263322,
+   "por_habitante": 158722,
+   "variacion_real": -3.3599175942361725,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.5355246199213188,
+   "monto_actual": 3567978725
   },
   {
    "codigo": "13301",
@@ -4115,12 +4115,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 173293,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 29375815612,
-   "por_habitante": 169515,
-   "variacion_real": 16.480732942725716,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.1914350778054232,
-   "monto_actual": 21802044695
+   "monto_base": 32508558785,
+   "por_habitante": 187593,
+   "variacion_real": 28.902659391749896,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.208694419566632,
+   "monto_actual": 23847723411
   },
   {
    "codigo": "13302",
@@ -4129,12 +4129,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 145160,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 13705351419,
-   "por_habitante": 94415,
-   "variacion_real": -11.630711811882543,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.6635952150016166,
-   "monto_actual": 10339536231
+   "monto_base": 15065732488,
+   "por_habitante": 103787,
+   "variacion_real": -2.859254367496067,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.668717743858044,
+   "monto_actual": 11689284694
   },
   {
    "codigo": "13303",
@@ -4143,12 +4143,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 19742,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 1521422863,
-   "por_habitante": 77065,
-   "variacion_real": 0.9993191010584379,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.29255117225461613,
-   "monto_actual": 1903679486
+   "monto_base": 1835088521,
+   "por_habitante": 92954,
+   "variacion_real": 21.821944193544283,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.31362480009177224,
+   "monto_actual": 2204446760
   },
   {
    "codigo": "13401",
@@ -4157,12 +4157,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 306371,
    "tramo": "Más de 250 mil",
-   "monto_base": 37232423147,
-   "por_habitante": 121527,
-   "variacion_real": -0.6538690507285394,
-   "mediana_tramo": 142825,
-   "vs_mediana": 0.8508804481008226,
-   "monto_actual": 26313460195
+   "monto_base": 40734237932,
+   "por_habitante": 132957,
+   "variacion_real": 8.689915768679235,
+   "mediana_tramo": 152218,
+   "vs_mediana": 0.8734643734643734,
+   "monto_actual": 30182917417
   },
   {
    "codigo": "13402",
@@ -4171,12 +4171,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 116969,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 8837694750,
-   "por_habitante": 75556,
-   "variacion_real": -5.539271788561317,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.531044855845598,
-   "monto_actual": 7310178175
+   "monto_base": 9889301196,
+   "por_habitante": 84546,
+   "variacion_real": 5.700708035476265,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.5447446247817375,
+   "monto_actual": 8312355546
   },
   {
    "codigo": "13403",
@@ -4185,12 +4185,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 25491,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5118027797,
-   "por_habitante": 200778,
-   "variacion_real": 43.7737397353388,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7621856778425656,
-   "monto_actual": 3100942660
+   "monto_base": 5866444494,
+   "por_habitante": 230138,
+   "variacion_real": 64.79798416619803,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7764806704770131,
+   "monto_actual": 3388730816
   },
   {
    "codigo": "13404",
@@ -4199,12 +4199,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 78828,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 22764830854,
-   "por_habitante": 288791,
-   "variacion_real": 7.942080236546611,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.4286541144344076,
-   "monto_actual": 16245547530
+   "monto_base": 24047696506,
+   "por_habitante": 305065,
+   "variacion_real": 14.024936201038107,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.3749222545723325,
+   "monto_actual": 18221263938
   },
   {
    "codigo": "13501",
@@ -4213,12 +4213,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 136325,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 13917513981,
-   "por_habitante": 102091,
-   "variacion_real": 7.507800196859127,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.7175459312051055,
-   "monto_actual": 10409390400
+   "monto_base": 15445578012,
+   "por_habitante": 113300,
+   "variacion_real": 19.31154638005148,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.7300116621457059,
+   "monto_actual": 11582979407
   },
   {
    "codigo": "13502",
@@ -4227,12 +4227,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 7768,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 6555691527,
-   "por_habitante": 843936,
-   "variacion_real": 9.888585784447113,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.6630558801563076,
-   "monto_actual": 6243444198
+   "monto_base": 7856348613,
+   "por_habitante": 1011373,
+   "variacion_real": 31.690613409207245,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.8121781479238412,
+   "monto_actual": 7357132580
   },
   {
    "codigo": "13503",
@@ -4241,12 +4241,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 35165,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 5362997844,
-   "por_habitante": 152510,
-   "variacion_real": -28.28012520664087,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.7544696302599163,
-   "monto_actual": 4025275140
+   "monto_base": 6032469641,
+   "por_habitante": 171548,
+   "variacion_real": -19.327215872127045,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.773163630463588,
+   "monto_actual": 4610397839
   },
   {
    "codigo": "13504",
@@ -4255,12 +4255,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 15352,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2502754689,
-   "por_habitante": 163025,
-   "variacion_real": 17.903893959527007,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.6188691994655005,
-   "monto_actual": 1644105155
+   "monto_base": 2978213271,
+   "por_habitante": 193995,
+   "variacion_real": 40.302580686860146,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.6545349645394857,
+   "monto_actual": 1766619292
   },
   {
    "codigo": "13505",
@@ -4269,12 +4269,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 11108,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4176397917,
-   "por_habitante": 375981,
-   "variacion_real": -7.374689642167221,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.4272845298833818,
-   "monto_actual": 3088687682
+   "monto_base": 4848180250,
+   "por_habitante": 436458,
+   "variacion_real": 7.524285102013972,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.4725999203741067,
+   "monto_actual": 3360351205
   },
   {
    "codigo": "13601",
@@ -4283,12 +4283,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 76429,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 7590430913,
-   "por_habitante": 99313,
-   "variacion_real": -5.2086217057151885,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.4913031433348834,
-   "monto_actual": 4108065738
+   "monto_base": 8166659473,
+   "por_habitante": 106853,
+   "variacion_real": 1.9874782312965245,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.48158447435076934,
+   "monto_actual": 4611437265
   },
   {
    "codigo": "13602",
@@ -4297,12 +4297,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 37497,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 3536289910,
-   "por_habitante": 94309,
-   "variacion_real": 5.645872216997727,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.46654826804919314,
-   "monto_actual": 3496135677
+   "monto_base": 4130283867,
+   "por_habitante": 110150,
+   "variacion_real": 23.391309179458442,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.49644399174321024,
+   "monto_actual": 3747686244
   },
   {
    "codigo": "13603",
@@ -4311,12 +4311,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 39274,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 3018058573,
-   "por_habitante": 76846,
-   "variacion_real": -7.77561748349399,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.3801585024388796,
-   "monto_actual": 2538451323
+   "monto_base": 3307619529,
+   "por_habitante": 84219,
+   "variacion_real": 1.0726469626941348,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.3795734592884378,
+   "monto_actual": 2939952815
   },
   {
    "codigo": "13604",
@@ -4325,12 +4325,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 81243,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 13295318602,
-   "por_habitante": 163649,
-   "variacion_real": 21.319436889105337,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.8095744575595374,
-   "monto_actual": 8706670284
+   "monto_base": 14463423500,
+   "por_habitante": 178027,
+   "variacion_real": 31.978363741106296,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.8023643623973535,
+   "monto_actual": 10057685833
   },
   {
    "codigo": "13605",
@@ -4339,12 +4339,12 @@
    "nombre_region": "Metropolitana de Santiago",
    "poblacion": 94402,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 13488082701,
-   "por_habitante": 142879,
-   "variacion_real": 0.4757389240470644,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.7068249052646159,
-   "monto_actual": 9631721856
+   "monto_base": 15007202925,
+   "por_habitante": 158971,
+   "variacion_real": 11.792004579027648,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.7164793264767124,
+   "monto_actual": 11309128035
   },
   {
    "codigo": "14101",
@@ -4353,12 +4353,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 170043,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 28257198339,
-   "por_habitante": 166177,
-   "variacion_real": -3.3396566503297698,
-   "mediana_tramo": 142278,
-   "vs_mediana": 1.167973966460029,
-   "monto_actual": 22513111951
+   "monto_base": 29960245639,
+   "por_habitante": 176192,
+   "variacion_real": 2.48601420294543,
+   "mediana_tramo": 155203,
+   "vs_mediana": 1.1352357879680162,
+   "monto_actual": 24674960623
   },
   {
    "codigo": "14102",
@@ -4367,12 +4367,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 5501,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1728686401,
-   "por_habitante": 314249,
-   "variacion_real": -20.695148631140057,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.619257440473258,
-   "monto_actual": 1001948470
+   "monto_base": 1879961576,
+   "por_habitante": 341749,
+   "variacion_real": -13.755280727838793,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.612345860404445,
+   "monto_actual": 1120884421
   },
   {
    "codigo": "14103",
@@ -4381,12 +4381,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 16876,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3751223840,
-   "por_habitante": 222282,
-   "variacion_real": -17.304920984097272,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8438183309037901,
-   "monto_actual": 2715612289
+   "monto_base": 4146666441,
+   "por_habitante": 245714,
+   "variacion_real": -8.587457422672173,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8290337600291512,
+   "monto_actual": 3181890459
   },
   {
    "codigo": "14104",
@@ -4395,12 +4395,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 21431,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4497137759,
-   "por_habitante": 209843,
-   "variacion_real": -24.988477657869,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.796597880223518,
-   "monto_actual": 3739983066
+   "monto_base": 4938133913,
+   "por_habitante": 230420,
+   "variacion_real": -17.632733931236842,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7774321324219092,
+   "monto_actual": 4265142488
   },
   {
    "codigo": "14105",
@@ -4409,12 +4409,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 8074,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2892641753,
-   "por_habitante": 358266,
-   "variacion_real": -3.15779413133358,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.7059971111080457,
-   "monto_actual": 1854084243
+   "monto_base": 3370507827,
+   "por_habitante": 417452,
+   "variacion_real": 12.840593732619565,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.7479904962927658,
+   "monto_actual": 2114752023
   },
   {
    "codigo": "14106",
@@ -4423,12 +4423,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 22973,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6397286853,
-   "por_habitante": 278470,
-   "variacion_real": 4.476095926446977,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0571170432458699,
-   "monto_actual": 4509376447
+   "monto_base": 7310346863,
+   "por_habitante": 318215,
+   "variacion_real": 19.387565020040643,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.073650577287726,
+   "monto_actual": 5095322719
   },
   {
    "codigo": "14107",
@@ -4437,12 +4437,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 19802,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5019746932,
-   "por_habitante": 253497,
-   "variacion_real": -15.689354692510204,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9623155065597667,
-   "monto_actual": 3867665514
+   "monto_base": 5635005850,
+   "por_habitante": 284568,
+   "variacion_real": -5.35559143502653,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.9601263217560884,
+   "monto_actual": 4517939693
   },
   {
    "codigo": "14108",
@@ -4451,12 +4451,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 35098,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 6955011401,
-   "por_habitante": 198160,
-   "variacion_real": 20.88482990269014,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.9803009765412433,
-   "monto_actual": 4170494535
+   "monto_base": 7533243608,
+   "por_habitante": 214635,
+   "variacion_real": 30.935065331118317,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.9673559343422962,
+   "monto_actual": 4622125106
   },
   {
    "codigo": "14201",
@@ -4465,12 +4465,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 38907,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 11208218543,
-   "por_habitante": 288077,
-   "variacion_real": 4.745740450742919,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.4251219439799745,
-   "monto_actual": 7326051031
+   "monto_base": 12396785377,
+   "por_habitante": 318626,
+   "variacion_real": 15.853421178495953,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.436041428172239,
+   "monto_actual": 8287961337
   },
   {
    "codigo": "14202",
@@ -4479,12 +4479,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 15635,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6207621078,
-   "por_habitante": 397034,
-   "variacion_real": 14.34937811422865,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.5072051141885325,
-   "monto_actual": 3428903599
+   "monto_base": 6918669158,
+   "por_habitante": 442512,
+   "variacion_real": 27.44745622429148,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.4930259863826227,
+   "monto_actual": 3873760512
   },
   {
    "codigo": "14203",
@@ -4493,12 +4493,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 10527,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6987361172,
-   "por_habitante": 663756,
-   "variacion_real": 1.9708237114825389,
-   "mediana_tramo": 263424,
-   "vs_mediana": 2.5197248542274053,
-   "monto_actual": 4973422401
+   "monto_base": 7852609654,
+   "por_habitante": 745949,
+   "variacion_real": 14.597922590843272,
+   "mediana_tramo": 296386,
+   "vs_mediana": 2.5168159089835553,
+   "monto_actual": 5443386374
   },
   {
    "codigo": "14204",
@@ -4507,12 +4507,12 @@
    "nombre_region": "Los Ríos",
    "poblacion": 33363,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 9092060850,
-   "por_habitante": 272519,
-   "variacion_real": 2.744650215516109,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.3481562465989254,
-   "monto_actual": 6790045038
+   "monto_base": 10349466644,
+   "por_habitante": 310208,
+   "variacion_real": 16.953939024168683,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.3981016594705198,
+   "monto_actual": 7757502091
   },
   {
    "codigo": "15101",
@@ -4521,12 +4521,12 @@
    "nombre_region": "Arica y Parinacota",
    "poblacion": 241653,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 31133337922,
-   "por_habitante": 128835,
-   "variacion_real": -1.0644004449553157,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.9055159617087674,
-   "monto_actual": 21772987751
+   "monto_base": 35465914347,
+   "por_habitante": 146764,
+   "variacion_real": 12.70367181569776,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.9456260510428278,
+   "monto_actual": 25246618590
   },
   {
    "codigo": "15102",
@@ -4535,12 +4535,12 @@
    "nombre_region": "Arica y Parinacota",
    "poblacion": 861,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2103406500,
-   "por_habitante": 2442981,
-   "variacion_real": -5.958347513408791,
-   "mediana_tramo": 507461,
-   "vs_mediana": 4.814125617535141,
-   "monto_actual": 1086311358
+   "monto_base": 2712758158,
+   "por_habitante": 3150706,
+   "variacion_real": 21.285286498259516,
+   "mediana_tramo": 558098,
+   "vs_mediana": 5.645435031123566,
+   "monto_actual": 1405165239
   },
   {
    "codigo": "15201",
@@ -4549,12 +4549,12 @@
    "nombre_region": "Arica y Parinacota",
    "poblacion": 1547,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1965486606,
-   "por_habitante": 1270515,
-   "variacion_real": 22.961205196516367,
-   "mediana_tramo": 507461,
-   "vs_mediana": 2.503670232786362,
-   "monto_actual": 1764919553
+   "monto_base": 2406594763,
+   "por_habitante": 1555653,
+   "variacion_real": 50.55701299350632,
+   "mediana_tramo": 558098,
+   "vs_mediana": 2.7874190554347087,
+   "monto_actual": 1932796922
   },
   {
    "codigo": "15202",
@@ -4563,12 +4563,12 @@
    "nombre_region": "Arica y Parinacota",
    "poblacion": 508,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1392598642,
-   "por_habitante": 2741336,
-   "variacion_real": -6.914788336860034,
-   "mediana_tramo": 507461,
-   "vs_mediana": 5.402062424501588,
-   "monto_actual": 915400508
+   "monto_base": 1574820469,
+   "por_habitante": 3100040,
+   "variacion_real": 5.265431307458046,
+   "mediana_tramo": 558098,
+   "vs_mediana": 5.554651691996746,
+   "monto_actual": 1077514136
   },
   {
    "codigo": "16101",
@@ -4577,12 +4577,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 190382,
    "tramo": "Entre 100 y 250 mil",
-   "monto_base": 21233174060,
-   "por_habitante": 111529,
-   "variacion_real": -7.439352931818599,
-   "mediana_tramo": 142278,
-   "vs_mediana": 0.7838808529779727,
-   "monto_actual": 12562079320
+   "monto_base": 23954191802,
+   "por_habitante": 125822,
+   "variacion_real": 4.4222350800267485,
+   "mediana_tramo": 155203,
+   "vs_mediana": 0.8106930922727009,
+   "monto_actual": 14881919488
   },
   {
    "codigo": "16102",
@@ -4591,12 +4591,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 23863,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6590183785,
-   "por_habitante": 276167,
-   "variacion_real": 14.203757706803133,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.0483744837220603,
-   "monto_actual": 3573056548
+   "monto_base": 7535802784,
+   "por_habitante": 315794,
+   "variacion_real": 30.59074273907956,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0654821752714365,
+   "monto_actual": 3971646805
   },
   {
    "codigo": "16103",
@@ -4605,12 +4605,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 32688,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 7823992866,
-   "por_habitante": 239354,
-   "variacion_real": -4.425142609437794,
-   "mediana_tramo": 202142,
-   "vs_mediana": 1.1840884130957445,
-   "monto_actual": 5292823545
+   "monto_base": 8788329734,
+   "por_habitante": 268855,
+   "variacion_real": 7.354821944988155,
+   "mediana_tramo": 221878,
+   "vs_mediana": 1.211724461190384,
+   "monto_actual": 6184807680
   },
   {
    "codigo": "16104",
@@ -4619,12 +4619,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 13186,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4083667427,
-   "por_habitante": 309697,
-   "variacion_real": 16.609335666553715,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1756597728377065,
-   "monto_actual": 2536796824
+   "monto_base": 4586182918,
+   "por_habitante": 347807,
+   "variacion_real": 30.958691635217917,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.1734933498883213,
+   "monto_actual": 2829764289
   },
   {
    "codigo": "16105",
@@ -4633,12 +4633,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 8930,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2089327416,
-   "por_habitante": 233967,
-   "variacion_real": 3.957081544823793,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.46105414997408667,
-   "monto_actual": 1161701910
+   "monto_base": 2299721512,
+   "por_habitante": 257528,
+   "variacion_real": 14.425501203191725,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.4614386720611792,
+   "monto_actual": 1291783413
   },
   {
    "codigo": "16106",
@@ -4647,12 +4647,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 12502,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 2405811329,
-   "por_habitante": 192434,
-   "variacion_real": -16.563843679395696,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7305105077745384,
-   "monto_actual": 2091644652
+   "monto_base": 2864614901,
+   "por_habitante": 229133,
+   "variacion_real": -0.6520362602513874,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7730898220563724,
+   "monto_actual": 2269709599
   },
   {
    "codigo": "16107",
@@ -4661,12 +4661,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 19165,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4889845759,
-   "por_habitante": 255145,
-   "variacion_real": -28.016280716450815,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.9685715804178814,
-   "monto_actual": 4797645620
+   "monto_base": 5783731099,
+   "por_habitante": 301786,
+   "variacion_real": -14.857339809611492,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.0182194840512035,
+   "monto_actual": 5301284418
   },
   {
    "codigo": "16108",
@@ -4675,12 +4675,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 17405,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3505132754,
-   "por_habitante": 201387,
-   "variacion_real": -18.254587031200664,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7644975400874635,
-   "monto_actual": 1883923084
+   "monto_base": 4114338752,
+   "por_habitante": 236388,
+   "variacion_real": -4.046909495236061,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.7975680362770171,
+   "monto_actual": 2166062757
   },
   {
    "codigo": "16109",
@@ -4689,12 +4689,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 18680,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5731423017,
-   "por_habitante": 306821,
-   "variacion_real": 11.010156594264387,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.1647420128765793,
-   "monto_actual": 7778801832
+   "monto_base": 7218448483,
+   "por_habitante": 386427,
+   "variacion_real": 39.811892105792566,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.3037964006397063,
+   "monto_actual": 8920890670
   },
   {
    "codigo": "16201",
@@ -4703,12 +4703,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 11746,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 1279869015,
-   "por_habitante": 108962,
-   "variacion_real": -46.9644938128409,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.4136373299319728,
-   "monto_actual": 799848998
+   "monto_base": 1498454824,
+   "por_habitante": 127571,
+   "variacion_real": -37.90668485756693,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.4304218147955706,
+   "monto_actual": 882723053
   },
   {
    "codigo": "16202",
@@ -4717,12 +4717,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 5495,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 2358450574,
-   "por_habitante": 429199,
-   "variacion_real": -9.381417172492823,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.8457773109657688,
-   "monto_actual": 2482672225
+   "monto_base": 2592632775,
+   "por_habitante": 471817,
+   "variacion_real": -0.3834507058670056,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.8454017036434461,
+   "monto_actual": 3078925709
   },
   {
    "codigo": "16203",
@@ -4731,12 +4731,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 15895,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 5346641957,
-   "por_habitante": 336373,
-   "variacion_real": -7.344777605723762,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.2769261722546161,
-   "monto_actual": 3935803096
+   "monto_base": 6049637504,
+   "por_habitante": 380600,
+   "variacion_real": 4.837861380264896,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.2841362277570465,
+   "monto_actual": 4484396113
   },
   {
    "codigo": "16204",
@@ -4745,12 +4745,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 5763,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3532109238,
-   "por_habitante": 612894,
-   "variacion_real": 46.904663814597434,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.2077657199272456,
-   "monto_actual": 1523216475
+   "monto_base": 3682410762,
+   "por_habitante": 638975,
+   "variacion_real": 53.15588464788743,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.1449154091216955,
+   "monto_actual": 1651451588
   },
   {
    "codigo": "16205",
@@ -4759,12 +4759,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 5203,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1351451985,
-   "por_habitante": 259745,
-   "variacion_real": -37.61659844600912,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.5118521423321201,
-   "monto_actual": 1164468659
+   "monto_base": 1564613833,
+   "por_habitante": 300714,
+   "variacion_real": -27.776987932747144,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.5388193471397497,
+   "monto_actual": 1297723373
   },
   {
    "codigo": "16206",
@@ -4773,12 +4773,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 6508,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 3627783449,
-   "por_habitante": 557434,
-   "variacion_real": -10.574596230946288,
-   "mediana_tramo": 507461,
-   "vs_mediana": 1.0984765331720072,
-   "monto_actual": 2102913864
+   "monto_base": 4193277187,
+   "por_habitante": 644327,
+   "variacion_real": 3.364908858162874,
+   "mediana_tramo": 558098,
+   "vs_mediana": 1.1545051227562184,
+   "monto_actual": 2342907807
   },
   {
    "codigo": "16207",
@@ -4787,12 +4787,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 6124,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1072319926,
-   "por_habitante": 175101,
-   "variacion_real": -44.87188181800412,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.34505311738241956,
-   "monto_actual": 1378525483
+   "monto_base": 1217626965,
+   "por_habitante": 198829,
+   "variacion_real": -37.40162651038441,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.3562618034825425,
+   "monto_actual": 1432369151
   },
   {
    "codigo": "16301",
@@ -4801,12 +4801,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 55847,
    "tramo": "Entre 30 y 100 mil",
-   "monto_base": 8762324517,
-   "por_habitante": 156899,
-   "variacion_real": -11.949172441757593,
-   "mediana_tramo": 202142,
-   "vs_mediana": 0.7761820898180487,
-   "monto_actual": 7056348546
+   "monto_base": 9951996160,
+   "por_habitante": 178201,
+   "variacion_real": 0.005597378224853067,
+   "mediana_tramo": 221878,
+   "vs_mediana": 0.8031485771459992,
+   "monto_actual": 8133015456
   },
   {
    "codigo": "16302",
@@ -4815,12 +4815,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 29766,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 6878560880,
-   "por_habitante": 231088,
-   "variacion_real": 29.088526191777575,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.8772473275024295,
-   "monto_actual": 4564141544
+   "monto_base": 7576419053,
+   "por_habitante": 254533,
+   "variacion_real": 42.185085866838065,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.8587888766675889,
+   "monto_actual": 5316899513
   },
   {
    "codigo": "16303",
@@ -4829,12 +4829,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 12797,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 4408646189,
-   "por_habitante": 344506,
-   "variacion_real": 22.660683388622218,
-   "mediana_tramo": 263424,
-   "vs_mediana": 1.3078003522837707,
-   "monto_actual": 2522546649
+   "monto_base": 4903859423,
+   "por_habitante": 383204,
+   "variacion_real": 36.43887993727923,
+   "mediana_tramo": 296386,
+   "vs_mediana": 1.2929220678439601,
+   "monto_actual": 2806019483
   },
   {
    "codigo": "16304",
@@ -4843,12 +4843,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 5245,
    "tramo": "Menos de 10 mil habitantes",
-   "monto_base": 1224900067,
-   "por_habitante": 233537,
-   "variacion_real": -10.311097152095805,
-   "mediana_tramo": 507461,
-   "vs_mediana": 0.4602067942166984,
-   "monto_actual": 955276096
+   "monto_base": 1503852701,
+   "por_habitante": 286721,
+   "variacion_real": 10.114206400437165,
+   "mediana_tramo": 558098,
+   "vs_mediana": 0.5137466896494881,
+   "monto_actual": 1034062105
   },
   {
    "codigo": "16305",
@@ -4857,12 +4857,12 @@
    "nombre_region": "Ñuble",
    "poblacion": 15099,
    "tramo": "Entre 10 y 30 mil",
-   "monto_base": 3004382674,
-   "por_habitante": 198979,
-   "variacion_real": -23.75913544537659,
-   "mediana_tramo": 263424,
-   "vs_mediana": 0.7553563836248786,
-   "monto_actual": 1275734633
+   "monto_base": 3287509467,
+   "por_habitante": 217730,
+   "variacion_real": -16.574354470668474,
+   "mediana_tramo": 296386,
+   "vs_mediana": 0.734616344901581,
+   "monto_actual": 1418491999
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "07202",
@@ -108,104 +108,104 @@
   },
   {
    "anio": 2025,
-   "monto": 2597910208,
-   "monto_real": 2597910208,
-   "facturas": 2000,
+   "monto": 2900286579,
+   "monto_real": 2900286579,
+   "facturas": 2235,
    "parcial": false,
    "incompleto": false
   },
   {
    "anio": 2026,
-   "monto": 1699126226,
+   "monto": 1982969968,
    "monto_real": null,
-   "facturas": 1191,
+   "facturas": 1332,
    "parcial": true,
    "incompleto": false
   }
  ],
- "monto_base": 2597910208,
- "por_habitante": 275028,
- "variacion_real": -26.262277091692287,
+ "monto_base": 2900286579,
+ "por_habitante": 307039,
+ "variacion_real": -17.679784521257137,
  "rubros_2025": [
   {
    "rubro": "Sin rubro informado",
-   "monto": 1163518554,
-   "facturas": 351
+   "monto": 1273628729,
+   "facturas": 416
   },
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 390267135,
-   "facturas": 539
+   "monto": 487528054,
+   "facturas": 595
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 343478464,
-   "facturas": 55
+   "monto": 346766704,
+   "facturas": 61
   },
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 188276326,
-   "facturas": 375
+   "monto": 206319160,
+   "facturas": 407
   },
   {
    "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 135016367,
-   "facturas": 136
+   "monto": 143775858,
+   "facturas": 147
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 86958243,
-   "facturas": 41
+   "monto": 99191278,
+   "facturas": 48
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 73703565,
-   "facturas": 148
+   "monto": 79640936,
+   "facturas": 157
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 52660483,
-   "facturas": 21
+   "monto": 76362683,
+   "facturas": 33
   },
   {
    "rubro": "Actividades financieras y de seguros",
-   "monto": 47631711,
-   "facturas": 118
+   "monto": 57599366,
+   "facturas": 140
   },
   {
    "rubro": "Actividades artisticas; de entretenimiento y recreativas",
-   "monto": 28981750,
-   "facturas": 2
+   "monto": 36931750,
+   "facturas": 4
   },
   {
    "rubro": "Construccion",
-   "monto": 19896594,
-   "facturas": 58
+   "monto": 20198651,
+   "facturas": 62
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 17867961,
-   "facturas": 45
+   "monto": 19103361,
+   "facturas": 48
   },
   {
    "rubro": "Explotacion de minas y canteras",
-   "monto": 15438426,
-   "facturas": 7
+   "monto": 18115926,
+   "facturas": 8
   },
   {
    "rubro": "Enseñanza",
-   "monto": 10478000,
-   "facturas": 7
+   "monto": 10778000,
+   "facturas": 8
   },
   {
    "rubro": "Otras actividades de servicios",
-   "monto": 9945014,
-   "facturas": 26
+   "monto": 10345015,
+   "facturas": 27
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 7300478,
-   "facturas": 59
+   "monto": 7509971,
+   "facturas": 62
   },
   {
    "rubro": "Actividades de alojamiento y de servicio de comidas",
@@ -219,6 +219,6 @@
   }
  ],
  "rubros_2026": [],
- "mediana_tramo": 507461,
- "vs_mediana": 0.5419687424255263
+ "mediana_tramo": 558098,
+ "vs_mediana": 0.5501524821805489
 }

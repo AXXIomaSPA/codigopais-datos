@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "07403",
@@ -108,79 +108,84 @@
   },
   {
    "anio": 2025,
-   "monto": 7942753117,
-   "monto_real": 7942753117,
-   "facturas": 2576,
+   "monto": 8586845113,
+   "monto_real": 8586845113,
+   "facturas": 2870,
    "parcial": false,
    "incompleto": false
   },
   {
    "anio": 2026,
-   "monto": 3694538067,
+   "monto": 4045286034,
    "monto_real": null,
-   "facturas": 1561,
+   "facturas": 1762,
    "parcial": true,
    "incompleto": false
   }
  ],
- "monto_base": 7942753117,
- "por_habitante": 238528,
- "variacion_real": 6.115566146134266,
+ "monto_base": 8586845113,
+ "por_habitante": 257871,
+ "variacion_real": 14.720666392728464,
  "rubros_2025": [
   {
    "rubro": "Construccion",
-   "monto": 4122987745,
-   "facturas": 139
+   "monto": 4231725283,
+   "facturas": 148
   },
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 1362493038,
-   "facturas": 517
+   "monto": 1585434656,
+   "facturas": 564
   },
   {
    "rubro": "Sin rubro informado",
-   "monto": 1023661209,
-   "facturas": 609
+   "monto": 1157664201,
+   "facturas": 706
   },
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 648390608,
-   "facturas": 594
+   "monto": 746336437,
+   "facturas": 648
   },
   {
    "rubro": "Actividades financieras y de seguros",
-   "monto": 245059564,
-   "facturas": 59
+   "monto": 266233183,
+   "facturas": 63
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 145062780,
-   "facturas": 26
+   "monto": 146484377,
+   "facturas": 29
   },
   {
    "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 90993924,
-   "facturas": 239
+   "monto": 97033380,
+   "facturas": 256
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 88153305,
-   "facturas": 129
-  },
-  {
-   "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 57225787,
-   "facturas": 30
+   "monto": 81584858,
+   "facturas": 149
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 42844551,
-   "facturas": 59
+   "monto": 62791771,
+   "facturas": 68
+  },
+  {
+   "rubro": "Actividades de servicios administrativos y de apoyo",
+   "monto": 60224587,
+   "facturas": 31
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 26522183,
-   "facturas": 110
+   "monto": 42258539,
+   "facturas": 124
+  },
+  {
+   "rubro": "Actividades inmobiliarias",
+   "monto": 19933254,
+   "facturas": 12
   },
   {
    "rubro": "Agricultura; ganaderia; silvicultura y pesca",
@@ -188,9 +193,9 @@
    "facturas": 8
   },
   {
-   "rubro": "Actividades inmobiliarias",
-   "monto": 15708000,
-   "facturas": 10
+   "rubro": "Actividades de atencion de la salud humana y de asistencia social",
+   "monto": 14484091,
+   "facturas": 20
   },
   {
    "rubro": "Actividades de alojamiento y de servicio de comidas",
@@ -198,32 +203,27 @@
    "facturas": 5
   },
   {
-   "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 13321327,
-   "facturas": 19
-  },
-  {
-   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
-   "monto": 9294100,
-   "facturas": 8
-  },
-  {
    "rubro": "Explotacion de minas y canteras",
-   "monto": 6871655,
-   "facturas": 2
+   "monto": 13369055,
+   "facturas": 3
   },
   {
    "rubro": "Enseñanza",
-   "monto": 5441000,
-   "facturas": 6
+   "monto": 13141000,
+   "facturas": 15
+  },
+  {
+   "rubro": "Actividades artisticas; de entretenimiento y recreativas",
+   "monto": 8324100,
+   "facturas": 9
   },
   {
    "rubro": "Otras actividades de servicios",
-   "monto": 4885362,
-   "facturas": 7
+   "monto": 5985362,
+   "facturas": 12
   }
  ],
  "rubros_2026": [],
- "mediana_tramo": 202142,
- "vs_mediana": 1.180002176687675
+ "mediana_tramo": 221878,
+ "vs_mediana": 1.1622197784367987
 }

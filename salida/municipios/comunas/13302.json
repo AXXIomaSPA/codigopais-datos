@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "13302",
@@ -108,64 +108,64 @@
   },
   {
    "anio": 2025,
-   "monto": 13705351419,
-   "monto_real": 13705351419,
-   "facturas": 6033,
+   "monto": 15065732488,
+   "monto_real": 15065732488,
+   "facturas": 6697,
    "parcial": false,
    "incompleto": false
   },
   {
    "anio": 2026,
-   "monto": 10339536231,
+   "monto": 11689284694,
    "monto_real": null,
-   "facturas": 4430,
+   "facturas": 5020,
    "parcial": true,
    "incompleto": false
   }
  ],
- "monto_base": 13705351419,
- "por_habitante": 94415,
- "variacion_real": -11.630711811882543,
+ "monto_base": 15065732488,
+ "por_habitante": 103787,
+ "variacion_real": -2.859254367496067,
  "rubros_2025": [
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 3580654019,
-   "facturas": 3492
-  },
-  {
-   "rubro": "Transporte y almacenamiento",
-   "monto": 2236420953,
-   "facturas": 96
+   "monto": 3925295362,
+   "facturas": 3805
   },
   {
    "rubro": "Sin rubro informado",
-   "monto": 2158382071,
-   "facturas": 341
+   "monto": 2465748393,
+   "facturas": 411
+  },
+  {
+   "rubro": "Transporte y almacenamiento",
+   "monto": 2455034850,
+   "facturas": 114
   },
   {
    "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 1717329281,
-   "facturas": 1020
+   "monto": 1906823557,
+   "facturas": 1137
   },
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 1215530771,
-   "facturas": 453
+   "monto": 1316960778,
+   "facturas": 510
   },
   {
    "rubro": "Construccion",
-   "monto": 878050989,
-   "facturas": 136
+   "monto": 935332872,
+   "facturas": 154
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 507014171,
-   "facturas": 85
+   "monto": 516306337,
+   "facturas": 92
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 340779265,
-   "facturas": 98
+   "monto": 405093226,
+   "facturas": 128
   },
   {
    "rubro": "Agricultura; ganaderia; silvicultura y pesca",
@@ -173,34 +173,34 @@
    "facturas": 18
   },
   {
-   "rubro": "Actividades financieras y de seguros",
-   "monto": 184088582,
-   "facturas": 47
+   "rubro": "Otras actividades de servicios",
+   "monto": 194376843,
+   "facturas": 25
   },
   {
-   "rubro": "Otras actividades de servicios",
-   "monto": 181861336,
-   "facturas": 22
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 189625445,
+   "facturas": 49
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 136091970,
-   "facturas": 97
+   "monto": 163263208,
+   "facturas": 114
   },
   {
    "rubro": "Actividades artisticas; de entretenimiento y recreativas",
-   "monto": 119150883,
-   "facturas": 12
-  },
-  {
-   "rubro": "Actividades inmobiliarias",
-   "monto": 79840281,
-   "facturas": 23
+   "monto": 120781183,
+   "facturas": 14
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 78741559,
-   "facturas": 39
+   "monto": 90861145,
+   "facturas": 43
+  },
+  {
+   "rubro": "Actividades inmobiliarias",
+   "monto": 87843734,
+   "facturas": 27
   },
   {
    "rubro": "Enseñanza",
@@ -209,8 +209,8 @@
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 11450192,
-   "facturas": 30
+   "monto": 11599359,
+   "facturas": 31
   },
   {
    "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
@@ -219,75 +219,75 @@
   },
   {
    "rubro": "Actividades de alojamiento y de servicio de comidas",
-   "monto": 2215815,
-   "facturas": 7
+   "monto": 3036915,
+   "facturas": 8
   }
  ],
  "rubros_2026": [
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 2543091249,
-   "facturas": 2522
+   "monto": 2841551118,
+   "facturas": 2921
   },
   {
    "rubro": "Sin rubro informado",
-   "monto": 1933876308,
-   "facturas": 269
+   "monto": 2241181823,
+   "facturas": 320
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 1709734852,
-   "facturas": 70
-  },
-  {
-   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 1315436524,
-   "facturas": 866
+   "monto": 1931059802,
+   "facturas": 78
   },
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 1262403998,
-   "facturas": 261
+   "monto": 1451349445,
+   "facturas": 305
+  },
+  {
+   "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
+   "monto": 1447567173,
+   "facturas": 899
   },
   {
    "rubro": "Construccion",
-   "monto": 635660366,
-   "facturas": 84
+   "monto": 716009791,
+   "facturas": 93
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 279586081,
-   "facturas": 87
-  },
-  {
-   "rubro": "Actividades financieras y de seguros",
-   "monto": 149244188,
-   "facturas": 36
+   "monto": 289533091,
+   "facturas": 94
   },
   {
    "rubro": "Otras actividades de servicios",
-   "monto": 140986721,
-   "facturas": 31
+   "monto": 178266371,
+   "facturas": 34
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 167359193,
+   "facturas": 40
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 131559436,
-   "facturas": 33
+   "monto": 162380836,
+   "facturas": 38
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 67393655,
-   "facturas": 57
+   "monto": 74350454,
+   "facturas": 67
   },
   {
    "rubro": "Actividades inmobiliarias",
-   "monto": 64703545,
-   "facturas": 29
+   "monto": 73022907,
+   "facturas": 32
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 46125685,
-   "facturas": 56
+   "monto": 52587067,
+   "facturas": 64
   },
   {
    "rubro": "Actividades artisticas; de entretenimiento y recreativas",
@@ -296,8 +296,8 @@
   },
   {
    "rubro": "Enseñanza",
-   "monto": 6590000,
-   "facturas": 11
+   "monto": 7530000,
+   "facturas": 13
   },
   {
    "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
@@ -306,20 +306,20 @@
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 3528778,
-   "facturas": 9
+   "monto": 3778778,
+   "facturas": 10
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 2537675,
+   "facturas": 4
   },
   {
    "rubro": "Agricultura; ganaderia; silvicultura y pesca",
    "monto": 423045,
    "facturas": 1
-  },
-  {
-   "rubro": "Actividades de alojamiento y de servicio de comidas",
-   "monto": 395675,
-   "facturas": 1
   }
  ],
- "mediana_tramo": 142278,
- "vs_mediana": 0.6635952150016166
+ "mediana_tramo": 155203,
+ "vs_mediana": 0.668717743858044
 }

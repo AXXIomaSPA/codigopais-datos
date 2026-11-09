@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "08201",
@@ -108,94 +108,99 @@
   },
   {
    "anio": 2025,
-   "monto": 7344010387,
-   "monto_real": 7344010387,
-   "facturas": 8168,
+   "monto": 8020412011,
+   "monto_real": 8020412011,
+   "facturas": 9070,
    "parcial": false,
    "incompleto": false
   },
   {
    "anio": 2026,
-   "monto": 3985204766,
+   "monto": 4350965947,
    "monto_real": null,
-   "facturas": 5378,
+   "facturas": 6003,
    "parcial": true,
    "incompleto": false
   }
  ],
- "monto_base": 7344010387,
- "por_habitante": 290898,
- "variacion_real": -19.132880747907734,
+ "monto_base": 8020412011,
+ "por_habitante": 317690,
+ "variacion_real": -11.68481791739463,
  "rubros_2025": [
   {
    "rubro": "Sin rubro informado",
-   "monto": 1872413783,
-   "facturas": 1783
+   "monto": 2136616414,
+   "facturas": 2051
   },
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 1335778041,
-   "facturas": 2287
+   "monto": 1444096359,
+   "facturas": 2494
   },
   {
    "rubro": "Construccion",
-   "monto": 1232744816,
-   "facturas": 104
+   "monto": 1235259014,
+   "facturas": 106
   },
   {
    "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 979159841,
-   "facturas": 1445
+   "monto": 1010747302,
+   "facturas": 1570
   },
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 768351764,
-   "facturas": 935
+   "monto": 837303847,
+   "facturas": 1023
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 253399727,
-   "facturas": 681
+   "monto": 288358737,
+   "facturas": 747
   },
   {
    "rubro": "Actividades artisticas; de entretenimiento y recreativas",
-   "monto": 182400155,
-   "facturas": 21
+   "monto": 188885845,
+   "facturas": 24
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 148206380,
-   "facturas": 522
+   "monto": 158126004,
+   "facturas": 567
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 116182754,
-   "facturas": 66
+   "monto": 157721067,
+   "facturas": 74
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 99044093,
-   "facturas": 71
+   "monto": 128521299,
+   "facturas": 80
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 98853262,
-   "facturas": 65
+   "monto": 110136670,
+   "facturas": 69
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 74028175,
-   "facturas": 52
+   "monto": 108092255,
+   "facturas": 65
   },
   {
    "rubro": "Actividades financieras y de seguros",
-   "monto": 71834055,
-   "facturas": 53
+   "monto": 84595065,
+   "facturas": 102
   },
   {
    "rubro": "Otras actividades de servicios",
-   "monto": 39791462,
-   "facturas": 45
+   "monto": 40074962,
+   "facturas": 47
+  },
+  {
+   "rubro": "Enseñanza",
+   "monto": 38930285,
+   "facturas": 18
   },
   {
    "rubro": "Actividades de alojamiento y de servicio de comidas",
@@ -203,14 +208,9 @@
    "facturas": 8
   },
   {
-   "rubro": "Enseñanza",
-   "monto": 26470735,
-   "facturas": 10
-  },
-  {
    "rubro": "Agricultura; ganaderia; silvicultura y pesca",
-   "monto": 9573670,
-   "facturas": 12
+   "monto": 11344212,
+   "facturas": 16
   },
   {
    "rubro": "Explotacion de minas y canteras",
@@ -219,11 +219,11 @@
   },
   {
    "rubro": "Administracion publica y defensa; planes de seguridad social de afiliacion obligatoria",
-   "monto": 81000,
-   "facturas": 7
+   "monto": 5906000,
+   "facturas": 8
   }
  ],
  "rubros_2026": [],
- "mediana_tramo": 263424,
- "vs_mediana": 1.1042957361516035
+ "mediana_tramo": 296386,
+ "vs_mediana": 1.0718792385605258
 }

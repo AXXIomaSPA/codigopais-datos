@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "06201",
@@ -108,99 +108,99 @@
   },
   {
    "anio": 2025,
-   "monto": 7452336774,
-   "monto_real": 7452336774,
-   "facturas": 4854,
+   "monto": 8059159268,
+   "monto_real": 8059159268,
+   "facturas": 5238,
    "parcial": false,
    "incompleto": false
   },
   {
    "anio": 2026,
-   "monto": 6150647624,
+   "monto": 6983183004,
    "monto_real": null,
-   "facturas": 3128,
+   "facturas": 3554,
    "parcial": true,
    "incompleto": false
   }
  ],
- "monto_base": 7452336774,
- "por_habitante": 375489,
- "variacion_real": -5.321405600341011,
+ "monto_base": 8059159268,
+ "por_habitante": 406064,
+ "variacion_real": 2.3880018679929504,
  "rubros_2025": [
   {
    "rubro": "Construccion",
-   "monto": 2157363756,
-   "facturas": 137
+   "monto": 2334620832,
+   "facturas": 145
   },
   {
    "rubro": "Sin rubro informado",
-   "monto": 1514474067,
-   "facturas": 1021
+   "monto": 1589642496,
+   "facturas": 1143
   },
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 1148501239,
-   "facturas": 808
+   "monto": 1226799571,
+   "facturas": 884
   },
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 857564677,
-   "facturas": 1446
+   "monto": 965772365,
+   "facturas": 1526
   },
   {
    "rubro": "Transporte y almacenamiento",
-   "monto": 654226953,
-   "facturas": 116
+   "monto": 714448454,
+   "facturas": 126
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 606619626,
-   "facturas": 701
+   "monto": 628572774,
+   "facturas": 728
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 188249138,
-   "facturas": 172
+   "monto": 205021041,
+   "facturas": 188
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 95311169,
-   "facturas": 73
+   "monto": 97306616,
+   "facturas": 79
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 71592476,
-   "facturas": 98
+   "monto": 82978436,
+   "facturas": 110
   },
   {
    "rubro": "Actividades financieras y de seguros",
-   "monto": 63525648,
-   "facturas": 36
+   "monto": 68713778,
+   "facturas": 41
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
-   "monto": 36717410,
-   "facturas": 13
+   "monto": 62821410,
+   "facturas": 16
   },
   {
    "rubro": "Enseñanza",
-   "monto": 28724944,
-   "facturas": 11
+   "monto": 28974944,
+   "facturas": 12
+  },
+  {
+   "rubro": "Actividades de alojamiento y de servicio de comidas",
+   "monto": 27957876,
+   "facturas": 6
   },
   {
    "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 11272275,
-   "facturas": 194
+   "monto": 12119955,
+   "facturas": 211
   },
   {
    "rubro": "Otras actividades de servicios",
    "monto": 6747406,
    "facturas": 13
-  },
-  {
-   "rubro": "Actividades de alojamiento y de servicio de comidas",
-   "monto": 4784676,
-   "facturas": 5
   },
   {
    "rubro": "Actividades inmobiliarias",
@@ -214,6 +214,6 @@
   }
  ],
  "rubros_2026": [],
- "mediana_tramo": 263424,
- "vs_mediana": 1.4254168185131195
+ "mediana_tramo": 296386,
+ "vs_mediana": 1.370051216994055
 }

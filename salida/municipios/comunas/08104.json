@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T22:33:00Z",
+ "generado": "2026-11-09T23:14:17Z",
  "anio_base": 2025,
  "anio_actual": 2026,
  "unidad": "pesos chilenos",
@@ -14,23 +14,23 @@
  "tramos": [
   {
    "nombre": "Menos de 10 mil habitantes",
-   "mediana_por_habitante": 507461
+   "mediana_por_habitante": 558098
   },
   {
    "nombre": "Entre 10 y 30 mil",
-   "mediana_por_habitante": 263424
+   "mediana_por_habitante": 296386
   },
   {
    "nombre": "Entre 30 y 100 mil",
-   "mediana_por_habitante": 202142
+   "mediana_por_habitante": 221878
   },
   {
    "nombre": "Entre 100 y 250 mil",
-   "mediana_por_habitante": 142278
+   "mediana_por_habitante": 155203
   },
   {
    "nombre": "Más de 250 mil",
-   "mediana_por_habitante": 142825
+   "mediana_por_habitante": 152218
   }
  ],
  "codigo": "08104",
@@ -108,79 +108,84 @@
   },
   {
    "anio": 2025,
-   "monto": 3404705343,
-   "monto_real": 3404705343,
-   "facturas": 2124,
+   "monto": 3864039296,
+   "monto_real": 3864039296,
+   "facturas": 2383,
    "parcial": false,
    "incompleto": false
   },
   {
    "anio": 2026,
-   "monto": 2387378117,
+   "monto": 2791107075,
    "monto_real": null,
-   "facturas": 1352,
+   "facturas": 1564,
    "parcial": true,
    "incompleto": false
   }
  ],
- "monto_base": 3404705343,
- "por_habitante": 262749,
- "variacion_real": 7.495505225259547,
+ "monto_base": 3864039296,
+ "por_habitante": 298197,
+ "variacion_real": 21.99788659766444,
  "rubros_2025": [
   {
    "rubro": "Sin rubro informado",
-   "monto": 1152793751,
-   "facturas": 622
+   "monto": 1271243537,
+   "facturas": 715
   },
   {
    "rubro": "Suministro de agua; evacuacion de aguas residuales; gestion de desechos y descontaminacion",
-   "monto": 623552605,
-   "facturas": 314
+   "monto": 732884363,
+   "facturas": 348
   },
   {
    "rubro": "Comercio al por mayor y al por menor; reparacion de vehiculos automotores y motocicletas",
-   "monto": 522439048,
-   "facturas": 438
+   "monto": 615731025,
+   "facturas": 490
   },
   {
    "rubro": "Construccion",
-   "monto": 430257416,
-   "facturas": 53
+   "monto": 460612392,
+   "facturas": 59
   },
   {
    "rubro": "Suministro de electricidad; gas; vapor y aire acondicionado",
-   "monto": 202872236,
-   "facturas": 367
+   "monto": 211269452,
+   "facturas": 392
   },
   {
    "rubro": "Actividades artisticas; de entretenimiento y recreativas",
-   "monto": 150023999,
-   "facturas": 44
+   "monto": 171016999,
+   "facturas": 53
   },
   {
    "rubro": "Informacion y comunicaciones",
-   "monto": 73470532,
-   "facturas": 65
+   "monto": 80244560,
+   "facturas": 73
   },
   {
    "rubro": "Actividades de alojamiento y de servicio de comidas",
-   "monto": 49331160,
-   "facturas": 15
+   "monto": 67821160,
+   "facturas": 18
   },
   {
    "rubro": "Industria manufacturera",
-   "monto": 43039118,
-   "facturas": 51
+   "monto": 48273909,
+   "facturas": 56
   },
   {
    "rubro": "Actividades de servicios administrativos y de apoyo",
-   "monto": 41705825,
-   "facturas": 29
+   "monto": 46750187,
+   "facturas": 34
   },
   {
    "rubro": "Actividades profesionales; cientificas y tecnicas",
-   "monto": 38395637,
-   "facturas": 43
+   "monto": 43363418,
+   "facturas": 51
+  },
+  {
+   "rubro": "Actividades financieras y de seguros",
+   "monto": 37012528,
+   "facturas": 41
   },
   {
    "rubro": "Enseñanza",
@@ -193,24 +198,19 @@
    "facturas": 3
   },
   {
-   "rubro": "Actividades financieras y de seguros",
-   "monto": 15094838,
-   "facturas": 37
+   "rubro": "Agricultura; ganaderia; silvicultura y pesca",
+   "monto": 19104865,
+   "facturas": 10
   },
   {
-   "rubro": "Agricultura; ganaderia; silvicultura y pesca",
-   "monto": 4177877,
-   "facturas": 7
+   "rubro": "Transporte y almacenamiento",
+   "monto": 4411852,
+   "facturas": 11
   },
   {
    "rubro": "Otras actividades de servicios",
    "monto": 3365910,
    "facturas": 14
-  },
-  {
-   "rubro": "Transporte y almacenamiento",
-   "monto": 3252252,
-   "facturas": 7
   },
   {
    "rubro": "Actividades de atencion de la salud humana y de asistencia social",
@@ -229,6 +229,6 @@
   }
  ],
  "rubros_2026": [],
- "mediana_tramo": 263424,
- "vs_mediana": 0.9974375911078717
+ "mediana_tramo": 296386,
+ "vs_mediana": 1.0061102751142093
 }
