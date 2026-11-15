@@ -1,22 +1,22 @@
 {
  "anio": 2026,
- "mes": 8,
- "mes_nombre": "agosto",
- "publicado_fuente": "2026-10-01",
- "generado": "2026-10-30T18:26:48Z",
+ "mes": 7,
+ "mes_nombre": "julio",
+ "publicado_fuente": "2026-08-31",
+ "generado": "2026-11-15T19:15:21Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
   "licencia": "CC0 1.0 (dominio público)",
-  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2026-del-gobierno-central-total",
-  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-agosto-de-2026-del-gobierno-central-total",
+  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-julio-de-2026-del-gobierno-central-total",
+  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-julio-de-2026-del-gobierno-central-total",
   "archivos": {
-   "ejecucion_nacional": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/b7662d63-2c81-4323-b05d-16077765a193/download/ejecucion-presupuestaria_nivel-nacional_a-agosto-2026.csv",
-   "ley_nacional": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/a3d29740-322b-47dd-94fc-e0b8e1e75884/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-agosto-2026.csv",
-   "ejecucion_partida": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/9959db14-74e7-4b4c-8a5c-d4b94b0fb8fa/download/ejecucion-presupuestaria_nivel-partida_a-agosto-2026.csv",
-   "ley_partida": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/b387ffbe-df50-46a6-8269-b700a81f68eb/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-agosto-2026.csv",
-   "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
-   "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
+   "ejecucion_nacional": "https://datos.gob.cl/dataset/b27debcc-267b-4a3e-a388-ff9e4e6e695f/resource/82a0f9d2-e1a4-477c-a150-666e5f1fc3f4/download/ejecucion-presupuestaria_nivel-nacional_a-julio-2026.csv",
+   "ley_nacional": "https://datos.gob.cl/dataset/ff2a4bb4-ab38-4278-9509-cf0e0234fe9a/resource/bc4bc03b-61aa-4680-b781-3ca025424011/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-julio-2026.csv",
+   "ejecucion_partida": "https://datos.gob.cl/dataset/b27debcc-267b-4a3e-a388-ff9e4e6e695f/resource/38672a31-cc2c-47bc-97a0-e84bc01932a0/download/ejecucion-presupuestaria_nivel-partida_a-julio-2026.csv",
+   "ley_partida": "https://datos.gob.cl/dataset/ff2a4bb4-ab38-4278-9509-cf0e0234fe9a/resource/b1b56dd9-695c-47d1-b811-6d205a2f73d1/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-julio-2026.csv",
+   "ejecucion_programa": "https://datos.gob.cl/dataset/b27debcc-267b-4a3e-a388-ff9e4e6e695f/resource/eda1fe01-35ba-44de-9183-b40ff535f585/download/ejecucion-presupuestaria_nivel-programa_a-julio-2026.csv",
+   "ley_programa": "https://datos.gob.cl/dataset/ff2a4bb4-ab38-4278-9509-cf0e0234fe9a/resource/737eccc6-d1be-4fae-8d7e-9b4874658916/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-julio-2026.csv"
   },
   "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
   "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
@@ -30,15 +30,15 @@
    "programa": "01",
    "nombre_programa": "CORPORACIÓN DE FOMENTO DE LA PRODUCCIÓN",
    "vigente": 714753193000,
-   "ejecutado": 179296518000
+   "ejecutado": 144987367000
   },
   {
    "capitulo": "16",
    "nombre_capitulo": "SERVICIO DE COOPERACIÓN TÉCNICA",
    "programa": "01",
    "nombre_programa": "SERVICIO DE COOPERACIÓN TÉCNICA",
-   "vigente": 69426396000,
-   "ejecutado": 36796825000
+   "vigente": 66926396000,
+   "ejecutado": 27803247000
   },
   {
    "capitulo": "07",
@@ -46,15 +46,15 @@
    "programa": "01",
    "nombre_programa": "INSTITUTO NACIONAL DE ESTADÍSTICAS",
    "vigente": 62794320000,
-   "ejecutado": 35977626000
+   "ejecutado": 31470100000
   },
   {
    "capitulo": "06",
    "nombre_capitulo": "CORPORACIÓN DE FOMENTO DE LA PRODUCCIÓN",
    "programa": "06",
    "nombre_programa": "INVERSIÓN Y FINANCIAMIENTO",
-   "vigente": 56133384000,
-   "ejecutado": 25610815000
+   "vigente": 58633384000,
+   "ejecutado": 22879302000
   },
   {
    "capitulo": "04",
@@ -62,7 +62,7 @@
    "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL DE PESCA Y ACUICULTURA",
    "vigente": 50459460000,
-   "ejecutado": 30209853000
+   "ejecutado": 26899988000
   },
   {
    "capitulo": "01",
@@ -70,7 +70,7 @@
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE ECONOMÍA Y EMPRESAS DE MENOR TAMAÑO",
    "vigente": 40757200000,
-   "ejecutado": 27539011000
+   "ejecutado": 23956050000
   },
   {
    "capitulo": "01",
@@ -78,7 +78,7 @@
    "programa": "07",
    "nombre_programa": "FONDO DE INNOVACIÓN PARA LA COMPETITIVIDAD - EMPRENDIMIENTO",
    "vigente": 40183507000,
-   "ejecutado": 12854469000
+   "ejecutado": 10302524000
   },
   {
    "capitulo": "03",
@@ -86,7 +86,7 @@
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE PESCA Y ACUICULTURA",
    "vigente": 38380926000,
-   "ejecutado": 26008111000
+   "ejecutado": 22767451000
   },
   {
    "capitulo": "06",
@@ -94,15 +94,15 @@
    "programa": "07",
    "nombre_programa": "DESARROLLO PRODUCTIVO SOSTENIBLE",
    "vigente": 37586612000,
-   "ejecutado": 12463498000
+   "ejecutado": 11806022000
   },
   {
    "capitulo": "19",
    "nombre_capitulo": "COMITÉ INNOVA CHILE",
    "programa": "01",
    "nombre_programa": "COMITÉ INNOVA CHILE",
-   "vigente": 36586501000,
-   "ejecutado": 19740368000
+   "vigente": 36586331000,
+   "ejecutado": 17951081000
   },
   {
    "capitulo": "01",
@@ -110,7 +110,7 @@
    "programa": "13",
    "nombre_programa": "DESARROLLO PRODUCTIVO SOSTENIBLE",
    "vigente": 32262754000,
-   "ejecutado": 4857905000
+   "ejecutado": 4383719000
   },
   {
    "capitulo": "09",
@@ -118,7 +118,7 @@
    "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL DE TURISMO",
    "vigente": 24543968000,
-   "ejecutado": 13211818000
+   "ejecutado": 11410274000
   },
   {
    "capitulo": "02",
@@ -126,7 +126,7 @@
    "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL DEL CONSUMIDOR",
    "vigente": 19739195000,
-   "ejecutado": 13071912000
+   "ejecutado": 11547724000
   },
   {
    "capitulo": "26",
@@ -134,7 +134,7 @@
    "programa": "01",
    "nombre_programa": "INSTITUTO NACIONAL DESARROLLO SUSTENTABLE PESCA ARTESANAL Y ACUICULTURA",
    "vigente": 16144309000,
-   "ejecutado": 5217393000
+   "ejecutado": 4473595000
   },
   {
    "capitulo": "25",
@@ -142,7 +142,7 @@
    "programa": "01",
    "nombre_programa": "SUPERINTENDENCIA DE INSOLVENCIA Y REEMPRENDIMIENTO",
    "vigente": 9605581000,
-   "ejecutado": 6555046000
+   "ejecutado": 5832269000
   },
   {
    "capitulo": "08",
@@ -150,7 +150,7 @@
    "programa": "01",
    "nombre_programa": "FISCALÍA NACIONAL ECONÓMICA",
    "vigente": 8976285000,
-   "ejecutado": 5790372000
+   "ejecutado": 5119198000
   },
   {
    "capitulo": "23",
@@ -158,7 +158,7 @@
    "programa": "01",
    "nombre_programa": "INSTITUTO NACIONAL DE PROPIEDAD INDUSTRIAL",
    "vigente": 8806123000,
-   "ejecutado": 6073612000
+   "ejecutado": 5193779000
   },
   {
    "capitulo": "09",
@@ -166,7 +166,7 @@
    "programa": "03",
    "nombre_programa": "PROGRAMA DE ATRACCIÓN TURÍSTICA",
    "vigente": 7625835000,
-   "ejecutado": 2683548000
+   "ejecutado": 1569249000
   },
   {
    "capitulo": "07",
@@ -174,7 +174,7 @@
    "programa": "03",
    "nombre_programa": "ENCUESTAS EXTERNAS",
    "vigente": 7030836000,
-   "ejecutado": 3637180000
+   "ejecutado": 3280328000
   },
   {
    "capitulo": "21",
@@ -182,7 +182,7 @@
    "programa": "01",
    "nombre_programa": "AGENCIA DE PROMOCIÓN DE LA INVERSIÓN EXTRANJERA",
    "vigente": 5909547000,
-   "ejecutado": 3558836000
+   "ejecutado": 3245365000
   },
   {
    "capitulo": "24",
@@ -190,7 +190,7 @@
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE TURISMO",
    "vigente": 2751379000,
-   "ejecutado": 1666927000
+   "ejecutado": 1466650000
   },
   {
    "capitulo": "01",
@@ -198,7 +198,7 @@
    "programa": "14",
    "nombre_programa": "OFICINA DE AUTORIZACIONES SECTORIALES E INVERSIÓN DE LA LEY N°21.770",
    "vigente": 2183879000,
-   "ejecutado": 1162721000
+   "ejecutado": 1013976000
   },
   {
    "capitulo": "07",
@@ -206,7 +206,7 @@
    "programa": "02",
    "nombre_programa": "PROGRAMA CENSOS",
    "vigente": 1176818000,
-   "ejecutado": 727992000
+   "ejecutado": 649667000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

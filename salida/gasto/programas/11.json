@@ -1,22 +1,22 @@
 {
  "anio": 2026,
- "mes": 8,
- "mes_nombre": "agosto",
- "publicado_fuente": "2026-10-01",
- "generado": "2026-10-30T18:26:48Z",
+ "mes": 7,
+ "mes_nombre": "julio",
+ "publicado_fuente": "2026-08-31",
+ "generado": "2026-11-15T19:15:21Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
   "licencia": "CC0 1.0 (dominio público)",
-  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2026-del-gobierno-central-total",
-  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-agosto-de-2026-del-gobierno-central-total",
+  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-julio-de-2026-del-gobierno-central-total",
+  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-julio-de-2026-del-gobierno-central-total",
   "archivos": {
-   "ejecucion_nacional": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/b7662d63-2c81-4323-b05d-16077765a193/download/ejecucion-presupuestaria_nivel-nacional_a-agosto-2026.csv",
-   "ley_nacional": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/a3d29740-322b-47dd-94fc-e0b8e1e75884/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-agosto-2026.csv",
-   "ejecucion_partida": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/9959db14-74e7-4b4c-8a5c-d4b94b0fb8fa/download/ejecucion-presupuestaria_nivel-partida_a-agosto-2026.csv",
-   "ley_partida": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/b387ffbe-df50-46a6-8269-b700a81f68eb/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-agosto-2026.csv",
-   "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
-   "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
+   "ejecucion_nacional": "https://datos.gob.cl/dataset/b27debcc-267b-4a3e-a388-ff9e4e6e695f/resource/82a0f9d2-e1a4-477c-a150-666e5f1fc3f4/download/ejecucion-presupuestaria_nivel-nacional_a-julio-2026.csv",
+   "ley_nacional": "https://datos.gob.cl/dataset/ff2a4bb4-ab38-4278-9509-cf0e0234fe9a/resource/bc4bc03b-61aa-4680-b781-3ca025424011/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-julio-2026.csv",
+   "ejecucion_partida": "https://datos.gob.cl/dataset/b27debcc-267b-4a3e-a388-ff9e4e6e695f/resource/38672a31-cc2c-47bc-97a0-e84bc01932a0/download/ejecucion-presupuestaria_nivel-partida_a-julio-2026.csv",
+   "ley_partida": "https://datos.gob.cl/dataset/ff2a4bb4-ab38-4278-9509-cf0e0234fe9a/resource/b1b56dd9-695c-47d1-b811-6d205a2f73d1/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-julio-2026.csv",
+   "ejecucion_programa": "https://datos.gob.cl/dataset/b27debcc-267b-4a3e-a388-ff9e4e6e695f/resource/eda1fe01-35ba-44de-9183-b40ff535f585/download/ejecucion-presupuestaria_nivel-programa_a-julio-2026.csv",
+   "ley_programa": "https://datos.gob.cl/dataset/ff2a4bb4-ab38-4278-9509-cf0e0234fe9a/resource/737eccc6-d1be-4fae-8d7e-9b4874658916/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-julio-2026.csv"
   },
   "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
   "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
@@ -29,16 +29,16 @@
    "nombre_capitulo": "EJÉRCITO DE CHILE",
    "programa": "01",
    "nombre_programa": "EJÉRCITO DE CHILE",
-   "vigente": 728998723000,
-   "ejecutado": 509455356000
+   "vigente": 728194931000,
+   "ejecutado": 448467282000
   },
   {
    "capitulo": "05",
    "nombre_capitulo": "ARMADA DE CHILE",
    "programa": "01",
    "nombre_programa": "ARMADA DE CHILE",
-   "vigente": 495823496000,
-   "ejecutado": 335299285000
+   "vigente": 495748721000,
+   "ejecutado": 294993741000
   },
   {
    "capitulo": "21",
@@ -46,15 +46,15 @@
    "programa": "01",
    "nombre_programa": "DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL",
    "vigente": 338420115000,
-   "ejecutado": 204874694000
+   "ejecutado": 184783553000
   },
   {
    "capitulo": "09",
    "nombre_capitulo": "FUERZA AÉREA DE CHILE",
    "programa": "01",
    "nombre_programa": "FUERZA AÉREA DE CHILE",
-   "vigente": 288938537000,
-   "ejecutado": 187865737000
+   "vigente": 285538537000,
+   "ejecutado": 163913102000
   },
   {
    "capitulo": "07",
@@ -62,15 +62,15 @@
    "programa": "01",
    "nombre_programa": "DIRECCIÓN GENERAL DEL TERRITORIO MARÍTIMO",
    "vigente": 126219132000,
-   "ejecutado": 95200216000
+   "ejecutado": 46785648000
   },
   {
    "capitulo": "03",
    "nombre_capitulo": "ORGANISMOS DE SALUD DEL EJÉRCITO",
    "programa": "01",
    "nombre_programa": "ORGANISMOS DE SALUD DEL EJÉRCITO",
-   "vigente": 93573923000,
-   "ejecutado": 59726384000
+   "vigente": 85303458000,
+   "ejecutado": 51937148000
   },
   {
    "capitulo": "08",
@@ -78,7 +78,7 @@
    "programa": "01",
    "nombre_programa": "DIRECCIÓN DE SANIDAD",
    "vigente": 80504989000,
-   "ejecutado": 53587239000
+   "ejecutado": 47031773000
   },
   {
    "capitulo": "11",
@@ -86,15 +86,15 @@
    "programa": "01",
    "nombre_programa": "ORGANISMOS DE SALUD DE LA FACH",
    "vigente": 43088091000,
-   "ejecutado": 27221793000
+   "ejecutado": 22771073000
   },
   {
    "capitulo": "23",
    "nombre_capitulo": "SUBSECRETARÍA PARA LAS FUERZAS ARMADAS",
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA PARA LAS FUERZAS ARMADAS",
-   "vigente": 16250487000,
-   "ejecutado": 10771143000
+   "vigente": 16161114000,
+   "ejecutado": 9690774000
   },
   {
    "capitulo": "25",
@@ -102,23 +102,23 @@
    "programa": "01",
    "nombre_programa": "ESTADO MAYOR CONJUNTO",
    "vigente": 10734766000,
-   "ejecutado": 7038593000
+   "ejecutado": 6122514000
   },
   {
    "capitulo": "18",
    "nombre_capitulo": "DIRECCIÓN GENERAL DE MOVILIZACIÓN NACIONAL",
    "programa": "01",
    "nombre_programa": "DIRECCIÓN GENERAL DE MOVILIZACIÓN NACIONAL",
-   "vigente": 9892020000,
-   "ejecutado": 6073982000
+   "vigente": 9481958000,
+   "ejecutado": 5284873000
   },
   {
    "capitulo": "20",
    "nombre_capitulo": "SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA DE CHILE",
    "programa": "01",
    "nombre_programa": "SERVICIO HIDROGRÁFICO Y OCEANOGRÁFICO DE LA ARMADA DE CHILE",
-   "vigente": 8760136000,
-   "ejecutado": 4950282000
+   "vigente": 7536639000,
+   "ejecutado": 4488675000
   },
   {
    "capitulo": "04",
@@ -126,7 +126,7 @@
    "programa": "01",
    "nombre_programa": "ORGANISMOS DE INDUSTRIA MILITAR",
    "vigente": 6510524000,
-   "ejecutado": 3698377000
+   "ejecutado": 3338470000
   },
   {
    "capitulo": "19",
@@ -134,15 +134,15 @@
    "programa": "01",
    "nombre_programa": "INSTITUTO GEOGRÁFICO MILITAR",
    "vigente": 5440346000,
-   "ejecutado": 3529705000
+   "ejecutado": 3115603000
   },
   {
    "capitulo": "24",
    "nombre_capitulo": "SUBSECRETARÍA DE DEFENSA",
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE DEFENSA",
-   "vigente": 5055789000,
-   "ejecutado": 3096518000
+   "vigente": 5036924000,
+   "ejecutado": 2632925000
   },
   {
    "capitulo": "09",
@@ -150,15 +150,15 @@
    "programa": "02",
    "nombre_programa": "PROGRAMA FIDAE",
    "vigente": 2692610000,
-   "ejecutado": 2597935000
+   "ejecutado": 2539217000
   },
   {
    "capitulo": "22",
    "nombre_capitulo": "SERVICIO AEROFOTOGRAMÉTRICO DE LA FACH",
    "programa": "01",
    "nombre_programa": "SERVICIO AEROFOTOGRAMÉTRICO DE LA FACH",
-   "vigente": 2453373000,
-   "ejecutado": 987461000
+   "vigente": 2449121000,
+   "ejecutado": 794436000
   },
   {
    "capitulo": "24",
@@ -166,7 +166,7 @@
    "programa": "02",
    "nombre_programa": "ACADEMIA NACIONAL DE ESTUDIOS POLÍTICOS Y ESTRATÉGICOS",
    "vigente": 1247439000,
-   "ejecutado": 711525000
+   "ejecutado": 608869000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."

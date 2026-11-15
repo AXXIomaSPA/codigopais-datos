@@ -1,22 +1,22 @@
 {
  "anio": 2026,
- "mes": 8,
- "mes_nombre": "agosto",
- "publicado_fuente": "2026-10-01",
- "generado": "2026-10-30T18:26:48Z",
+ "mes": 7,
+ "mes_nombre": "julio",
+ "publicado_fuente": "2026-08-31",
+ "generado": "2026-11-15T19:15:21Z",
  "unidad": "pesos chilenos",
  "fuentes": {
   "organismo": "Dirección de Presupuestos (DIPRES)",
   "licencia": "CC0 1.0 (dominio público)",
-  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-agosto-de-2026-del-gobierno-central-total",
-  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-agosto-de-2026-del-gobierno-central-total",
+  "ejecucion": "https://datos.gob.cl/dataset/ejecucion-presupuestaria-a-julio-de-2026-del-gobierno-central-total",
+  "ley": "https://datos.gob.cl/dataset/ley-de-presupuestos-inicial-y-vigente-a-julio-de-2026-del-gobierno-central-total",
   "archivos": {
-   "ejecucion_nacional": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/b7662d63-2c81-4323-b05d-16077765a193/download/ejecucion-presupuestaria_nivel-nacional_a-agosto-2026.csv",
-   "ley_nacional": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/a3d29740-322b-47dd-94fc-e0b8e1e75884/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-agosto-2026.csv",
-   "ejecucion_partida": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/9959db14-74e7-4b4c-8a5c-d4b94b0fb8fa/download/ejecucion-presupuestaria_nivel-partida_a-agosto-2026.csv",
-   "ley_partida": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/b387ffbe-df50-46a6-8269-b700a81f68eb/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-agosto-2026.csv",
-   "ejecucion_programa": "https://datos.gob.cl/dataset/d57e364c-b0ed-44df-9177-1f081fde8617/resource/008d9272-0127-4fa0-b326-8d1d571741bb/download/ejecucion-presupuestaria_nivel-programa_a-agosto-2026.csv",
-   "ley_programa": "https://datos.gob.cl/dataset/e4a0c059-6882-4e5d-a631-4e362941c9e2/resource/32f746e9-93ba-4f8f-99a3-bd6ab9c32d4e/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-agosto-2026.csv"
+   "ejecucion_nacional": "https://datos.gob.cl/dataset/b27debcc-267b-4a3e-a388-ff9e4e6e695f/resource/82a0f9d2-e1a4-477c-a150-666e5f1fc3f4/download/ejecucion-presupuestaria_nivel-nacional_a-julio-2026.csv",
+   "ley_nacional": "https://datos.gob.cl/dataset/ff2a4bb4-ab38-4278-9509-cf0e0234fe9a/resource/bc4bc03b-61aa-4680-b781-3ca025424011/download/ley-de-presupuestos-inicial-y-vigente_nivel-nacional_a-julio-2026.csv",
+   "ejecucion_partida": "https://datos.gob.cl/dataset/b27debcc-267b-4a3e-a388-ff9e4e6e695f/resource/38672a31-cc2c-47bc-97a0-e84bc01932a0/download/ejecucion-presupuestaria_nivel-partida_a-julio-2026.csv",
+   "ley_partida": "https://datos.gob.cl/dataset/ff2a4bb4-ab38-4278-9509-cf0e0234fe9a/resource/b1b56dd9-695c-47d1-b811-6d205a2f73d1/download/ley-de-presupuestos-inicial-y-vigente_nivel-partida_a-julio-2026.csv",
+   "ejecucion_programa": "https://datos.gob.cl/dataset/b27debcc-267b-4a3e-a388-ff9e4e6e695f/resource/eda1fe01-35ba-44de-9183-b40ff535f585/download/ejecucion-presupuestaria_nivel-programa_a-julio-2026.csv",
+   "ley_programa": "https://datos.gob.cl/dataset/ff2a4bb4-ab38-4278-9509-cf0e0234fe9a/resource/737eccc6-d1be-4fae-8d7e-9b4874658916/download/ley-de-presupuestos-inicial-y-vigente_nivel-programa_a-julio-2026.csv"
   },
   "ipc": "Instituto Nacional de Estadísticas (INE), api-calculadora.ine.cl",
   "metodo": "https://github.com/AXXIomaSPA/codigopais-datos#reglas-de-cálculo"
@@ -29,8 +29,8 @@
    "nombre_capitulo": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
    "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
-   "vigente": 562617106000,
-   "ejecutado": 343374822000
+   "vigente": 565127106000,
+   "ejecutado": 301618558000
   },
   {
    "capitulo": "01",
@@ -38,15 +38,15 @@
    "programa": "05",
    "nombre_programa": "INGRESO ÉTICO FAMILIAR Y SISTEMA CHILE SOLIDARIO",
    "vigente": 181536829000,
-   "ejecutado": 108071077000
+   "ejecutado": 98970255000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
    "programa": "08",
    "nombre_programa": "SISTEMA NACIONAL DE CUIDADOS",
-   "vigente": 150582117000,
-   "ejecutado": 70771269000
+   "vigente": 151292117000,
+   "ejecutado": 60912367000
   },
   {
    "capitulo": "06",
@@ -54,7 +54,7 @@
    "programa": "01",
    "nombre_programa": "CORPORACIÓN NACIONAL DE DESARROLLO INDÍGENA",
    "vigente": 140848510000,
-   "ejecutado": 38048539000
+   "ejecutado": 30987786000
   },
   {
    "capitulo": "10",
@@ -62,23 +62,23 @@
    "programa": "02",
    "nombre_programa": "SISTEMA DE PROTECCIÓN INTEGRAL A LA INFANCIA",
    "vigente": 104303328000,
-   "ejecutado": 73207863000
+   "ejecutado": 61749996000
   },
   {
    "capitulo": "01",
    "nombre_capitulo": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE SERVICIOS SOCIALES",
-   "vigente": 86355105000,
-   "ejecutado": 53921255000
+   "vigente": 85645105000,
+   "ejecutado": 46530333000
   },
   {
    "capitulo": "11",
    "nombre_capitulo": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCIA",
    "programa": "02",
    "nombre_programa": "PROGRAMAS DE CUIDADO ALTERNATIVO DE ADMINISTRACION DIRECTA",
-   "vigente": 75314113000,
-   "ejecutado": 50175143000
+   "vigente": 72804113000,
+   "ejecutado": 43804000000
   },
   {
    "capitulo": "08",
@@ -86,7 +86,7 @@
    "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL DEL ADULTO MAYOR",
    "vigente": 65325218000,
-   "ejecutado": 37117760000
+   "ejecutado": 31563344000
   },
   {
    "capitulo": "02",
@@ -94,7 +94,7 @@
    "programa": "04",
    "nombre_programa": "PROGRAMAS DE ACOMPAÑAMIENTO FAMILIAR Y COMUNITARIO",
    "vigente": 50111251000,
-   "ejecutado": 28928494000
+   "ejecutado": 25386891000
   },
   {
    "capitulo": "07",
@@ -102,7 +102,7 @@
    "programa": "01",
    "nombre_programa": "SERVICIO NACIONAL DE LA DISCAPACIDAD",
    "vigente": 42136989000,
-   "ejecutado": 32248728000
+   "ejecutado": 24490884000
   },
   {
    "capitulo": "02",
@@ -110,7 +110,7 @@
    "programa": "03",
    "nombre_programa": "PROGRAMAS DE GENERACIÓN DE INGRESOS AUTÓNOMOS",
    "vigente": 35654197000,
-   "ejecutado": 11356196000
+   "ejecutado": 5992189000
   },
   {
    "capitulo": "09",
@@ -118,7 +118,7 @@
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE EVALUACIÓN SOCIAL",
    "vigente": 28563274000,
-   "ejecutado": 16590171000
+   "ejecutado": 15076330000
   },
   {
    "capitulo": "02",
@@ -126,7 +126,7 @@
    "programa": "01",
    "nombre_programa": "FONDO DE SOLIDARIDAD E INVERSIÓN SOCIAL",
    "vigente": 24461176000,
-   "ejecutado": 16386566000
+   "ejecutado": 14384067000
   },
   {
    "capitulo": "05",
@@ -134,7 +134,7 @@
    "programa": "01",
    "nombre_programa": "INSTITUTO NACIONAL DE LA JUVENTUD",
    "vigente": 5545575000,
-   "ejecutado": 4309120000
+   "ejecutado": 4040852000
   },
   {
    "capitulo": "10",
@@ -142,7 +142,7 @@
    "programa": "01",
    "nombre_programa": "SUBSECRETARÍA DE LA NIÑEZ",
    "vigente": 3407482000,
-   "ejecutado": 2210050000
+   "ejecutado": 1889396000
   },
   {
    "capitulo": "09",
@@ -158,7 +158,7 @@
    "programa": "02",
    "nombre_programa": "PLAN DE RECONSTRUCCIÓN INCENDIOS",
    "vigente": 355857000,
-   "ejecutado": 48285000
+   "ejecutado": 45912000
   }
  ],
  "nota": "Montos brutos: incluyen transferencias entre servicios del mismo ministerio."
